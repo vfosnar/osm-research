@@ -58,3 +58,5 @@ before the data can go into OSM — see the candidate file (same name in
 | [zabaged-zdi.geojson](zabaged-zdi.geojson) | ZABAGED 1.23 Zeď (Kutná Hora, 247 lines) | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
 | [plzen-dopravni-znaceni.geojson](plzen-dopravni-znaceni.geojson) | Svislé DZ (vertical traffic signs, central Plzeň, 1,726 points) | Statutární město Plzeň / SVSMP | CC0 |
 | [wikidata-niche-qid.geojson](wikidata-niche-qid.geojson) | Wikidata items in CZ (barrows, hillforts, synagogues, waterfalls, bunkers) not linked from OSM | Wikidata community | CC0 1.0 (QIDs only; coordinates not for import) |
+| [csu-huz-ubytovani.geojson](csu-huz-ubytovani.geojson) | Hromadná ubytovací zařízení (adresní body), Pec pod Sněžkou, 171 points | Český statistický úřad | CC0 |
+| [aopk-jeso-krasove-jevy.geojson](aopk-jeso-krasove-jevy.geojson) | JESO – Jednotná evidence speleologických objektů, northern Moravian Karst, 831 points | AOPK ČR | CC BY 4.0 |

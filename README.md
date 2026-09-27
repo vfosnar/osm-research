@@ -23,7 +23,6 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Prague lamps & hydrants](candidates/prague-dtm-lampy-hydranty.md) (IPR technical map) | 121k lamp posts, 1.6k above-ground hydrants | ~90 % missing |
 | [Waste facilities](candidates/mzp-isoh-zarizeni-odpady.md) (MŽP ISOH) | ~5,000 active collection yards, scrap yards, car dismantlers, composting | ~24 % of collection yards mapped |
 | [Power plants](candidates/eru-vyrobny-elektriny.md) (ERÚ) | 38k licensed plants incl. 1,600 hydro, 420 biogas | ~500 hydro; needs geocoding from parcels |
-| [Regional technical maps](candidates/known-dtm-zps-kraje.md) (5 regions) | Fences, walls, steps, sidewalks per municipality | Telč: 5,888 fences vs 125 |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
 
@@ -42,6 +41,9 @@ really exist, what licence it has, and how much of it is already in OSM.
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
 
 - [Pharmacies](candidates/sukl-lekarny.md) (SÚKL, CC0) — 1,884 pharmacies without `ref:SUKL`, 301 stale refs, opening hours.
+- [Regional technical maps](candidates/known-dtm-zps-kraje.md) (DTM, 5 regions, no copyright) — sidewalk and step
+  outlines per municipality. Telč: 370 OSM footways lie inside DTM sidewalks but lack `footway=sidewalk`,
+  ~16.5 km of sidewalk and ~20 flights of steps missing, 147 handrails (OSM 0).
 - [Level crossings](candidates/sz-prejezdy.md) (SŽ) — 321 missing, 616 outdated refs.
 - [Railway stations & platforms](candidates/era-rinf-stanice-nastupiste.md) (ERA RINF) — ~2,000 `uic_ref`, platform heights.
 - [Regional public-transport stops](candidates/kraje-zastavky-verejne-dopravy.md) (Jihočeský CC0; Karlovarský,

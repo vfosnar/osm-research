@@ -20,6 +20,7 @@ This repo is only the working memory for new research.
 | `README.md` | Human-readable ranked shortlist and summary. Regenerate after new findings. |
 | `AGENTS.md` | This file: method, tools, conventions. |
 | `candidates/<slug>.md` | One file per candidate source (format below). Prague sources use `prague-` prefix. |
+| `research/` | Human-readable write-ups of broader investigations (e.g. what sources other maps use). |
 | `tools/` | Reusable queries (e.g. `nkod-queries.md`). |
 
 ## Where known sources are tracked (upstream)
@@ -134,5 +135,6 @@ because the community prefers ongoing sync (via Sync) over one-shot imports.
 - Verify everything live. Never write a URL, licence or count you did not fetch.
 - Research can be fanned out to parallel subagents by theme; each writes its own
   candidate files, so they don't conflict.
+- Commit and push directly to `main`; no pull requests needed.
 - After a round: regenerate
   the ranked table in `README.md`, commit, push.

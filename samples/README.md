@@ -53,3 +53,6 @@ before the data can go into OSM — see the candidate file (same name in
 | [sukl-lekarny.geojson](sukl-lekarny.geojson) | Seznam lékáren; positions geocoded from RÚIAN address points (ČÚZK) | SÚKL; ČÚZK | no copyright (NKOD terms); RÚIAN CC BY 4.0 + OSM consent |
 | [uzis-nrpzs-ambulantni.geojson](uzis-nrpzs-ambulantni.geojson) | NRPZS – místa poskytování zdravotních služeb | ÚZIS ČR | CC BY 4.0 |
 | [vuv-koupaci-vody.geojson](vuv-koupaci-vody.geojson) | Oblasti povrchových vod využívaných ke koupání | VÚV TGM / MŽP | CC BY 4.0 |
+| [zabaged-prameny-studny.geojson](zabaged-prameny-studny.geojson) | ZABAGED 4.01 Zdroj podzemních vod (Brdy, 273 points) | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
+| [zabaged-zabrany.geojson](zabaged-zabrany.geojson) | ZABAGED 2.36 Zábrana (Křivoklátsko, 375 points) | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
+| [zabaged-zdi.geojson](zabaged-zdi.geojson) | ZABAGED 1.23 Zeď (Kutná Hora, 247 lines) | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |

@@ -9,7 +9,9 @@ Find open datasets that would have the biggest impact if imported or conflated i
 OpenStreetMap in **Czechia**, with a licence compatible with ODbL. "Impact" means data
 that map users actually need (POIs, infrastructure, accessibility…), not curiosities.
 
-Never propose anything already covered — read `covered.md` first and keep it updated.
+Never propose anything already known. Known sources are tracked upstream (see below),
+not in this repo — check the upstream sources directly at the start of every round.
+This repo is only the working memory for new research.
 
 ## Repository layout
 
@@ -17,13 +19,12 @@ Never propose anything already covered — read `covered.md` first and keep it u
 |---|---|
 | `README.md` | Human-readable ranked shortlist and summary. Regenerate after new findings. |
 | `AGENTS.md` | This file: method, tools, conventions. |
-| `covered.md` | Sources already imported, in Sync, with permission, or in negotiation. |
 | `candidates/<slug>.md` | One file per candidate source (format below). Prague sources use `prague-` prefix. |
 | `tools/` | Reusable queries (e.g. `nkod-queries.md`). |
 
-## Where "covered" comes from
+## Where known sources are tracked (upstream)
 
-Refresh `covered.md` from these before a new research round:
+Read these at the start of each round; don't copy them into this repo:
 
 - OSM wiki `Cs:POI_ZABAGED_Import` — ZABAGED POI layers (✅ = imported).
 - OSM wiki `Cs:Česko/freemap` — permissions granted, potential sources, finished imports.
@@ -67,7 +68,7 @@ Postpass).
   - Non-count queries without `options[geojson]=false` must return a `geom` column.
 - **NKOD (national open data catalogue) SPARQL** — `https://data.gov.cz/sparql`
   (DCAT-AP). Saved queries go in `tools/nkod-queries.md`.
-- **AllThePlaces** — `alltheplaces.xyz`; spiders already in Sync are listed in `covered.md`.
+- **AllThePlaces** — `alltheplaces.xyz`; spiders already in Sync are the `[group.atp.dataset.*]` entries of Sync's `config.toml`.
 - GitHub API is rate-limited/blocked (403) from this environment; Codeberg API works.
 
 ## Candidate file format
@@ -133,5 +134,5 @@ because the community prefers ongoing sync (via Sync) over one-shot imports.
 - Verify everything live. Never write a URL, licence or count you did not fetch.
 - Research can be fanned out to parallel subagents by theme; each writes its own
   candidate files, so they don't conflict.
-- After a round: update `covered.md` if you learned of new existing imports, regenerate
+- After a round: regenerate
   the ranked table in `README.md`, commit, push.

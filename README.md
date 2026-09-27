@@ -15,10 +15,12 @@ _Coming soon._
 
 ## What's already covered
 
-Everything already imported, in the [Sync](https://codeberg.org/osmcz/sync) tool, with a
-granted permission, or under negotiation is listed in [`covered.md`](covered.md) — for
-example the ZABAGED POI import, AllThePlaces brand spiders, Zásilkovna, post boxes and
-RÚIAN addresses. These are deliberately left out.
+Known sources are tracked upstream and deliberately left out:
+[Cs:Česko/freemap](https://wiki.openstreetmap.org/wiki/Cs:%C4%8Cesko/freemap) (permissions,
+potential sources, finished imports), [Cs:Zdroje v jednani](https://wiki.openstreetmap.org/wiki/Cs:Zdroje_v_jednani),
+the [ZABAGED POI import](https://wiki.openstreetmap.org/wiki/Cs:POI_ZABAGED_Import) and the
+datasets in [Sync](https://codeberg.org/osmcz/sync). Good finds from here get hand-picked
+and added to Cs:Česko/freemap.
 
 ## Reading a candidate
 

@@ -5,7 +5,7 @@ url: https://opendata.chmi.cz/hydrology/now/metadata/meta1.json (545 stations wi
 format: JSON (header + values arrays)
 coords: yes (GEOGR1 lat, GEOGR2 lon, WGS84, 7 decimals)
 records: 563 stations in meta3 (categories A 211, B 181, C 169). Operators: ČHMÚ branches 433, Povodí s.p. about 80, municipalities and others.
-osm_tags: man_made=monitoring_station + monitoring:water_level=yes (+ monitoring:flow_rate=yes where Q is measured) + name=<STATION_NAME> + operator=<PROVOZOVATEL> + ref=<DBC>; optionally website=<WWW_CHMI>
+osm_tags: man_made=monitoring_station + monitoring:water_level=yes (+ monitoring:flow_rate=yes where Q is measured) + name=<STATION_NAME> + operator=<PROVOZOVATEL> (for ČHMÚ use the Cs:POI_ZABAGED_Import convention operator=Český hydrometeorologický ústav, operator:short=ČHMÚ, operator:wikidata=Q5201751) + ref=<DBC>; optionally website=<WWW_CHMI>
 osm_count_cz: man_made=monitoring_station 1,540 (mostly weather/air); monitoring:water_level=yes 82; operator="Český hydrometeorologický ústav" 96 (Geofabrik taginfo 2026-09-27)
 license: CC BY 4.0 (NKOD terms: copyrighted work and database under CC BY 4.0, author ČHMÚ)
 license_url: https://creativecommons.org/licenses/by/4.0/

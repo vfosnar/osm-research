@@ -34,8 +34,8 @@
   - `ID_ZNAC` is unique in the current file; whether it stays stable between releases is not verified.
 - **ZABAGED overlap:** none. ZABAGED has no traffic signs.
 - **Horizontal markings** (Vodorovné DZ, NKOD …/00075370/e833163cef5025528b5ed17d4bc207e0) are only published as DXF with numeric layer names and no sign codes (79k entities). They are hard to use for crossings.
-- **Scope:** checked against Cs:Česko/freemap, Cs:Zdroje_v_jednani and Sync config.toml: no traffic-sign source is listed. The existing [plzen-open-data](plzen-open-data.md) candidate does not cover this layer. Plzeň is the only city in NKOD that publishes a vertical-sign inventory; other city pasports were not found in NKOD titles or keywords.
-- Wiki pages read: Key:traffic_sign, Cs:Key:traffic_sign (bodové značky jako uzel na cestě + `traffic_sign:direction`/`direction`; úsekové značky → maxspeed + source:maxspeed=sign), Tag:highway=stop, Tag:highway=give_way, Key:maxweight.
+- **Scope:** checked against Cs:Česko/freemap, Cs:Zdroje_v_jednani and Sync config.toml: no traffic-sign source is listed. The existing [plzen-open-data](plzen-open-data.md) candidate does not cover this layer. A search of all NKOD dataset titles and keywords found no other city that publishes a vertical-sign inventory.
+- Wiki pages read: Key:traffic_sign, Cs:Key:traffic_sign (a point sign goes on a node of the way, with `traffic_sign:forward`/`traffic_sign:backward` or `direction`; for a section sign also tag maxspeed + source:maxspeed=sign on the way), Tag:highway=stop, Tag:highway=give_way, Key:maxweight.
 - Suggested ref: none on the OSM object. Keep ID_ZNAC in a review layer only, because signs are not usually tagged with operator IDs.
 
 ## Wiki entry

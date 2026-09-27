@@ -42,3 +42,16 @@ mapa, EkoKom containers, Zásilkovna, caves.cz, Lesy ČR záchranné body, ČÚZ
 ## In negotiation
 - AED zachrankaapp.cz (Ondřej Lopatka, 2026-05)
 - KODA chimney database (stalled since 2020)
+
+## Already listed as potential sources (Cs:Česko/freemap#Potencionální_zdroje)
+Known ideas — don't re-propose; a new candidate may only add verified details
+(licence, download URL) to one of these, clearly marked as such.
+aerobaze.cz (airfields), opevneni.cz / ropiky.net / fortifikace.net (fortifications),
+sundials (astro.mff.cuni.cz), vets.cz military memorials, Evidence válečných hrobů (MO),
+Čepro/EuroOil and Benzina fuel stations, MPO fuel list, FuelPrices.cz, gsmweb.cz BTS,
+estudanky.eu springs (CC BY-NC-ND, incompatible), prazskekasny.net (CC BY-NC-ND),
+územní plány, KODA chimneys, památné stromy (drusop.nature.cz), vodarenskeveze.cz,
+bilestopy.cz, sochyamesta.cz, technickepamatky.cz, zachrankaapp.cz AED, vodnimlyny.cz,
+horosvaz.cz rock database, vodackanavigace.cz, rc-hangar.cz model airfields,
+hasicovo.cz fire brigades, ČEZ chargers, Ekokom, Tastetown, Nesnězeno, Too Good To Go,
+COLMEX.

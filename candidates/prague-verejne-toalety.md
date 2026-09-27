@@ -16,10 +16,15 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/prague-verejne-toalety.geojson](../samples/prague-verejne-toalety.geojson): all 458 toilets, pre-tagged `amenity=toilets` + `wheelchair` from `vozickari`.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer… → Source type: Protocol: HTTP(S)*, URI `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/FSV_CUR_FSV_VEREJNAWC_B/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson` (whole layer, WGS84).
+
 ## Notes
 
 **Fields.**
-- `lokalita`: a descriptive name, e.g. "HLAVNÍ NÁDRAŽÍ (ČD) - WC I".
+- `lokalita`: a descriptive name (one read: "HLAVNÍ NÁDRAŽÍ (ČD) - WC  I").
 - `adresa`, `globalid`.
 - `vozickari`: wheelchair access (1 ano, 0/2 ne, 99 neurčeno).
 - `typ`:

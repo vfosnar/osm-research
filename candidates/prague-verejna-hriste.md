@@ -16,6 +16,11 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/prague-verejna-hriste.geojson](../samples/prague-verejna-hriste.geojson): all 1,772 points, pre-tagged `leisure=playground` (1,340) or `leisure=pitch` (432).
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/FSV_CUR_RV_VYBAVENOSTVPP_B/FeatureServer` → *Connect* → add layer 0 (QGIS reprojects and pages the requests itself).
+
 ## Notes
 
 **Fields.** `typ_uap`, `verej_pristup`, `kod` (land-use class of the surrounding area:
@@ -32,7 +37,7 @@ rather than an import.
 
 **Caveats.**
 - These are points, so they give no geometry.
-- District datasets with names and equipment exist in the Prague LKOD (e.g. "Dětská hřiště a
+- District datasets with names and equipment exist in the Prague LKOD (titles seen: "Dětská hřiště a
   sportoviště na MČ Praha 12", "Seznam dětských hřišť na území MČ Praha 11 - 3/2026",
   "Sportoviště v MČ Praze 8" at https://lkod.cz/catalog/praha/datasets). I did not evaluate
   their licences.

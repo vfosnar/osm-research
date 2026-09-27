@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | publisher | IPR Praha (data from MHMP-OCP, TSK hl. m. Prahy, MHMP-HOM and 13 městské části) |
-| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/OPK_CUR_OPK_SMZ_VP_B/FeatureServer/0 (query e.g. `/query?where=kod_vp%3D71&outFields=*&outSR=4326&f=geojson`, paged by 2000); catalogue page https://opendata.geoportalpraha.cz/datasets/iprpraha::sdílená-data-o-zeleni-vegetační-prvky-body-1 |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/OPK_CUR_OPK_SMZ_VP_B/FeatureServer/0 (tested query `/query?where=kod_vp%3D71&outFields=*&outSR=4326&f=geojson`, paged by 2000); catalogue page https://opendata.geoportalpraha.cz/datasets/iprpraha::sdílená-data-o-zeleni-vegetační-prvky-body-1 |
 | format | ArcGIS FeatureServer (GeoJSON/JSON via REST, also SHP/CSV/GeoJSON download from ArcGIS Hub) |
 | coords | yes (multipoint, one point each) |
 | records | 201,702 points, of which 171,276 are kod_vp=71 "Strom" (trees), 30,170 kod_vp=51 "Keř" (shrubs), 181 container greenery, 75 climbers (fetched 2026-09-27) |
@@ -15,6 +15,11 @@
 | update_freq | continuous (dct:modified 2026-09-25; per-record `aktualizace` dates from 2025-02 to 2026-08) |
 | impact | 5 |
 | verified | yes |
+
+## Try it
+
+- **Map preview:** [samples/prague-stromy-sdz.geojson](../samples/prague-stromy-sdz.geojson): the 1,909 trees (`kod_vp=71`) in part of Vinohrady (bbox 14.436,50.070–14.446,50.076; 1,062 managed by MČ Praha 2 and 847 by TSK), pre-tagged `natural=tree` + `leaf_type`.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/OPK_CUR_OPK_SMZ_VP_B/FeatureServer` → *Connect* → add layer 0 (QGIS reprojects and pages the requests itself). Filter `kod_vp = 71` for trees only.
 
 ## Notes
 

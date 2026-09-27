@@ -16,11 +16,16 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/prague-protihlukove-steny.geojson](../samples/prague-protihlukove-steny.geojson): all 731 barrier segments in Prague, pre-tagged `barrier=wall` + `wall=noise_barrier`, with `vyska` and `id_clona`.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/HM_CUR_HM_HLUKOCHR_BARIERY_L/FeatureServer` → *Connect* → add layer 0 (QGIS reprojects and pages the requests itself). For a one-off full download: *Layer → Add Layer → Add Vector Layer… → Source type: Protocol: HTTP(S)*, URI `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/HM_CUR_HM_HLUKOCHR_BARIERY_L/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson`.
+
 ## Notes
 
 **Fields.**
-- `ulice`: street, e.g. "Pražský okruh" or "Evropská".
-- `popis`, `vyska` (height in m), `kat_uzemi`, `id_clona` (e.g. "clona-001", a barrier id
+- `ulice`: street ("Pražský okruh" and "Evropská" among the values read).
+- `popis`, `vyska` (height in m), `kat_uzemi`, `id_clona` (values such as "clona-001" read in the data, a barrier id
   usable as a ref), `globalid`.
 
 **OSM gap.** OSM has about 37 km of noise barriers in Prague, against about 118 km in the

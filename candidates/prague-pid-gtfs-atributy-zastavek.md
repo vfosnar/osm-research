@@ -16,6 +16,11 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/prague-pid-gtfs-atributy-zastavek.geojson](../samples/prague-pid-gtfs-atributy-zastavek.geojson): the 1,132 stop points (`location_type=0`) of `stops.txt` in central Prague (bbox 14.38,50.03–14.50,50.10), with `ref:PID`, `local_ref` and `wheelchair` already mapped (392 yes, 119 no).
+- **QGIS:** download `https://data.pid.cz/PID_GTFS.zip` (51 MB) and unzip `stops.txt`, then *Layer → Add Layer → Add Delimited Text Layer…*: file `stops.txt`, format CSV (comma), encoding UTF-8, X field `stop_lon`, Y field `stop_lat`, geometry CRS EPSG:4326.
+
 ## Notes
 - Stop presence is already covered by vfosnar/jizdni-rady-osm (CIS JŘ). Metro entrances with ref:PID are already in osmcz/sync. This candidate is only about **attributes** on stops that are already mapped.
 - **Match (Postpass, Prague + Central Bohemia bbox, 2026-09-27):** 16,110 OSM objects have ref:PID. 14,715 of them match a current GTFS stop_id (format such as U135Z2P). About 1,395 OSM ref:PID values are not in today's GTFS (stale or cancelled stops), which is useful for cleanup.

@@ -16,6 +16,11 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/prague-parky-nazvy.geojson](../samples/prague-parky-nazvy.geojson): the 143 named park polygons in central Prague (bbox 14.40,50.06–14.47,50.10), with coded fields decoded.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/URK_CUR_URK_PARKY_P/FeatureServer` → *Connect* → add layer 0 (QGIS reprojects and pages the requests itself).
+
 ## Notes
 
 **Fields.**

@@ -16,6 +16,11 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/known-prague-oazy-chladu.geojson](../samples/known-prague-oazy-chladu.geojson): every fountain (297), spring or well (213) and hand pump (94) in Prague, with the layer name in `vrstva`. Mist sprayers are left out.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_STUDANKYPRAMENY_B/FeatureServer` → *Connect* → add layer 0 (QGIS reprojects and pages the requests itself). Fountains and pumps: `AGD_CUR_AGD_OCH_FONTANY_B` and `AGD_CUR_AGD_OCH_PUMPY_B`. For a one-off full download: *Layer → Add Layer → Add Vector Layer… → Source type: Protocol: HTTP(S)*, URI `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_STUDANKYPRAMENY_B/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson`.
+
 ## Notes
 
 Known (listed on Cs:Česko/freemap, as "Pražské kašny a fontány" (prazskekasny.net,
@@ -25,13 +30,13 @@ covered by IPR's 2018 OSM consent. The drinking fountain layer (`AGD_OCH_PITKA_B
 because Sync already handles Pražská pítka.
 
 **Fields.**
-- Fountains: `nazev` (real names, e.g. "Pomník Vítězslava Hálka"), `typ` (1 fontána, 2 kašna,
+- Fountains: `nazev` (real names; one read: "Pomník Vítězslava Hálka"), `typ` (1 fontána, 2 kašna,
   3 kaskáda), `pristupnost`, `provoz` (sezónní/celoroční/nefunkční), `provoz_spec`, `spravce`,
   `provozovatel`, `globalid`.
-- Springs: `nazev` (e.g. "studánka V Obsinách"), `typ` (studánka, pramen, prameniště, studna,
+- Springs: `nazev` (one read: "studánka V Obsinách"), `typ` (studánka, pramen, prameniště, studna,
   jiný), `druh_vody` (P pitná / U užitková / N nezjištěno), `pristupnost`.
 - Pumps: `nazev` (street name), `druh_vody`, `provoz`.
-- Mist sprayers: `nazev`, `provoz_spec` (e.g. "květen - září").
+- Mist sprayers: `nazev`, `provoz_spec` ("květen - září" on 51 of 52).
 
 **OSM gap (Postpass, 2026-09-27).**
 - Fountains: 66 of 297 have no OSM fountain or water feature within 30 m.

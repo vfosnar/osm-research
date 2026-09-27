@@ -16,6 +16,11 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/prague-ipr-cyklotrasy.geojson](../samples/prague-ipr-cyklotrasy.geojson): the 364 built segments (`realizace=1`) in the inner city (bbox 14.38,50.05–14.48,50.11), with route number and `dopr_stav` decoded.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DOP_CUR_DOP_CYKLOTRASY_L/FeatureServer` → *Connect* → add layer 0 (QGIS reprojects and pages the requests itself). Filter `realizace = 1` to hide proposed routes.
+
 ## Notes
 - **Why it is here:** Google's legal notices for Czechia credit "Geoportal Praha" and link this exact item
   (`45063acce89d4b37afc6d51f03f3ad49`). It is the source of the Google Maps cycling layer in Prague.

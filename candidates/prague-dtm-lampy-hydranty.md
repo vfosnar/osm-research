@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | publisher | IPR Praha |
-| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DTMP_CUR_TMISZNAK_B/FeatureServer/0 (filter by `ctmtp_kod`, e.g. `/query?where=ctmtp_kod%3D606560&outFields=*&outSR=4326&f=geojson`); catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::archivní-dtm-prahy-inženýrské-sítě-povrchové-znaky-zobrazené-symbolem-1 |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DTMP_CUR_TMISZNAK_B/FeatureServer/0 (filter by `ctmtp_kod`; tested query `/query?where=ctmtp_kod%3D606560&outFields=*&outSR=4326&f=geojson`); catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::archivní-dtm-prahy-inženýrské-sítě-povrchové-znaky-zobrazené-symbolem-1 |
 | format | ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads |
 | coords | yes (points) |
 | records | 1,387,674 points in total. Relevant classes (fetched 2026-09-27): 606560 "svítidlo na stožáru" 121,337; 606580 "svítidlo slav. osvět. na soklu" 2,788; 606570 "svítidlo slav. osvět. na stožáru" 757; 606561 "svítidlo na objektu" 1,189; 406130 "hydrant podzemní – povrch. znak" 24,320; 406120 "hydrant nadzemní – povrch. znak" 1,619; 605250 "semafor" 5,742; 736750 "telefonní budka volně stojící" 1,196 |
@@ -15,6 +15,11 @@
 | update_freq | none, archival snapshot ("Stav k 30.6.2024, dále neaktualizované") |
 | impact | 4 |
 | verified | yes |
+
+## Try it
+
+- **Map preview:** [samples/prague-dtm-lampy-hydranty.geojson](../samples/prague-dtm-lampy-hydranty.geojson): 1,547 lamps and 331 hydrants in Vinohrady (bbox 14.432,50.066–14.452,50.080), pre-tagged `highway=street_lamp` or `emergency=fire_hydrant` + `fire_hydrant:type` from `ctmtp_kod`.
+- **QGIS:** the layer holds 1.4 million points of all utility networks, so load it filtered. For one area: *Layer → Add Layer → Add Vector Layer… → Source type: Protocol: HTTP(S)*, URI `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DTMP_CUR_TMISZNAK_B/FeatureServer/0/query?where=ctmtp_kod%20IN%20(606560%2C406130%2C406120)&geometry=14.432%2C50.066%2C14.452%2C50.080&geometryType=esriGeometryEnvelope&inSR=4326&outFields=*&outSR=4326&f=geojson` (1,815 lamps and hydrants; edit the bbox, max 2,000 per request). Whole city: *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DTMP_CUR_TMISZNAK_B/FeatureServer` → *Connect* → add layer 0 (fetched per map extent, so zoom in first).
 
 ## Notes
 

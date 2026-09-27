@@ -16,9 +16,14 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** none. The licence is `unclear` (NKOD and the ArcGIS item disagree), so no extract is redistributed here.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer… → Source type: Protocol: HTTP(S)*, URI `https://services5.arcgis.com/yyjDpIHsxn6gXsED/arcgis/rest/services/opendata_OZP_odpady_kose_b/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson` (all 658 bins, WGS84). Other layers: *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://services5.arcgis.com/yyjDpIHsxn6gXsED/arcgis/rest/services/opendata_MO_detska_hriste_p/FeatureServer` → *Connect*.
+
 ## Endpoints
 - Koše: https://services5.arcgis.com/yyjDpIHsxn6gXsED/arcgis/rest/services/opendata_OZP_odpady_kose_b/FeatureServer/0 (fields cislo, ulice, druh, objem, typ, globalid)
-- Hřiště: .../opendata_MO_detska_hriste_p/FeatureServer/0 (prvky e.g. "pískoviště, 2x koník, skluzavka…", umisteni)
+- Hřiště: .../opendata_MO_detska_hriste_p/FeatureServer/0 (prvky, one record read: "pískoviště, 2x koník, skluzavka, lanový trychtýř, houpačka, herní sestava"; umisteni)
 - Sportoviště: .../opendata_MO_sportoviste_p/FeatureServer/0 (povrch, sport)
 - Parkoviště: .../opendata_OD_parkoviste_p/FeatureServer/0 and _l
 

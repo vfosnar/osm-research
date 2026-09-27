@@ -16,13 +16,18 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/prague-zps-useky.geojson](../samples/prague-zps-useky.geojson): the 1,089 parking sections in Vinohrady and around (bbox 14.425,50.065–14.455,50.080), pre-tagged `amenity=parking` + `parking=street_side` + `parking:zone` from `typzony`.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DOP_CUR_DOP_ZPS_USEKY_P/FeatureServer` → *Connect* → add layer 0 (QGIS reprojects and pages the requests itself).
+
 ## Notes
 
 **Fields.**
-- `zps_id`: section id, e.g. "2028", and a good `ref` candidate.
+- `zps_id`: section id (one read: "2028"), and a good `ref` candidate.
 - `typzony`: 1 rezidentní → blue, 2 smíšený → purple, 3 návštěvnický → orange,
   7 jiná regulace. This matches the colours Prague mappers already use in `parking:zone`.
-- `tariftab`: tariff code, e.g. "P6-0138".
+- `tariftab`: tariff code ("P6-0138" on section 2028).
 - `ps_zps`: number of spaces.
 - `globalid`.
 

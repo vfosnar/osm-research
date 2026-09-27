@@ -16,13 +16,18 @@
 | impact | 5 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/brno-data-portal-stromy.geojson](../samples/brno-data-portal-stromy.geojson) (1,441 trees from `stromy_kere`, shrubs left out) and [samples/brno-data-portal-lampy.geojson](../samples/brno-data-portal-lampy.geojson) (1,449 light points from `ODAE_street_lights`, 1,133 of them pre-tagged `highway=street_lamp` + `ref`), both for the city centre, bbox 16.600,49.190–16.615,49.198.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer… → New*, URL `https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/stromy_kere/FeatureServer` (trees) or `https://gis.brno.cz/ags1/rest/services/ODAE/ODAE_street_lights/FeatureServer` (street lights) → *Connect* → add layer 0.
+
 ## Layers (FeatureServer base https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/<name>/FeatureServer/0)
 
 | layer (name) | count | key attributes | OSM in Brno bbox (Postpass 2026-09-27) |
 |---|---|---|---|
 | stromy_kere (Pasport zeleně – stromy, keře) | 142,442 (65,536 solitérní listnaté, 25,443 jehličnaté, 23,589 stromořadí…, 155 pařezů) | druh_bio_kod, spravce_tid, nazev (taxon, sparse), GlobalID, ogcfid | natural=tree 9,394 |
 | mobiliar_nabytek_a_vybaveni (typ_tid = Lavičky, sedátka) | 12,305 benches of 14,223 (+38 posezení, 16 stolů, 5 ohniště) | typ_tid, popis, spravce, technicky_stav, address | amenity=bench 8,076 |
-| ODAE_street_lights (gis.brno.cz/ags1/rest/services/ODAE/ODAE_street_lights/FeatureServer/0) | 42,158 | pole ID | highway=street_lamp 2,688 (only 2 with ref) |
+| ODAE_street_lights (gis.brno.cz/ags1/rest/services/ODAE/ODAE_street_lights/FeatureServer/0) | 42,158 | evidenční_číslo (pole number, first record S-0001-001), název_ulice, typ_sv__místa (Stožár, Stožár sadový, Převěs, Výložník, Slavnostní osvětlení, Mimo provoz…), typ_stožáru, typ_svítidla, počet_svítidel (checked 2026-09-27) | highway=street_lamp 2,688 (only 2 with ref) |
 | odpadkove_kose | 5,775 | typ, majitel, spravce, material, konstrukce, GlobalID | amenity=waste_basket 3,099 |
 | mobiliar_hriste (Hřiště a herní prvky) | 2,123 elements (herní prvky, sportovní vybavení) | typ_tid, popis, sprava | leisure=playground 720 |
 | stojany_na_kola | 613 | kapacita, typ_stojanu, rok_realizace, mc | amenity=bicycle_parking 929 |
@@ -33,12 +38,12 @@
 | sportoviste | 823 (kluby + sportoviště) | nazev, typ_sportoviste_nazev, url | leisure=pitch 1,131 |
 | cykloopatreni_realizovana_opendata | 716 lines (164 protisměr, 104 C9, 53 V14, 77 V20…) | typ_opatreni, rok_realizace | – |
 
-Sample rows checked (e.g. bench: typ_tid "Lavičky, sedátka", address, spravce MČ; bike stand: kapacita 10, typ "jiný").
+Sample rows checked: a bench (typ_tid "Lavičky, sedátka", address, spravce MČ) and a bike stand (kapacita 10, typ "jiný").
 
 ## Notes
 - Biggest gaps: street lamps (42k vs 2.7k), trees (~120k vs 9.4k), benches (12k vs 8k), bins. Existing OSM trees in Brno have no source/ref tags (manual), so conflation must be distance-based.
 - Tree layer has no species for most records (`nazev` sparse) — only leaf_type/leaf_cycle derivable from druh_bio_kod (listnaté → broadleaved, jehličnaté → needleleaved; leaf_cycle NOT derivable). "Stromy ve stromořadí" could become natural=tree_row lines only via manual work; import as nodes.
-- Street lights: only poles, no lamp_mount etc.; wiki Key:lamp_ref shows 0 use in CZ; use `ref` on highway=street_lamp as wiki Tag:highway=street_lamp suggests.
+- Street lights: `typ_sv__místa` separates poles, brackets (Výložník), span-wire lamps (Převěs → lamp_mount=suspended, a value on wiki Key:lamp_mount) and architectural lighting (Slavnostní osvětlení, 308 of 1,449 in the centre sample; skip it, like "Mimo provoz"). Wiki Key:lamp_ref shows 0 use in CZ; use `ref`=`evidenční_číslo` on highway=street_lamp as wiki Tag:highway=street_lamp suggests.
 - Brno mobiliář is maintained by individual city districts (MČ) — completeness varies by district; check per-MČ coverage before import.
 - License: CC BY 4.0 ⇒ explicit waiver/consent needed per LWG. Precedent: data.Brno already granted explicit consent for OSM use of the IDS JMK GTFS dataset (from 2024-11-18, OSMCZ request template, see Cs:Česko/freemap "Jízdní řád IDS JMK GTFS") — the same portal team can likely extend it to these layers. Contact: data.brno.cz team; talk-cz thread "Souhlas s užitím dat z data.brno.cz" (2024-10/11, https://openstreetmap.cz/talkcz/c4107) names Jiří Komínek (MMB spatial-data administrator) as the contact, offered via Tomáš Kasparek. Earlier talk-cz 2016-10 "Brno – otevřená data (zápis z kontaktní schůzky)" records the city being open to OSM imports (memorial trees and bins were named as candidate POI imports; city was to pick 1–3 pilot projects) — no import followed.
 - Suggested ref key: `ref:brno:globalid` is not established; prefer no ref for trees/bins (volatile ogcfid); for street lamps use `ref=<pole number>`.

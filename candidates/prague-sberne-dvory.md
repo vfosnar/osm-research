@@ -16,12 +16,17 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/prague-sberne-dvory.geojson](../samples/prague-sberne-dvory.geojson): all 42 facilities, with name, operator, address, opening hours text and accepted waste.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer… → Source type: Protocol: HTTP(S)*, URI `https://mp.iprpraha.cz/arcgis/rest/services/Hosted/ZPK_CUR_ZPK_O_SBERODPADU_B/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson` (whole layer, WGS84).
+
 ## Notes
 
 **Fields.** The layer has rich bilingual attributes:
-- `nazev`/`name`, e.g. "Sběrný dvůr hlavního města Prahy Generála Šišky".
+- `nazev`/`name` (one read: "Sběrný dvůr hlavního města Prahy Generála Šišky").
 - `provozovatel`, `adresa`, `kontakt`.
-- `provoznidoba`: free text, e.g. "Po - So 8:30 - 18:00 hod. (8:30 - 17:00 hod. v zimním
+- `provoznidoba`: free text (one read: "Po - So 8:30 - 18:00 hod. (8:30 - 17:00 hod. v zimním
   období)…".
 - Accepted and restricted waste, hazardous waste, take-back, fees.
 - `reuse*` fields.

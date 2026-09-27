@@ -16,6 +16,11 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/olomouc-opendata-hydranty.geojson](../samples/olomouc-opendata-hydranty.geojson): all 277 hydrants of `Hydranty_SMOl`, pre-tagged `emergency=fire_hydrant`, `fire_hydrant:type` (229 underground, 48 pillar), `fire_hydrant:diameter` and `ref`.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer… → Source type: Protocol: HTTP(S)*, URI `https://services3.arcgis.com/W4pu2xsRj3cVEctz/arcgis/rest/services/Hydranty_SMOl/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson` (WGS84 GeoJSON, whole layer). Bike stands: same URL with `stojany_OL` in place of `Hydranty_SMOl`.
+
 ## Endpoints
 - https://services3.arcgis.com/W4pu2xsRj3cVEctz/arcgis/rest/services/stojany_OL/FeatureServer/0 (fields: Typ "STOJAN", ID only)
 - https://services3.arcgis.com/W4pu2xsRj3cVEctz/arcgis/rest/services/Hydranty_SMOl/FeatureServer/0 (PODTYP podzemní/nadzemní, C_DIMEN, C_DRUHV1 pitná voda, OZNACENI address, provozovatel MOVO, GLOBALID, revision date)

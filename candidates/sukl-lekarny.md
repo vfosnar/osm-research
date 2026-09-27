@@ -1,19 +1,20 @@
-```
-name: SÚKL Seznam lékáren (list of pharmacies incl. opening hours)
-publisher: Státní ústav pro kontrolu léčiv (SÚKL), IČO 00023817
-url: https://opendata.sukl.cz/?q=katalog/seznam-lekaren (monthly ZIP, e.g. https://opendata.sukl.cz/soubory/SOD20260925/LEKARNY20260925.zip); NKOD distribution https://opendata.sukl.cz/soubory/NKOD/LEKARNY/nkod_lekarny_seznam.csv
-format: ZIP of 3 CSV files (';'-separated, cp1250): lekarny_seznam.csv, lekarny_prac_doba.csv, lekarny_typ.csv
-coords: address-only (text address: MESTO, ULICE "street č.p./č.o.", PSC; no RÚIAN code)
-records: 2,689 (2026-09-25 file); 2,673 have opening-hours rows
-osm_tags: amenity=pharmacy + healthcare=pharmacy, dispensing=yes, name, opening_hours, phone, email, website, ref:SUKL=<KOD_PRACOVISTE>
-osm_count_cz: amenity=pharmacy 2,557; ref:SUKL 1,142 objects / 1,106 distinct values (of which 805 match the current SÚKL file, 301 are stale/invalid); opening_hours on 2,286 pharmacies
-license: No copyright work, not a copyright-protected database, no sui generis database right (NKOD terms-of-use); NKOD also maps it to CC0
-license_url: https://data.gov.cz/zdroj/datové-sady/00023817/ee950579137405421560185466ffb5be (terms: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ , .../není-autorskoprávně-chráněnou-databází/ , .../není-chráněna-zvláštním-právem-pořizovatele-databáze/)
-license_status: ok
-update_freq: monthly
-impact: 3
-verified: yes
-```
+# SÚKL Seznam lékáren (list of pharmacies incl. opening hours)
+
+| Field | Value |
+|---|---|
+| publisher | Státní ústav pro kontrolu léčiv (SÚKL), IČO 00023817 |
+| url | https://opendata.sukl.cz/?q=katalog/seznam-lekaren (monthly ZIP, e.g. https://opendata.sukl.cz/soubory/SOD20260925/LEKARNY20260925.zip); NKOD distribution https://opendata.sukl.cz/soubory/NKOD/LEKARNY/nkod_lekarny_seznam.csv |
+| format | ZIP of 3 CSV files (';'-separated, cp1250): lekarny_seznam.csv, lekarny_prac_doba.csv, lekarny_typ.csv |
+| coords | address-only (text address: MESTO, ULICE "street č.p./č.o.", PSC; no RÚIAN code) |
+| records | 2,689 (2026-09-25 file); 2,673 have opening-hours rows |
+| osm_tags | amenity=pharmacy + healthcare=pharmacy, dispensing=yes, name, opening_hours, phone, email, website, ref:SUKL=&lt;KOD_PRACOVISTE&gt; |
+| osm_count_cz | amenity=pharmacy 2,557; ref:SUKL 1,142 objects / 1,106 distinct values (of which 805 match the current SÚKL file, 301 are stale/invalid); opening_hours on 2,286 pharmacies |
+| license | No copyright work, not a copyright-protected database, no sui generis database right (NKOD terms-of-use); NKOD also maps it to CC0 |
+| license_url | https://data.gov.cz/zdroj/datové-sady/00023817/ee950579137405421560185466ffb5be (terms: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ , .../není-autorskoprávně-chráněnou-databází/ , .../není-chráněna-zvláštním-právem-pořizovatele-databáze/) |
+| license_status | ok |
+| update_freq | monthly |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 - Downloaded and parsed the 2026-09-25 ZIP. Columns: NAZEV, KOD_PRACOVISTE (11-digit, used as ref:SUKL in OSM already), KOD_LEKARNY, ICZ, ICO, MESTO, ULICE, PSC, head pharmacist (name, i.e. personal data: do not import), WWW, EMAIL, TELEFON, ERP, TYP_LEKARNY, ZASILKOVY_PRODEJ (mail order, 227), POHOTOVOST (emergency service, 16).

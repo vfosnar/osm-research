@@ -1,19 +1,20 @@
-```
-name: Výjezdové základny zdravotnické záchranné služby (ambulance stations), published by 4 regions
-publisher: Královéhradecký kraj (70889546), Moravskoslezský kraj (70890692), Karlovarský kraj (70891168), Liberecký kraj (70891508)
-url: KHK https://www.datakhk.cz/api/download/v1/items/1c28da5d644445d3a5f4b578ce22ed40/geojson?layers=0 ; MSK https://datamsk-mskraj.hub.arcgis.com/api/download/v1/items/e21ccc36dd404b10b5a9070a2a9a1068/geojson?layers=0 ; KV https://www.datazapad.cz/api/download/v1/items/4d7d80fc1d5f4f6bbb61a10b26d2a2aa/geojson?layers=0 ; LK https://www.datalk.cz/api/download/v1/items/6da21aeaf4844012929017561edb59be/csv?layers=0
-format: GeoJSON/CSV/SHP/KML (ArcGIS Hub)
-coords: yes (x/y or X/Y or n/e WGS84 attributes; geometry in EPSG:3857)
-records: KHK 16, MSK 33, KV 13 (LK not fetched: the Hub returned an error). 62 in total.
-osm_tags: emergency=ambulance_station + name + operator=Zdravotnická záchranná služba <kraje>
-osm_count_cz: emergency=ambulance_station 138 (Geofabrik taginfo 2026-09-27)
-license: KHK, KV: NKOD terms, no copyright, no sui generis right (CC0). MSK: CC BY 4.0.
-license_url: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://creativecommons.org/licenses/by/4.0/ (MSK)
-license_status: ok (KHK, KV); needs_waiver (MSK)
-update_freq: irregular
-impact: 2
-verified: partial
-```
+# Výjezdové základny zdravotnické záchranné služby (ambulance stations), published by 4 regions
+
+| Field | Value |
+|---|---|
+| publisher | Královéhradecký kraj (70889546), Moravskoslezský kraj (70890692), Karlovarský kraj (70891168), Liberecký kraj (70891508) |
+| url | KHK https://www.datakhk.cz/api/download/v1/items/1c28da5d644445d3a5f4b578ce22ed40/geojson?layers=0 ; MSK https://datamsk-mskraj.hub.arcgis.com/api/download/v1/items/e21ccc36dd404b10b5a9070a2a9a1068/geojson?layers=0 ; KV https://www.datazapad.cz/api/download/v1/items/4d7d80fc1d5f4f6bbb61a10b26d2a2aa/geojson?layers=0 ; LK https://www.datalk.cz/api/download/v1/items/6da21aeaf4844012929017561edb59be/csv?layers=0 |
+| format | GeoJSON/CSV/SHP/KML (ArcGIS Hub) |
+| coords | yes (x/y or X/Y or n/e WGS84 attributes; geometry in EPSG:3857) |
+| records | KHK 16, MSK 33, KV 13 (LK not fetched: the Hub returned an error). 62 in total. |
+| osm_tags | emergency=ambulance_station + name + operator=Zdravotnická záchranná služba &lt;kraje&gt; |
+| osm_count_cz | emergency=ambulance_station 138 (Geofabrik taginfo 2026-09-27) |
+| license | KHK, KV: NKOD terms, no copyright, no sui generis right (CC0). MSK: CC BY 4.0. |
+| license_url | https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://creativecommons.org/licenses/by/4.0/ (MSK) |
+| license_status | ok (KHK, KV); needs_waiver (MSK) |
+| update_freq | irregular |
+| impact | 2 |
+| verified | partial |
 
 ## Notes
 - Postpass check: 16 of 62 stations (26%) have emergency=ambulance_station within 150 m. About 46 are missing in these 3 regions alone. Nationally there are roughly 300 bases (not verified), but only 4 regions publish open data.

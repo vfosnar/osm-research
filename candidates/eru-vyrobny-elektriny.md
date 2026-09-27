@@ -1,19 +1,20 @@
-```
-name: ERÚ – Technologická energetická zařízení: výrobny elektřiny (licensed power plants: small hydro, biogas, wind, CHP, solar parks)
-publisher: Energetický regulační úřad (ERÚ), IČO 70894451
-url: https://eru.gov.cz/sites/default/files/obsah/prilohy/tez-sk-11-2026-09-01.xml (monthly dated file; NKOD dataset: https://data.gov.cz/zdroj/datové-sady/70894451/1713221853)
-format: XML (schema https://licence.eru.cz/xsd/vzor-11-v5.xsd), 56 MB
-coords: no. Location is given as cadastral territory code (CadasterId = RÚIAN KÚ code) plus parcel number(s) in free text (CadasterNote, e.g. "par. č. 313/2, 313/7"), plus obec/PSČ. Hydro plants also have River + RiverKm (1,553 of 1,605).
-records: 37,958 premises (37,956 unique PremiseElecId) under 34,141 licences. By type: solar 34,433, gas/combustion 1,677, hydro 1,605, wind 124, steam 108, combined-cycle 4, pumped storage 3, nuclear 2. Of these, 1,196 are 1 MW or more. By fuel: Bioplyn 414 (+ Skládkový plyn 70, Kalový plyn 62), Biomasa 47, Důlní plyn 26.
-osm_tags: >=1 MW: power=plant + plant:source=hydro|biogas|wind|solar|gas|biomass + plant:method + plant:output:electricity=<n> MW + name. <1 MW (micro hydro, rooftop PV): power=generator + generator:source + generator:output:electricity. Proposed ref:CZ:eru=<PremiseElecId> (new key).
-osm_count_cz: power=plant 886; plant:source=hydro 255; generator:source=hydro 249; plant:source=biogas 5; generator:source=biogas 27; plant:source=wind 11; generator:source=wind 257 (Geofabrik taginfo 2026-09-27)
-license: NKOD terms: no copyright work, not a protected database, no sui generis right, no personal data (NKOD maps it to CC0)
-license_url: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/
-license_status: ok
-update_freq: continuous (NKOD UPDATE_CONT); in practice a new dated XML each month
-impact: 4
-verified: yes
-```
+# ERÚ – Technologická energetická zařízení: výrobny elektřiny (licensed power plants: small hydro, biogas, wind, CHP, solar parks)
+
+| Field | Value |
+|---|---|
+| publisher | Energetický regulační úřad (ERÚ), IČO 70894451 |
+| url | https://eru.gov.cz/sites/default/files/obsah/prilohy/tez-sk-11-2026-09-01.xml (monthly dated file; NKOD dataset: https://data.gov.cz/zdroj/datové-sady/70894451/1713221853) |
+| format | XML (schema https://licence.eru.cz/xsd/vzor-11-v5.xsd), 56 MB |
+| coords | no. Location is given as cadastral territory code (CadasterId = RÚIAN KÚ code) plus parcel number(s) in free text (CadasterNote, e.g. "par. č. 313/2, 313/7"), plus obec/PSČ. Hydro plants also have River + RiverKm (1,553 of 1,605). |
+| records | 37,958 premises (37,956 unique PremiseElecId) under 34,141 licences. By type: solar 34,433, gas/combustion 1,677, hydro 1,605, wind 124, steam 108, combined-cycle 4, pumped storage 3, nuclear 2. Of these, 1,196 are 1 MW or more. By fuel: Bioplyn 414 (+ Skládkový plyn 70, Kalový plyn 62), Biomasa 47, Důlní plyn 26. |
+| osm_tags | &gt;=1 MW: power=plant + plant:source=hydro\|biogas\|wind\|solar\|gas\|biomass + plant:method + plant:output:electricity=&lt;n&gt; MW + name. &lt;1 MW (micro hydro, rooftop PV): power=generator + generator:source + generator:output:electricity. Proposed ref:CZ:eru=&lt;PremiseElecId&gt; (new key). |
+| osm_count_cz | power=plant 886; plant:source=hydro 255; generator:source=hydro 249; plant:source=biogas 5; generator:source=biogas 27; plant:source=wind 11; generator:source=wind 257 (Geofabrik taginfo 2026-09-27) |
+| license | NKOD terms: no copyright work, not a protected database, no sui generis right, no personal data (NKOD maps it to CC0) |
+| license_url | https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/ |
+| license_status | ok |
+| update_freq | continuous (NKOD UPDATE_CONT); in practice a new dated XML each month |
+| impact | 4 |
+| verified | yes |
 
 ## Notes
 - This is the only complete official list of every licensed electricity generator in CZ, with name, installed electrical and thermal output per unit (MW), fuel, and for hydro the river and river km.

@@ -1,19 +1,20 @@
-```
-name: Česká pošta – Balíkovna XML (post offices, Balíkovna partner points, Balíkovna-BOX partner lockers)
-publisher: Česká pošta, s.p.
-url: http://napostu.ceskaposta.cz/vystupy/balikovny.xml
-format: XML (namespace http://www.cpost.cz/schema/aict/zv_2)
-coords: yes (WGS84 + S-JTSK)
-records: 11,428 (generated 2026-09-27T17:52): 2,905 pošta, 3,847 balíkovna partner, 4,629 balíkovna-BOX, 47 depo. The boxes break down by BOX_PROVIDER as AB=AlzaBox 3,840, OX=OX Point 405 and PB=Penguin Box 384.
-osm_tags: boxes → amenity=parcel_locker + brand of the physical box (AlzaBox Q115254158 / Penguin Box Q120022128 / OX Point); partner points → post_office=post_partner on the host shop (+ parcel_pickup / parcel_mail_in)
-osm_count_cz: brand:wikidata=Q115254158 (AlzaBox) 2,136; brand=Penguin Box 172; brand=OX Point 93; post_office=post_partner 71 (taginfo CZ, data 2026-09-26)
-license: none stated
-license_url: https://www.ceskaposta.cz/en/ke-stazeni/zakaznicke-vystupy (customer-output downloads page; no licence text found)
-license_status: unclear
-update_freq: daily (Last-Modified 2026-09-27; <generated> timestamp in the file)
-impact: 4
-verified: yes
-```
+# Česká pošta – Balíkovna XML (post offices, Balíkovna partner points, Balíkovna-BOX partner lockers)
+
+| Field | Value |
+|---|---|
+| publisher | Česká pošta, s.p. |
+| url | http://napostu.ceskaposta.cz/vystupy/balikovny.xml |
+| format | XML (namespace http://www.cpost.cz/schema/aict/zv_2) |
+| coords | yes (WGS84 + S-JTSK) |
+| records | 11,428 (generated 2026-09-27T17:52): 2,905 pošta, 3,847 balíkovna partner, 4,629 balíkovna-BOX, 47 depo. The boxes break down by BOX_PROVIDER as AB=AlzaBox 3,840, OX=OX Point 405 and PB=Penguin Box 384. |
+| osm_tags | boxes → amenity=parcel_locker + brand of the physical box (AlzaBox Q115254158 / Penguin Box Q120022128 / OX Point); partner points → post_office=post_partner on the host shop (+ parcel_pickup / parcel_mail_in) |
+| osm_count_cz | brand:wikidata=Q115254158 (AlzaBox) 2,136; brand=Penguin Box 172; brand=OX Point 93; post_office=post_partner 71 (taginfo CZ, data 2026-09-26) |
+| license | none stated |
+| license_url | https://www.ceskaposta.cz/en/ke-stazeni/zakaznicke-vystupy (customer-output downloads page; no licence text found) |
+| license_status | unclear |
+| update_freq | daily (Last-Modified 2026-09-27; &lt;generated&gt; timestamp in the file) |
+| impact | 4 |
+| verified | yes |
 
 ## Notes
 

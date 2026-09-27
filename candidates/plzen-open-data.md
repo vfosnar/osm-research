@@ -1,17 +1,20 @@
-name: opendata.plzen.eu – pasport stromů, světelná místa, WC, cyklostojany, WiFi, umělecká díla, přístřešky MHD, parkoviště
-publisher: Statutární město Plzeň (Správa informačních technologií města Plzně, SITmP)
-url: https://opendata.plzen.eu/
-format: ZIP per format (GeoJSON, KML, SHP, DXF, DGN) at https://opendata.plzen.eu/public/opendata/download-file/<id>
-coords: yes (WGS84 in GeoJSON/KML; many layers are cartographic symbols → polygons/GeometryCollections, need centroid)
-records: trees 48,354 (unique ID_STR); street-light points 24,389 (22,994 lamp on pole, 484 on building, 164 crossing lights…); WC 71 (67 "vlídné WC" in businesses + 4 public); lockable bike stands 497 KML placemarks; WiFi 116 coverage polygons; artworks/monuments 397 (KOD P…); MHD shelters 368 (ID_PRIS); parking 120 polygons
-osm_tags: natural=tree; highway=street_lamp (+lamp_mount); amenity=toilets (+toilets:access=customers for "vlídné WC"); amenity=bicycle_parking; tourism=artwork / historic=memorial / historic=wayside_shrine; amenity=shelter + shelter_type=public_transport (or shelter=yes on the stop); amenity=parking; internet_access=wlan
-osm_count_cz: natural=tree 136,307; highway=street_lamp 62,220; amenity=toilets 3,315; amenity=bicycle_parking 13,650; tourism=artwork 12,102 (taginfo CZ 2026-09-26)
-license: NKOD terms: "neobsahuje autorská díla", "není autorskoprávně chráněnou databází", "není chráněna zvláštním právem pořizovatele databáze" (skos:narrowMatch CC0); talk-cz 2019 announcement also states CC0
-license_url: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/
-license_status: ok
-update_freq: trees and street lights CONT (files regenerated; WC file dated 2026-08-04); others IRREG
-impact: 5
-verified: yes
+# opendata.plzen.eu – pasport stromů, světelná místa, WC, cyklostojany, WiFi, umělecká díla, přístřešky MHD, parkoviště
+
+| Field | Value |
+|---|---|
+| publisher | Statutární město Plzeň (Správa informačních technologií města Plzně, SITmP) |
+| url | https://opendata.plzen.eu/ |
+| format | ZIP per format (GeoJSON, KML, SHP, DXF, DGN) at https://opendata.plzen.eu/public/opendata/download-file/&lt;id&gt; |
+| coords | yes (WGS84 in GeoJSON/KML; many layers are cartographic symbols → polygons/GeometryCollections, need centroid) |
+| records | trees 48,354 (unique ID_STR); street-light points 24,389 (22,994 lamp on pole, 484 on building, 164 crossing lights…); WC 71 (67 "vlídné WC" in businesses + 4 public); lockable bike stands 497 KML placemarks; WiFi 116 coverage polygons; artworks/monuments 397 (KOD P…); MHD shelters 368 (ID_PRIS); parking 120 polygons |
+| osm_tags | natural=tree; highway=street_lamp (+lamp_mount); amenity=toilets (+toilets:access=customers for "vlídné WC"); amenity=bicycle_parking; tourism=artwork / historic=memorial / historic=wayside_shrine; amenity=shelter + shelter_type=public_transport (or shelter=yes on the stop); amenity=parking; internet_access=wlan |
+| osm_count_cz | natural=tree 136,307; highway=street_lamp 62,220; amenity=toilets 3,315; amenity=bicycle_parking 13,650; tourism=artwork 12,102 (taginfo CZ 2026-09-26) |
+| license | NKOD terms: "neobsahuje autorská díla", "není autorskoprávně chráněnou databází", "není chráněna zvláštním právem pořizovatele databáze" (skos:narrowMatch CC0); talk-cz 2019 announcement also states CC0 |
+| license_url | https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/ |
+| license_status | ok |
+| update_freq | trees and street lights CONT (files regenerated; WC file dated 2026-08-04); others IRREG |
+| impact | 5 |
+| verified | yes |
 
 ## Layers verified (download ids are GeoJSON zips unless noted)
 

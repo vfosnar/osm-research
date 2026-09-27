@@ -1,19 +1,20 @@
-```
-name: Významné geologické lokality v ČR – výběr nejzajímavějších (significant geological sites)
-publisher: Česká geologická služba (ČGS), IČO 00025798
-url: https://od.geology.cz/lokality.zip (lokality_body.geojson + lokality_plochy.geojson); NKOD https://data.gov.cz/zdroj/datové-sady/00025798/b1dc60a0b1c8ef92b26f90426d2f88e4 ; detail pages https://lokality.geology.cz/<id>
-format: GeoJSON (WGS84)
-coords: yes (points and polygons)
-records: 584 points + 1,010 polygons = 1,594 sites (files dated 2025-12-11)
-osm_tags: depends on type: geological=outcrop / geological=palaeontological_site / natural=rock|stone|cliff / landuse=quarry (+ disused), name, description; suggested ref:cgs:lokality=<id>
-osm_count_cz: geological=* 71 (outcrop 19, palaeontological_site 21, volcanic_mofetta 14, columnar_jointing 6); natural=rock 2,659; landuse=quarry 1,246 (taginfo 2026-09-26)
-license: CC BY 4.0 (NKOD terms spec: autorské dílo + DB as copyright work CC BY 4.0, no sui generis right)
-license_url: https://data.gov.cz/zdroj/datové-sady/00025798/b1dc60a0b1c8ef92b26f90426d2f88e4
-license_status: needs_waiver
-update_freq: weekly per NKOD (actual file date 2025-12-11)
-impact: 2
-verified: yes
-```
+# Významné geologické lokality v ČR – výběr nejzajímavějších (significant geological sites)
+
+| Field | Value |
+|---|---|
+| publisher | Česká geologická služba (ČGS), IČO 00025798 |
+| url | https://od.geology.cz/lokality.zip (lokality_body.geojson + lokality_plochy.geojson); NKOD https://data.gov.cz/zdroj/datové-sady/00025798/b1dc60a0b1c8ef92b26f90426d2f88e4 ; detail pages https://lokality.geology.cz/&lt;id&gt; |
+| format | GeoJSON (WGS84) |
+| coords | yes (points and polygons) |
+| records | 584 points + 1,010 polygons = 1,594 sites (files dated 2025-12-11) |
+| osm_tags | depends on type: geological=outcrop / geological=palaeontological_site / natural=rock\|stone\|cliff / landuse=quarry (+ disused), name, description; suggested ref:cgs:lokality=&lt;id&gt; |
+| osm_count_cz | geological=* 71 (outcrop 19, palaeontological_site 21, volcanic_mofetta 14, columnar_jointing 6); natural=rock 2,659; landuse=quarry 1,246 (taginfo 2026-09-26) |
+| license | CC BY 4.0 (NKOD terms spec: autorské dílo + DB as copyright work CC BY 4.0, no sui generis right) |
+| license_url | https://data.gov.cz/zdroj/datové-sady/00025798/b1dc60a0b1c8ef92b26f90426d2f88e4 |
+| license_status | needs_waiver |
+| update_freq | weekly per NKOD (actual file date 2025-12-11) |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 - **Contents.** Each site has `id`, `nazev`, `technicke_prvky` (e.g. "lom"), `pristup` (access description), `charakt`, `abstract_cz`, `geologicka_charakteristika`, `url`. Many are quarries, rock outcrops, road cuts, fossil sites and volcanic features. Text fields are long descriptive prose, which is copyrightable and should not go into OSM.

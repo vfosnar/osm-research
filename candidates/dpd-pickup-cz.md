@@ -1,19 +1,20 @@
-```
-name: DPD CZ Pickup – export of all pickup points and lockers (DPD boxes + partner lockers AlzaBox, GLS, One Box, OX Point, Z-BOX)
-publisher: Direct Parcel Distribution CZ s.r.o. (DPD CZ)
-url: https://pickup.dpd.cz/api/getAll?country=203  (also https://pickup.dpd.cz/Export/xml?country=203 and https://pickup.dpd.cz/Export/csv?country=203; documented at https://pickup.dpd.cz/integrace/)
-format: JSON (also XML, CSV)
-coords: yes
-records: 16,087 CZ items (2026-09-27): 4,297 pickup_point (shops) + 11,790 dpd_box. The dpd_box items are 4,056 Z-BOX, 3,987 AlzaBox, 1,808 GLS, 790 One Box, 728 DPD box (DPD's own), 405 OX Point and 16 AlzaWall
-osm_tags: amenity=parcel_locker + brand/brand:wikidata/operator per NSI (DPD Pickup Box Q114273730; AlzaBox Q115254158; One Box Q110738715; Penguin/OX see notes); ref=<DPD id> for DPD's own boxes only; opening_hours; parcel_mail_in (from dropoff_allowed)
-osm_count_cz: amenity=parcel_locker 11,567 (taginfo CZ, data 2026-09-26); brand:wikidata=Q114273730 (DPD Pickup Box) 205; Q115254158 (AlzaBox) 2,136; Q110738715 (One Box) 602; brand=OX Point 93
-license: none stated
-license_url: https://pickup.dpd.cz/integrace/ (integration page; publishes the export URLs with no licence text)
-license_status: unclear
-update_freq: live API. The response carries a `hash` field that changes when the list changes.
-impact: 4
-verified: yes
-```
+# DPD CZ Pickup – export of all pickup points and lockers (DPD boxes + partner lockers AlzaBox, GLS, One Box, OX Point, Z-BOX)
+
+| Field | Value |
+|---|---|
+| publisher | Direct Parcel Distribution CZ s.r.o. (DPD CZ) |
+| url | https://pickup.dpd.cz/api/getAll?country=203  (also https://pickup.dpd.cz/Export/xml?country=203 and https://pickup.dpd.cz/Export/csv?country=203; documented at https://pickup.dpd.cz/integrace/) |
+| format | JSON (also XML, CSV) |
+| coords | yes |
+| records | 16,087 CZ items (2026-09-27): 4,297 pickup_point (shops) + 11,790 dpd_box. The dpd_box items are 4,056 Z-BOX, 3,987 AlzaBox, 1,808 GLS, 790 One Box, 728 DPD box (DPD's own), 405 OX Point and 16 AlzaWall |
+| osm_tags | amenity=parcel_locker + brand/brand:wikidata/operator per NSI (DPD Pickup Box Q114273730; AlzaBox Q115254158; One Box Q110738715; Penguin/OX see notes); ref=&lt;DPD id&gt; for DPD's own boxes only; opening_hours; parcel_mail_in (from dropoff_allowed) |
+| osm_count_cz | amenity=parcel_locker 11,567 (taginfo CZ, data 2026-09-26); brand:wikidata=Q114273730 (DPD Pickup Box) 205; Q115254158 (AlzaBox) 2,136; Q110738715 (One Box) 602; brand=OX Point 93 |
+| license | none stated |
+| license_url | https://pickup.dpd.cz/integrace/ (integration page; publishes the export URLs with no licence text) |
+| license_status | unclear |
+| update_freq | live API. The response carries a `hash` field that changes when the list changes. |
+| impact | 4 |
+| verified | yes |
 
 ## Notes
 

@@ -1,19 +1,20 @@
-```
-name: Prague cycle routes and cycling infrastructure (Cyklistické trasy, DOP_CUR_DOP_CYKLOTRASY_L)
-publisher: Institut plánování a rozvoje hl. m. Prahy (IPR Praha), IČO 70883858 (source attribute poskyt = HMP-IPR)
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DOP_CUR_DOP_CYKLOTRASY_L/FeatureServer/0 ; catalogue https://geoportalpraha.cz/en/data-and-services/45063acce89d4b37afc6d51f03f3ad49
-format: ArcGIS FeatureServer (GeoJSON/JSON query), lines
-coords: yes
-records: 6,328 segments (2,205 realizace=1 existing, 4,123 realizace=0 proposed); 295 distinct route numbers
-osm_tags: route=bicycle relations (network=lcn/rcn/ncn, ref=*); cycleway:right|left|both=lane / share_busway; oneway:bicycle=no; highway=cycleway; highway=path|footway + bicycle=designated
-osm_count_cz: Prague bbox (14.22,49.94,14.71,50.18, Postpass 2026-09-27): 466 route=bicycle relations, 331 distinct refs; cycle lanes 193 km; oneway:bicycle=no 105 km; share_busway 40 km; cycleway/designated paths 582 km
-license: CC BY 4.0 + IPR consent for all open data in OSM (2018)
-license_url: https://creativecommons.org/licenses/by/4.0/ ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html
-license_status: ok
-update_freq: continuous (item modified 2026-08)
-impact: 2
-verified: yes
-```
+# Prague cycle routes and cycling infrastructure (Cyklistické trasy, DOP_CUR_DOP_CYKLOTRASY_L)
+
+| Field | Value |
+|---|---|
+| publisher | Institut plánování a rozvoje hl. m. Prahy (IPR Praha), IČO 70883858 (source attribute poskyt = HMP-IPR) |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DOP_CUR_DOP_CYKLOTRASY_L/FeatureServer/0 ; catalogue https://geoportalpraha.cz/en/data-and-services/45063acce89d4b37afc6d51f03f3ad49 |
+| format | ArcGIS FeatureServer (GeoJSON/JSON query), lines |
+| coords | yes |
+| records | 6,328 segments (2,205 realizace=1 existing, 4,123 realizace=0 proposed); 295 distinct route numbers |
+| osm_tags | route=bicycle relations (network=lcn/rcn/ncn, ref=*); cycleway:right\|left\|both=lane / share_busway; oneway:bicycle=no; highway=cycleway; highway=path\|footway + bicycle=designated |
+| osm_count_cz | Prague bbox (14.22,49.94,14.71,50.18, Postpass 2026-09-27): 466 route=bicycle relations, 331 distinct refs; cycle lanes 193 km; oneway:bicycle=no 105 km; share_busway 40 km; cycleway/designated paths 582 km |
+| license | CC BY 4.0 + IPR consent for all open data in OSM (2018) |
+| license_url | https://creativecommons.org/licenses/by/4.0/ ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html |
+| license_status | ok |
+| update_freq | continuous (item modified 2026-08) |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 - **Why it is here:** Google's legal notices for Czechia credit "Geoportal Praha" and link this exact item

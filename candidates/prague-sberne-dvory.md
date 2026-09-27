@@ -1,17 +1,20 @@
-name: Odpadní zařízení pro občany (sběrné dvory, sběrná místa nebezpečného odpadu, re-use centra – Praha)
-publisher: IPR Praha (content MHMP-OCP)
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/ZPK_CUR_ZPK_O_SBERODPADU_B/FeatureServer/0 ; catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::odpadní-zařízení-pro-občany-1
-format: ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads
-coords: yes
-records: 42 (typobjektu: SDHMP 23 city collection yards, SSNO 7 hazardous-waste points, SDMC 5 district yards, REUSE-CE 3 re-use centres, SSMBIO 2 bio-waste, SDMC_SSNO 2), 2026-09-27
-osm_tags: amenity=recycling + recycling_type=centre + name + operator + opening_hours (converted by hand from `provoznidoba`) + recycling:*=yes from `odpadprijem`
-osm_count_cz: recycling_type=centre 902 CZ (taginfo 2026-09-27); 45 amenity=recycling+recycling_type=centre in Prague (Postpass relation 435514)
-license: CC BY 4.0 + IPR consent for all open data in OSM (2018)
-license_url: https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html
-license_status: ok
-update_freq: frequent (dct:modified 2026-09-14)
-impact: 2
-verified: yes
+# Odpadní zařízení pro občany (sběrné dvory, sběrná místa nebezpečného odpadu, re-use centra – Praha)
+
+| Field | Value |
+|---|---|
+| publisher | IPR Praha (content MHMP-OCP) |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/ZPK_CUR_ZPK_O_SBERODPADU_B/FeatureServer/0 ; catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::odpadní-zařízení-pro-občany-1 |
+| format | ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads |
+| coords | yes |
+| records | 42 (typobjektu: SDHMP 23 city collection yards, SSNO 7 hazardous-waste points, SDMC 5 district yards, REUSE-CE 3 re-use centres, SSMBIO 2 bio-waste, SDMC_SSNO 2), 2026-09-27 |
+| osm_tags | amenity=recycling + recycling_type=centre + name + operator + opening_hours (converted by hand from `provoznidoba`) + recycling:*=yes from `odpadprijem` |
+| osm_count_cz | recycling_type=centre 902 CZ (taginfo 2026-09-27); 45 amenity=recycling+recycling_type=centre in Prague (Postpass relation 435514) |
+| license | CC BY 4.0 + IPR consent for all open data in OSM (2018) |
+| license_url | https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html |
+| license_status | ok |
+| update_freq | frequent (dct:modified 2026-09-14) |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 

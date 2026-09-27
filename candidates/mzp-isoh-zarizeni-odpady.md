@@ -1,19 +1,20 @@
-```
-name: MŽP ISOH – Seznam zařízení pro nakládání s odpady (waste facility register: collection yards/scrap buyers, composting, landfills, car dismantlers, transfer stations)
-publisher: Ministerstvo životního prostředí (MŽP), IČO 00164801 (ISOH / VISOH2)
-url: https://data.mzp.cz/isoh2/OpenData/HF09/Zarizeni.xml (NKOD: https://data.gov.cz/zdroj/datové-sady/00164801/a7be43fdca614429fc50f48883a50298)
-format: XML (namespace http://mzp.cz/visoh2registrv1.xsd), about 400+ MB single file; the server does not support byte ranges and the proxy reset the transfer at about 377 MB twice
-coords: yes (umisteni/gpsSirka + gpsDelka, WGS84, 6 decimals), plus a RÚIAN-style address (obec, ZÚJ code, street, č.p.)
-records: at least 8,753 facilities parsed from a truncated download that covered 11 of 14 regions. Of these, 5,056 are active, 3,185 closed, 293 permitted and 219 suspended; 6,416 have GPS. The full file probably holds about 11k facilities.
-osm_tags: by kodTypuZarizeni: Sberna -> amenity=recycling + recycling_type=centre (municipal yards / scrap buyers; add recycling:*=yes from permitted waste codes); ZpracVozidel/SberVozidel -> industrial=scrap_yard; Skladka -> landuse=landfill; Kompost/KompostMale -> no established tag (see notes; possibly amenity=recycling + recycling:organic=yes or landuse=industrial); Prekladiste -> amenity=waste_transfer_station; Spalovani/ZEVO -> power=plant / man_made=works (check); ref:CZ:isoh=<icz> (new key, needs documenting)
-osm_count_cz: recycling_type=centre 902; industrial=scrap_yard 53; amenity=waste_transfer_station 24; landuse=landfill 387 (Geofabrik taginfo 2026-09-27)
-license: NKOD terms: no copyright work, not a copyright-protected database, no sui generis right (NKOD maps it to CC0). The dataset is flagged "obsahuje osobní údaje" because operators can be natural persons.
-license_url: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/
-license_status: ok
-update_freq: annual (NKOD). The export header shows datumExportu 2026-09-26, so the file is actually regenerated daily.
-impact: 4
-verified: partial
-```
+# MŽP ISOH – Seznam zařízení pro nakládání s odpady (waste facility register: collection yards/scrap buyers, composting, landfills, car dismantlers, transfer stations)
+
+| Field | Value |
+|---|---|
+| publisher | Ministerstvo životního prostředí (MŽP), IČO 00164801 (ISOH / VISOH2) |
+| url | https://data.mzp.cz/isoh2/OpenData/HF09/Zarizeni.xml (NKOD: https://data.gov.cz/zdroj/datové-sady/00164801/a7be43fdca614429fc50f48883a50298) |
+| format | XML (namespace http://mzp.cz/visoh2registrv1.xsd), about 400+ MB single file; the server does not support byte ranges and the proxy reset the transfer at about 377 MB twice |
+| coords | yes (umisteni/gpsSirka + gpsDelka, WGS84, 6 decimals), plus a RÚIAN-style address (obec, ZÚJ code, street, č.p.) |
+| records | at least 8,753 facilities parsed from a truncated download that covered 11 of 14 regions. Of these, 5,056 are active, 3,185 closed, 293 permitted and 219 suspended; 6,416 have GPS. The full file probably holds about 11k facilities. |
+| osm_tags | by kodTypuZarizeni: Sberna -&gt; amenity=recycling + recycling_type=centre (municipal yards / scrap buyers; add recycling:*=yes from permitted waste codes); ZpracVozidel/SberVozidel -&gt; industrial=scrap_yard; Skladka -&gt; landuse=landfill; Kompost/KompostMale -&gt; no established tag (see notes; possibly amenity=recycling + recycling:organic=yes or landuse=industrial); Prekladiste -&gt; amenity=waste_transfer_station; Spalovani/ZEVO -&gt; power=plant / man_made=works (check); ref:CZ:isoh=&lt;icz&gt; (new key, needs documenting) |
+| osm_count_cz | recycling_type=centre 902; industrial=scrap_yard 53; amenity=waste_transfer_station 24; landuse=landfill 387 (Geofabrik taginfo 2026-09-27) |
+| license | NKOD terms: no copyright work, not a copyright-protected database, no sui generis right (NKOD maps it to CC0). The dataset is flagged "obsahuje osobní údaje" because operators can be natural persons. |
+| license_url | https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/ |
+| license_status | ok |
+| update_freq | annual (NKOD). The export header shows datumExportu 2026-09-26, so the file is actually regenerated daily. |
+| impact | 4 |
+| verified | partial |
 
 ## Notes
 - This is the statutory register of every facility permitted under §21 of Act 541/2020 (and the older 185/2001). Each facility has a stable ID `icz`, e.g. CZK00238. The first three letters encode the region (CZA Praha, CZS Středočeský, CZT Moravskoslezský, and so on).

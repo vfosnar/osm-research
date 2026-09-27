@@ -1,17 +1,20 @@
-name: Archivní DTM Prahy – inženýrské sítě – povrchové znaky zobrazené symbolem (street lamps, fire hydrants, …)
-publisher: IPR Praha
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DTMP_CUR_TMISZNAK_B/FeatureServer/0 (filter by `ctmtp_kod`, e.g. `/query?where=ctmtp_kod%3D606560&outFields=*&outSR=4326&f=geojson`); catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::archivní-dtm-prahy-inženýrské-sítě-povrchové-znaky-zobrazené-symbolem-1
-format: ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads
-coords: yes (points)
-records: 1,387,674 points in total. Relevant classes (fetched 2026-09-27): 606560 "svítidlo na stožáru" 121,337; 606580 "svítidlo slav. osvět. na soklu" 2,788; 606570 "svítidlo slav. osvět. na stožáru" 757; 606561 "svítidlo na objektu" 1,189; 406130 "hydrant podzemní – povrch. znak" 24,320; 406120 "hydrant nadzemní – povrch. znak" 1,619; 605250 "semafor" 5,742; 736750 "telefonní budka volně stojící" 1,196
-osm_tags: highway=street_lamp (+ support=pole / lamp_mount); emergency=fire_hydrant + fire_hydrant:type=underground|pillar
-osm_count_cz: highway=street_lamp 62,220 CZ / 20,328 Prague; emergency=fire_hydrant 4,217 CZ / 495 Prague; fire_hydrant:type=underground 1,051 CZ (taginfo Geofabrik and Postpass within relation 435514, 2026-09-27)
-license: CC BY 4.0 ("datový podklad © IPR Praha") + IPR consent for all open data in OSM (2018)
-license_url: https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html
-license_status: ok
-update_freq: none, archival snapshot ("Stav k 30.6.2024, dále neaktualizované")
-impact: 4
-verified: yes
+# Archivní DTM Prahy – inženýrské sítě – povrchové znaky zobrazené symbolem (street lamps, fire hydrants, …)
+
+| Field | Value |
+|---|---|
+| publisher | IPR Praha |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DTMP_CUR_TMISZNAK_B/FeatureServer/0 (filter by `ctmtp_kod`, e.g. `/query?where=ctmtp_kod%3D606560&outFields=*&outSR=4326&f=geojson`); catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::archivní-dtm-prahy-inženýrské-sítě-povrchové-znaky-zobrazené-symbolem-1 |
+| format | ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads |
+| coords | yes (points) |
+| records | 1,387,674 points in total. Relevant classes (fetched 2026-09-27): 606560 "svítidlo na stožáru" 121,337; 606580 "svítidlo slav. osvět. na soklu" 2,788; 606570 "svítidlo slav. osvět. na stožáru" 757; 606561 "svítidlo na objektu" 1,189; 406130 "hydrant podzemní – povrch. znak" 24,320; 406120 "hydrant nadzemní – povrch. znak" 1,619; 605250 "semafor" 5,742; 736750 "telefonní budka volně stojící" 1,196 |
+| osm_tags | highway=street_lamp (+ support=pole / lamp_mount); emergency=fire_hydrant + fire_hydrant:type=underground\|pillar |
+| osm_count_cz | highway=street_lamp 62,220 CZ / 20,328 Prague; emergency=fire_hydrant 4,217 CZ / 495 Prague; fire_hydrant:type=underground 1,051 CZ (taginfo Geofabrik and Postpass within relation 435514, 2026-09-27) |
+| license | CC BY 4.0 ("datový podklad © IPR Praha") + IPR consent for all open data in OSM (2018) |
+| license_url | https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html |
+| license_status | ok |
+| update_freq | none, archival snapshot ("Stav k 30.6.2024, dále neaktualizované") |
+| impact | 4 |
+| verified | yes |
 
 ## Notes
 

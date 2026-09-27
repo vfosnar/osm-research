@@ -1,19 +1,20 @@
-```
-name: VÚV TGM / MŽP – Oblasti povrchových vod využívaných ke koupání (official EU bathing waters monitored by KHS)
-publisher: Výzkumný ústav vodohospodářský T. G. Masaryka, v.v.i. (for MŽP), IČO 00020711
-url: https://heis.vuv.cz/data/webmap/datovesady/isvs/KoupaciOblast/E_ISVS$KOUP_OBL.zip (NKOD: https://data.gov.cz/zdroj/datové-sady/00020711/25ebefbd7d10ebd202cec12d7308de7c); WFS https://ags2.vuv.cz/arcgis/services/isvs_voda/isvs_voda/MapServer/WFSServer
-format: SHP (multipoint, S-JTSK EPSG:5514, UTF-8 .cpg)
-coords: yes
-records: 152 bathing sites (DTMDS_REF 30052025, i.e. the 2025 season list)
-osm_tags: leisure=bathing_place (node; name=<NAZ_KOBL>), or leisure=swimming_area where roped/buoyed; ref:CZ:koupaci=<KOBL_ID> (e.g. KO104001, new key); website=<RZH_URL> (MZe water profile)
-osm_count_cz: leisure=bathing_place 30; leisure=swimming_area not counted (Geofabrik taginfo 2026-09-27)
-license: CC BY 4.0 (NKOD terms: copyrighted work + database, authors VÚV TGM and MŽP)
-license_url: https://creativecommons.org/licenses/by/4.0/
-license_status: needs_waiver
-update_freq: yearly (list set per bathing season; NKOD "OTHER")
-impact: 2
-verified: yes
-```
+# VÚV TGM / MŽP – Oblasti povrchových vod využívaných ke koupání (official EU bathing waters monitored by KHS)
+
+| Field | Value |
+|---|---|
+| publisher | Výzkumný ústav vodohospodářský T. G. Masaryka, v.v.i. (for MŽP), IČO 00020711 |
+| url | https://heis.vuv.cz/data/webmap/datovesady/isvs/KoupaciOblast/E_ISVS$KOUP_OBL.zip (NKOD: https://data.gov.cz/zdroj/datové-sady/00020711/25ebefbd7d10ebd202cec12d7308de7c); WFS https://ags2.vuv.cz/arcgis/services/isvs_voda/isvs_voda/MapServer/WFSServer |
+| format | SHP (multipoint, S-JTSK EPSG:5514, UTF-8 .cpg) |
+| coords | yes |
+| records | 152 bathing sites (DTMDS_REF 30052025, i.e. the 2025 season list) |
+| osm_tags | leisure=bathing_place (node; name=&lt;NAZ_KOBL&gt;), or leisure=swimming_area where roped/buoyed; ref:CZ:koupaci=&lt;KOBL_ID&gt; (e.g. KO104001, new key); website=&lt;RZH_URL&gt; (MZe water profile) |
+| osm_count_cz | leisure=bathing_place 30; leisure=swimming_area not counted (Geofabrik taginfo 2026-09-27) |
+| license | CC BY 4.0 (NKOD terms: copyrighted work + database, authors VÚV TGM and MŽP) |
+| license_url | https://creativecommons.org/licenses/by/4.0/ |
+| license_status | needs_waiver |
+| update_freq | yearly (list set per bathing season; NKOD "OTHER") |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 - Fields: KOBL_ID (stable EU bathing-water ID), name (e.g. "VN Slapy – Měřín", "koupaliště Šeberák"), municipality, stream/reservoir IDs, coordinates, and RZH_URL (link to the MZe bathing-water profile).

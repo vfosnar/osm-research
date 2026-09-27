@@ -1,17 +1,20 @@
-name: Oázy chladu – kašny a fontány, studánky a prameny, pumpy, mlžítka (Praha)
-publisher: IPR Praha (content by MHMP)
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_FONTANY_B/FeatureServer/0 ; https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_STUDANKYPRAMENY_B/FeatureServer/0 ; https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_PUMPY_B/FeatureServer/0 ; https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_MLZITKA_B/FeatureServer/0
-format: ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads
-coords: yes
-records: fountains 297 (fontána 197, kašna 86, kaskáda 14); springs/wells 213; hand pumps 94; mist sprayers 52 (2026-09-27)
-osm_tags: amenity=fountain (+ fountain=decorative, name); natural=spring or man_made=water_well (from `typ`: studánka/pramen/prameniště → natural=spring, studna → man_made=water_well) + drinking_water=yes|no only when druh_vody=P/U; man_made=water_well + pump=manual for pumps; mist sprayers: amenity=mist_spraying_cooler — not verified on wiki, see notes
-osm_count_cz: amenity=fountain 2,911 CZ / 435 Prague; natural=spring 4,844 CZ / 78 Prague; man_made=water_well 2,521 CZ / 86 Prague (taginfo Geofabrik and Postpass relation 435514, 2026-09-27)
-license: CC BY 4.0 + IPR consent for all open data in OSM (2018)
-license_url: https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html
-license_status: ok
-update_freq: seasonal (dct:modified 2026-07-31)
-impact: 3
-verified: yes
+# Oázy chladu – kašny a fontány, studánky a prameny, pumpy, mlžítka (Praha)
+
+| Field | Value |
+|---|---|
+| publisher | IPR Praha (content by MHMP) |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_FONTANY_B/FeatureServer/0 ; https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_STUDANKYPRAMENY_B/FeatureServer/0 ; https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_PUMPY_B/FeatureServer/0 ; https://mp.iprpraha.cz/arcgis/rest/services/Hosted/AGD_CUR_AGD_OCH_MLZITKA_B/FeatureServer/0 |
+| format | ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads |
+| coords | yes |
+| records | fountains 297 (fontána 197, kašna 86, kaskáda 14); springs/wells 213; hand pumps 94; mist sprayers 52 (2026-09-27) |
+| osm_tags | amenity=fountain (+ fountain=decorative, name); natural=spring or man_made=water_well (from `typ`: studánka/pramen/prameniště → natural=spring, studna → man_made=water_well) + drinking_water=yes\|no only when druh_vody=P/U; man_made=water_well + pump=manual for pumps; mist sprayers: amenity=mist_spraying_cooler — not verified on wiki, see notes |
+| osm_count_cz | amenity=fountain 2,911 CZ / 435 Prague; natural=spring 4,844 CZ / 78 Prague; man_made=water_well 2,521 CZ / 86 Prague (taginfo Geofabrik and Postpass relation 435514, 2026-09-27) |
+| license | CC BY 4.0 + IPR consent for all open data in OSM (2018) |
+| license_url | https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html |
+| license_status | ok |
+| update_freq | seasonal (dct:modified 2026-07-31) |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 

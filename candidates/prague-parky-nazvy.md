@@ -1,17 +1,20 @@
-name: Parky (ÚAP) – named park polygons of Prague
-publisher: IPR Praha
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/URK_CUR_URK_PARKY_P/FeatureServer/0 ; catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::parky-úap-1 (related: MPP – Městské parky https://mp.iprpraha.cz/arcgis/rest/services/Hosted/MPP_CUR_MPP_100_PARKY_P/FeatureServer/0, 953 polygons)
-format: ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads
-coords: yes (polygons)
-records: 1,064 polygons, all with `nazev` (2026-09-27)
-osm_tags: name=* on existing leisure=park / leisure=garden; leisure=park for missing parks (charakter_uap 1–3, 5, 12); access hints from `pristupnost`
-osm_count_cz: leisure=park 6,568 CZ (taginfo 2026-09-27); Prague 830, of which only 178 have a name (Postpass, relation 435514)
-license: CC BY 4.0 + IPR consent for all open data in OSM (2018)
-license_url: https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html
-license_status: ok
-update_freq: irregular, planning-analysis layer (dct:modified 2026-06-06)
-impact: 3
-verified: yes
+# Parky (ÚAP) – named park polygons of Prague
+
+| Field | Value |
+|---|---|
+| publisher | IPR Praha |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/URK_CUR_URK_PARKY_P/FeatureServer/0 ; catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::parky-úap-1 (related: MPP – Městské parky https://mp.iprpraha.cz/arcgis/rest/services/Hosted/MPP_CUR_MPP_100_PARKY_P/FeatureServer/0, 953 polygons) |
+| format | ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads |
+| coords | yes (polygons) |
+| records | 1,064 polygons, all with `nazev` (2026-09-27) |
+| osm_tags | name=* on existing leisure=park / leisure=garden; leisure=park for missing parks (charakter_uap 1–3, 5, 12); access hints from `pristupnost` |
+| osm_count_cz | leisure=park 6,568 CZ (taginfo 2026-09-27); Prague 830, of which only 178 have a name (Postpass, relation 435514) |
+| license | CC BY 4.0 + IPR consent for all open data in OSM (2018) |
+| license_url | https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html |
+| license_status | ok |
+| update_freq | irregular, planning-analysis layer (dct:modified 2026-06-06) |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 

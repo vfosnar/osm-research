@@ -1,19 +1,20 @@
-```
-name: PID GTFS – stop attributes (wheelchair_boarding, platform_code, pathways/levels)
-publisher: Regionální organizátor pražské integrované dopravy (ROPID), IČO 60437359
-url: https://data.pid.cz/PID_GTFS.zip (GTFS, daily); also https://data.pid.cz/stops/json/stops.json (stop groups with wheelchairAccess and lines); catalogue https://pid.cz/opendata/
-format: GTFS ZIP (stops.txt with extra columns asw_node_id, asw_stop_id, zone_region_type; plus pathways.txt, levels.txt); JSON
-coords: yes
-records: stops.txt 20,166 rows (18,689 location_type=0; 260 stations, 338 entrances, 629 generic nodes, 250 boarding areas); pathways.txt 1,532; levels.txt 170. stops.json: 8,535 groups / 17,212 stops
-osm_tags: public_transport=platform (+ highway=bus_stop / railway=tram_stop), wheelchair=yes|no|limited, local_ref=<platform_code>, ref:PID=<stop_id>
-osm_count_cz: ref:PID 16,542 (taginfo 2026-09-26); of those, wheelchair on 4,681 and local_ref on 13,924
-license: CC BY 4.0 (stated on pid.cz/opendata; NKOD: database as copyrighted work = CC BY, no sui generis right)
-license_url: https://pid.cz/opendata/ ; https://creativecommons.org/licenses/by/4.0/
-license_status: needs_waiver
-update_freq: daily
-impact: 2
-verified: yes
-```
+# PID GTFS – stop attributes (wheelchair_boarding, platform_code, pathways/levels)
+
+| Field | Value |
+|---|---|
+| publisher | Regionální organizátor pražské integrované dopravy (ROPID), IČO 60437359 |
+| url | https://data.pid.cz/PID_GTFS.zip (GTFS, daily); also https://data.pid.cz/stops/json/stops.json (stop groups with wheelchairAccess and lines); catalogue https://pid.cz/opendata/ |
+| format | GTFS ZIP (stops.txt with extra columns asw_node_id, asw_stop_id, zone_region_type; plus pathways.txt, levels.txt); JSON |
+| coords | yes |
+| records | stops.txt 20,166 rows (18,689 location_type=0; 260 stations, 338 entrances, 629 generic nodes, 250 boarding areas); pathways.txt 1,532; levels.txt 170. stops.json: 8,535 groups / 17,212 stops |
+| osm_tags | public_transport=platform (+ highway=bus_stop / railway=tram_stop), wheelchair=yes\|no\|limited, local_ref=&lt;platform_code&gt;, ref:PID=&lt;stop_id&gt; |
+| osm_count_cz | ref:PID 16,542 (taginfo 2026-09-26); of those, wheelchair on 4,681 and local_ref on 13,924 |
+| license | CC BY 4.0 (stated on pid.cz/opendata; NKOD: database as copyrighted work = CC BY, no sui generis right) |
+| license_url | https://pid.cz/opendata/ ; https://creativecommons.org/licenses/by/4.0/ |
+| license_status | needs_waiver |
+| update_freq | daily |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 - Stop presence is already covered by vfosnar/jizdni-rady-osm (CIS JŘ). Metro entrances with ref:PID are already in osmcz/sync. This candidate is only about **attributes** on stops that are already mapped.

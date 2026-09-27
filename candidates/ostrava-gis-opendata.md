@@ -1,17 +1,20 @@
-name: Ostrava – Sportoviště, Cyklistické objekty, Cyklostezky (mapy.ostrava.cz opendata)
-publisher: Statutární město Ostrava (Magistrát, odbor útvaru hlavního architekta a GIS)
-url: https://mapy.ostrava.cz/opendata/data/opendata/ (listed in NKOD under publisher 00845451)
-format: zipped GeoJSON / SHP / GML / DXF in S-JTSK and WGS84, e.g. https://mapy.ostrava.cz/opendata/data/opendata/sportoviste_WGS84_gjson.zip, cyklo_bod_WGS84_gjson.zip, cyklo_WGS84_gjson.zip
-coords: yes
-records: sportoviště 263 points; cyklistické objekty 798 points (103 uzamykatelný stojan, 49 stojan na kola, 2 přístřešky, 2 cyklopumpy, 2 úschovny, 16 odpočívek, 69 orientačních plánů, 26 cyklo-semaforů, 338 virtual bike-share stations); cyklostezky 1,066 line segments (incl. ~130 "projekt" = planned)
-osm_tags: leisure=pitch / leisure=sports_centre / leisure=playground / leisure=fitness_station; amenity=bicycle_parking (+bicycle_parking, covered); amenity=bicycle_repair_station; highway=cycleway / cycleway=lane / bicycle=designated + foot=designated (+segregated)
-osm_count_cz: leisure=pitch 33,252; amenity=bicycle_parking 13,650; highway=cycleway 21,260 (taginfo CZ 2026-09-26)
-license: GIS layers: author work CC BY 4.0 ("SMO"), database as author work CC BY 4.0, sui-generis database right CC BY-SA 4.0 (NKOD terms of use). CSV lists from opendata.ostrava.cz ("Veřejná hřiště", "Hřiště otevřená veřejnosti 20xx") are marked no copyright / no DB protection.
-license_url: https://creativecommons.org/licenses/by/4.0/ ; https://creativecommons.org/licenses/by-sa/4.0/deed.cs
-license_status: needs_waiver
-update_freq: IRREG (sportoviště attributes mention 2019 → stale)
-impact: 3
-verified: yes
+# Ostrava – Sportoviště, Cyklistické objekty, Cyklostezky (mapy.ostrava.cz opendata)
+
+| Field | Value |
+|---|---|
+| publisher | Statutární město Ostrava (Magistrát, odbor útvaru hlavního architekta a GIS) |
+| url | https://mapy.ostrava.cz/opendata/data/opendata/ (listed in NKOD under publisher 00845451) |
+| format | zipped GeoJSON / SHP / GML / DXF in S-JTSK and WGS84, e.g. https://mapy.ostrava.cz/opendata/data/opendata/sportoviste_WGS84_gjson.zip, cyklo_bod_WGS84_gjson.zip, cyklo_WGS84_gjson.zip |
+| coords | yes |
+| records | sportoviště 263 points; cyklistické objekty 798 points (103 uzamykatelný stojan, 49 stojan na kola, 2 přístřešky, 2 cyklopumpy, 2 úschovny, 16 odpočívek, 69 orientačních plánů, 26 cyklo-semaforů, 338 virtual bike-share stations); cyklostezky 1,066 line segments (incl. ~130 "projekt" = planned) |
+| osm_tags | leisure=pitch / leisure=sports_centre / leisure=playground / leisure=fitness_station; amenity=bicycle_parking (+bicycle_parking, covered); amenity=bicycle_repair_station; highway=cycleway / cycleway=lane / bicycle=designated + foot=designated (+segregated) |
+| osm_count_cz | leisure=pitch 33,252; amenity=bicycle_parking 13,650; highway=cycleway 21,260 (taginfo CZ 2026-09-26) |
+| license | GIS layers: author work CC BY 4.0 ("SMO"), database as author work CC BY 4.0, sui-generis database right CC BY-SA 4.0 (NKOD terms of use). CSV lists from opendata.ostrava.cz ("Veřejná hřiště", "Hřiště otevřená veřejnosti 20xx") are marked no copyright / no DB protection. |
+| license_url | https://creativecommons.org/licenses/by/4.0/ ; https://creativecommons.org/licenses/by-sa/4.0/deed.cs |
+| license_status | needs_waiver |
+| update_freq | IRREG (sportoviště attributes mention 2019 → stale) |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 - OSM in Ostrava bbox (18.10,49.72,18.40,49.90, Postpass 2026-09-27): leisure=pitch 657, leisure=playground 255, amenity=bicycle_parking 283, drinking_water 19, benches 995, street lamps 391 — Ostrava is sparsely mapped for street furniture, but the city does NOT publish benches/trees/lamps; only the three layers above have map value.

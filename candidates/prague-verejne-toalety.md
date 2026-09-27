@@ -1,17 +1,20 @@
-name: Veřejné toalety (Praha)
-publisher: IPR Praha (source provider id 43 = HMP-IPR)
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/FSV_CUR_FSV_VEREJNAWC_B/FeatureServer/0 (`/query?where=1%3D1&outFields=*&outSR=4326&f=geojson`); catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::veřejné-toalety
-format: ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads
-coords: yes
-records: 458 (2026-09-27)
-osm_tags: amenity=toilets; wheelchair=yes|no (from `vozickari`); access=customers for shopping-centre / fast-food toilets; centralkey=eurokey for "neveřejné toalety, Euroklíč"
-osm_count_cz: amenity=toilets 3,315 CZ (taginfo 2026-09-27); 418 in Prague (Postpass, relation 435514)
-license: CC BY 4.0 + IPR consent for all open data in OSM (2018)
-license_url: https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html
-license_status: ok
-update_freq: irregular (dct:modified 2025-08-26)
-impact: 3
-verified: yes
+# Veřejné toalety (Praha)
+
+| Field | Value |
+|---|---|
+| publisher | IPR Praha (source provider id 43 = HMP-IPR) |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/FSV_CUR_FSV_VEREJNAWC_B/FeatureServer/0 (`/query?where=1%3D1&outFields=*&outSR=4326&f=geojson`); catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::veřejné-toalety |
+| format | ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads |
+| coords | yes |
+| records | 458 (2026-09-27) |
+| osm_tags | amenity=toilets; wheelchair=yes\|no (from `vozickari`); access=customers for shopping-centre / fast-food toilets; centralkey=eurokey for "neveřejné toalety, Euroklíč" |
+| osm_count_cz | amenity=toilets 3,315 CZ (taginfo 2026-09-27); 418 in Prague (Postpass, relation 435514) |
+| license | CC BY 4.0 + IPR consent for all open data in OSM (2018) |
+| license_url | https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html |
+| license_status | ok |
+| update_freq | irregular (dct:modified 2025-08-26) |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 

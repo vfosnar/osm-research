@@ -1,17 +1,20 @@
-name: Cyklopasport Pardubického kraje – rozcestníky (značení), odpočívky, trasy
-publisher: Pardubický kraj (data.pardubickykraj.cz)
-url: https://data.pardubickykraj.cz/ (ArcGIS Hub items c1579b1fbd5949a599658850ac94be25 rozcestníky, 8b2c2bb2f53946bca23079e57bd9cda9 odpočívky, 5068a184a052451eb1d59a3dc6dfea08 trasy)
-format: ArcGIS FeatureServer: https://services.arcgis.com/S6UQzkU4EoJgYA53/arcgis/rest/services/Cyklopasport_rozcestniky/FeatureServer/8 ; .../Cyklopasport_odpocivky/FeatureServer/7 ; .../Cyklopasport_trasy/FeatureServer/4 (hub download GeoJSON/CSV/SHP)
-coords: yes
-records: rozcestníky/značení 8,722 points (ZNACENI_OL: 5,731 silniční, 2,528 pásové, 387 jiné…); odpočívky 1,015 points (399 lavice se stolem, 261 lavice, 191 mapa, 128 informační tabule, 23 tabule, 1 samoobslužný servis…); trasy 379 line sections (trasa name, úroveň nadregionální/regionální, úsek)
-osm_tags: odpočívky → leisure=picnic_table / amenity=bench / tourism=information + information=board|map (+ bicycle=yes), amenity=waste_basket (KOS), covered/shelter (KRYTE); značení → tourism=information + information=guidepost + bicycle=yes (only where it is a directional sign; strip/road markers = information=route_marker); trasy → QA for route=bicycle relations
-osm_count_cz: information=guidepost 27,839; leisure=picnic_table 8,749; amenity=bench 89,222 (taginfo CZ 2026-09-26)
-license: CC0 (item licenseInfo "CC0")
-license_url: https://creativecommons.org/publicdomain/zero/1.0/
-license_status: ok
-update_freq: survey 2021 (photo filenames IMG_20210902…); layer last edited 2024-02-08, item modified 2024-11
-impact: 3
-verified: yes
+# Cyklopasport Pardubického kraje – rozcestníky (značení), odpočívky, trasy
+
+| Field | Value |
+|---|---|
+| publisher | Pardubický kraj (data.pardubickykraj.cz) |
+| url | https://data.pardubickykraj.cz/ (ArcGIS Hub items c1579b1fbd5949a599658850ac94be25 rozcestníky, 8b2c2bb2f53946bca23079e57bd9cda9 odpočívky, 5068a184a052451eb1d59a3dc6dfea08 trasy) |
+| format | ArcGIS FeatureServer: https://services.arcgis.com/S6UQzkU4EoJgYA53/arcgis/rest/services/Cyklopasport_rozcestniky/FeatureServer/8 ; .../Cyklopasport_odpocivky/FeatureServer/7 ; .../Cyklopasport_trasy/FeatureServer/4 (hub download GeoJSON/CSV/SHP) |
+| coords | yes |
+| records | rozcestníky/značení 8,722 points (ZNACENI_OL: 5,731 silniční, 2,528 pásové, 387 jiné…); odpočívky 1,015 points (399 lavice se stolem, 261 lavice, 191 mapa, 128 informační tabule, 23 tabule, 1 samoobslužný servis…); trasy 379 line sections (trasa name, úroveň nadregionální/regionální, úsek) |
+| osm_tags | odpočívky → leisure=picnic_table / amenity=bench / tourism=information + information=board\|map (+ bicycle=yes), amenity=waste_basket (KOS), covered/shelter (KRYTE); značení → tourism=information + information=guidepost + bicycle=yes (only where it is a directional sign; strip/road markers = information=route_marker); trasy → QA for route=bicycle relations |
+| osm_count_cz | information=guidepost 27,839; leisure=picnic_table 8,749; amenity=bench 89,222 (taginfo CZ 2026-09-26) |
+| license | CC0 (item licenseInfo "CC0") |
+| license_url | https://creativecommons.org/publicdomain/zero/1.0/ |
+| license_status | ok |
+| update_freq | survey 2021 (photo filenames IMG_20210902…); layer last edited 2024-02-08, item modified 2024-11 |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 - OSM in a Pardubický-kraj bbox (15.40,49.60,16.90,50.15 – includes border strips of neighbouring regions; Postpass 2026-09-27): information=guidepost 2,830 (1,051 with bicycle=yes/guidepost=bicycle), picnic_table 980, bench 7,513. Dataset adds up to ~660 benches/tables along cycle routes and fills cycle-sign gaps.

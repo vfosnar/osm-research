@@ -1,19 +1,20 @@
-```
-name: Rejstřík sportu – Seznam sportovních zařízení (public part)
-publisher: Národní sportovní agentura (NSA)
-url: https://rejstriksportu.cz/dashboard/public/agenda/sportoviste (JSON API: POST https://rejstriksportu.cz/api/NxWebAgendaEREJPublicSportoviste/List, metadata GET .../ListMetadata)
-format: JSON via undocumented SPA API (UI offers download from grid)
-coords: address-only (obec, ulice, č.p., č.o., část obce, PSČ; no RÚIAN code, no coordinates in the public list)
-records: 11,747 (totalCount reported by API, 2026-09-27)
-osm_tags: leisure=sports_centre / leisure=pitch / leisure=stadium / leisure=sports_hall / leisure=swimming_pool + sport=*
-osm_count_cz: leisure=pitch 33,252; leisure=sports_centre 3,046
-license: not stated (no NKOD record, no terms on rejstriksportu.cz found)
-license_url: n/a
-license_status: unclear
-update_freq: continuous (registry maintained by sports organisations)
-impact: 2
-verified: partial
-```
+# Rejstřík sportu – Seznam sportovních zařízení (public part)
+
+| Field | Value |
+|---|---|
+| publisher | Národní sportovní agentura (NSA) |
+| url | https://rejstriksportu.cz/dashboard/public/agenda/sportoviste (JSON API: POST https://rejstriksportu.cz/api/NxWebAgendaEREJPublicSportoviste/List, metadata GET .../ListMetadata) |
+| format | JSON via undocumented SPA API (UI offers download from grid) |
+| coords | address-only (obec, ulice, č.p., č.o., část obce, PSČ; no RÚIAN code, no coordinates in the public list) |
+| records | 11,747 (totalCount reported by API, 2026-09-27) |
+| osm_tags | leisure=sports_centre / leisure=pitch / leisure=stadium / leisure=sports_hall / leisure=swimming_pool + sport=* |
+| osm_count_cz | leisure=pitch 33,252; leisure=sports_centre 3,046 |
+| license | not stated (no NKOD record, no terms on rejstriksportu.cz found) |
+| license_url | n/a |
+| license_status | unclear |
+| update_freq | continuous (registry maintained by sports organisations) |
+| impact | 2 |
+| verified | partial |
 
 ## Notes
 - Confirmed that the public API returns totalCount 11,747 with fields id (GUID), nazev, typ (e.g. "letiště pro sportovní létání"), obec, ulice, cisloDomovni, cisloOrientacni, castObce, psc, okres, kraj. I could not work out the paging parameters (the API returned only 1 item for every combination I tried), so I have not verified the full type breakdown.

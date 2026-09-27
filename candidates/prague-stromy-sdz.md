@@ -1,17 +1,20 @@
-name: Sdílená data o zeleni – vegetační prvky – body (stromy, keře)
-publisher: IPR Praha (data from MHMP-OCP, TSK hl. m. Prahy, MHMP-HOM and 13 městské části)
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/OPK_CUR_OPK_SMZ_VP_B/FeatureServer/0 (query e.g. `/query?where=kod_vp%3D71&outFields=*&outSR=4326&f=geojson`, paged by 2000); catalogue page https://opendata.geoportalpraha.cz/datasets/iprpraha::sdílená-data-o-zeleni-vegetační-prvky-body-1
-format: ArcGIS FeatureServer (GeoJSON/JSON via REST, also SHP/CSV/GeoJSON download from ArcGIS Hub)
-coords: yes (multipoint, one point each)
-records: 201,702 points, of which 171,276 are kod_vp=71 "Strom" (trees), 30,170 kod_vp=51 "Keř" (shrubs), 181 container greenery, 75 climbers (fetched 2026-09-27)
-osm_tags: natural=tree; leaf_type=broadleaved|needleleaved from kod_drevin (1 Jehličnatý → needleleaved, 2 Listnatý → broadleaved, 3 Ovocný → broadleaved); optional ref:ipr=<globalid>
-osm_count_cz: natural=tree 136,307 in CZ (taginfo Geofabrik, 2026-09-27); 18,576 in Prague (Postpass, within relation 435514, 2026-09-27)
-license: CC BY 4.0 ("datový podklad © IPR Praha") + explicit IPR consent for use of all IPR open data in OSM (e-mail from Mgr. Bohdan Baron, 2018-01-29)
-license_url: https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; consent: https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html (listed on wiki Contributors page)
-license_status: ok
-update_freq: continuous (dct:modified 2026-09-25; per-record `aktualizace` dates from 2025-02 to 2026-08)
-impact: 5
-verified: yes
+# Sdílená data o zeleni – vegetační prvky – body (stromy, keře)
+
+| Field | Value |
+|---|---|
+| publisher | IPR Praha (data from MHMP-OCP, TSK hl. m. Prahy, MHMP-HOM and 13 městské části) |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/OPK_CUR_OPK_SMZ_VP_B/FeatureServer/0 (query e.g. `/query?where=kod_vp%3D71&outFields=*&outSR=4326&f=geojson`, paged by 2000); catalogue page https://opendata.geoportalpraha.cz/datasets/iprpraha::sdílená-data-o-zeleni-vegetační-prvky-body-1 |
+| format | ArcGIS FeatureServer (GeoJSON/JSON via REST, also SHP/CSV/GeoJSON download from ArcGIS Hub) |
+| coords | yes (multipoint, one point each) |
+| records | 201,702 points, of which 171,276 are kod_vp=71 "Strom" (trees), 30,170 kod_vp=51 "Keř" (shrubs), 181 container greenery, 75 climbers (fetched 2026-09-27) |
+| osm_tags | natural=tree; leaf_type=broadleaved\|needleleaved from kod_drevin (1 Jehličnatý → needleleaved, 2 Listnatý → broadleaved, 3 Ovocný → broadleaved); optional ref:ipr=&lt;globalid&gt; |
+| osm_count_cz | natural=tree 136,307 in CZ (taginfo Geofabrik, 2026-09-27); 18,576 in Prague (Postpass, within relation 435514, 2026-09-27) |
+| license | CC BY 4.0 ("datový podklad © IPR Praha") + explicit IPR consent for use of all IPR open data in OSM (e-mail from Mgr. Bohdan Baron, 2018-01-29) |
+| license_url | https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; consent: https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html (listed on wiki Contributors page) |
+| license_status | ok |
+| update_freq | continuous (dct:modified 2026-09-25; per-record `aktualizace` dates from 2025-02 to 2026-08) |
+| impact | 5 |
+| verified | yes |
 
 ## Notes
 

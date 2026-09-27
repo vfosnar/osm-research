@@ -1,19 +1,20 @@
-```
-name: Umístění a vlastnosti stanovišť pro plavidla (berths: kotviště, překladiště, přístaviště, vývaziště, přístavní polohy)
-publisher: Státní plavební správa (SPS), IČO 00003352; served through EuRIS (European River Information Services portal)
-url: NKOD https://data.gov.cz/zdroj/datové-sady/00003352/1467543610 → API https://www.eurisportal.eu/doc/api/?urls.primaryName=Berth_v2 ; geometry: https://www.eurisportal.eu/api/arcgis/rest/services/berths/0/query?where=1%3D1&geometry=12.0,48.5,18.9,51.1&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&outFields=*&returnGeometry=true&f=json ; attributes: https://www.eurisportal.eu/visuris/api/Berths_v2/GetCompactBerths?$filter=startswith(locode,'CZ') (paged, $top ≤ 100) and .../Berths_v2/GetBerth?isrs=<ISRS>
-format: JSON (ArcGIS REST FeatureServer-like, polyline); REST JSON
-coords: yes (polylines along the bank, WGS84)
-records: 317 CZ berths in the Berth API, 280 with geometry in the ArcGIS layer (Elbe 194, Vltava 97, Morava 20, Berounka 6). By function: 202 berths without transhipment (přístavní polohy / vývaziště), 49 ferry/passenger berths (přístaviště), 29 transhipment berths (překladiště)
-osm_tags: mooring=yes|ferry|commercial (on ways along the bank), amenity=ferry_terminal for passenger landings, ref:isrs=<ISRS code> (proposed)
-osm_count_cz: mooring=* 175 (taginfo 2026-09-26), leisure=marina 166, waterway=milestone 1
-license: NKOD terms: no copyrighted work, not a copyright-protected database, no sui generis right. SPS also calls it open data per §3(5) InfZ and lists it as a High-Value Dataset. The EuRIS portal's own terms (eurisportal.eu/disclaimer) are rendered by JS and could not be read
-license_url: https://data.gov.cz/zdroj/datové-sady/00003352/1467543610 ; https://sps.gov.cz/organizace/opendata
-license_status: ok (per NKOD); confirm that the EuRIS General Terms do not add restrictions
-update_freq: as needed (NKOD: AS_NEEDED)
-impact: 2
-verified: yes
-```
+# Umístění a vlastnosti stanovišť pro plavidla (berths: kotviště, překladiště, přístaviště, vývaziště, přístavní polohy)
+
+| Field | Value |
+|---|---|
+| publisher | Státní plavební správa (SPS), IČO 00003352; served through EuRIS (European River Information Services portal) |
+| url | NKOD https://data.gov.cz/zdroj/datové-sady/00003352/1467543610 → API https://www.eurisportal.eu/doc/api/?urls.primaryName=Berth_v2 ; geometry: https://www.eurisportal.eu/api/arcgis/rest/services/berths/0/query?where=1%3D1&geometry=12.0,48.5,18.9,51.1&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&outFields=*&returnGeometry=true&f=json ; attributes: https://www.eurisportal.eu/visuris/api/Berths_v2/GetCompactBerths?$filter=startswith(locode,'CZ') (paged, $top ≤ 100) and .../Berths_v2/GetBerth?isrs=&lt;ISRS&gt; |
+| format | JSON (ArcGIS REST FeatureServer-like, polyline); REST JSON |
+| coords | yes (polylines along the bank, WGS84) |
+| records | 317 CZ berths in the Berth API, 280 with geometry in the ArcGIS layer (Elbe 194, Vltava 97, Morava 20, Berounka 6). By function: 202 berths without transhipment (přístavní polohy / vývaziště), 49 ferry/passenger berths (přístaviště), 29 transhipment berths (překladiště) |
+| osm_tags | mooring=yes\|ferry\|commercial (on ways along the bank), amenity=ferry_terminal for passenger landings, ref:isrs=&lt;ISRS code&gt; (proposed) |
+| osm_count_cz | mooring=* 175 (taginfo 2026-09-26), leisure=marina 166, waterway=milestone 1 |
+| license | NKOD terms: no copyrighted work, not a copyright-protected database, no sui generis right. SPS also calls it open data per §3(5) InfZ and lists it as a High-Value Dataset. The EuRIS portal's own terms (eurisportal.eu/disclaimer) are rendered by JS and could not be read |
+| license_url | https://data.gov.cz/zdroj/datové-sady/00003352/1467543610 ; https://sps.gov.cz/organizace/opendata |
+| license_status | ok (per NKOD); confirm that the EuRIS General Terms do not add restrictions |
+| update_freq | as needed (NKOD: AS_NEEDED) |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 - **Stable ID:** the ISRS location code, e.g. CZBAB07008BER1100414. It encodes country, UN/LOCODE, fairway section, object type and hectometre (river km × 10). Suggested key: `ref:isrs`. There is no such key on the wiki yet, so propose it on talk-cz.

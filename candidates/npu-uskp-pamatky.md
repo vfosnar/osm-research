@@ -1,19 +1,20 @@
-```
-name: Ústřední seznam kulturních památek (ÚSKP) – immovable cultural monuments, incl. spatial identification (definition points / centroids / polygons)
-publisher: Národní památkový ústav (NPÚ), IČO 75032333
-url: attributes CSV https://www.pamatkovykatalog.cz/opendata/npu_opendata_KP.csv (also _NKP, _PR, _PZ, _OP, _SD, _NZ.csv); points: ATOM https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/npu.xml -> per-region GML e.g. https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/NPU_USKP_DefinicniBod_CZ010.gml (also NPU_USKP_Centroid, NPU_USKP_Polygon feeds)
-format: CSV (UTF-8, comma); GML 3 (FME) in EPSG:5514, 14 files (one per kraj)
-coords: yes (GML points/polygons, S-JTSK); CSV is address-only
-records: CSV KP 39,161 (objekt 25,924, areál 12,194, soubor 985); GML definition points 39,357 over 14 regions (checked 2026-09-27)
-osm_tags: heritage=3 (kulturní památka) / heritage=2 (národní kulturní památka), heritage:operator=npu, ref:npu=<katalogové číslo>; optionally heritage:ref=<rejstříkové číslo ÚSKP>; added to existing building/historic objects
-osm_count_cz: heritage=* 1,916; heritage:operator=npu 1,355; ref:npu 492 (449 distinct); heritage:ref 265 (taginfo 2026-09-26)
-license: CSV: CC BY 4.0 (NKOD terms spec: autorské dílo CC BY 4.0, not a copyright-protected DB, no sui generis right). GML (ÚSKP spatial identification): NKOD spec says CC BY-SA 4.0 while the ATOM feed <rights> says "CC-BY 4.0" – conflicting.
-license_url: https://data.gov.cz/zdroj/datové-sady/75032333/1319287273 ; https://data.gov.cz/zdroj/datové-sady/75032333/4eddaa535b9455da1dbb30ca4fd13d44 ; https://creativecommons.org/licenses/by/4.0/
-license_status: needs_waiver
-update_freq: CSV monthly; GML "continuous" (feed updated 2025-11-21 at time of check)
-impact: 5
-verified: yes
-```
+# Ústřední seznam kulturních památek (ÚSKP) – immovable cultural monuments, incl. spatial identification (definition points / centroids / polygons)
+
+| Field | Value |
+|---|---|
+| publisher | Národní památkový ústav (NPÚ), IČO 75032333 |
+| url | attributes CSV https://www.pamatkovykatalog.cz/opendata/npu_opendata_KP.csv (also _NKP, _PR, _PZ, _OP, _SD, _NZ.csv); points: ATOM https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/npu.xml -> per-region GML e.g. https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/NPU_USKP_DefinicniBod_CZ010.gml (also NPU_USKP_Centroid, NPU_USKP_Polygon feeds) |
+| format | CSV (UTF-8, comma); GML 3 (FME) in EPSG:5514, 14 files (one per kraj) |
+| coords | yes (GML points/polygons, S-JTSK); CSV is address-only |
+| records | CSV KP 39,161 (objekt 25,924, areál 12,194, soubor 985); GML definition points 39,357 over 14 regions (checked 2026-09-27) |
+| osm_tags | heritage=3 (kulturní památka) / heritage=2 (národní kulturní památka), heritage:operator=npu, ref:npu=&lt;katalogové číslo&gt;; optionally heritage:ref=&lt;rejstříkové číslo ÚSKP&gt;; added to existing building/historic objects |
+| osm_count_cz | heritage=* 1,916; heritage:operator=npu 1,355; ref:npu 492 (449 distinct); heritage:ref 265 (taginfo 2026-09-26) |
+| license | CSV: CC BY 4.0 (NKOD terms spec: autorské dílo CC BY 4.0, not a copyright-protected DB, no sui generis right). GML (ÚSKP spatial identification): NKOD spec says CC BY-SA 4.0 while the ATOM feed &lt;rights&gt; says "CC-BY 4.0" – conflicting. |
+| license_url | https://data.gov.cz/zdroj/datové-sady/75032333/1319287273 ; https://data.gov.cz/zdroj/datové-sady/75032333/4eddaa535b9455da1dbb30ca4fd13d44 ; https://creativecommons.org/licenses/by/4.0/ |
+| license_status | needs_waiver |
+| update_freq | CSV monthly; GML "continuous" (feed updated 2025-11-21 at time of check) |
+| impact | 5 |
+| verified | yes |
 
 ## Notes
 - **Gap is huge.** Czechia has ~39k listed immovable monuments; OSM has only 1,916 objects with `heritage=*` and 492 with `ref:npu`. Prague bbox (Postpass): 242 heritage-tagged objects vs 2,173 ÚSKP points in Prague.

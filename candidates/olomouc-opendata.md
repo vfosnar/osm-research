@@ -1,17 +1,20 @@
-name: Data Olomouc – Stojany Olomouc, Hydranty SMOl, Cyklostezky Olomouc
-publisher: Statutární město Olomouc
-url: https://opendata.olomouc.eu/ (ArcGIS Hub; services3.arcgis.com/W4pu2xsRj3cVEctz)
-format: ArcGIS FeatureServer + hub downloads (GeoJSON, CSV, SHP, KML)
-coords: yes
-records: bike stands 395 points; fire hydrants 277 points; cycle paths 95 lines; public (cyklo)servisní místa 4
-osm_tags: amenity=bicycle_parking; emergency=fire_hydrant (+fire_hydrant:type=underground|pillar — CZ usage 1,051 / 2,931; fire_hydrant:diameter; ref); highway=cycleway
-osm_count_cz: amenity=bicycle_parking 13,650; emergency=fire_hydrant 4,217 (taginfo CZ 2026-09-26)
-license: CC BY 4.0 (item licenseInfo "Licence CC BY 4.0" on every dataset)
-license_url: https://creativecommons.org/licenses/by/4.0/
-license_status: needs_waiver
-update_freq: unknown (hydrant revisions dated 2024)
-impact: 2
-verified: yes
+# Data Olomouc – Stojany Olomouc, Hydranty SMOl, Cyklostezky Olomouc
+
+| Field | Value |
+|---|---|
+| publisher | Statutární město Olomouc |
+| url | https://opendata.olomouc.eu/ (ArcGIS Hub; services3.arcgis.com/W4pu2xsRj3cVEctz) |
+| format | ArcGIS FeatureServer + hub downloads (GeoJSON, CSV, SHP, KML) |
+| coords | yes |
+| records | bike stands 395 points; fire hydrants 277 points; cycle paths 95 lines; public (cyklo)servisní místa 4 |
+| osm_tags | amenity=bicycle_parking; emergency=fire_hydrant (+fire_hydrant:type=underground\|pillar — CZ usage 1,051 / 2,931; fire_hydrant:diameter; ref); highway=cycleway |
+| osm_count_cz | amenity=bicycle_parking 13,650; emergency=fire_hydrant 4,217 (taginfo CZ 2026-09-26) |
+| license | CC BY 4.0 (item licenseInfo "Licence CC BY 4.0" on every dataset) |
+| license_url | https://creativecommons.org/licenses/by/4.0/ |
+| license_status | needs_waiver |
+| update_freq | unknown (hydrant revisions dated 2024) |
+| impact | 2 |
+| verified | yes |
 
 ## Endpoints
 - https://services3.arcgis.com/W4pu2xsRj3cVEctz/arcgis/rest/services/stojany_OL/FeatureServer/0 (fields: Typ "STOJAN", ID only)

@@ -1,17 +1,20 @@
-name: Veřejná hřiště (Praha) – dětská a veřejná hřiště
-publisher: IPR Praha (ÚAP layer RV_VybavenostVPP_b)
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/FSV_CUR_RV_VYBAVENOSTVPP_B/FeatureServer/0 ; catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::veřejná-hřiště
-format: ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads
-coords: yes (points)
-records: 1,772 (typ_uap 11_03 dětské hřiště 1,340; 11_02 veřejné hřiště 432); verej_pristup: přístupný 1,514, v režimu 88, nepřístupný 158, účelový 12 (2026-09-27)
-osm_tags: leisure=playground (11_03); leisure=pitch (11_02, sport unknown); access=private / no for verej_pristup 3
-osm_count_cz: leisure=playground 15,549 CZ / 1,698 Prague; leisure=pitch 2,672 Prague (taginfo Geofabrik and Postpass relation 435514, 2026-09-27)
-license: CC BY 4.0 + IPR consent for all open data in OSM (2018)
-license_url: https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html
-license_status: ok
-update_freq: irregular (dct:modified 2026-07-30)
-impact: 2
-verified: yes
+# Veřejná hřiště (Praha) – dětská a veřejná hřiště
+
+| Field | Value |
+|---|---|
+| publisher | IPR Praha (ÚAP layer RV_VybavenostVPP_b) |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/FSV_CUR_RV_VYBAVENOSTVPP_B/FeatureServer/0 ; catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::veřejná-hřiště |
+| format | ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads |
+| coords | yes (points) |
+| records | 1,772 (typ_uap 11_03 dětské hřiště 1,340; 11_02 veřejné hřiště 432); verej_pristup: přístupný 1,514, v režimu 88, nepřístupný 158, účelový 12 (2026-09-27) |
+| osm_tags | leisure=playground (11_03); leisure=pitch (11_02, sport unknown); access=private / no for verej_pristup 3 |
+| osm_count_cz | leisure=playground 15,549 CZ / 1,698 Prague; leisure=pitch 2,672 Prague (taginfo Geofabrik and Postpass relation 435514, 2026-09-27) |
+| license | CC BY 4.0 + IPR consent for all open data in OSM (2018) |
+| license_url | https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html |
+| license_status | ok |
+| update_freq | irregular (dct:modified 2026-07-30) |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 

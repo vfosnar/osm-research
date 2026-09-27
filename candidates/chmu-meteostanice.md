@@ -1,19 +1,20 @@
-```
-name: ČHMÚ – metadata meteorologických, klimatologických a srážkoměrných stanic (station list behind the open climate data)
-publisher: Český hydrometeorologický ústav (ČHMÚ), IČO 00020699
-url: https://opendata.chmi.cz/meteorology/climate/now/metadata/meta1-20260927.json (a new dated file every day; the directory https://opendata.chmi.cz/meteorology/climate/now/metadata/ lists them). NKOD: https://data.gov.cz/zdroj/datové-sady/00020699/2f5c5838ee15a8a7264a04d2b1687ef0
-format: JSON (DataCollection: header WSI,GH_ID,FULL_NAME,GEOGR1(lon),GEOGR2(lat),ELEVATION,BEGIN_DATE); meta2 = the elements measured at each station
-coords: yes (WGS84)
-records: 765 rows, 764 inside the CZ bbox and 760 unique stations (GH_ID). 40 are WMO synoptic stations (WSI 0-20000-0-xxxxx) and 724 are national stations (WSI 0-203-0-xxxx)
-osm_tags: man_made=monitoring_station + monitoring:weather=yes (for precipitation-only stations, monitoring:precipitation=yes) + name + ele + operator=Český hydrometeorologický ústav + operator:short=ČHMÚ + operator:wikidata=Q5201751 + ref:wigos=<WSI>
-osm_count_cz: man_made=monitoring_station 1,540; monitoring:weather=yes 210; monitoring:precipitation=yes 10; ref:wmo 8; ref:wigos 1 (Geofabrik taginfo, 2026-09-27)
-license: CC BY 4.0 (NKOD distribution of the "Aktuální meteorologická data … 10 minut a 1 hodina" dataset, which contains the metadata files). NB: the separate INSPIRE station layer (stanice_CHMU_2024_epsg4258.gpkg, NKOD …/a6dd7826d86120a6ecf42a902fa82aca) is CC BY-NC-ND 4.0, so do not use it
-license_url: https://creativecommons.org/licenses/by/4.0/
-license_status: needs_waiver
-update_freq: daily (metadata file regenerated each day)
-impact: 2
-verified: yes
-```
+# ČHMÚ – metadata meteorologických, klimatologických a srážkoměrných stanic (station list behind the open climate data)
+
+| Field | Value |
+|---|---|
+| publisher | Český hydrometeorologický ústav (ČHMÚ), IČO 00020699 |
+| url | https://opendata.chmi.cz/meteorology/climate/now/metadata/meta1-20260927.json (a new dated file every day; the directory https://opendata.chmi.cz/meteorology/climate/now/metadata/ lists them). NKOD: https://data.gov.cz/zdroj/datové-sady/00020699/2f5c5838ee15a8a7264a04d2b1687ef0 |
+| format | JSON (DataCollection: header WSI,GH_ID,FULL_NAME,GEOGR1(lon),GEOGR2(lat),ELEVATION,BEGIN_DATE); meta2 = the elements measured at each station |
+| coords | yes (WGS84) |
+| records | 765 rows, 764 inside the CZ bbox and 760 unique stations (GH_ID). 40 are WMO synoptic stations (WSI 0-20000-0-xxxxx) and 724 are national stations (WSI 0-203-0-xxxx) |
+| osm_tags | man_made=monitoring_station + monitoring:weather=yes (for precipitation-only stations, monitoring:precipitation=yes) + name + ele + operator=Český hydrometeorologický ústav + operator:short=ČHMÚ + operator:wikidata=Q5201751 + ref:wigos=&lt;WSI&gt; |
+| osm_count_cz | man_made=monitoring_station 1,540; monitoring:weather=yes 210; monitoring:precipitation=yes 10; ref:wmo 8; ref:wigos 1 (Geofabrik taginfo, 2026-09-27) |
+| license | CC BY 4.0 (NKOD distribution of the "Aktuální meteorologická data … 10 minut a 1 hodina" dataset, which contains the metadata files). NB: the separate INSPIRE station layer (stanice_CHMU_2024_epsg4258.gpkg, NKOD …/a6dd7826d86120a6ecf42a902fa82aca) is CC BY-NC-ND 4.0, so do not use it |
+| license_url | https://creativecommons.org/licenses/by/4.0/ |
+| license_status | needs_waiver |
+| update_freq | daily (metadata file regenerated each day) |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 - **Why it is here:** Mapy.com's official data-source list ("Zdroje dat", https://licence.mapy.com/?doc=mapy_attr) credits "© Český hydrometeorologický ústav" for points of interest. This is the open station list behind that credit. The gauging-station half is covered separately in `chmu-vodomerne-stanice.md`.

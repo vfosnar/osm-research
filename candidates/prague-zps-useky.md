@@ -1,17 +1,20 @@
-name: Úseky parkování v zónách placeného stání (ZPS Praha)
-publisher: IPR Praha (data provider id 38 = TSK hl. m. Prahy)
-url: https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DOP_CUR_DOP_ZPS_USEKY_P/FeatureServer/0 ; catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::úseky-parkování-v-zónách-placeného-stání-1
-format: ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads
-coords: yes (polygons of the parking strips)
-records: 16,876 sections (typzony 1 rezidentní 10,502; 2 smíšený 6,133; 3 návštěvnický 151; 7 jiná regulace 90), 2026-09-27
-osm_tags: amenity=parking + parking=street_side + parking:zone=blue|purple|orange (existing Prague convention) + capacity=<ps_zps> + fee=yes; alternatively parking:<side>:zone on the street way per the Street parking scheme
-osm_count_cz: parking:zone=* 647 CZ (taginfo 2026-09-27); in the Prague bbox parking:zone=blue 421, purple 216, orange 9 (Postpass, 2026-09-27); parking:both|left|right:zone on Prague streets ≈104 ways
-license: CC BY 4.0 + IPR consent for all open data in OSM (2018)
-license_url: https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html
-license_status: ok
-update_freq: weekly or more often (dct:modified 2026-09-21)
-impact: 3
-verified: yes
+# Úseky parkování v zónách placeného stání (ZPS Praha)
+
+| Field | Value |
+|---|---|
+| publisher | IPR Praha (data provider id 38 = TSK hl. m. Prahy) |
+| url | https://mp.iprpraha.cz/arcgis/rest/services/Hosted/DOP_CUR_DOP_ZPS_USEKY_P/FeatureServer/0 ; catalogue https://opendata.geoportalpraha.cz/datasets/iprpraha::úseky-parkování-v-zónách-placeného-stání-1 |
+| format | ArcGIS FeatureServer (JSON/GeoJSON), Hub downloads |
+| coords | yes (polygons of the parking strips) |
+| records | 16,876 sections (typzony 1 rezidentní 10,502; 2 smíšený 6,133; 3 návštěvnický 151; 7 jiná regulace 90), 2026-09-27 |
+| osm_tags | amenity=parking + parking=street_side + parking:zone=blue\|purple\|orange (existing Prague convention) + capacity=&lt;ps_zps&gt; + fee=yes; alternatively parking:&lt;side&gt;:zone on the street way per the Street parking scheme |
+| osm_count_cz | parking:zone=* 647 CZ (taginfo 2026-09-27); in the Prague bbox parking:zone=blue 421, purple 216, orange 9 (Postpass, 2026-09-27); parking:both\|left\|right:zone on Prague streets ≈104 ways |
+| license | CC BY 4.0 + IPR consent for all open data in OSM (2018) |
+| license_url | https://geoportalpraha.cz/data-a-sluzby/otevrena-data ; https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html |
+| license_status | ok |
+| update_freq | weekly or more often (dct:modified 2026-09-21) |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 

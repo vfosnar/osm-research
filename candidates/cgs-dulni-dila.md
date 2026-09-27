@@ -1,19 +1,20 @@
-```
-name: Důlní díla v České republice (registry of mine workings: shafts, adits, boreholes, collapses)
-publisher: Česká geologická služba (ČGS), IČO 00025798
-url: https://od.geology.cz/dulni_dila.zip (GeoJSON inside: dulni_dila.geojson, 56 MB); WFS https://mapy.geology.cz/arcgis/services/Dulni_Dila/dulni_dila/MapServer/WFSServer?request=GetCapabilities&service=WFS ; NKOD https://data.gov.cz/zdroj/datové-sady/00025798/2498e3343ea928eb374d534397f4d92a
-format: GeoJSON (WGS84 points; S-JTSK coordinates also in attributes)
-coords: yes
-records: 30,891 (downloaded 2026-09-27; file dated 2026-09-27): Vrt 9,888, Jáma 9,208, Štola 4,435, Jiné 3,410, Šachtice 1,588, Komín 940, Propad 600, Úpadnice 450, Pinka 230, Dobývka 141
-osm_tags: Štola/Úpadnice -> man_made=adit (abandoned ones: abandoned:man_made=adit, as used in CZ); Jáma/Šachtice -> man_made=mineshaft (+ disused/abandoned lifecycle prefix, or historic=mine_shaft for historic ones); plus name, resource=*; suggested ref:cgs:dd=<id_dd>
-osm_count_cz: man_made=adit 589, man_made=mineshaft 284, historic=mine_shaft 33, historic=mine 181, historic=mine_adit 8, abandoned:man_made=adit 51 (taginfo 2026-09-26)
-license: CC BY 4.0 (NKOD terms spec: autorské dílo + DB as copyright work CC BY 4.0, no sui generis right, no personal data)
-license_url: https://data.gov.cz/zdroj/datové-sady/00025798/2498e3343ea928eb374d534397f4d92a ; https://creativecommons.org/licenses/by/4.0/
-license_status: needs_waiver
-update_freq: weekly (NKOD); file regenerated daily-ish (timestamp 2026-09-27 04:34)
-impact: 3
-verified: yes
-```
+# Důlní díla v České republice (registry of mine workings: shafts, adits, boreholes, collapses)
+
+| Field | Value |
+|---|---|
+| publisher | Česká geologická služba (ČGS), IČO 00025798 |
+| url | https://od.geology.cz/dulni_dila.zip (GeoJSON inside: dulni_dila.geojson, 56 MB); WFS https://mapy.geology.cz/arcgis/services/Dulni_Dila/dulni_dila/MapServer/WFSServer?request=GetCapabilities&service=WFS ; NKOD https://data.gov.cz/zdroj/datové-sady/00025798/2498e3343ea928eb374d534397f4d92a |
+| format | GeoJSON (WGS84 points; S-JTSK coordinates also in attributes) |
+| coords | yes |
+| records | 30,891 (downloaded 2026-09-27; file dated 2026-09-27): Vrt 9,888, Jáma 9,208, Štola 4,435, Jiné 3,410, Šachtice 1,588, Komín 940, Propad 600, Úpadnice 450, Pinka 230, Dobývka 141 |
+| osm_tags | Štola/Úpadnice -&gt; man_made=adit (abandoned ones: abandoned:man_made=adit, as used in CZ); Jáma/Šachtice -&gt; man_made=mineshaft (+ disused/abandoned lifecycle prefix, or historic=mine_shaft for historic ones); plus name, resource=*; suggested ref:cgs:dd=&lt;id_dd&gt; |
+| osm_count_cz | man_made=adit 589, man_made=mineshaft 284, historic=mine_shaft 33, historic=mine 181, historic=mine_adit 8, abandoned:man_made=adit 51 (taginfo 2026-09-26) |
+| license | CC BY 4.0 (NKOD terms spec: autorské dílo + DB as copyright work CC BY 4.0, no sui generis right, no personal data) |
+| license_url | https://data.gov.cz/zdroj/datové-sady/00025798/2498e3343ea928eb374d534397f4d92a ; https://creativecommons.org/licenses/by/4.0/ |
+| license_status | needs_waiver |
+| update_freq | weekly (NKOD); file regenerated daily-ish (timestamp 2026-09-27 04:34) |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 - **Gap (Příbram bbox 13.9,49.62,14.1,49.74).** ČGS has 151 Jáma + 84 Šachtice + 53 Štola (+ others). Postpass finds only 19 `man_made=mineshaft` + 8 `man_made=adit` in OSM. Nationally OSM has ~900 shaft/adit features vs ~15,700 shafts and adits in the registry.

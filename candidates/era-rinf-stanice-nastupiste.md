@@ -1,19 +1,20 @@
-```
-name: ERA RINF (Register of Infrastructure) – Czech operational points and platform edges
-publisher: European Union Agency for Railways (ERA); data submitted by Správa železnic as infrastructure manager
-url: https://rinf.data.era.europa.eu/api/v1/sparql/rinf (SPARQL, POST with Content-Type: application/sparql-query); portal https://rinf.data.era.europa.eu/ ; ERA Knowledge Graph info https://www.era.europa.eu/domains/registers/era-knowlege-graph_en
-format: RDF / SPARQL (CSV or JSON results)
-coords: yes (wgs84_pos lat/long on each operational point's netReference)
-records: 3,678 CZ operational points (1,210 stations, 1,542 passenger stops, 483 junctions, others); 4,965 platform edges at 2,649 operational points
-osm_tags: railway=station|halt + uic_ref=54<5-digit code>, railway:ref=<SR70>; railway=platform / railway=platform_edge + height=<m>, length, ref
-osm_count_cz: railway=station 1,218, railway=halt 1,642; uic_ref 926 (all objects); railway:ref on 814 stations + 901 halts; railway=platform 5,871; railway=platform_edge 202; height on about 200 platforms in the CZ bbox (taginfo 2026-09-26, Postpass 2026-09-27)
-license: unclear. The ERA ontology is EUPL 1.2. The RINF data itself has no explicit licence on the pages I could fetch. The EU reuse policy (Decision 2011/833/EU) usually means CC BY 4.0, but I could not confirm that for RINF
-license_url: https://www.era.europa.eu/domains/registers/era-knowlege-graph_en
-license_status: unclear
-update_freq: continuous, as the infrastructure manager updates RINF; the knowledge graph is refreshed periodically (exact cadence not verified)
-impact: 3
-verified: yes
-```
+# ERA RINF (Register of Infrastructure) – Czech operational points and platform edges
+
+| Field | Value |
+|---|---|
+| publisher | European Union Agency for Railways (ERA); data submitted by Správa železnic as infrastructure manager |
+| url | https://rinf.data.era.europa.eu/api/v1/sparql/rinf (SPARQL, POST with Content-Type: application/sparql-query); portal https://rinf.data.era.europa.eu/ ; ERA Knowledge Graph info https://www.era.europa.eu/domains/registers/era-knowlege-graph_en |
+| format | RDF / SPARQL (CSV or JSON results) |
+| coords | yes (wgs84_pos lat/long on each operational point's netReference) |
+| records | 3,678 CZ operational points (1,210 stations, 1,542 passenger stops, 483 junctions, others); 4,965 platform edges at 2,649 operational points |
+| osm_tags | railway=station\|halt + uic_ref=54&lt;5-digit code&gt;, railway:ref=&lt;SR70&gt;; railway=platform / railway=platform_edge + height=&lt;m&gt;, length, ref |
+| osm_count_cz | railway=station 1,218, railway=halt 1,642; uic_ref 926 (all objects); railway:ref on 814 stations + 901 halts; railway=platform 5,871; railway=platform_edge 202; height on about 200 platforms in the CZ bbox (taginfo 2026-09-26, Postpass 2026-09-27) |
+| license | unclear. The ERA ontology is EUPL 1.2. The RINF data itself has no explicit licence on the pages I could fetch. The EU reuse policy (Decision 2011/833/EU) usually means CC BY 4.0, but I could not confirm that for RINF |
+| license_url | https://www.era.europa.eu/domains/registers/era-knowlege-graph_en |
+| license_status | unclear |
+| update_freq | continuous, as the infrastructure manager updates RINF; the knowledge graph is refreshed periodically (exact cadence not verified) |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 - **Queries run on 2026-09-27.**

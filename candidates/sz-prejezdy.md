@@ -1,19 +1,20 @@
-```
-name: Seznam železničních přejezdů na síti Správy železnic (list of level crossings)
-publisher: Správa železnic, státní organizace (IČO 70994234)
-url: https://www.spravazeleznic.cz/documents/50004227/50164276/Seznam+%C5%BEelezni%C4%8Dn%C3%ADch+p%C5%99ejezd%C5%AF+na+s%C3%ADti+Spr%C3%A1vy+%C5%BEeleznic+k+31.12.2025/819364a0-0709-4bf0-8db8-59fd2591ff7a (linked from https://www.spravazeleznic.cz/bezpecna-zeleznice/bezpecnost-na-prejezdech/seznam-prejezdu)
-format: XLSX (one sheet "zdrojová data"; the file is named "...k 31.12.2025.xlsx")
-coords: yes (WGS84 in DMS strings, for example 50° 05' 25.95927'' N)
-records: 7,464 crossings (file dated 31 Dec 2025)
-osm_tags: railway=level_crossing + ref=P<number>, crossing:barrier=*, crossing:light=*, crossing:bell=*, railway:position=<km>
-osm_count_cz: railway=level_crossing 16,686 nodes (taginfo, 2026-09-26). In the CZ bbox, 7,760 distinct ref=P<n> values are present (Postpass, 2026-09-27)
-license: none stated. The file is published on the SŽ website with no terms of use. The related INSPIRE metadata record CZ-SZCZ-PREJEZD says "Data na vyžádání u správce" (data on request from the administrator)
-license_url: https://geoportal.gov.cz/php/micka/record/basic/4d6de208-9080-4488-9863-6e63c0a80138
-license_status: unclear
-update_freq: about yearly (earlier editions: 27 Jan 2020, 31 Dec 2025)
-impact: 2
-verified: yes
-```
+# Seznam železničních přejezdů na síti Správy železnic (list of level crossings)
+
+| Field | Value |
+|---|---|
+| publisher | Správa železnic, státní organizace (IČO 70994234) |
+| url | https://www.spravazeleznic.cz/documents/50004227/50164276/Seznam+%C5%BEelezni%C4%8Dn%C3%ADch+p%C5%99ejezd%C5%AF+na+s%C3%ADti+Spr%C3%A1vy+%C5%BEeleznic+k+31.12.2025/819364a0-0709-4bf0-8db8-59fd2591ff7a (linked from https://www.spravazeleznic.cz/bezpecna-zeleznice/bezpecnost-na-prejezdech/seznam-prejezdu) |
+| format | XLSX (one sheet "zdrojová data"; the file is named "...k 31.12.2025.xlsx") |
+| coords | yes (WGS84 in DMS strings, for example 50° 05' 25.95927'' N) |
+| records | 7,464 crossings (file dated 31 Dec 2025) |
+| osm_tags | railway=level_crossing + ref=P&lt;number&gt;, crossing:barrier=*, crossing:light=*, crossing:bell=*, railway:position=&lt;km&gt; |
+| osm_count_cz | railway=level_crossing 16,686 nodes (taginfo, 2026-09-26). In the CZ bbox, 7,760 distinct ref=P&lt;n&gt; values are present (Postpass, 2026-09-27) |
+| license | none stated. The file is published on the SŽ website with no terms of use. The related INSPIRE metadata record CZ-SZCZ-PREJEZD says "Data na vyžádání u správce" (data on request from the administrator) |
+| license_url | https://geoportal.gov.cz/php/micka/record/basic/4d6de208-9080-4488-9863-6e63c0a80138 |
+| license_status | unclear |
+| update_freq | about yearly (earlier editions: 27 Jan 2020, 31 Dec 2025) |
+| impact | 2 |
+| verified | yes |
 
 ## Notes
 - **Columns:** Identifikace přejezdu (P-number, unique and stable, the number that is shown on the crossing sign for IZS), TÚ přejezdu (line section), Evidenční km poloha, Zabezpečení přejezdu, Krajský úřad, Oblastní ředitelství, Třída komunikace, Zeměpisná šířka, Zeměpisná délka.

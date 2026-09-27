@@ -21,7 +21,8 @@ This repo is only the working memory for new research.
 | `AGENTS.md` | This file: method, tools, conventions. |
 | `candidates/<slug>.md` | One file per candidate source (format below). Prague sources use `prague-` prefix. |
 | `research/` | Human-readable write-ups of broader investigations (e.g. what sources other maps use). |
-| `tools/` | Reusable queries (e.g. `nkod-queries.md`). |
+| `samples/` | Small GeoJSON extracts for previewing candidates on GitHub's map view (see `samples/README.md` for sources and licences). |
+| `tools/` | Reusable queries and scripts (e.g. `nkod-queries.md`, `header_to_table.py`). |
 
 ## Where known sources are tracked (upstream)
 
@@ -74,24 +75,40 @@ Postpass).
 
 ## Candidate file format
 
-`candidates/<slug>.md`:
+`candidates/<slug>.md` starts with a title and a two-column table (plain `key: value`
+lines collapse into one paragraph on GitHub). Escape `|` as `\|` and `<`/`>` as
+`&lt;`/`&gt;` inside the table. `tools/header_to_table.py` converts the old format.
 
 ```
-name:
-publisher:
-url:            # exact, verified download/API URL
-format:
-coords:         # yes / no / address-only
-records:
-osm_tags:       # checked against the wiki page, cited in notes
-osm_count_cz:   # from taginfo or Postpass, with date
-license:
-license_url:
-license_status: # ok / needs_waiver / incompatible / unclear
-update_freq:
-impact:         # 1–5
-verified:       # yes / partial
+# <name>
+
+| Field | Value |
+|---|---|
+| publisher | |
+| url | exact, verified download/API URL |
+| format | |
+| coords | yes / no / address-only |
+| records | |
+| osm_tags | checked against the wiki page, cited in notes |
+| osm_count_cz | from taginfo or Postpass, with date |
+| license | |
+| license_url | |
+| license_status | ok / needs_waiver / incompatible / unclear |
+| update_freq | |
+| impact | 1–5 |
+| verified | yes / partial |
 ```
+
+Then a `## Try it` section so a reader can see the data within a minute:
+
+- **Map preview:** link to `samples/<slug>.geojson` — a small WGS84 extract (one town or
+  area that shows the OSM gap, ≤ 2,000 features, ≤ 1 MB). GitHub renders `.geojson`
+  files as a map. Skip it when the licence is `unclear` or `incompatible`; list the
+  source and licence of every sample in `samples/README.md`.
+- **QGIS:** exactly what to paste and where (e.g. *Layer → Add Layer → Add Vector
+  Layer* with a URL or `/vsizip/vsicurl/…` path, a WFS/ArcGIS REST connection URL, CSV
+  delimiter and X/Y columns, CRS). Test it — at least open the URL and check the format.
+- Optionally a web viewer the publisher runs.
 
 Followed by notes: gap analysis, caveats, suggested `ref:*` key, contacts.
 

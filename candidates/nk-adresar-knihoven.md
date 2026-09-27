@@ -1,19 +1,20 @@
-```
-name: Centrální adresář knihoven a informačních institucí v ČR (ADR)
-publisher: Národní knihovna České republiky, IČO 00023221
-url: https://aleph.nkp.cz/data/adr.xml.gz (NKOD: https://data.gov.cz/zdroj/datové-sady/00023221/1099355216)
-format: MARCXML (gzip, ~2 MB), custom field tags (SGL, NAZ, ADR, OTD, TYP, EMK, ...)
-coords: yes (ADR $g in DMS, e.g. 50°5'11.12"N, 14°24'56.61"E), present on 6,643 of 8,155 records
-records: 8,155 total; 6,375 active (no STT "KNIHOVNA ZRUŠENA!/ZRUŠENÁ INSTITUCE!" flag), 6,167 active with coords; 5,163 active public (obecní/městská/krajská) libraries with coords
-osm_tags: amenity=library, name, opening_hours, website, email, phone, operator, ref:isil=CZ-<sigla> (or ref:CZ:sigla)
-osm_count_cz: amenity=library 1,556; ref:isil 4 (2 in CZ- format)
-license: No copyright work, not a copyright-protected database; sui generis right waived under CC0 1.0 (NKOD terms-of-use)
-license_url: https://data.gov.cz/zdroj/datové-sady/00023221/1099355216 (terms: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ , .../není-autorskoprávně-chráněnou-databází/ , https://creativecommons.org/publicdomain/zero/1.0/)
-license_status: ok
-update_freq: weekly
-impact: 5
-verified: yes
-```
+# Centrální adresář knihoven a informačních institucí v ČR (ADR)
+
+| Field | Value |
+|---|---|
+| publisher | Národní knihovna České republiky, IČO 00023221 |
+| url | https://aleph.nkp.cz/data/adr.xml.gz (NKOD: https://data.gov.cz/zdroj/datové-sady/00023221/1099355216) |
+| format | MARCXML (gzip, ~2 MB), custom field tags (SGL, NAZ, ADR, OTD, TYP, EMK, ...) |
+| coords | yes (ADR $g in DMS, e.g. 50°5'11.12"N, 14°24'56.61"E), present on 6,643 of 8,155 records |
+| records | 8,155 total; 6,375 active (no STT "KNIHOVNA ZRUŠENA!/ZRUŠENÁ INSTITUCE!" flag), 6,167 active with coords; 5,163 active public (obecní/městská/krajská) libraries with coords |
+| osm_tags | amenity=library, name, opening_hours, website, email, phone, operator, ref:isil=CZ-&lt;sigla&gt; (or ref:CZ:sigla) |
+| osm_count_cz | amenity=library 1,556; ref:isil 4 (2 in CZ- format) |
+| license | No copyright work, not a copyright-protected database; sui generis right waived under CC0 1.0 (NKOD terms-of-use) |
+| license_url | https://data.gov.cz/zdroj/datové-sady/00023221/1099355216 (terms: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ , .../není-autorskoprávně-chráněnou-databází/ , https://creativecommons.org/publicdomain/zero/1.0/) |
+| license_status | ok |
+| update_freq | weekly |
+| impact | 5 |
+| verified | yes |
 
 ## Notes
 - Downloaded and parsed the current dump. Type breakdown (TYP $b): obecní knihovna 5,062 (4,842 active); ostatní specializovaná 1,045; městská 521; research institute 375; university 290; medical 228; museum 180; state administration 165; school 141; others. Import the public types (obecní, městská, krajská, národní). Specialised, corporate and ministry libraries are often not publicly accessible and need `access=` or should be skipped.

@@ -1,17 +1,20 @@
-name: Digitální technická mapa krajů – ZPS (základní prostorová situace) per obec, JVF DTM open data
-publisher: Kraje via krajdtm.cz (verified: Kraj Vysočina vys.krajdtm.cz, Jihočeský jck.krajdtm.cz, Královéhradecký khk.krajdtm.cz, Ústecký usk.krajdtm.cz, Moravskoslezský msk.krajdtm.cz); editor packages suffixed _KR (kraj), _OPL, _DOP, _PB
-url: NKOD datasets "ZPS obec <name>" / "ZPS MoMc <name>", e.g. https://data.gov.cz/zdroj/datové-sady/70892156/a873f14ecf3b50a433325193c458d611
-format: JVF DTM XML (GML 3.2, EPSG:5514 S-JTSK, 3D) zipped; e.g. https://vys.krajdtm.cz/dmx-server/orders/30588/download_package/VS/2026/06/30/ZPS/public/VS_CZ063_OBEC_588024_20260630_ZPS_KR.jvf.zip
-coords: yes (geodetic accuracy, S-JTSK)
-records: per municipality; Telč (all 4 packages) 56,548 objects in KR + 12,995 OPL + 131,813 survey points: 5,888 plot (fences), 2,021 zeď, 6,590 budova, 1,388 chodník, 654 parkoviště, 589 schodiště, 147 zábradlí, 72 hřiště, 63 drobná sakrální stavba, 12 studna na veř. prostranství; Koštice (ÚK) 24,720 objects. NKOD holds ~2,700 (Vysočina), ~2,400 (JčK), ~1,900 (KHK), ~1,500 (ÚK), ~1,300 (MSK) dataset records (mostly ZPS packages)
-osm_tags: barrier=fence, barrier=wall / barrier=retaining_wall, building=*, highway=footway + footway=sidewalk, amenity=parking, highway=steps, barrier=guard_rail, leisure=pitch, historic=wayside_shrine / wayside_cross, man_made=water_well, man_made=chimney
-osm_count_cz: barrier=fence 140,340; barrier=wall 26,568; barrier=retaining_wall 10,325; highway=steps 32,691 (taginfo CZ 2026-09-26); OSM in Telč bbox (Postpass): 125 fences, 85 walls, 13 retaining walls vs 5,888 plot + 2,021 zeď objects in ZPS
-license: NKOD terms of use: "neobsahuje autorská díla", "není autorskoprávně chráněnou databází", "není chráněna zvláštním právem pořizovatele databáze", "neobsahuje osobní údaje"
-license_url: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze
-license_status: ok
-update_freq: monthly/quarterly snapshots (packages dated 2026-06-30)
-impact: 4
-verified: partial
+# Digitální technická mapa krajů – ZPS (základní prostorová situace) per obec, JVF DTM open data
+
+| Field | Value |
+|---|---|
+| publisher | Kraje via krajdtm.cz (verified: Kraj Vysočina vys.krajdtm.cz, Jihočeský jck.krajdtm.cz, Královéhradecký khk.krajdtm.cz, Ústecký usk.krajdtm.cz, Moravskoslezský msk.krajdtm.cz); editor packages suffixed _KR (kraj), _OPL, _DOP, _PB |
+| url | NKOD datasets "ZPS obec &lt;name&gt;" / "ZPS MoMc &lt;name&gt;", e.g. https://data.gov.cz/zdroj/datové-sady/70892156/a873f14ecf3b50a433325193c458d611 |
+| format | JVF DTM XML (GML 3.2, EPSG:5514 S-JTSK, 3D) zipped; e.g. https://vys.krajdtm.cz/dmx-server/orders/30588/download_package/VS/2026/06/30/ZPS/public/VS_CZ063_OBEC_588024_20260630_ZPS_KR.jvf.zip |
+| coords | yes (geodetic accuracy, S-JTSK) |
+| records | per municipality; Telč (all 4 packages) 56,548 objects in KR + 12,995 OPL + 131,813 survey points: 5,888 plot (fences), 2,021 zeď, 6,590 budova, 1,388 chodník, 654 parkoviště, 589 schodiště, 147 zábradlí, 72 hřiště, 63 drobná sakrální stavba, 12 studna na veř. prostranství; Koštice (ÚK) 24,720 objects. NKOD holds ~2,700 (Vysočina), ~2,400 (JčK), ~1,900 (KHK), ~1,500 (ÚK), ~1,300 (MSK) dataset records (mostly ZPS packages) |
+| osm_tags | barrier=fence, barrier=wall / barrier=retaining_wall, building=*, highway=footway + footway=sidewalk, amenity=parking, highway=steps, barrier=guard_rail, leisure=pitch, historic=wayside_shrine / wayside_cross, man_made=water_well, man_made=chimney |
+| osm_count_cz | barrier=fence 140,340; barrier=wall 26,568; barrier=retaining_wall 10,325; highway=steps 32,691 (taginfo CZ 2026-09-26); OSM in Telč bbox (Postpass): 125 fences, 85 walls, 13 retaining walls vs 5,888 plot + 2,021 zeď objects in ZPS |
+| license | NKOD terms of use: "neobsahuje autorská díla", "není autorskoprávně chráněnou databází", "není chráněna zvláštním právem pořizovatele databáze", "neobsahuje osobní údaje" |
+| license_url | https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze |
+| license_status | ok |
+| update_freq | monthly/quarterly snapshots (packages dated 2026-06-30) |
+| impact | 4 |
+| verified | partial |
 
 Known (listed on Cs:Česko/freemap under "Zdroje pro odvozování dat" → "Digitální technická mapa (DTM)", as a general tracing source) — adds: the ZPS vector data is downloadable per municipality as open data via NKOD from at least 5 regional DTM portals, with explicit "no copyright / no sui-generis right" terms (i.e. usable for import, not only for tracing), plus verified object counts and format.
 

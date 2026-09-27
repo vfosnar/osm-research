@@ -1,19 +1,20 @@
-```
-name: Regional public transport stop registers (Jihočeský, Karlovarský, Královéhradecký, Olomoucký, Moravskoslezský, Liberecký kraj)
-publisher: Jihočeský kraj (IČO 70890650); Karlovarský kraj (70891168); Královéhradecký kraj / VDKHK (70889546); Olomoucký kraj (60609460); Moravskoslezský kraj (70890692); Liberecký kraj / KORID (70891508)
-url: JČK https://geoportal.kraj-jihocesky.gov.cz/portal/media/Soubory/opendata/zastavky_JCK_SHP.zip ; KV https://www.datazapad.cz/api/download/v1/items/979283f4b7ec4b778b8eed7aab6917c3/geojson?layers=0 ; KHK https://www.datakhk.cz/api/download/v1/items/ab928607832141f8bebb36261593107a/csv?layers=0 ; OK https://www.dataok.cz/api/download/v1/items/3e42001252dc42fdbf5f3c8240be779e/geojson?layers=0 ; MSK https://datamsk-mskraj.hub.arcgis.com/api/download/v1/items/0c8d67cd095543adb3ba08d4dc62c0cb/geojson?layers=0 ; IDOL https://dopravnimapy.kraj-lbc.cz/opendata/zastavky_shp_wgs84.zip
-format: SHP (S-JTSK), GeoJSON, CSV
-coords: yes
-records: JČK 7,219 (platform level; 3,683 names; CISLO_NUM = CIS stop number; 6,870 served); KV 1,840 (platform level, Číslo_zastávky + Stanoviště); KHK 4,538 (platform level, Označení + Stanoviště); OK 2,100; MSK 3,270 (ID_ZAS, ODIS); IDOL 2,310
-osm_tags: public_transport=platform + highway=bus_stop, name=*, local_ref=<stanoviště>, ref:CIS_JR=<CIS number>
-osm_count_cz: highway=bus_stop 59,315; public_transport=platform 68,032; ref:CIS_JR 13,300 (taginfo 2026-09-26)
-license: JČK: no copyright, no DB copyright, sui generis CC0; KV, KHK, OK: NKOD terms "neobsahuje autorská díla / není autorskoprávně chráněnou databází / není chráněna zvláštním právem"; MSK: CC BY 4.0; IDOL: CC BY-SA 4.0
-license_url: https://creativecommons.org/publicdomain/zero/1.0/ ; https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://creativecommons.org/licenses/by/4.0/ ; https://creativecommons.org/licenses/by-sa/4.0/
-license_status: ok (JČK, KV, KHK, OK); needs_waiver (MSK, IDOL)
-update_freq: JČK file dated 2026-01-28; others irregular (ArcGIS hubs, live)
-impact: 3
-verified: yes
-```
+# Regional public transport stop registers (Jihočeský, Karlovarský, Královéhradecký, Olomoucký, Moravskoslezský, Liberecký kraj)
+
+| Field | Value |
+|---|---|
+| publisher | Jihočeský kraj (IČO 70890650); Karlovarský kraj (70891168); Královéhradecký kraj / VDKHK (70889546); Olomoucký kraj (60609460); Moravskoslezský kraj (70890692); Liberecký kraj / KORID (70891508) |
+| url | JČK https://geoportal.kraj-jihocesky.gov.cz/portal/media/Soubory/opendata/zastavky_JCK_SHP.zip ; KV https://www.datazapad.cz/api/download/v1/items/979283f4b7ec4b778b8eed7aab6917c3/geojson?layers=0 ; KHK https://www.datakhk.cz/api/download/v1/items/ab928607832141f8bebb36261593107a/csv?layers=0 ; OK https://www.dataok.cz/api/download/v1/items/3e42001252dc42fdbf5f3c8240be779e/geojson?layers=0 ; MSK https://datamsk-mskraj.hub.arcgis.com/api/download/v1/items/0c8d67cd095543adb3ba08d4dc62c0cb/geojson?layers=0 ; IDOL https://dopravnimapy.kraj-lbc.cz/opendata/zastavky_shp_wgs84.zip |
+| format | SHP (S-JTSK), GeoJSON, CSV |
+| coords | yes |
+| records | JČK 7,219 (platform level; 3,683 names; CISLO_NUM = CIS stop number; 6,870 served); KV 1,840 (platform level, Číslo_zastávky + Stanoviště); KHK 4,538 (platform level, Označení + Stanoviště); OK 2,100; MSK 3,270 (ID_ZAS, ODIS); IDOL 2,310 |
+| osm_tags | public_transport=platform + highway=bus_stop, name=*, local_ref=&lt;stanoviště&gt;, ref:CIS_JR=&lt;CIS number&gt; |
+| osm_count_cz | highway=bus_stop 59,315; public_transport=platform 68,032; ref:CIS_JR 13,300 (taginfo 2026-09-26) |
+| license | JČK: no copyright, no DB copyright, sui generis CC0; KV, KHK, OK: NKOD terms "neobsahuje autorská díla / není autorskoprávně chráněnou databází / není chráněna zvláštním právem"; MSK: CC BY 4.0; IDOL: CC BY-SA 4.0 |
+| license_url | https://creativecommons.org/publicdomain/zero/1.0/ ; https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://creativecommons.org/licenses/by/4.0/ ; https://creativecommons.org/licenses/by-sa/4.0/ |
+| license_status | ok (JČK, KV, KHK, OK); needs_waiver (MSK, IDOL) |
+| update_freq | JČK file dated 2026-01-28; others irregular (ArcGIS hubs, live) |
+| impact | 3 |
+| verified | yes |
 
 ## Notes
 - **How this was found:** following the Google Transit lead. Google credits only PID for CZ transit

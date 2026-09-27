@@ -8,7 +8,7 @@ records: 37,958 premises (37,956 unique PremiseElecId) under 34,141 licences. By
 osm_tags: >=1 MW: power=plant + plant:source=hydro|biogas|wind|solar|gas|biomass + plant:method + plant:output:electricity=<n> MW + name. <1 MW (micro hydro, rooftop PV): power=generator + generator:source + generator:output:electricity. Proposed ref:CZ:eru=<PremiseElecId> (new key).
 osm_count_cz: power=plant 886; plant:source=hydro 255; generator:source=hydro 249; plant:source=biogas 5; generator:source=biogas 27; plant:source=wind 11; generator:source=wind 257 (Geofabrik taginfo 2026-09-27)
 license: NKOD terms: no copyright work, not a protected database, no sui generis right, no personal data (NKOD maps it to CC0)
-license_url: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-datab%C3%A1ze/
+license_url: https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/ ; https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/
 license_status: ok
 update_freq: continuous (NKOD UPDATE_CONT); in practice a new dated XML each month
 impact: 4

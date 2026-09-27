@@ -6,8 +6,10 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** first research round done (27 September 2026). 45 candidate files, all
-> numbers measured against live OSM data on that date.
+> **Status:** two research rounds done (27 September 2026). 49 candidate files, all
+> numbers measured against live OSM data on that date. Round 2 looked at what
+> [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
+> [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources.
 
 ## Shortlist
 
@@ -35,14 +37,20 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Memorial trees](candidates/known-aopk-pamatne-stromy.md) (AOPK) | 5,359 protected trees/groups | ~half missing in samples | AOPK |
 | [Mine shafts & adits](candidates/cgs-dulni-dila.md) (ČGS) | ~15.7k shafts and adits | ~900 | ČGS |
 | [River gauges](candidates/chmu-vodomerne-stanice.md) (ČHMÚ) | 563 stations with flood-stage levels | ~93 % missing | ČHMÚ |
+| [Street lamps & sirens, Most](candidates/most-opendata.md) (CC BY-SA) | 7,039 lamps with pole codes, 26 sirens | 15 lamps, 0 sirens | město Most |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
 
 - [Pharmacies](candidates/sukl-lekarny.md) (SÚKL, CC0) — 1,884 pharmacies without `ref:SUKL`, 301 stale refs, opening hours.
 - [Level crossings](candidates/sz-prejezdy.md) (SŽ) — 321 missing, 616 outdated refs.
 - [Railway stations & platforms](candidates/era-rinf-stanice-nastupiste.md) (ERA RINF) — ~2,000 `uic_ref`, platform heights.
+- [Regional public-transport stops](candidates/kraje-zastavky-verejne-dopravy.md) (Jihočeský CC0; Karlovarský,
+  Královéhradecký, Olomoucký no rights claimed) — coordinates for stops `jizdni-rady-osm` can't place;
+  `ref:CIS_JR` for ~3,400 stops (needs a wiki page first).
 - [PID stop attributes](candidates/prague-pid-gtfs-atributy-zastavek.md) — wheelchair access, platform codes, ~1,400 stale `ref:PID`.
 - [Protected areas](candidates/aopk-zvlaste-chranena-uzemi.md) (AOPK) — IDs and boundary updates.
+- [Prague cycle routes](candidates/prague-ipr-cyklotrasy.md) (IPR, 2018 consent) — ~16 missing routes, lane check (IPR ~335 km vs OSM 193 km).
+- [Weather stations](candidates/chmu-meteostanice.md) (ČHMÚ, CC BY 4.0) — 760 stations, `ref:wigos` IDs.
 - [War graves](candidates/known-valecne-hroby-kraje.md) (Liberec, Hradec Králové regions, CC0) — register IDs.
 
 ### 4. Smaller or local
@@ -66,6 +74,12 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 - ERÚ heat plants and electricity storage; ČHMÚ groundwater wells.
 - Prague district (MČ) datasets in the Prague LKOD; Golemio (needs an API key, no licence found).
 - Děčín and Liberec city portals (unreachable during this round).
+- ŘSD/NDIC data portal `mobilitydata.rsd.cz` (rest areas, truck parking) and the Ústecký kraj stop API —
+  unreachable from the research environment; retry from another network.
+- Worth asking, no open dataset: KČT trail network, Český horolezecký svaz rock database (climbing bans),
+  Asociace lanové dopravy (ropeways), Ministry of Health bathing places (koupacivody.cz).
+- Mapy.com's ODbL [missing-paths file](https://pro.mapy.com/osm-user-updates/2026.geojson.gz) has nothing
+  in Czechia (mostly Alps) — could be passed to AT/IT/SI communities.
 
 ### Corrections for Cs:Česko/freemap
 

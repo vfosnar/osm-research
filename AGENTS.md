@@ -9,6 +9,12 @@ Find open datasets that would have the biggest impact if imported or conflated i
 OpenStreetMap in **Czechia**, with a licence compatible with ODbL. "Impact" means data
 that map users actually need (POIs, infrastructure, accessibility…), not curiosities.
 
+Look for **niche but useful** data. Data that government bodies publish directly as open
+data (ministries, IPR Praha, city portals) is probably already being imported by someone, so
+don't chase it. Better finds sit behind institutional systems, NGOs, associations and
+hobby communities. Masaryk University's room system for indoor mapping
+(`candidates/muni-indoor-munimap.md`) is the model example.
+
 Never propose anything already known. Known sources are tracked upstream (see below),
 not in this repo — check the upstream sources directly at the start of every round.
 This repo is only the working memory for new research.

@@ -22,3 +22,15 @@ verified: partial
 - Wiki pages to read before tagging: Tag:leisure=sports_centre (read), Key:sport.
 - Contact: info@agenturasport.cz (from nsa.gov.cz/rejstrik/).
 - Municipal "Sportoviště" datasets (Ostrava, CC BY 4.0, JTSK GeoJSON; Huntířov) are local only.
+
+## Wiki entry
+```
+===Rejstřík sportu – sportovní zařízení===
+* dataset: Seznam sportovních zařízení (veřejná část)
+* gestor: [https://www.agenturasport.cz/ Národní sportovní agentura]
+* licence: neuvedena
+* datové primitivy: body (pouze adresy)
+* odkaz: https://rejstriksportu.cz/dashboard/public/agenda/sportoviste
+* navržený tag {{tag|leisure|sports_centre}}, {{tag|leisure|pitch}} + {{tag|sport}}
+* poznámka: 11 747 zařízení; licenci je třeba vyjednat
+```

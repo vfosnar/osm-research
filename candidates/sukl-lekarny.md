@@ -29,3 +29,15 @@ verified: yes
 - Wiki pages read: Tag:amenity=pharmacy and Cs:Tag:amenity=pharmacy (dispensing=yes/no, healthcare=pharmacy, opening_hours).
 - Dr.Max is already covered by the AllThePlaces sync. Do not duplicate it; use SÚKL only to add ref:SUKL to those objects.
 - Contact: SÚKL open data, opendata.sukl.cz (the "Podmínky užití otevřených dat" page on the portal).
+
+## Wiki entry
+```
+===Seznam lékáren SÚKL===
+* dataset: Seznam lékáren
+* gestor: [https://www.sukl.cz/ Státní ústav pro kontrolu léčiv]
+* licence: neobsahuje autorská díla, není chráněnou databází, CC0 [https://data.gov.cz/zdroj/datové-sady/00023817/ee950579137405421560185466ffb5be]
+* datové primitivy: body (pouze adresy)
+* odkaz: https://opendata.sukl.cz/?q=katalog/seznam-lekaren
+* navržený tag {{tag|amenity|pharmacy}}, {{tag|ref:SUKL|<KOD_PRACOVISTE>}}
+* poznámka: v OSM 2 557 lékáren, ale 1 884 bez ref:SUKL a 301 neplatných ref:SUKL; vhodné hlavně pro údržbu a otevírací doby
+```

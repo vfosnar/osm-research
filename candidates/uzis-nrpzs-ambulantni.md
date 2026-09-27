@@ -28,3 +28,15 @@ verified: yes
 - Wiki pages read: Tag:amenity=dentist (healthcare=dentist combination), Tag:amenity=doctors (healthcare=doctor, healthcare:speciality; amenity=clinic for larger facilities), Key:healthcare, Key:healthcare:speciality.
 - Contact: ÚZIS ČR, NZIS open data, https://datanzis.uzis.gov.cz/ (NRPZS: https://nrpzs.uzis.cz/).
 - Regional subsets (Královéhradecký kraj "Zubní lékaři" on datakhk.cz, NKOD terms "neobsahuje autorská díla") are CC0-like and could serve as a license-clean pilot for the KHK region only.
+
+## Wiki entry
+```
+===NRPZS – místa poskytování zdravotních služeb===
+* dataset: Národní registr poskytovatelů zdravotních služeb – místa poskytování
+* gestor: [https://www.uzis.cz/ ÚZIS ČR]
+* licence: CC BY 4.0 [https://creativecommons.org/licenses/by/4.0/] – nutný souhlas pro OSM
+* datové primitivy: body
+* odkaz: https://datanzis.uzis.gov.cz/data/NR-01-NRPZS/NR-01-06/Otevrena-data-NR-01-06-nrpzs-mista-poskytovani-zdravotnich-sluzeb.csv
+* navržený tag {{tag|amenity|dentist}}, {{tag|amenity|doctors}}, {{tag|healthcare:speciality}}, {{tag|ref:CZ:uzis|<ZZ_ID>}} (shodu s ZABAGED id_uzis ověřit)
+* poznámka: 40 870 míst (5 598 zubařů vs 585 v OSM); ordinace jednotlivých lékařů nepokrývá import ZABAGED
+```

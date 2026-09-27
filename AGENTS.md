@@ -27,6 +27,7 @@ Refresh `covered.md` from these before a new research round:
 
 - OSM wiki `Cs:POI_ZABAGED_Import` — ZABAGED POI layers (✅ = imported).
 - OSM wiki `Cs:Česko/freemap` — permissions granted, potential sources, finished imports.
+- OSM wiki `Cs:Česko/freemap#Potencionální_zdroje` — ideas already listed; not new.
 - OSM wiki `Cs:Zdroje_v_jednani` — sources being negotiated.
 - OSM wiki pages with prefix `Cs:Import` (list via
   `api.php?action=query&list=allpages&apprefix=Cs:Import`).
@@ -91,6 +92,25 @@ verified:       # yes / partial
 ```
 
 Followed by notes: gap analysis, caveats, suggested `ref:*` key, contacts.
+
+If the source is already on `Cs:Česko/freemap#Potencionální_zdroje`, name the file
+`known-<slug>.md` and start the notes with "Known (listed on Cs:Česko/freemap) — adds: …".
+
+Every file ends with a `## Wiki entry` section: a wikitext block in Czech, ready to paste
+into `Cs:Česko/freemap`, following that page's conventions:
+
+```
+===<Název>===
+* dataset: <název datasetu>
+* gestor: [<url> <organizace>]
+* licence: <licence> [<licence_url>]
+* datové primitivy: body/linie/plochy
+* odkaz: <download url>
+* navržený tag {{tag|key|value}}, {{tag|ref:…|<id>}}
+* poznámka: <one sentence on the OSM gap>
+```
+
+The community hand-picks entries from these and appends them to the wiki page.
 
 ## Licence rules
 

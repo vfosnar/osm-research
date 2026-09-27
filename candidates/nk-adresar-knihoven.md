@@ -25,3 +25,15 @@ verified: yes
 - Wiki pages read: Tag:amenity=library and Cs:Tag:amenity=library (opening_hours, ref:isil, operator), Key:ref:isil.
 - Municipal subsets (Plzeň "Knihovny", Liberecký kraj "Knihovny v Libereckém kraji", Huntířov) are redundant with this national source.
 - Contact: Knihovnický institut NK ČR (adresář knihoven), https://www.nkp.cz/ ; Aleph ADR base https://aleph.nkp.cz/F/?func=file&file_name=find-b&local_base=ADR
+
+## Wiki entry
+```
+===Adresář knihoven NK ČR===
+* dataset: Centrální adresář knihoven a informačních institucí v ČR (ADR)
+* gestor: [https://www.nkp.cz/ Národní knihovna ČR]
+* licence: neobsahuje autorská díla, není chráněnou databází, CC0 [https://data.gov.cz/zdroj/datové-sady/00023221/1099355216]
+* datové primitivy: body
+* odkaz: https://aleph.nkp.cz/data/adr.xml.gz
+* navržený tag {{tag|amenity|library}}, {{tag|ref:isil|CZ-<sigla>}} (formát ISIL ověřit s NK, jinak {{tag|ref:CZ:sigla}})
+* poznámka: ~5 160 veřejných knihoven se souřadnicemi, v OSM 1 556 amenity=library; otevírací doba strukturovaně po dnech
+```

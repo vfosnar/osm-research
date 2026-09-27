@@ -1,19 +1,37 @@
-# osm-research
+# Open data for OpenStreetMap in Czechia
 
-Research into open datasets that could be imported or conflated into OpenStreetMap in
-Czechia, excluding what the community already covers (see `covered.md`).
+Which open datasets would help the Czech OpenStreetMap map the most — and aren't
+already being imported?
 
-- `covered.md` — sources already imported, in Sync, or in negotiation. Check before proposing.
-- `candidates/` — one file per candidate source, with a verified URL, licence, OSM gap and impact.
-- `tools/` — reusable queries (NKOD SPARQL, Postpass).
+This repository collects candidate data sources, each checked by hand: does the data
+really exist, what licence it has, and how much of it is already in OSM.
 
-## Method
+> **Status:** first research round in progress (September 2026). The ranked shortlist
+> below will be filled in when it finishes.
 
-- Verify everything live. URLs, licences and tags recalled by a model are not trusted.
-- Tags: read the OSM wiki page (raw wikitext via `index.php?action=raw`) and confirm usage in
-  CZ with Geofabrik taginfo (`https://taginfo.geofabrik.de/europe:czech-republic/api/4/`).
-- OSM coverage: taginfo for country-wide totals; Postpass
-  (`POST https://postpass.geofabrik.de/api/interpreter`, `data=<SQL>`, `options[geojson]=false`)
-  for bbox counts and sample matching. Joining against the CZ boundary polygon times out.
-- Licence status: `ok` (CC0/PDDL/ODbL/explicit consent), `needs_waiver` (CC BY 4.0 etc.),
-  `incompatible`, `unclear`.
+## Shortlist
+
+_Coming soon._
+
+## What's already covered
+
+Everything already imported, in the [Sync](https://codeberg.org/osmcz/sync) tool, with a
+granted permission, or under negotiation is listed in [`covered.md`](covered.md) — for
+example the ZABAGED POI import, AllThePlaces brand spiders, Zásilkovna, post boxes and
+RÚIAN addresses. These are deliberately left out.
+
+## Reading a candidate
+
+Each file in [`candidates/`](candidates/) describes one source:
+
+- **Licence status**
+  - ✅ **ok** — can be used in OSM (CC0, ODbL, or explicit permission)
+  - ✍️ **needs waiver** — attribution licence such as CC BY 4.0; the publisher has to
+    give OSM explicit consent first
+  - ❌ **incompatible** — can't be used
+  - ❓ **unclear** — no licence found; someone has to ask
+- **Impact 1–5** — how much it would improve the map: how many features are missing in
+  OSM and how useful they are.
+- **OSM count** — how many such features OSM in Czechia has today.
+
+For how the research is done, see [`AGENTS.md`](AGENTS.md).

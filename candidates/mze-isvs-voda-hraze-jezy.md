@@ -16,6 +16,10 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+- **Map preview:** [samples/mze-isvs-voda-hraze-jezy.geojson](../samples/mze-isvs-voda-hraze-jezy.geojson): Třeboňsko (bbox 14.62,48.93,14.92,49.12) with 600 dams (Hráze), 10 weirs and 8 objekty v korytě. Most of these ponds are drawn in OSM, but their dams are not.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer*, source type *File*, paste `/vsizip/vsicurl/https://voda.gov.cz/data/ISVSVoda_Hraze.zip/Hraze.shp`. For the other layers use `/vsizip/vsicurl/https://voda.gov.cz/data/ISVSVoda_Jezy.zip/Jezy.shp` and `/vsizip/vsicurl/https://voda.gov.cz/data/ISVSVoda_Objektyvkoryte.zip/Objekty_v_koryte.shp`. The .prj is ESRI "S-JTSK_Krovak_East_North"; pick EPSG:5514 if QGIS asks.
+
 ## Notes
 - Possible overlap: the waterways theme is handled by another agent, and DIBAVOD (covered) contains some water structures. This MZe/Povodí ISVS-VODA layer is a different, continuously updated register with river km (LOKAL_OD) and watercourse ID (IDVT) per object.
 - Postpass checks (random 200-point samples):

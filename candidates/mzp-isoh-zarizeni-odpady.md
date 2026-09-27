@@ -16,8 +16,12 @@
 | impact | 4 |
 | verified | partial |
 
+## Try it
+- **Map preview:** [samples/mzp-isoh-zarizeni-odpady.geojson](../samples/mzp-isoh-zarizeni-odpady.geojson): 309 active facilities with GPS in Královéhradecký kraj (icz prefix CZH), including 135 Sberna and 32 ZpracVozidel. Mobile, sludge-on-field and backfilling types are left out. The sample was parsed from the first 120 MB of the 2026-09-26 export. Operator names are dropped because they include natural persons.
+- **QGIS:** there is no direct load. The source is a single ~400 MB custom XML (not GML), and I found no public map service: isoh.mzp.cz reset the connection. Download the sample and drag it into QGIS instead.
+
 ## Notes
-- This is the statutory register of every facility permitted under §21 of Act 541/2020 (and the older 185/2001). Each facility has a stable ID `icz`, e.g. CZK00238. The first three letters encode the region (CZA Praha, CZS Středočeský, CZT Moravskoslezský, and so on).
+- This is the statutory register of every facility permitted under §21 of Act 541/2020 (and the older 185/2001). Each facility has a stable ID `icz`; CZK00551 is the first record in the 2026-09-26 export. The first three letters encode the region (CZA Praha, CZS Středočeský, CZT Moravskoslezský, and so on).
 - Facility types (`kodTypuZarizeni`) among active records in the partial parse: Sberna 1,533 (all with GPS); MobSber 758 (mobile, no location, skip); MobMechZprac 388 (mobile, skip); Recyklace 311; Kompost 282; ZpracVozidel 250 (car dismantlers); Stac01 150; KalZemPud 138 (sludge on fields, skip); Zasyp 127 (backfilling, skip); KompostMale 124; Skladka 80; TridDotrid 79; Prekladiste 54; SberVozidel 32; COV 31; Bioplyn 23+16; Spalovani 14.
 - OSM gap, checked with Postpass on a random sample of 200 active facilities per type, looking for an OSM feature within 200 m:
   - Sberna: 48/200 (24%) matched any of recycling_type=centre, scrap_yard, waste_transfer_station, landfill or shop=scrap. About 76% are missing.
@@ -25,7 +29,7 @@
   - Skladka: 49/80 (61%) matched landuse=landfill.
   - Kompost: 90/200 matched a loose industrial/landfill/recycling condition. Specific tagging is absent.
 - "Sberna" mixes municipal collection yards (sběrné dvory, run by the obec or its technické služby) with commercial scrap buyers (výkupny kovů/papíru). The operator's IČO and name tell them apart: public-sector IČO means a sběrný dvůr, otherwise shop=scrap / recycling centre. Map only facilities with a GPS position and the state `aktivni`.
-- Personal data: operators who are natural persons appear by name (e.g. "Jaroslav Rataj"). Do not import operator names for those; take only location, type and icz.
+- Personal data: operators who are natural persons appear by their personal name. Do not import operator names for those; take only location, type and icz.
 - Composting has no well-established tag. Check the wiki (Tag:amenity=recycling mentions compost as a recycling:* material; Tag:landuse=industrial) and the CZ community before mapping.
 - A national register of this kind is not in covered.md, and "sběrné dvory" does not appear among the known ideas on Cs:Česko/freemap. EkoKom (covered) covers containers, not yards.
 - Wiki pages read: Tag:amenity=recycling, Tag:recycling_type=centre (approved; combination landuse=industrial), Tag:industrial=scrap_yard (de facto; alternatives amenity=recycling+recycling_type=centre+recycling:metal=yes), Tag:landuse=landfill, Tag:amenity=waste_transfer_station.

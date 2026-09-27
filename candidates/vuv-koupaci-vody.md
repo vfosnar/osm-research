@@ -7,7 +7,7 @@
 | format | SHP (multipoint, S-JTSK EPSG:5514, UTF-8 .cpg) |
 | coords | yes |
 | records | 152 bathing sites (DTMDS_REF 30052025, i.e. the 2025 season list) |
-| osm_tags | leisure=bathing_place (node; name=&lt;NAZ_KOBL&gt;), or leisure=swimming_area where roped/buoyed; ref:CZ:koupaci=&lt;KOBL_ID&gt; (e.g. KO104001, new key); website=&lt;RZH_URL&gt; (MZe water profile) |
+| osm_tags | leisure=bathing_place (node; name=&lt;NAZ_KOBL&gt;), or leisure=swimming_area where roped/buoyed; ref:CZ:koupaci=&lt;KOBL_ID&gt; (KO104001 = koupaliště Šeberák; new key); website=&lt;RZH_URL&gt; (MZe water profile) |
 | osm_count_cz | leisure=bathing_place 30; leisure=swimming_area not counted (Geofabrik taginfo 2026-09-27) |
 | license | CC BY 4.0 (NKOD terms: copyrighted work + database, authors VÚV TGM and MŽP) |
 | license_url | https://creativecommons.org/licenses/by/4.0/ |
@@ -16,8 +16,12 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+- **Map preview:** [samples/vuv-koupaci-vody.geojson](../samples/vuv-koupaci-vody.geojson): all 152 bathing sites of the 2025 list, with KOBL_ID, name and the MZe profile link.
+- **QGIS:** *Layer → Add Layer → Add WFS / OGC API Features Layer → New*, URL `https://ags2.vuv.cz/arcgis/services/isvs_voda/isvs_voda/MapServer/WFSServer`, layer *KoupaciOblasti* (152 features, EPSG:5514). Alternatively, use *Add Vector Layer*, source type *File*, with `/vsizip/vsicurl/https://heis.vuv.cz/data/webmap/datovesady/isvs/KoupaciOblast/E_ISVS$KOUP_OBL.zip/E_ISVS$KOUP_OBL$wm.shp`.
+
 ## Notes
-- Fields: KOBL_ID (stable EU bathing-water ID), name (e.g. "VN Slapy – Měřín", "koupaliště Šeberák"), municipality, stream/reservoir IDs, coordinates, and RZH_URL (link to the MZe bathing-water profile).
+- Fields: KOBL_ID (stable EU bathing-water ID), name ("VN Slapy - Měřín" and "koupaliště Šeberák" are in the 2025 list), municipality, stream/reservoir IDs, coordinates, and RZH_URL (link to the MZe bathing-water profile).
 - Postpass check: 139 of 152 sites have something swimming-related within 300 m (swimming_pool, water_park, beach, sport=swimming, bathing_place, swimming_area). Only 1 is tagged leisure=bathing_place. The places are mostly known, so the value lies in correct tagging, the official name and ID, and a link to the water-quality profile that people check in summer.
 - KHS publishes weekly water-quality results for these sites. The KOBL_ID would let a map app link to them.
 - Karlovarský, Královéhradecký and Liberecký kraj publish their own "koupací místa" lists (NKOD), but these are regional subsets.

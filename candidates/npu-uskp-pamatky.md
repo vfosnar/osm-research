@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | publisher | Národní památkový ústav (NPÚ), IČO 75032333 |
-| url | attributes CSV https://www.pamatkovykatalog.cz/opendata/npu_opendata_KP.csv (also _NKP, _PR, _PZ, _OP, _SD, _NZ.csv); points: ATOM https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/npu.xml -> per-region GML e.g. https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/NPU_USKP_DefinicniBod_CZ010.gml (also NPU_USKP_Centroid, NPU_USKP_Polygon feeds) |
+| url | attributes CSV https://www.pamatkovykatalog.cz/opendata/npu_opendata_KP.csv (also _NKP, _PR, _PZ, _OP, _SD, _NZ.csv); points: ATOM https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/npu.xml -> per-region GML, one file per kraj code: https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/NPU_USKP_DefinicniBod_CZ063.gml (Vysočina, downloaded 2026-09-27) (also NPU_USKP_Centroid, NPU_USKP_Polygon feeds) |
 | format | CSV (UTF-8, comma); GML 3 (FME) in EPSG:5514, 14 files (one per kraj) |
 | coords | yes (GML points/polygons, S-JTSK); CSV is address-only |
 | records | CSV KP 39,161 (objekt 25,924, areál 12,194, soubor 985); GML definition points 39,357 over 14 regions (checked 2026-09-27) |
@@ -16,10 +16,15 @@
 | impact | 5 |
 | verified | yes |
 
+## Try it
+- **Map preview:** [samples/npu-uskp-pamatky.geojson](../samples/npu-uskp-pamatky.geojson): all 142 ÚSKP definition points in Telč, with `ref:npu` (katalogové číslo) joined from the CSV on `prStavId`. OSM has 2 heritage-tagged objects in the same bbox (Postpass 2026-09-27).
+- **QGIS:** *Layer → Add Layer → Add Vector Layer*, source type *File*, paste `/vsicurl/https://geoportal.npu.cz/opendata/atom/NPU_USKP_DefinicniBod/NPU_USKP_DefinicniBod_CZ063.gml`. That is Vysočina; replace CZ063 with CZ010, CZ020, CZ031, CZ032, CZ041, CZ042, CZ051, CZ052, CZ053, CZ064, CZ071, CZ072 or CZ080 for other regions. The CRS is EPSG:5514.
+- **Web viewer:** https://www.pamatkovykatalog.cz/ (a map on each monument record)
+
 ## Notes
 - **Gap is huge.** Czechia has ~39k listed immovable monuments; OSM has only 1,916 objects with `heritage=*` and 492 with `ref:npu`. Prague bbox (Postpass): 242 heritage-tagged objects vs 2,173 ÚSKP points in Prague.
 - **Easy conflation via RÚIAN.** Each GML point has `KodStavObjRUIAN` (RÚIAN building code). It is filled for 1,215/2,173 (56 %) in Prague. OSM has 3.8M `ref:ruian:building`. Postpass test: 181 of the first 200 Prague RÚIAN codes match an OSM building polygon, and only 11 of those carry `heritage`. So most of the work is adding tags to existing buildings, with no new geometry. Non-building monuments (crosses, statues, chapels, areals) need point matching. drobnepamatky.cz (already synced) covers many small monuments, so add `ref:npu` to those rather than duplicating them.
-- **IDs.** GML fields: `rejstrikoveCisloUSKP` (e.g. 105884), `prvekId`, `prStavId`, `IDOB_PG`, `typOchranyKod` (KP/NKP), `NazevPrvku`, address, `datumOchranyOd`. CSV: `katalogové_číslo` (10-digit, e.g. 1000118337, the same form as existing OSM `ref:npu` values), `rejstříkové_číslo_ÚSKP`, `PrStavId`, `anotace`. Join CSV↔GML on `PrStavId`/`prStavId`, which still needs checking.
+- **IDs.** GML fields: `rejstrikoveCisloUSKP` (old-style form in the GML, 12339/7-8505 in CZ063), `prvekId`, `prStavId`, `IDOB_PG`, `typOchranyKod` (KP/NKP), `NazevPrvku`, address, `datumOchranyOd`. CSV: `katalogové_číslo` (10-digit; 1000118337 appears in the CSV, the same form as existing OSM `ref:npu` values), `rejstříkové_číslo_ÚSKP`, `PrStavId`, `anotace`. Join CSV↔GML on `PrStavId`/`prStavId`: verified 2026-09-27, 2,990 of 3,008 CZ063 points match a CSV row (the samples/ file uses this join).
 - **Tagging.** Key:heritage wiki, Czech Republic section: `heritage=2` (NKP) / `heritage=3` (KP) + `heritage:operator=npu` + `ref:npu=*`. Read at https://wiki.openstreetmap.org/wiki/Key:heritage (raw). There is no Cs:Key:heritage page.
 - **Alternative (CC0).** Wikidata has 43,223 items with P762 (ÚSKP ID), 43,413 coordinate statements (WDQS 2026-09-27). It could be used for `wikidata=*` linking, but the provenance of its coordinates is unknown. Sync already handles Wikidata castles and museums (QID only).
 - **Licence.** CC BY 4.0 needs an explicit OSM waiver from NPÚ. Also ask NPÚ to fix the BY-SA vs BY conflict on the spatial dataset. Contact: gis@npu.cz (ATOM author).

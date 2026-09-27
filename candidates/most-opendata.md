@@ -16,6 +16,11 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+- **Map preview:** [samples/most-opendata.geojson](../samples/most-opendata.geojson): 1,153 street lamps in central Most (bbox 13.638,50.497,13.655,50.510) and all 26 alarm sirens. OSM has 15 lamps in the whole town.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer → New*, URL `https://mapy.mesto-most.cz/server/rest/services`, connect, open folder *Opendata* → *OpendataPasport* → *Stožáry veřejného osvětlení* (lamps), *OpendataUap* → *Poplachové sirény*, *OpendataProjekty* → layer 4 (cycle routes). Native CRS EPSG:5514.
+- **Web:** city open-data hub https://opendata.mesto-most.cz/
+
 ## Notes
 - **Why it is here:** Google's legal notices for Czechia credit a Most (IČO 00266094) NKOD dataset
   (`…/00266094/de4ba6a0ef4db1d074a9d719a45332a0`). That record no longer exists in NKOD (404, not in

@@ -16,6 +16,11 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+- **Map preview:** [samples/pardubicky-kraj-cyklopasport.geojson](../samples/pardubicky-kraj-cyklopasport.geojson): all 1,015 odpočívky (picnic tables, benches, maps, boards) across the region, with a `suggested_tag` per TYP.
+- **QGIS:** for odpočívky, use *Layer → Add Layer → Add Vector Layer*, source type *Protocol: HTTP(S)*, URI `https://services.arcgis.com/S6UQzkU4EoJgYA53/arcgis/rest/services/Cyklopasport_odpocivky/FeatureServer/7/query?where=1%3D1&outFields=*&outSR=4326&f=geojson`. The response is GeoJSON with all 1,015 features. For rozcestníky (8,722, more than the 2,000 max per request) and trasy, use *Add ArcGIS REST Server Layer* with URL `https://services.arcgis.com/S6UQzkU4EoJgYA53/arcgis/rest/services` → *Cyklopasport_rozcestniky* / *Cyklopasport_trasy*.
+- **Web:** hub page https://data.pardubickykraj.cz/datasets/8b2c2bb2f53946bca23079e57bd9cda9
+
 ## Notes
 - OSM in a Pardubický-kraj bbox (15.40,49.60,16.90,50.15 – includes border strips of neighbouring regions; Postpass 2026-09-27): information=guidepost 2,830 (1,051 with bicycle=yes/guidepost=bicycle), picnic_table 980, bench 7,513. Dataset adds up to ~660 benches/tables along cycle routes and fills cycle-sign gaps.
 - Rozcestníky layer has almost no attributes (only FOTO1/FOTO2 filenames, POZN, ZNACENI_OL); photos not public. "silniční" = road-type cycle sign (IS 19/IS 20 style), "pásové" = painted strip marks — the latter are route markers, not guideposts. Use mainly as QA for route=bicycle relations, not blind import.

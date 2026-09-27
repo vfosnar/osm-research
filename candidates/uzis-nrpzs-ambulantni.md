@@ -16,12 +16,16 @@
 | impact | 4 |
 | verified | yes |
 
+## Try it
+- **Map preview:** [samples/uzis-nrpzs-ambulantni.geojson](../samples/uzis-nrpzs-ambulantni.geojson): 542 outpatient places in Olomouc (specialists 224, dentists 115, GPs 59 + paediatric 30, physio 42, gynaecologists 25, psychologists 23, opticians 18, speech therapists 10) with a `suggested_tag`. OSM in the same bbox has 16 amenity=dentist, 21 amenity=doctors and 18 healthcare-only objects (Postpass 2026-09-27).
+- **QGIS:** download the CSV (URL in the table), then *Layer → Add Layer → Add Delimited Text Layer*: format CSV, encoding UTF-8, geometry *Well known text (WKT)*, field `ZZ_GPS`, CRS EPSG:4326. Then run *Processing → Vector geometry → Swap X and Y coordinates*, because `ZZ_GPS` is written as `POINT(lat lon)`.
+
 ## Notes
 - Scope versus covered.md: the ZABAGED POI import (Cs:POI_ZABAGED_Import §13, ZdravotnickeZarizeniDefinicniBod) covers ÚZIS *facilities* only: hospitals, polyclinics ("poskytovatel amb. služeb", "zdravotnické středisko", "sdružení 4 a více lékařů"), hospices, LDN and similar. Per the wiki, its healthcare layer is "not imported due to tagging diversity". Single-doctor practices (samostatné ordinace), which make up most of NRPZS, are NOT in that list. Pharmacies are better sourced from SÚKL (see sukl-lekarny.md).
 - Gap (Postpass, 50 random samples each, OSM feature of the matching kind within 75 m): dentists 6/50 (12%), so about 4,900 are missing; GPs 18/50 (36%, and many hits are the polyclinic building, not the practice), so about 3,400+ missing; specialists 26/50 (mostly polyclinic hits); physiotherapists 12/50; opticians 24/50.
 - Caveats:
   - Many practices share one building (polyclinic, health centre). Import them as nodes inside the building, or aggregate them onto an amenity=clinic, following local convention. The coordinates are geocoded to the RÚIAN address point, so stacked duplicates will be common.
-  - ZZ_nazev is often the doctor's personal name, e.g. "MUDr. Jan Novák". That is legally public register data, but think about name= policy; some communities use a practice name instead.
+  - ZZ_nazev is often the doctor's personal name with title. That is legally public register data, but think about name= policy; some communities use a practice name instead.
   - The rows are "místa poskytování" (places of care). Home care (domácí péče) and ambulance/transport rows have no public POI and must be filtered out.
   - The obor/forma fields map to healthcare:speciality. A mapping table is needed.
 - License: CC BY 4.0 needs an explicit waiver of the attribution and DRM clauses for OSM per LWG guidance. ÚZIS/MZ is a state body and the NRPZS register is kept under zákon 372/2011 Sb. §77, but "úřední dílo" (§3 AZ) applies to legal and official texts, not clearly to register extracts. Since NKOD itself states "not a protected database, no sui generis right", the only claimed right is the CC BY on "autorské dílo", which is arguably void for factual data. Still, ask ÚZIS for explicit consent, as was done with ČÚZK. ÚZIS already consented to the ZABAGED channel, which may make this easier.

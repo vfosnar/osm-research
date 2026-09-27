@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | publisher | nextbike Czech Republic s.r.o. (feed hosted by nextbike GmbH, gbfs.nextbike.net) |
-| url | https://gbfs.nextbike.net/maps/gbfs/v2/&lt;system_id&gt;/en/station_information.json (e.g. .../nextbike_tg/... Praha, nextbike_te Brno, nextbike_to Ostrava); list of 45 CZ system_ids in https://raw.githubusercontent.com/MobilityData/gbfs/master/systems.csv |
+| url | https://gbfs.nextbike.net/maps/gbfs/v2/&lt;system_id&gt;/en/station_information.json (checked: nextbike_tg Praha, nextbike_te Brno, nextbike_to Ostrava); list of 45 CZ system_ids in https://raw.githubusercontent.com/MobilityData/gbfs/master/systems.csv |
 | format | GBFS 2.3 JSON |
 | coords | yes |
 | records | 4,181 stations across 45 CZ systems (Praha 1,580, Ostrava 434, Brno 332, Mladoboleslavsko 145, Hradec Králové 141, Frýdek-Místek 130, …); 3 flagged is_virtual_station |
@@ -15,6 +15,18 @@
 | update_freq | real-time (ttl 60 s); station list changes as the operator adds or removes stations |
 | impact | 3 |
 | verified | yes |
+
+## Try it
+- **Map preview:** [samples/nextbike-gbfs.geojson](../samples/nextbike-gbfs.geojson): all 434 stations of nextbike Ostrava (`nextbike_to`).
+- **QGIS:** GBFS JSON is not a format GDAL reads as a layer. In *Plugins → Python Console*, paste the snippet below, changing `nextbike_to` to any CZ system_id:
+  ```python
+  import json, urllib.request as r
+  S = json.load(r.urlopen('https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_to/en/station_information.json'))['data']['stations']
+  L = QgsVectorLayer('Point?crs=EPSG:4326&field=station_id:string&field=name:string&field=short_name:string&field=capacity:integer', 'nextbike', 'memory'); F = []
+  for s in S: f = QgsFeature(L.fields()); f.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(s['lon'], s['lat']))); f.setAttributes([s['station_id'], s['name'], s.get('short_name'), s.get('capacity')]); F.append(f)
+
+  L.dataProvider().addFeatures(F); QgsProject.instance().addMapLayer(L)
+  ```
 
 ## Notes
 - **Gap:** only 308 of the 4,181 nextbike stations have any OSM amenity=bicycle_rental within 30 m (Postpass, CZ bbox, 2026-09-27). That leaves about 3,870 stations unmapped.

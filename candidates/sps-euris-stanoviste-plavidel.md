@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | publisher | Státní plavební správa (SPS), IČO 00003352; served through EuRIS (European River Information Services portal) |
-| url | NKOD https://data.gov.cz/zdroj/datové-sady/00003352/1467543610 → API https://www.eurisportal.eu/doc/api/?urls.primaryName=Berth_v2 ; geometry: https://www.eurisportal.eu/api/arcgis/rest/services/berths/0/query?where=1%3D1&geometry=12.0,48.5,18.9,51.1&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&outFields=*&returnGeometry=true&f=json ; attributes: https://www.eurisportal.eu/visuris/api/Berths_v2/GetCompactBerths?$filter=startswith(locode,'CZ') (paged, $top ≤ 100) and .../Berths_v2/GetBerth?isrs=&lt;ISRS&gt; |
+| url | NKOD https://data.gov.cz/zdroj/datové-sady/00003352/1467543610 → API https://www.eurisportal.eu/doc/api/?urls.primaryName=Berth_v2 ; geometry: https://www.eurisportal.eu/api/arcgis/rest/services/berths/0/query?where=LOCODE+LIKE+%27CZ%25%27&outSR=4326&outFields=*&returnGeometry=true&f=json (the earlier bbox query ignored the envelope and returned all 5,841 European berths; fixed 2026-09-27) ; attributes: https://www.eurisportal.eu/visuris/api/Berths_v2/GetCompactBerths?$filter=startswith(locode,'CZ') (paged, $top ≤ 100) and .../Berths_v2/GetBerth?isrs=&lt;ISRS&gt; |
 | format | JSON (ArcGIS REST FeatureServer-like, polyline); REST JSON |
 | coords | yes (polylines along the bank, WGS84) |
 | records | 317 CZ berths in the Berth API, 280 with geometry in the ArcGIS layer (Elbe 194, Vltava 97, Morava 20, Berounka 6). By function: 202 berths without transhipment (přístavní polohy / vývaziště), 49 ferry/passenger berths (přístaviště), 29 transhipment berths (překladiště) |
@@ -16,14 +16,19 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+- **Map preview:** [samples/sps-euris-stanoviste-plavidel.geojson](../samples/sps-euris-stanoviste-plavidel.geojson): all 280 CZ berth lines with `ref:isrs`, function code (berths_3 = 202, berths_9 = 49, berths_1 = 29), bank and owner.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer*, source type *Protocol: HTTP(S)*, URI `https://www.eurisportal.eu/api/arcgis/rest/services/berths/0/query?where=LOCODE+LIKE+%27CZ%25%27&outSR=4326&outFields=*&returnGeometry=true&f=json`. GDAL reads the response as ESRI JSON; `f=geojson` also returns ESRI JSON here. The services root is not listable, so an ArcGIS REST connection does not work.
+- **Web viewer:** https://www.eurisportal.eu/visuris
+
 ## Notes
-- **Stable ID:** the ISRS location code, e.g. CZBAB07008BER1100414. It encodes country, UN/LOCODE, fairway section, object type and hectometre (river km × 10). Suggested key: `ref:isrs`. There is no such key on the wiki yet, so propose it on talk-cz.
+- **Stable ID:** the ISRS location code; CZBAB07008BER1100414 is one of the CZ berths. It encodes country, UN/LOCODE, fairway section, object type and hectometre (river km × 10). Suggested key: `ref:isrs`. There is no such key on the wiki yet, so propose it on talk-cz.
 - **Gap (Postpass, 100 m buffer around berth centroids against OSM mooring/pier/quay/ferry_terminal/marina):**
   - 60 of 202 non-transhipment berths have an OSM feature nearby.
   - 32 of 49 passenger berths have one.
   - 4 of 29 transhipment berths have one.
   - That leaves about 180 berths with nothing mapped. Mooring=* currently has only 175 objects in CZ.
-- **Detail attributes (GetBerth):** owner (e.g. Povodí Moravy a.s.), refFunctionMessage, bank (LB/RB), berthLength, draught. Many are null.
+- **Detail attributes (GetBerth):** owner, refFunctionMessage, bank (LB/RB), berthLength, draught. Many are null. In the ArcGIS layer, OWN_NAME is Povodí Labe for 54 berths, Povodí Vltavy 22, Ředitelství vodních cest 12, Povodí Moravy 8, and empty for 138.
 - **Wiki pages read:** Key:mooring. It applies to ways, not nodes, which suits the EuRIS polylines. Values: yes, ferry, cruise, guest, commercial, declaration.
 - **Related SPS HVD datasets:**
   - Locks: /Locks_v2/GetCompactLocks has 56 CZ lock chambers with sub-lock dimensions (length, width, draught, clearance), but the ArcGIS `locks` layer returned 0 CZ features, so there is no geometry. It is useful only to enrich the 44 lock=yes / 175 lock_gate objects already mapped. I did not create a separate candidate for it.

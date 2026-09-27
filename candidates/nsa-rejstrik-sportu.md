@@ -16,8 +16,13 @@
 | impact | 2 |
 | verified | partial |
 
+## Try it
+- **Map preview:** no sample, for two reasons: the licence is `unclear` and the source has addresses only.
+- **QGIS:** there is nothing to load as a layer. The data is available only through the web app grid or its undocumented JSON API.
+- **Web:** https://rejstriksportu.cz/dashboard/public/agenda/sportoviste
+
 ## Notes
-- Confirmed that the public API returns totalCount 11,747 with fields id (GUID), nazev, typ (e.g. "letiště pro sportovní létání"), obec, ulice, cisloDomovni, cisloOrientacni, castObce, psc, okres, kraj. I could not work out the paging parameters (the API returned only 1 item for every combination I tried), so I have not verified the full type breakdown.
+- Confirmed that the public API returns totalCount 11,747 with fields id (GUID), nazev, typ (the returned item had "letiště pro sportovní létání"), obec, ulice, cisloDomovni, cisloOrientacni, castObce, psc, okres, kraj. I could not work out the paging parameters (the API returned only 1 item for every combination I tried), so I have not verified the full type breakdown.
 - Legal basis: zákon 115/2001 Sb. o podpoře sportu (§3e public part of the registry). No reuse license is published. Ask NSA to publish on NKOD under CC0, or for explicit consent.
 - Value: OSM already has 33k pitches and 3k sports centres. The registry contains only facilities registered by organisations applying for subsidies, with text addresses only and no geometry. Its main use is names and operators for existing features, and a QA list for missing sports halls or swimming pools. Low priority.
 - Wiki pages to read before tagging: Tag:leisure=sports_centre (read), Key:sport.

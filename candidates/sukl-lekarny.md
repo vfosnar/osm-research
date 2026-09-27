@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | publisher | Státní ústav pro kontrolu léčiv (SÚKL), IČO 00023817 |
-| url | https://opendata.sukl.cz/?q=katalog/seznam-lekaren (monthly ZIP, e.g. https://opendata.sukl.cz/soubory/SOD20260925/LEKARNY20260925.zip); NKOD distribution https://opendata.sukl.cz/soubory/NKOD/LEKARNY/nkod_lekarny_seznam.csv |
+| url | https://opendata.sukl.cz/?q=katalog/seznam-lekaren (monthly ZIP; current file https://opendata.sukl.cz/soubory/SOD20260925/LEKARNY20260925.zip, verified 2026-09-27); NKOD distribution https://opendata.sukl.cz/soubory/NKOD/LEKARNY/nkod_lekarny_seznam.csv |
 | format | ZIP of 3 CSV files (';'-separated, cp1250): lekarny_seznam.csv, lekarny_prac_doba.csv, lekarny_typ.csv |
 | coords | address-only (text address: MESTO, ULICE "street č.p./č.o.", PSC; no RÚIAN code) |
 | records | 2,689 (2026-09-25 file); 2,673 have opening-hours rows |
@@ -15,6 +15,10 @@
 | update_freq | monthly |
 | impact | 3 |
 | verified | yes |
+
+## Try it
+- **Map preview:** [samples/sukl-lekarny.geojson](../samples/sukl-lekarny.geojson): all 39 pharmacies in Olomouc, geocoded against the RÚIAN address points of obec 500496 (`https://vdp.cuzk.gov.cz/vymenny_format/csv/20260831_OB_ADR_csv.zip`, file `20260831_OB_500496_ADR.csv`, S-JTSK converted with pyproj). All 39 matched on street + č.p./č.o. The sample carries `ref:SUKL` and `opening_hours`. OSM has 42 pharmacies in the Olomouc bbox, 14 of them with ref:SUKL (Postpass 2026-09-27).
+- **QGIS:** this is an attribute table only (no coordinates). Use *Layer → Add Layer → Add Vector Layer*, source type *Protocol: HTTP(S)*, URI `https://opendata.sukl.cz/soubory/NKOD/LEKARNY/nkod_lekarny_seznam.csv` (UTF-8 with BOM, comma). The CSVs inside the monthly ZIP are cp1250 with ';'.
 
 ## Notes
 - Downloaded and parsed the 2026-09-25 ZIP. Columns: NAZEV, KOD_PRACOVISTE (11-digit, used as ref:SUKL in OSM already), KOD_LEKARNY, ICZ, ICO, MESTO, ULICE, PSC, head pharmacist (name, i.e. personal data: do not import), WWW, EMAIL, TELEFON, ERP, TYP_LEKARNY, ZASILKOVY_PRODEJ (mail order, 227), POHOTOVOST (emergency service, 16).

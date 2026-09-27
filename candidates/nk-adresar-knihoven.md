@@ -5,7 +5,7 @@
 | publisher | Národní knihovna České republiky, IČO 00023221 |
 | url | https://aleph.nkp.cz/data/adr.xml.gz (NKOD: https://data.gov.cz/zdroj/datové-sady/00023221/1099355216) |
 | format | MARCXML (gzip, ~2 MB), custom field tags (SGL, NAZ, ADR, OTD, TYP, EMK, ...) |
-| coords | yes (ADR $g in DMS, e.g. 50°5'11.12"N, 14°24'56.61"E), present on 6,643 of 8,155 records |
+| coords | yes (ADR $g in DMS; record STG505 has 49°17'48.84"N, 13°45'25.95"E), present on 6,643 of 8,155 records |
 | records | 8,155 total; 6,375 active (no STT "KNIHOVNA ZRUŠENA!/ZRUŠENÁ INSTITUCE!" flag), 6,167 active with coords; 5,163 active public (obecní/městská/krajská) libraries with coords |
 | osm_tags | amenity=library, name, opening_hours, website, email, phone, operator, ref:isil=CZ-&lt;sigla&gt; (or ref:CZ:sigla) |
 | osm_count_cz | amenity=library 1,556; ref:isil 4 (2 in CZ- format) |
@@ -16,10 +16,15 @@
 | impact | 5 |
 | verified | yes |
 
+## Try it
+- **Map preview:** [samples/nk-adresar-knihoven.geojson](../samples/nk-adresar-knihoven.geojson): all 84 active libraries with coordinates in okres Strakonice, 72 of them obecní. It includes sigla, type, address, website, and `opening_hours` converted from OTD. Librarian names and e-mails are dropped.
+- **QGIS:** there is no direct load. The source is gzipped MARCXML with coordinates as DMS text. Use the sample, or convert `https://aleph.nkp.cz/data/adr.xml.gz` with a script.
+- **Web:** Aleph search of the directory: https://aleph.nkp.cz/F/?func=file&file_name=find-b&local_base=ADR
+
 ## Notes
 - Downloaded and parsed the current dump. Type breakdown (TYP $b): obecní knihovna 5,062 (4,842 active); ostatní specializovaná 1,045; městská 521; research institute 375; university 290; medical 228; museum 180; state administration 165; school 141; others. Import the public types (obecní, městská, krajská, národní). Specialised, corporate and ministry libraries are often not publicly accessible and need `access=` or should be skipped.
-- Opening hours (OTD) are structured, with subfields 1 to 7 per weekday (e.g. `1: 8:00-11:00; 12:00-17:00`), which converts well to `opening_hours`. Some records only give a URL in $p ("aktuální otevírací doba: https://..."). Those map to `opening_hours:url`.
-- Stable IDs: SGL (sigla, e.g. ABA001, CHC504), plus the Aleph doc number in DRL and EMK (the Ministry of Culture registration number under the libraries act 257/2001). OSM already has ISIL values like `CZ-NJG512`, which follow the pattern "CZ-" + sigla. I did not confirm with NK that this is the official ISIL form; ask NK before using ref:isil, or fall back to ref:CZ:sigla.
+- Opening hours (OTD) are structured, with subfields 1 to 7 per weekday (record STG505: `1: 8:00-11:00; 13:00-17:30`), which converts well to `opening_hours`. Some records only give a URL in $p ("aktuální otevírací doba: https://..."). Those map to `opening_hours:url`.
+- Stable IDs: SGL (sigla; STG505 and STG001 appear in the dump), plus the Aleph doc number in DRL and EMK (the Ministry of Culture registration number under the libraries act 257/2001). OSM already has ISIL values like `CZ-NJG512`, which follow the pattern "CZ-" + sigla. I did not confirm with NK that this is the official ISIL form; ask NK before using ref:isil, or fall back to ref:CZ:sigla.
 - Gap: in a Postpass test, only 8 of 50 random active public libraries had an OSM amenity=library within 100 m (16%). That suggests roughly 4,000+ municipal libraries are missing. Many village libraries sit inside the obecní úřad or kulturní dům, so a node inside the building (or `amenity=library` on a POI with `level`) is the usual pattern.
 - Personal data: the JMN field (director or librarian name) and some e-mails are personal. Do not import JMN. NKOD flags the dataset as containing personal data.
 - Caveats: coordinates are geocoded by NK, often at the address point, and some may be old. The AKT field holds the last update date (many records are from 1990s–2005, but the public-library records are mostly recent). Validate against RÚIAN ADR and the town-hall position.

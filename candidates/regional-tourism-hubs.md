@@ -6,7 +6,7 @@
 | url | https://www.datakhk.cz/ ; https://www.datalk.cz/ ; https://data.pardubickykraj.cz/ ; https://www.dataok.cz/ ; https://www.datazapad.cz/ ; https://data.msk.cz/ ; https://data.jmk.cz/ |
 | format | ArcGIS FeatureServer + hub downloads (GeoJSON/CSV/SHP) |
 | coords | yes |
-| records | small layers, typically 20–150 points each (e.g. KHK Rozhledny a vyhlídky 49; LK Stromy republiky 67; KVK Přístupné prameny 129; JMK Nabíjecí stanice elektrokol 154) |
+| records | small layers, typically 20–150 points each (checked: KHK Rozhledny a vyhlídky 49; LK Stromy republiky 67; KVK Přístupné prameny 129; JMK Nabíjecí stanice elektrokol 154) |
 | osm_tags | tourism=viewpoint / man_made=tower + tower:type=observation; tourism=information + information=office; historic=castle; tourism=museum; leisure=swimming_pool / leisure=water_park; aerialway=*; amenity=library; natural=tree + start_date + circumference (metres, Key:circumference); denotation=landmark rather than natural_monument unless legally protected (Key:denotation) (Stromy republiky: memorial trees planted 1918–1919) |
 | osm_count_cz | tourism=artwork 12,102; natural=spring 4,844 (taginfo CZ); other tourism POIs are generally well mapped |
 | license | KHK, LK, PK, OLK: CC0 (item licenseInfo "CC0" / "CC0 1.0"); KVK and MSK: CC BY 4.0 / "CC BY"; JMK: licenseInfo empty |
@@ -15,6 +15,11 @@
 | update_freq | mostly one-off / annual |
 | impact | 1 |
 | verified | partial |
+
+## Try it
+- **Map preview:** [samples/regional-tourism-hubs.geojson](../samples/regional-tourism-hubs.geojson): Liberecký kraj "Stromy republiky" (CC0). It has 64 of the 67 trees; 3 have no geometry. `start_date` and `circumference` (m) are precomputed.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer*, source type *Protocol: HTTP(S)*, URI `https://services7.arcgis.com/46Lck1orT7mvuzK5/arcgis/rest/services/Stromy_republiky/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson`. For the other LK layers, use *Add ArcGIS REST Server Layer* with `https://services7.arcgis.com/46Lck1orT7mvuzK5/arcgis/rest/services`.
+- **Web:** https://www.datalk.cz/datasets/0d8b171ced024199a973be418bcdf513
 
 ## Notes
 - These are compiled tourism lists (castles, museums, infocentra, lookout towers, pools, lifts, libraries, theatres). All are high-profile POIs that are already in OSM nearly everywhere; value is only QA (website/phone/ref) — not import.

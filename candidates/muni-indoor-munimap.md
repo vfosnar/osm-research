@@ -16,9 +16,14 @@
 | impact | 4 |
 | verified | partial |
 
+## Try it
+- **Map preview:** no sample, because no licence is stated (`unclear`). Ask ÚVT MU for permission first.
+- **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer → New*, URL `https://maps.muni.cz/arcgis/rest/services/munimap/MapServer`. Layers: 0 body_zajmu (POIs), 1 mistnosti (rooms), 2 budovy, 3 dvere, 4 arealy. Filter a floor with an expression on `polohKod`.
+- **Web viewer:** https://kompas.muni.cz/
+
 ## Notes
 - Coverage check (Postpass 2026-09-27): MUNI Bohunice campus (UKB) bbox 16.562,49.172,16.582,49.182 has 7,003 rooms in munimap vs 57 indoor=room (+8 doors) in OSM; city-centre MU buildings bbox 16.590,49.180,16.610,49.200 has 16 indoor=room in OSM. Essentially no indoor data for MU in OSM.
-- Attributes: polohKod (stable location code, e.g. BHA21N02007 = areál/building/floor/room), cislo, ucel_nazev (posluchárna, laboratoř, knihovna, vnější sportoviště…), vychoziPodlazi, nazev/nazevEn, inetId. Floors encoded in polohKod (N01, P01 = podzemní) → map to level=*.
+- Attributes: polohKod (stable location code; the value BHA21N02007 was seen in the data and reads as areál/building/floor/room), cislo, ucel_nazev (posluchárna, laboratoř, knihovna, vnější sportoviště…), vychoziPodlazi, nazev/nazevEn, inetId. Floors encoded in polohKod (N01, P01 = podzemní) → map to level=*.
 - munimap itself uses OSM as basemap; ÚVT MU develops it (open-source JS library "munimap"). The data is operational facility-management data — needs an explicit permission from MU (ÚVT / Kompas team) before any import; a waiver would ideally cover rooms, doors and POIs.
 - Also include the public toilets/wheelchair toilets/elevators (≈3,300 POIs) — highest everyday value for OSM users (routing, accessibility apps).
 - Suggested ref: `ref:muni=<polohKod>` (stable, human-meaningful); room numbers → `ref`.

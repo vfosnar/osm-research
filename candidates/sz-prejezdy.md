@@ -16,6 +16,10 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+- **Map preview:** no sample, because the licence is `unclear` (no terms published; INSPIRE record says "data na vyžádání").
+- **QGIS:** download the XLSX (link in the table; the URL has no .xlsx suffix, so save it as `prejezdy.xlsx`), then *Layer → Add Layer → Add Vector Layer* → sheet "zdrojová data". It loads as a table. Latitude and longitude are DMS text, so convert them to decimals in the field calculator before *Create points layer from table*.
+
 ## Notes
 - **Columns:** Identifikace přejezdu (P-number, unique and stable, the number that is shown on the crossing sign for IZS), TÚ přejezdu (line section), Evidenční km poloha, Zabezpečení přejezdu, Krajský úřad, Oblastní ředitelství, Třída komunikace, Zeměpisná šířka, Zeměpisná délka.
 - **Protection type (Zabezpečení) counts:**

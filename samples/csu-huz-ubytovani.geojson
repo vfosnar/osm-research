@@ -1,0 +1,4000 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.735926,
+50.699355
+]
+},
+"properties": {
+"name_csu": "KRAKONOŠ RESIDENCE",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "5205211",
+"ruian_adm": 85663158,
+"address": "364",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.721422,
+50.681431
+]
+},
+"properties": {
+"name_csu": "ČAPKOVA CHATA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100804",
+"ruian_adm": 21046115,
+"address": "42",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.71928,
+50.686628
+]
+},
+"properties": {
+"name_csu": "HOTEL OBZOR",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6101098",
+"ruian_adm": 21047537,
+"address": "221",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.735088,
+50.685695
+]
+},
+"properties": {
+"name_csu": "HOTEL EMERICH",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6101373",
+"ruian_adm": 21048215,
+"address": "292",
+"rooms_band": "26 až 50",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.732702,
+50.708109
+]
+},
+"properties": {
+"name_csu": "BOUDA MÁMA",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6100574",
+"ruian_adm": 21046671,
+"address": "124",
+"rooms_band": "26 až 50",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.72372,
+50.676012
+]
+},
+"properties": {
+"name_csu": "CHATA PROTĚŽ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101197",
+"ruian_adm": 21046000,
+"address": "30",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.727997,
+50.689066
+]
+},
+"properties": {
+"name_csu": "PENZION KVĚTA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101027",
+"ruian_adm": 21047171,
+"address": "182",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.723489,
+50.707897
+]
+},
+"properties": {
+"name_csu": "REKREAČNÍ CHATA MILÍŘE",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100661",
+"ruian_adm": 21046565,
+"address": "105",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.708971,
+50.695629
+]
+},
+"properties": {
+"name_csu": "VĚTRNÍK",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "5205158",
+"ruian_adm": 21046344,
+"address": "72",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.730469,
+50.698932
+]
+},
+"properties": {
+"name_csu": "PENZION POD LESEM",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101173",
+"ruian_adm": 21046948,
+"address": "154",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.699353,
+50.709697
+]
+},
+"properties": {
+"name_csu": "UČEBNÍ STŘEDISKO RICHTROVY BOUDY",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100012",
+"ruian_adm": 21046409,
+"address": "81",
+"rooms_band": "26 až 50",
+"beds_band": "101 až 200",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.731704,
+50.683844
+]
+},
+"properties": {
+"name_csu": "PENZION BÍLÁ LABUŤ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101126",
+"ruian_adm": 21045861,
+"address": "15",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.716876,
+50.688717
+]
+},
+"properties": {
+"name_csu": "HORSKÁ CHATA LUCKÝ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101044",
+"ruian_adm": 21046212,
+"address": "54",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.731446,
+50.698816
+]
+},
+"properties": {
+"name_csu": "PENSION SVOBODA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101292",
+"ruian_adm": 21047502,
+"address": "218",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.73773,
+50.697393
+]
+},
+"properties": {
+"name_csu": "HOTEL PECR DEEP",
+"kat": "Hotel ****",
+"proposed_tourism": "hotel",
+"stars": "4",
+"ref:csu:huz": "5205151",
+"ruian_adm": 78942802,
+"address": "356",
+"rooms_band": "11 až 25",
+"beds_band": "101 až 200",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.766966,
+50.689255
+]
+},
+"properties": {
+"name_csu": "PENSION RELAX",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101019",
+"ruian_adm": 21049734,
+"address": "140",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.730508,
+50.693286
+]
+},
+"properties": {
+"name_csu": "CHATA BOUBELKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100704",
+"ruian_adm": 21047928,
+"address": "263",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.739045,
+50.696008
+]
+},
+"properties": {
+"name_csu": "HOTEL PECR WELL",
+"kat": "Hotel ****",
+"proposed_tourism": "hotel",
+"stars": "4",
+"ref:csu:huz": "5205100",
+"ruian_adm": 72689901,
+"address": "344",
+"rooms_band": "26 až 50",
+"beds_band": "101 až 200",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 3
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.790855,
+50.694548
+]
+},
+"properties": {
+"name_csu": "U DUDKŮ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205168",
+"ruian_adm": 41839510,
+"address": "336",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.767267,
+50.688397
+]
+},
+"properties": {
+"name_csu": "PENSION SLOVANKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101254",
+"ruian_adm": 21050562,
+"address": "223",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.774768,
+50.692165
+]
+},
+"properties": {
+"name_csu": "HORSKÁ CHATA U PEKAŘŮ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100907",
+"ruian_adm": 21049041,
+"address": "71",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.768494,
+50.686679
+]
+},
+"properties": {
+"name_csu": "REKREAČNÍ ZAŘÍZENÍ ŠPITÁLKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100766",
+"ruian_adm": 21050538,
+"address": "220",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.751693,
+50.692116
+]
+},
+"properties": {
+"name_csu": "CHATA AURORA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "5205044",
+"ruian_adm": 21049963,
+"address": "163",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.776844,
+50.68968
+]
+},
+"properties": {
+"name_csu": "PENSION ŘÍP",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101240",
+"ruian_adm": 21050708,
+"address": "237",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.751994,
+50.672125
+]
+},
+"properties": {
+"name_csu": "THÁMOVY BOUDY",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100783",
+"ruian_adm": 21051330,
+"address": "300",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.749638,
+50.710646
+]
+},
+"properties": {
+"name_csu": "DĚČÍNSKÁ BOUDA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100824",
+"ruian_adm": 21050147,
+"address": "181",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.742606,
+50.701189
+]
+},
+"properties": {
+"name_csu": "VODOMILKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100759",
+"ruian_adm": 21050082,
+"address": "175",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.780478,
+50.683016
+]
+},
+"properties": {
+"name_csu": "REKREAČNÍ CHALUPA GYMNÁZIA J.K.TYLA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100770",
+"ruian_adm": 21050830,
+"address": "250",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.731461,
+50.693269
+]
+},
+"properties": {
+"name_csu": "PENSION LEVEL",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100365",
+"ruian_adm": 21047944,
+"address": "265",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.769249,
+50.685819
+]
+},
+"properties": {
+"name_csu": "ROCHOVA BOUDA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100765",
+"ruian_adm": 21050511,
+"address": "218",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.787773,
+50.680836
+]
+},
+"properties": {
+"name_csu": "HORSKÁ CHATA BOHUMÍN",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101309",
+"ruian_adm": 21048398,
+"address": "5",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.786429,
+50.680417
+]
+},
+"properties": {
+"name_csu": "PENSION U KARLA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100654",
+"ruian_adm": 21051046,
+"address": "271",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.743873,
+50.69372
+]
+},
+"properties": {
+"name_csu": "PENZION ALENA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101898",
+"ruian_adm": 21050261,
+"address": "193",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.770105,
+50.690282
+]
+},
+"properties": {
+"name_csu": "HOTEL ATLAS",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6101202",
+"ruian_adm": 21049629,
+"address": "129",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 3
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.764419,
+50.6779
+]
+},
+"properties": {
+"name_csu": "CHATA VLAŠSKÉ BOUDY",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100782",
+"ruian_adm": 21051291,
+"address": "296",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.769888,
+50.69327
+]
+},
+"properties": {
+"name_csu": "HORSKÁ CHATA TAMA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100740",
+"ruian_adm": 21049351,
+"address": "102",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.746548,
+50.678442
+]
+},
+"properties": {
+"name_csu": "CHATA SKI KLUBU",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100788",
+"ruian_adm": 21051496,
+"address": "316",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.778893,
+50.692808
+]
+},
+"properties": {
+"name_csu": "PENSION KOBR",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100367",
+"ruian_adm": 21049203,
+"address": "87",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.753703,
+50.692855
+]
+},
+"properties": {
+"name_csu": "PENZION PAMPELIŠKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205142",
+"ruian_adm": 21049882,
+"address": "155",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.74705,
+50.679424
+]
+},
+"properties": {
+"name_csu": "REKREAČNÍ ZAŘÍZENÍ SOKOLKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100787",
+"ruian_adm": 21051488,
+"address": "315",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.746887,
+50.682199
+]
+},
+"properties": {
+"name_csu": "RZ DAKOTA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100838",
+"ruian_adm": 21051437,
+"address": "310",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.767625,
+50.691274
+]
+},
+"properties": {
+"name_csu": "PENZION U MODŘÍNU",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6101346",
+"ruian_adm": 21049572,
+"address": "124",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.728768,
+50.699384
+]
+},
+"properties": {
+"name_csu": "PENSION LESNÍ PRAMEN",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100623",
+"ruian_adm": 21046964,
+"address": "156",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Letní provoz",
+"seasonal": "summer",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.778607,
+50.688731
+]
+},
+"properties": {
+"name_csu": "STARÝ MLÝN",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101277",
+"ruian_adm": 21050732,
+"address": "240",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.744456,
+50.681016
+]
+},
+"properties": {
+"name_csu": "HORSKÝ HOTÝLEK KLADENKA",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6100514",
+"ruian_adm": 21051461,
+"address": "313",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.743397,
+50.694792
+]
+},
+"properties": {
+"name_csu": "PENZION ČERTICE",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100231",
+"ruian_adm": 21050244,
+"address": "191",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.757755,
+50.690761
+]
+},
+"properties": {
+"name_csu": "HORSKÁ CHATA DIANA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100826",
+"ruian_adm": 21049904,
+"address": "157",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.790706,
+50.691962
+]
+},
+"properties": {
+"name_csu": "HOTEL BOUDA JANA",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6100957",
+"ruian_adm": 21048649,
+"address": "31",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.777804,
+50.689875
+]
+},
+"properties": {
+"name_csu": "PODNIKOVÁ CHATA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100727",
+"ruian_adm": 21048983,
+"address": "65",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.780425,
+50.687138
+]
+},
+"properties": {
+"name_csu": "ÚČELOVÉ ZAŘÍZENÍ BARRANDOV",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100381",
+"ruian_adm": 21050759,
+"address": "242",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.750192,
+50.710426
+]
+},
+"properties": {
+"name_csu": "BOUDA RŮŽOHORKY",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100629",
+"ruian_adm": 21050155,
+"address": "182",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.748146,
+50.686662
+]
+},
+"properties": {
+"name_csu": "JANČÍKÁRNA ÚPSKÁ SAMOTA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100763",
+"ruian_adm": 21050333,
+"address": "200",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.772284,
+50.703856
+]
+},
+"properties": {
+"name_csu": "SAGASSEROVY BOUDY U DVOU VLEKŮ",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6100586",
+"ruian_adm": 21049459,
+"address": "112",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.768601,
+50.693407
+]
+},
+"properties": {
+"name_csu": "ČÁSLAVSKÁ CHATA",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "5205160",
+"ruian_adm": 21049378,
+"address": "104",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.782311,
+50.67999
+]
+},
+"properties": {
+"name_csu": "CHATA VAVŘINKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "5205040",
+"ruian_adm": 21050988,
+"address": "265",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.786486,
+50.680957
+]
+},
+"properties": {
+"name_csu": "UBYTOVACÍ SLUŽBY",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101043",
+"ruian_adm": 21048401,
+"address": "6",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.768752,
+50.690585
+]
+},
+"properties": {
+"name_csu": "CHATA RUSTONKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101234",
+"ruian_adm": 21049602,
+"address": "127",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.789817,
+50.691106
+]
+},
+"properties": {
+"name_csu": "HORSKÁ BOUDA MÍLA",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6100018",
+"ruian_adm": 21048801,
+"address": "47",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.743829,
+50.681734
+]
+},
+"properties": {
+"name_csu": "CHATA JAVORKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100786",
+"ruian_adm": 21051453,
+"address": "312",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.768921,
+50.691242
+]
+},
+"properties": {
+"name_csu": "PENZION U LANOVKY",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101343",
+"ruian_adm": 21049599,
+"address": "126",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.726073,
+50.687868
+]
+},
+"properties": {
+"name_csu": "PENZION ZÁKOUTÍ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205025",
+"ruian_adm": 21047154,
+"address": "180",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.768969,
+50.692226
+]
+},
+"properties": {
+"name_csu": "PENSION POMNĚNKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101181",
+"ruian_adm": 21049190,
+"address": "86",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.746867,
+50.692386
+]
+},
+"properties": {
+"name_csu": "HORSKÁ CHATA ELIŠKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100762",
+"ruian_adm": 21050317,
+"address": "198",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.787284,
+50.68907
+]
+},
+"properties": {
+"name_csu": "CHATA VELKÁ ÚPA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100720",
+"ruian_adm": 21048827,
+"address": "49",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.766804,
+50.693745
+]
+},
+"properties": {
+"name_csu": "PENZION TOPAS",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100747",
+"ruian_adm": 21049521,
+"address": "119",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.788964,
+50.692493
+]
+},
+"properties": {
+"name_csu": "CHATA EVA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100712",
+"ruian_adm": 21048665,
+"address": "33",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.767085,
+50.690372
+]
+},
+"properties": {
+"name_csu": "CHATA NA SJEZDOVCE",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6102442",
+"ruian_adm": 21049700,
+"address": "137",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.758123,
+50.690127
+]
+},
+"properties": {
+"name_csu": "HOTEL TETŘÍVEK",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100164",
+"ruian_adm": 21049921,
+"address": "159",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.746622,
+50.695233
+]
+},
+"properties": {
+"name_csu": "ROUBENKA KRISTÝNKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6102392",
+"ruian_adm": 21050023,
+"address": "169",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.768379,
+50.68962
+]
+},
+"properties": {
+"name_csu": "PENSION CORTINA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205131",
+"ruian_adm": 21049661,
+"address": "133",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.76993,
+50.690666
+]
+},
+"properties": {
+"name_csu": "DOLNÍ JABLŮŇKA I.",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6100951",
+"ruian_adm": 21049106,
+"address": "77",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.755376,
+50.693276
+]
+},
+"properties": {
+"name_csu": "PENSION TÁŇA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101307",
+"ruian_adm": 21049874,
+"address": "154",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.768563,
+50.68853
+]
+},
+"properties": {
+"name_csu": "PENSION U VESELÝCH",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101114",
+"ruian_adm": 21050554,
+"address": "222",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.766364,
+50.692875
+]
+},
+"properties": {
+"name_csu": "PENZION LION",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6100749",
+"ruian_adm": 21049548,
+"address": "121",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.781694,
+50.679598
+]
+},
+"properties": {
+"name_csu": "BOUDA ARTUR",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100243",
+"ruian_adm": 21050996,
+"address": "266",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.775501,
+50.692131
+]
+},
+"properties": {
+"name_csu": "PENZION KLEPÁČEK",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101162",
+"ruian_adm": 21049033,
+"address": "70",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.789655,
+50.695622
+]
+},
+"properties": {
+"name_csu": "HOŘICKÁ CHATA ČERVENKA MIROSLAV",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6101643",
+"ruian_adm": 21048789,
+"address": "45",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.765091,
+50.689302
+]
+},
+"properties": {
+"name_csu": "CHALUPA V ÚDOLÍ",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6102271",
+"ruian_adm": 21049777,
+"address": "144",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.79335,
+50.687255
+]
+},
+"properties": {
+"name_csu": "CHATA CHLUMECKÁ",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100710",
+"ruian_adm": 21048576,
+"address": "24",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.770363,
+50.676168
+]
+},
+"properties": {
+"name_csu": "PENSION JOHN",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101915",
+"ruian_adm": 21051224,
+"address": "289",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.740639,
+50.677455
+]
+},
+"properties": {
+"name_csu": "PENZION VEBROVY BOUDY",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101369",
+"ruian_adm": 21051518,
+"address": "318",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.760321,
+50.689921
+]
+},
+"properties": {
+"name_csu": "PENZION SUPRAPHON",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101287",
+"ruian_adm": 21049815,
+"address": "148",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.752506,
+50.672896
+]
+},
+"properties": {
+"name_csu": "THÁMOVA BOUDA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100784",
+"ruian_adm": 21051348,
+"address": "301",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.769834,
+50.691044
+]
+},
+"properties": {
+"name_csu": "HORNÍ JABLŮŇKA",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6101700",
+"ruian_adm": 21049092,
+"address": "76",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.746308,
+50.691789
+]
+},
+"properties": {
+"name_csu": "PENZION SKI BIKE PEC",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101155",
+"ruian_adm": 21050295,
+"address": "196",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.77399,
+50.691658
+]
+},
+"properties": {
+"name_csu": "DOLENÍ BOUDA AGROSTROJ JIČÍN",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100730",
+"ruian_adm": 21049050,
+"address": "72",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.782135,
+50.690718
+]
+},
+"properties": {
+"name_csu": "CHATA DRAK",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100721",
+"ruian_adm": 21048851,
+"address": "52",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.784143,
+50.683074
+]
+},
+"properties": {
+"name_csu": "PENSION PIANA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101164",
+"ruian_adm": 21048452,
+"address": "11",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.727682,
+50.675698
+]
+},
+"properties": {
+"name_csu": "BOUDA NA MULDĚ - VÝCVIKOVÉ STŘEDISKO",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101086",
+"ruian_adm": 21046042,
+"address": "34",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.718048,
+50.676775
+]
+},
+"properties": {
+"name_csu": "BOUDA SVORNOST",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101632",
+"ruian_adm": 21046051,
+"address": "35",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.720387,
+50.677967
+]
+},
+"properties": {
+"name_csu": "HORSKÁ BOUDA PURKYNĚ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100218",
+"ruian_adm": 21046069,
+"address": "37",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.72291,
+50.678114
+]
+},
+"properties": {
+"name_csu": "ZAHRÁDKY SUITES",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101229",
+"ruian_adm": 21046077,
+"address": "38",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.736353,
+50.693504
+]
+},
+"properties": {
+"name_csu": "CHATA ŠOHAJKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101302",
+"ruian_adm": 21045747,
+"address": "3",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.735226,
+50.693509
+]
+},
+"properties": {
+"name_csu": "ZLATÁ HVĚZDA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100286",
+"ruian_adm": 21045755,
+"address": "4",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.736235,
+50.692617
+]
+},
+"properties": {
+"name_csu": "CHATA ORLÍK",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6102395",
+"ruian_adm": 21045763,
+"address": "5",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.733578,
+50.686676
+]
+},
+"properties": {
+"name_csu": "HAVLOVA BOUDA",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6100862",
+"ruian_adm": 21045798,
+"address": "8",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.733997,
+50.685359
+]
+},
+"properties": {
+"name_csu": "REKREAČNÍ ZAŘÍZENÍ TURBINA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100706",
+"ruian_adm": 21045836,
+"address": "12",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.728466,
+50.687337
+]
+},
+"properties": {
+"name_csu": "PENSION MELKUS",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6103042",
+"ruian_adm": 21045844,
+"address": "13",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.72817,
+50.678479
+]
+},
+"properties": {
+"name_csu": "CHATA BARBORKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6102189",
+"ruian_adm": 21045925,
+"address": "21",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.726954,
+50.677897
+]
+},
+"properties": {
+"name_csu": "HOTEL ŽIŽKOVA BOUDA",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6100578",
+"ruian_adm": 21045933,
+"address": "22",
+"rooms_band": "26 až 50",
+"beds_band": "101 až 200",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.72758,
+50.676243
+]
+},
+"properties": {
+"name_csu": "CHATA JINDŘICHŮV DŮM",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101223",
+"ruian_adm": 21045950,
+"address": "24",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.726929,
+50.673803
+]
+},
+"properties": {
+"name_csu": "HUSOVA BOUDA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100666",
+"ruian_adm": 21045968,
+"address": "26",
+"rooms_band": "26 až 50",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.72392,
+50.677367
+]
+},
+"properties": {
+"name_csu": "CHATA DIMROVKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6102419",
+"ruian_adm": 21045984,
+"address": "28",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.721208,
+50.679958
+]
+},
+"properties": {
+"name_csu": "CHATA VIKTORKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100941",
+"ruian_adm": 21046093,
+"address": "40",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.719587,
+50.685375
+]
+},
+"properties": {
+"name_csu": "CHATA SMETÁNKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "5205193",
+"ruian_adm": 21046140,
+"address": "45",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.718436,
+50.689135
+]
+},
+"properties": {
+"name_csu": "CHATA SLUNEČNICE",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6100722",
+"ruian_adm": 21046204,
+"address": "53",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.714654,
+50.689616
+]
+},
+"properties": {
+"name_csu": "HOTEL ENERGETIK",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6101862",
+"ruian_adm": 21046239,
+"address": "56",
+"rooms_band": "51 až 100",
+"beds_band": "101 až 200",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.713667,
+50.688355
+]
+},
+"properties": {
+"name_csu": "CHATA JITŘENKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6102407",
+"ruian_adm": 21046247,
+"address": "57",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.719445,
+50.688623
+]
+},
+"properties": {
+"name_csu": "HORSKÁ CHATA ROZKOŠ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101231",
+"ruian_adm": 21046263,
+"address": "59",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.706657,
+50.696258
+]
+},
+"properties": {
+"name_csu": "NA KONCI SVĚTA",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "5205157",
+"ruian_adm": 21046361,
+"address": "74",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.702369,
+50.702051
+]
+},
+"properties": {
+"name_csu": "CHATA JELENÍ LOUKY",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100349",
+"ruian_adm": 21046395,
+"address": "77",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.704834,
+50.715846
+]
+},
+"properties": {
+"name_csu": "CHATA ARNIKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100737",
+"ruian_adm": 21046484,
+"address": "96",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.710857,
+50.713707
+]
+},
+"properties": {
+"name_csu": "CHATA MODRODOLSKÁ A PASTOUŠKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101271",
+"ruian_adm": 21046522,
+"address": "100",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.72405,
+50.715427
+]
+},
+"properties": {
+"name_csu": "BOUDA V OBŘÍM DOLE",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100791",
+"ruian_adm": 21046611,
+"address": "116",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.733268,
+50.704803
+]
+},
+"properties": {
+"name_csu": "CHATA LESOVNA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101038",
+"ruian_adm": 21046727,
+"address": "131",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.734881,
+50.699421
+]
+},
+"properties": {
+"name_csu": "PENSION BIVOJ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100697",
+"ruian_adm": 21046743,
+"address": "133",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.737384,
+50.696959
+]
+},
+"properties": {
+"name_csu": "GRAND HOTEL HRADEC",
+"kat": "Hotel ****",
+"proposed_tourism": "hotel",
+"stars": "4",
+"ref:csu:huz": "6100583",
+"ruian_adm": 21046778,
+"address": "137",
+"rooms_band": "51 až 100",
+"beds_band": "101 až 200",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.737954,
+50.695826
+]
+},
+"properties": {
+"name_csu": "HOSTEL KLONDIKE",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100671",
+"ruian_adm": 21046794,
+"address": "139",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.735788,
+50.696277
+]
+},
+"properties": {
+"name_csu": "HOTEL HORIZONT",
+"kat": "Hotel ****",
+"proposed_tourism": "hotel",
+"stars": "4",
+"ref:csu:huz": "6100429",
+"ruian_adm": 21046816,
+"address": "141",
+"rooms_band": "101 a více",
+"beds_band": "201 a více",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.738555,
+50.695736
+]
+},
+"properties": {
+"name_csu": "HOSPODA NA PECI",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205186",
+"ruian_adm": 21046824,
+"address": "142",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 3
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.731559,
+50.697612
+]
+},
+"properties": {
+"name_csu": "PENZION A+A",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100873",
+"ruian_adm": 21046905,
+"address": "150",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.732782,
+50.697252
+]
+},
+"properties": {
+"name_csu": "PENZION U KOHOUTŮ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205177",
+"ruian_adm": 21046913,
+"address": "151",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.729551,
+50.69821
+]
+},
+"properties": {
+"name_csu": "APARTMÁNY NA SALAŠI",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101088",
+"ruian_adm": 21046972,
+"address": "157",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.728658,
+50.698486
+]
+},
+"properties": {
+"name_csu": "CHATA START",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "5205046",
+"ruian_adm": 21046981,
+"address": "158",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.7245,
+50.699446
+]
+},
+"properties": {
+"name_csu": "CHATA UK PEC POD SNĚŽKOU VAK",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100755",
+"ruian_adm": 21046999,
+"address": "159",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.719801,
+50.697604
+]
+},
+"properties": {
+"name_csu": "CHATA BOŽENKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100844",
+"ruian_adm": 21047006,
+"address": "160",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.720524,
+50.696419
+]
+},
+"properties": {
+"name_csu": "PENSION AMOR",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100387",
+"ruian_adm": 21047014,
+"address": "163",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.728277,
+50.695669
+]
+},
+"properties": {
+"name_csu": "HOTEL NEBOZÍZEK",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6100303",
+"ruian_adm": 21047022,
+"address": "164",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.732544,
+50.693296
+]
+},
+"properties": {
+"name_csu": "PENZION NIKOLA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100756",
+"ruian_adm": 21047057,
+"address": "170",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.73375,
+50.693931
+]
+},
+"properties": {
+"name_csu": "CHATA PECKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100270",
+"ruian_adm": 21047065,
+"address": "171",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.730464,
+50.689815
+]
+},
+"properties": {
+"name_csu": "DĚTSKÁ OZDRAVOVNA KARKULKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101033",
+"ruian_adm": 21047201,
+"address": "185",
+"rooms_band": "26 až 50",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.726873,
+50.699708
+]
+},
+"properties": {
+"name_csu": "HOTEL DĚVÍN ***",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6100484",
+"ruian_adm": 21047251,
+"address": "190",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.734183,
+50.694127
+]
+},
+"properties": {
+"name_csu": "HOTEL HVĚZDA",
+"kat": "Hotel **",
+"proposed_tourism": "hotel",
+"stars": "2",
+"ref:csu:huz": "6100198",
+"ruian_adm": 21047286,
+"address": "193",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.738472,
+50.6961
+]
+},
+"properties": {
+"name_csu": "HOTEL HOŘEC",
+"kat": "Hotel ****",
+"proposed_tourism": "hotel",
+"stars": "4",
+"ref:csu:huz": "6100885",
+"ruian_adm": 21047294,
+"address": "195",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 4
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.731365,
+50.708017
+]
+},
+"properties": {
+"name_csu": "BETYNA BOUDA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100696",
+"ruian_adm": 21047316,
+"address": "198",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.727809,
+50.69815
+]
+},
+"properties": {
+"name_csu": "PENSION LOGLA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100817",
+"ruian_adm": 21047332,
+"address": "200",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.697146,
+50.734461
+]
+},
+"properties": {
+"name_csu": "HOTEL LUČNÍ BOUDA",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6101046",
+"ruian_adm": 21047367,
+"address": "203",
+"rooms_band": "51 až 100",
+"beds_band": "101 až 200",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.739051,
+50.695293
+]
+},
+"properties": {
+"name_csu": "HOTEL CORSO",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "5205033",
+"ruian_adm": 21047464,
+"address": "214",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.727276,
+50.699314
+]
+},
+"properties": {
+"name_csu": "PENZION VYSOKÁ STRÁŽ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101239",
+"ruian_adm": 21047481,
+"address": "216",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.712431,
+50.714279
+]
+},
+"properties": {
+"name_csu": "CHATA PASTOUŠKA A MODRODOLSKÁ",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "5205077",
+"ruian_adm": 21047545,
+"address": "222",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.7179,
+50.696653
+]
+},
+"properties": {
+"name_csu": "CHATA CHEMIE",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100945",
+"ruian_adm": 21047588,
+"address": "227",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.723916,
+50.678671
+]
+},
+"properties": {
+"name_csu": "BOUDA RACEK",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101813",
+"ruian_adm": 21047642,
+"address": "235",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.719121,
+50.677355
+]
+},
+"properties": {
+"name_csu": "DĚTSKÁ OZDRAVOVNA MĚLNICKÁ",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101025",
+"ruian_adm": 21047740,
+"address": "245",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.727405,
+50.687899
+]
+},
+"properties": {
+"name_csu": "PENSION JAVOR",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101350",
+"ruian_adm": 21047758,
+"address": "246",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.732122,
+50.693644
+]
+},
+"properties": {
+"name_csu": "PENZION KODR",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6101353",
+"ruian_adm": 21048002,
+"address": "271",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.729883,
+50.692668
+]
+},
+"properties": {
+"name_csu": "PENZION VEPO",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100626",
+"ruian_adm": 21048231,
+"address": "294",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.737145,
+50.698
+]
+},
+"properties": {
+"name_csu": "U KAPLIČKY",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205201",
+"ruian_adm": 21048274,
+"address": "298",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.734672,
+50.694408
+]
+},
+"properties": {
+"name_csu": "KOLÍNSKÁ BOUDA",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6101628",
+"ruian_adm": 25872915,
+"address": "319",
+"rooms_band": "26 až 50",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.736998,
+50.696812
+]
+},
+"properties": {
+"name_csu": "APARTMÁNY ZVONIČKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "5205042",
+"ruian_adm": 26535602,
+"address": "327",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.719797,
+50.677243
+]
+},
+"properties": {
+"name_csu": "CHATA SALOMON",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6102367",
+"ruian_adm": 26936666,
+"address": "36",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.737124,
+50.695536
+]
+},
+"properties": {
+"name_csu": "APARTHOTEL SVATÝ VAVŘINEC",
+"kat": "Hotel ****",
+"proposed_tourism": "hotel",
+"stars": "4",
+"ref:csu:huz": "5205132",
+"ruian_adm": 78787866,
+"address": "355",
+"rooms_band": "51 až 100",
+"beds_band": "201 a více",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.767724,
+50.697813
+]
+},
+"properties": {
+"name_csu": "HORSKÁ BOUDA DANIELKA",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100823",
+"ruian_adm": 21049424,
+"address": "109",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Zimní provoz",
+"seasonal": "winter",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.768979,
+50.702063
+]
+},
+"properties": {
+"name_csu": "HORSKÁ CHATA PORTÁŠKY",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101183",
+"ruian_adm": 21049432,
+"address": "110",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.760907,
+50.69306
+]
+},
+"properties": {
+"name_csu": "HORSKÝ PENZION MILETA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101077",
+"ruian_adm": 21049858,
+"address": "152",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.741926,
+50.695467
+]
+},
+"properties": {
+"name_csu": "PENZION MODŘANKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100891",
+"ruian_adm": 21050171,
+"address": "184",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.73878,
+50.698097
+]
+},
+"properties": {
+"name_csu": "VILA EDEN",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205088",
+"ruian_adm": 21050236,
+"address": "190",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.761629,
+50.688914
+]
+},
+"properties": {
+"name_csu": "PENZION MARIENKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101065",
+"ruian_adm": 21050384,
+"address": "205",
+"rooms_band": "10 a méně",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.76219,
+50.688658
+]
+},
+"properties": {
+"name_csu": "JAVOŘÍ MLÝN",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100967",
+"ruian_adm": 21050392,
+"address": "206",
+"rooms_band": "11 až 25",
+"beds_band": "51 až 100",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 2
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.77734,
+50.68948
+]
+},
+"properties": {
+"name_csu": "PENSION SLUNEČNICE",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101127",
+"ruian_adm": 21050716,
+"address": "238",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.778105,
+50.682893
+]
+},
+"properties": {
+"name_csu": "BOUDA HACAR",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "6100771",
+"ruian_adm": 21050848,
+"address": "251",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.680397,
+50.715446
+]
+},
+"properties": {
+"name_csu": "CHATA VÝROVKA",
+"kat": "Hotel garni",
+"proposed_tourism": "hotel",
+"ref:csu:huz": "6100411",
+"ruian_adm": 21047375,
+"address": "204",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.738969,
+50.69717
+]
+},
+"properties": {
+"name_csu": "PENZION SLUNÍČKO",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205061",
+"ruian_adm": 21050210,
+"address": "188",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.726017,
+50.709158
+]
+},
+"properties": {
+"name_csu": "CHATA POD STUDNIČNOU",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "6100215",
+"ruian_adm": 21046646,
+"address": "120",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.732894,
+50.695374
+]
+},
+"properties": {
+"name_csu": "PENZION VERONIKA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205001",
+"ruian_adm": 25278151,
+"address": "309",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.720383,
+50.687936
+]
+},
+"properties": {
+"name_csu": "HOTEL HNĚDÝ VRH",
+"kat": "Hotel ***",
+"proposed_tourism": "hotel",
+"stars": "3",
+"ref:csu:huz": "6101236",
+"ruian_adm": 21046191,
+"address": "52",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Smíšený provoz",
+"seasonal": "yes",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.733196,
+50.696483
+]
+},
+"properties": {
+"name_csu": "APARTMÁNY KOULA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6100260",
+"ruian_adm": 21046867,
+"address": "146",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.726103,
+50.720871
+]
+},
+"properties": {
+"name_csu": "BOUDA POD SNĚŽKOU",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101174",
+"ruian_adm": 21047324,
+"address": "199",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.724969,
+50.676215
+]
+},
+"properties": {
+"name_csu": "SMÍCHOVSKÁ BOUDA",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "6101259",
+"ruian_adm": 21045992,
+"address": "29",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.774207,
+50.695549
+]
+},
+"properties": {
+"name_csu": "HORSKÝ RANČ",
+"kat": "Penzion",
+"proposed_tourism": "guest_house",
+"ref:csu:huz": "5205173",
+"ruian_adm": 21049301,
+"address": "97",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 0
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.729205,
+50.691123
+]
+},
+"properties": {
+"name_csu": "POCO LOCO",
+"kat": "Ostatní HUZ",
+"proposed_tourism": "manual review",
+"ref:csu:huz": "5205212",
+"ruian_adm": 80454844,
+"address": "359",
+"rooms_band": "10 a méně",
+"beds_band": "20 a méně",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.744487,
+50.693798
+]
+},
+"properties": {
+"name_csu": "RESIDENCE RIVERSIDE",
+"kat": "Turistická ubytovna",
+"proposed_tourism": "hostel",
+"ref:csu:huz": "5205213",
+"ruian_adm": 87380226,
+"address": "364",
+"rooms_band": "11 až 25",
+"beds_band": "21 až 50",
+"campsite_pitches_band": "žádné",
+"season": "Celoroční provoz",
+"osm_accommodation_within_100m": 1
+}
+}
+]
+}

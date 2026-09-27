@@ -16,6 +16,12 @@
 | impact | 4 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** none, because the licence is unclear (no terms published), so no extract is redistributed here.
+- **QGIS:** save https://pickup.dpd.cz/Export/csv?country=203 as `dpd.csv` (16,087 rows, checked 2026-09-27). Then *Layer → Add Layer → Add Delimited Text Layer…*: CSV, comma, encoding **windows-1250**, X = `longitude`, Y = `latitude`, CRS EPSG:4326. `pickup_network_type` separates shops from boxes.
+- **Web viewer:** https://pickup.dpd.cz/
+
 ## Notes
 
 **Gap (spatial check, 2026-09-27).** Each locker was matched to OSM amenity=parcel_locker within 40 m. The OSM side came from Postpass (CZ bbox), matched by brand/operator/name keyword. Z-BOX, which Sync already covers, is the control: 92 % of Z-BOX lockers match, which validates the method.

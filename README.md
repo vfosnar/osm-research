@@ -112,5 +112,7 @@ Each file in [`candidates/`](candidates/) describes one source:
 - **Impact 1–5** — how much it would improve the map: how many features are missing in
   OSM and how useful they are.
 - **OSM count** — how many such features OSM in Czechia has today.
+- **Try it** — a map preview (a small extract in [`samples/`](samples/), shown as a map by
+  GitHub) and what to paste into QGIS to load the full dataset.
 
 For how the research is done, see [`AGENTS.md`](AGENTS.md).

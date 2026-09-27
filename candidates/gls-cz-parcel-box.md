@@ -16,6 +16,16 @@
 | impact | 4 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** none, because the licence is unclear (no terms published), so no extract is redistributed here.
+- **QGIS:** convert the JSON to CSV (tested 2026-09-27, 5,549 rows). The server returns 403 to Python's default user agent, so fetch it with curl:
+  ```
+  curl -s https://map.gls-czech.com/data/deliveryPoints/cz.json | python3 -c "import json,csv,sys;w=csv.writer(open('gls.csv','w'));w.writerow(['id','name','type','lat','lon']);w.writerows([i['id'],i['name'],i['type'],*i['location']] for i in json.load(sys.stdin)['items'])"
+  ```
+  Then *Layer → Add Layer → Add Delimited Text Layer…*: `gls.csv`, CSV, UTF-8, X = `lon`, Y = `lat`, EPSG:4326. Filter `"type" = 'parcel-locker'`.
+- **Web viewer:** https://maps.gls-czech.cz/
+
 ## Notes
 
 - **Gap:** 2,059 GLS-owned lockers are in the feed. Only 471 have a GLS-tagged OSM locker within 40 m (Postpass CZ bbox, 2026-09-27), so **~1,590 GLS Parcel Boxes are missing**. Another ~1,000 have some other brand's locker within 40 m. Those are co-located lockers or mis-tagged ones.

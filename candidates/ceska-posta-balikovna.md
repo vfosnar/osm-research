@@ -16,6 +16,16 @@
 | impact | 4 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** none, because the licence is unclear (nothing is published), so no extract is redistributed here.
+- **QGIS:** the XML is not a GIS format. Convert it to CSV first (tested 2026-09-27, 11,428 rows):
+  ```
+  curl -s http://napostu.ceskaposta.cz/vystupy/balikovny.xml | python3 -c "import csv,sys,xml.etree.ElementTree as E;n='{http://www.cpost.cz/schema/aict/zv_2}';F=['PSC','NAZEV','TYP','BOX_PROVIDER','ADRESA','SOUR_X_WGS84','SOUR_Y_WGS84'];w=csv.writer(open('balikovny.csv','w'));w.writerow(F);[w.writerow([r.findtext(n+f,'') for f in F]) for r in E.parse(sys.stdin).getroot().iter(n+'row')]"
+  ```
+  Then *Layer → Add Layer → Add Delimited Text Layer…*: `balikovny.csv`, CSV, UTF-8, X = `SOUR_X_WGS84`, Y = `SOUR_Y_WGS84`, CRS EPSG:4326. To see only the lockers, filter `"TYP" = 'balíkovna-BOX'`.
+- **Web viewer:** https://www.balikovna.cz/cs/vyhledat-balikovnu
+
 ## Notes
 
 - **Relation to existing work:**

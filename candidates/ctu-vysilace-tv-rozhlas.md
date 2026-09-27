@@ -16,9 +16,14 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/ctu-vysilace-tv-rozhlas.geojson](../samples/ctu-vysilace-tv-rozhlas.geojson) has 145 transmitter sites in the central Bohemia bbox 13.4,49.5,15.6,50.6. Each site groups the TV and radio licence rows that share a position rounded to 0.001°, with its services (DVB-T/FM/DAB/AM) and the proposed `communication:*` tags. `osm_mast_or_tower_within_200m` is false for 76 of them (Postpass, 2026-09-27).
+- **QGIS:** save both CSVs from the url row, then use *Layer → Add Layer → Add Delimited Text Layer…*: CSV, comma, UTF-8, X = `Zeměpisná délka`, Y = `Zeměpisná šířka`, CRS EPSG:4326.
+
 ## Notes
 - Postpass check: 376 of the 796 distinct sites (47%) have a man_made=mast/tower/communications_tower or tower:type=communication within 200 m. About 420 broadcasting sites therefore have no mast in OSM at all. Many of the others lack communication:television/radio, which only about 170 objects carry nationwide.
-- Attributes include site name (e.g. PRAHA, KOMAROV), elevation (Výška nad mořem), ERP, channel/frequency, programme/multiplex, polarisation. Map only site-level facts (mast, ele, communication:*). Frequencies and programmes are not usually mapped in OSM.
+- Attributes include site name (PRAHA and KOMAROV are two rows in the TV file), elevation (Výška nad mořem), ERP, channel/frequency, programme/multiplex, polarisation. Map only site-level facts (mast, ele, communication:*). Frequencies and programmes are not usually mapped in OSM.
 - Caveat: licensed coordinates are sometimes rounded to whole seconds, and small gap-filler transmitters are often on existing buildings or chimneys. Use the data as a review layer, not a blind import.
 - This is not gsmweb.cz BTS (a known source, mobile cells). It covers broadcast only.
 - Wiki pages read: Tag:man_made=mast, Tag:tower:type=communication, Key:communication:television (requires man_made=tower or communications_tower + tower:type=communication).

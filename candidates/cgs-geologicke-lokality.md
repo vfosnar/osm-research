@@ -16,8 +16,14 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/cgs-geologicke-lokality.geojson](../samples/cgs-geologicke-lokality.geojson) has the 142 sites in Liberecký kraj, both points and polygons. Each has name, technical feature, phenomena, rock, protection level and a detail link. The long prose fields are left out.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer…* → *File*, and paste `/vsizip/vsicurl/https://od.geology.cz/lokality.zip/lokality_body.geojson`. Add the polygons the same way with `…/lokality.zip/lokality_plochy.geojson`. Both files are WGS84.
+- **Web viewer:** https://lokality.geology.cz/ (detail pages `https://lokality.geology.cz/<id>`).
+
 ## Notes
-- **Contents.** Each site has `id`, `nazev`, `technicke_prvky` (e.g. "lom"), `pristup` (access description), `charakt`, `abstract_cz`, `geologicka_charakteristika`, `url`. Many are quarries, rock outcrops, road cuts, fossil sites and volcanic features. Text fields are long descriptive prose, which is copyrightable and should not go into OSM.
+- **Contents.** Each site has `id`, `nazev`, `technicke_prvky` ("lom" on site 1457, Votrubcův lom - Kozákov), `pristup` (access description), `charakt`, `abstract_cz`, `geologicka_charakteristika`, `url`. Many are quarries, rock outcrops, road cuts, fossil sites and volcanic features. Text fields are long descriptive prose, which is copyrightable and should not go into OSM.
 - **Gap.** OSM hardly uses the `geological=*` key (71 in CZ). Many sites exist in OSM as a quarry, rock or cliff without a geological tag or name. Value: adding names and `geological=*` to about 1,600 notable sites that interest hikers and geotourists. The sites are few and the tagging is heterogeneous, so this is a manual/MapRoulette-style task, not a bulk import.
 - **Tagging.** Read Key:geological and Tag:geological=outcrop (raw, 2026-09-27). Outcrop is for exposed bedrock and is "in use". Polygons often outline whole quarries: tag an existing `landuse=quarry` instead of adding new areas.
 - **Licence.** NKOD distribution spec checked 2026-09-27: CC BY 4.0. The descriptive texts are authored works, so take only name, type and geometry.

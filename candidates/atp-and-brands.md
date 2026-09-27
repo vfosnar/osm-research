@@ -9,6 +9,11 @@
 - **Sync DROP list:** Sync's config explicitly drops `cba_cz`, `hruska_cz` and `zabka_cz` (no per-store id) and `cerveny_kriz_cz` (broken output). These are marked "DROP".
 - **Licence:** ATP output is CC0 (ATP's own claim). The brands' own website terms were not checked per brand. Non-ATP feeds have their own candidate files.
 
+## Try it
+
+- **Map preview:** [samples/atp-and-brands.geojson](../samples/atp-and-brands.geojson) shows Coop (row 5 below): the 357 `coop_cz` stores in the South Bohemia bbox 13.5,48.55,15.6,49.6. `osm_coop_within_150m` is false for 196 of them, meaning no OSM shop with brand or name Coop/Jednota lies within 150 m (Postpass, 2026-09-27). There is no locker sample: AlzaBox, GLS and DPD lockers are not in ATP, and their operator feeds have no licence (see those files).
+- **QGIS:** *Layer → Add Layer → Add Vector Layer…* → Source type *Protocol: HTTP(S)*, URI `https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/coop_cz.geojson`. For any other spider, replace `coop_cz`. The current run id is in https://data.alltheplaces.xyz/runs/latest.json.
+
 ## Table (sorted by gap)
 
 | # | Brand / network | Spider or feed | CZ records | OSM count CZ | Gap | Notes |

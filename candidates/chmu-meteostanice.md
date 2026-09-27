@@ -16,6 +16,15 @@
 | impact | 2 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/chmu-meteostanice.geojson](../samples/chmu-meteostanice.geojson) has the 122 stations in the South Moravia bbox 15.5,48.6,17.7,49.65, with `ref:wigos`, name, ele and start date. Only 34 have an OSM `man_made=monitoring_station` within 150 m (Postpass, 2026-09-27).
+- **QGIS:** the file is ČHMÚ JSON, not GeoJSON. Convert today's file to CSV first (tested 2026-09-27):
+  ```
+  python3 -c "import json,csv,urllib.request as u;d=json.load(u.urlopen('https://opendata.chmi.cz/meteorology/climate/now/metadata/meta1-20260927.json'))['data']['data'];w=csv.writer(open('meta1.csv','w'));w.writerow(d['header'].split(','));w.writerows(d['values'])"
+  ```
+  Then *Layer → Add Layer → Add Delimited Text Layer…*: `meta1.csv`, CSV, UTF-8, X = `GEOGR1`, Y = `GEOGR2`, EPSG:4326. In this file GEOGR1 is longitude, which is the opposite of the hydrology metadata.
+
 ## Notes
 - **Why it is here:** Mapy.com's official data-source list ("Zdroje dat", https://licence.mapy.com/?doc=mapy_attr) credits "© Český hydrometeorologický ústav" for points of interest. This is the open station list behind that credit. The gauging-station half is covered separately in `chmu-vodomerne-stanice.md`.
 - **Partly known:** ZABAGED "Meteorologická stanice" (ČHMÚ + ŘSD + army + ÚFA) has already been imported (✅ on Cs:POI_ZABAGED_Import) and is in Sync (`[group.zabaged.dataset.…]` with `man_made=monitoring_station`). The new parts are:

@@ -16,10 +16,25 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** none, because the licence is unclear (no explicit licence for RINF data found), so no extract is redistributed here.
+- **QGIS:** export the operational points to CSV (tested 2026-09-27, 3,678 rows). Save this as `rinf.rq`:
+  ```
+  PREFIX era: <http://data.europa.eu/949/>
+  PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+  PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+  SELECT DISTINCT ?uopid ?name ?type (xsd:decimal(?la) AS ?lat) (xsd:decimal(?lo) AS ?lon) WHERE {
+    ?op a era:OperationalPoint ; era:uopid ?uopid ; era:opName ?name ; era:opType ?type ;
+        era:inCountry <http://publications.europa.eu/resource/authority/country/CZE> ;
+        era:netReference ?nr . ?nr wgs:lat ?la ; wgs:long ?lo . }
+  ```
+  Run `curl -s -X POST https://rinf.data.era.europa.eu/api/v1/sparql/rinf -H 'Content-Type: application/sparql-query' -H 'Accept: text/csv' --data-binary @rinf.rq -o rinf.csv`. Then *Layer → Add Layer → Add Delimited Text Layer…*: CSV, UTF-8, X = `lon`, Y = `lat`, EPSG:4326.
+
 ## Notes
 - **Queries run on 2026-09-27.**
   - Each OP has era:uopid (for example CZ54619 = Louny předměstí), era:opName (ASCII, no diacritics), era:opType, era:netReference with wgs84 lat/long, and a label with line km ("km 6.632 on line 191-01_0561").
-  - Platform edges hang off tracks (OP → era:hasPart → track → era:hasPart → era:PlatformEdge). They carry era:platformId (e.g. "1 - č.n.:2_1", which is platform 1 on track 2), era:platformHeight and era:lengthOfPlatform (in metres).
+  - Platform edges hang off tracks (OP → era:hasPart → track → era:hasPart → era:PlatformEdge). They carry era:platformId (one value seen in the query is "1 - č.n.:2_1", which is platform 1 on track 2), era:platformHeight and era:lengthOfPlatform (in metres).
   - Platform edges have no geometry of their own. They can only be attached per station, so they need manual or semi-automatic conflation.
 - **Platform height distribution (SKOS labels in mm):**
   - 550 mm: 1,756
@@ -32,7 +47,7 @@
   - 2,641 have an OSM station or halt within 300 m.
   - 2,046 have no matching uic_ref in OSM.
   - 1,117 have no railway:ref starting with the same 5 digits.
-  - In CZ practice, uic_ref = "54" + the 5-digit code (e.g. Třebechovice p. O.: railway:ref=531608, uic_ref=5453160). The RINF uopid digits equal the first 5 SR70 digits, so uic_ref can be derived directly. railway:ref (6-digit SR70 with check digit) needs the check digit, which RINF does not include.
+  - In CZ practice, uic_ref = "54" + the 5-digit code (Třebechovice p. O. in OSM has railway:ref=531608 and uic_ref=5453160). The RINF uopid digits equal the first 5 SR70 digits, so uic_ref can be derived directly. railway:ref (6-digit SR70 with check digit) needs the check digit, which RINF does not include.
 - **Wiki pages read:**
   - Key:uic_ref: always 7 digits with a 2-digit UIC country code. It warns against confusing it with IBNR.
   - Cs:Key:railway:ref: an internal railway code.

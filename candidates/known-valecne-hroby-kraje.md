@@ -7,7 +7,7 @@
 | format | GeoJSON, CSV, KML, ArcGIS FeatureServer |
 | coords | yes |
 | records | Liberec 896 (Pietní místo – objekt 400, Válečný hrob s ostatky 376, deska 98, …); KHK 1,423 (checked 2026-09-27) |
-| osm_tags | historic=memorial + memorial=war_memorial (+ memorial=plaque for desky); graves with remains: historic=tomb + tomb=war_grave; memorial:conflict; suggested ref:cevh=&lt;ID_hrobů, e.g. CZE5101-43071&gt; |
+| osm_tags | historic=memorial + memorial=war_memorial (+ memorial=plaque for desky); graves with remains: historic=tomb + tomb=war_grave; memorial:conflict; suggested ref:cevh=&lt;ID_hrobů&gt; (format CZE5108-8318, the first Liberec record) |
 | osm_count_cz | historic=memorial 30,272; memorial=war_memorial 2,897; tomb=war_grave 30; ref:cevh 2 (taginfo 2026-09-26) |
 | license | NKOD terms: contains no copyrighted works, not a copyright-protected database, no sui generis right, no personal data (mapped to CC0) |
 | license_url | https://data.gov.cz/zdroj/datové-sady/70891508/30baff3f7c8600b5375c6527731fb852 ; https://data.gov.cz/zdroj/datové-sady/70889546/1f05b2ceb4d26640181f7f0e840ce864 |
@@ -15,6 +15,12 @@
 | update_freq | unknown / irregular (regional extracts) |
 | impact | 1 |
 | verified | yes |
+
+## Try it
+
+- **Map preview:** [samples/known-valecne-hroby-kraje.geojson](../samples/known-valecne-hroby-kraje.geojson) has all 879 Liberec records returned on 2026-09-27 (the table's 896 is an earlier count). Each has `ref:cevh`, character, conflict, army, and a link that was rewritten to `evidencevh.mo.gov.cz`, because the `evidencevh.army.cz` links in the data redirect to a 404. 678 of them already have an OSM memorial, tomb, wayside cross or shrine within 50 m.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer…* → *Protocol: HTTP(S)* with the Liberec GeoJSON URL from the table. Alternatively use *Add ArcGIS REST Server Layer…* with `https://services7.arcgis.com/46Lck1orT7mvuzK5/arcgis/rest/services/V%C3%A1le%C4%8Dn%C3%A9_hroby_v_Libereck%C3%A9m_kraji/FeatureServer` (KHK: `https://services6.arcgis.com/ogJAiK65nXL1mXAW/arcgis/rest/services/V%C3%A1le%C4%8Dn%C3%A9_hroby/FeatureServer`).
+- **Web viewer:** https://evidencevh.mo.gov.cz/
 
 ## Notes
 Known (listed on Cs:Česko/freemap, "Evidence válečných hrobů", licence empty there) — adds: the national MO register (evidencevh.mo.gov.cz) still has **no open download**. It is a Kendo web app; the linked CENIA WMS `mo_valecne_hroby` returned 503/timeouts on 2026-09-27, and there is no licence statement. However, two kraje republish their part as open data with public-domain-equivalent NKOD terms.

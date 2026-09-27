@@ -16,6 +16,11 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/cgs-dulni-dila.geojson](../samples/cgs-dulni-dila.geojson) has the 288 shafts and adits (Jáma, Šachtice, Štola, Úpadnice) around Příbram (bbox 13.9,49.62,14.1,49.74). `osm_mining_feature_within_50m` is true for only 19 of them (Postpass, 2026-09-27).
+- **QGIS:** *Layer → Add Layer → Add Vector Layer…* → *File*, and paste `/vsizip/vsicurl/https://od.geology.cz/dulni_dila.zip/dulni_dila.geojson` into the dataset field. That loads 30,891 WGS84 points from a 3.6 MB download. Alternatively use *Add WFS Layer* with `https://mapy.geology.cz/arcgis/services/Dulni_Dila/dulni_dila/MapServer/WFSServer` (layer `dulni_dila:Důlní_díla`).
+
 ## Notes
 - **Gap (Příbram bbox 13.9,49.62,14.1,49.74).** ČGS has 151 Jáma + 84 Šachtice + 53 Štola (+ others). Postpass finds only 19 `man_made=mineshaft` + 8 `man_made=adit` in OSM. Nationally OSM has ~900 shaft/adit features vs ~15,700 shafts and adits in the registry.
 - **Caveat: surface visibility.** Many entries are sealed or backfilled shafts, or uranium workings (DIAMO manages 14,903 records; "Radioaktivní suroviny" 11,930). They may not be visible on the ground. Import only Jáma/Štola/Šachtice/Úpadnice. Skip Vrt (boreholes), Komín and Propad unless verified. Prefer lifecycle prefixes (`abandoned:`) for closed ones. The open file has no explicit "current state" field, although the dataset description mentions one. It carries `kategorie` (Opuštěné / Provozované / Staré / Neurčeno / "Není důlní dílo" 745, to be excluded), `rok_ukonceni_provozu`, `profil_dila`, `rozmery_usti`, `hloubka_delka`, `surovina`, `spravce`.

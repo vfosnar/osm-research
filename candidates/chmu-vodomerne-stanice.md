@@ -16,9 +16,15 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/chmu-vodomerne-stanice.geojson](../samples/chmu-vodomerne-stanice.geojson) has the 109 gauges run by ČHMÚ's Brno branch (`POB=BR` in meta3), with DBC `ref`, stream, operator and SPA 1/2/3 stages. Only 5 have an OSM `man_made=monitoring_station` within 150 m (Postpass, 2026-09-27).
+- **QGIS:** *Layer → Add Layer → Add Vector Layer…* → *File*, and paste `/vsicurl/https://opendata.chmi.cz/hydrology/product/data/gis_layer/surfacewater_monitoring_quantity.gpkg`. This is a GeoPackage with layer `water_gauges`: 554 points in EPSG:32633, with `WIGOS_ID`.
+- **Web viewer:** https://hydro.chmi.cz/hpps/ (each sample feature's `website` links to its station page).
+
 ## Notes
 - Postpass check: of 545 stations in meta1, only 39 have any man_made=monitoring_station within 150 m, and 33 have monitoring:water_level=yes. About 93% are missing.
-- Each station has a stable DBC number (e.g. 001000 Špindlerův Mlýn), stream name, elevation, river km, basin area, and three flood-activity thresholds (SPA 1/2/3 in cm and m³/s). These gauges are what "stupeň povodňové aktivity" warnings refer to, so they are highly relevant to users.
+- Each station has a stable DBC number (001000 = Špindlerův Mlýn, checked in meta3), stream name, elevation, river km, basin area, and three flood-activity thresholds (SPA 1/2/3 in cm and m³/s). These gauges are what "stupeň povodňové aktivity" warnings refer to, so they are highly relevant to users.
 - Weather stations (ČHMÚ) are already covered through ZABAGED POI. These hydrological gauges are a separate network. ZABAGED may contain a "vodočet" or "limnigraf" point, but not the IDs or thresholds. Check for overlap with the ZABAGED layer before importing.
 - Licence: CC BY 4.0, so a waiver or explicit consent from ČHMÚ is needed (OSM LWG position). ČHMÚ is a state body used to giving consent (ČÚZK precedent).
 - Related, not verified in depth: groundwater observation wells (https://opendata.chmi.cz/hydrology/groundwater/now/, CC BY 4.0) could map to man_made=monitoring_station + monitoring:groundwater=yes (not checked on wiki).

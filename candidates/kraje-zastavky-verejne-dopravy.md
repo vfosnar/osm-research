@@ -16,6 +16,11 @@
 | impact | 3 |
 | verified | yes |
 
+## Try it
+
+- **Map preview:** [samples/kraje-zastavky-verejne-dopravy.geojson](../samples/kraje-zastavky-verejne-dopravy.geojson) has the 1,296 Olomoucký kraj stops south of 49.75° N (Olomouc, Prostějov, Přerov). OK is the region with the biggest gap. 289 of them have no OSM stop, platform or station within 100 m (`osm_stop_distance_m`, Postpass 2026-09-27). The OK `CIS` field is kept as `CIS_ok_internal_id` because it is not `ref:CIS_JR`.
+- **QGIS:** *Layer → Add Layer → Add Vector Layer…*. For KV, OK and MSK, choose *Protocol: HTTP(S)* and paste the GeoJSON URL from the table. For JČK, choose *File* and paste `/vsizip/vsicurl/https://geoportal.kraj-jihocesky.gov.cz/portal/media/Soubory/opendata/zastavky_JCK_SHP.zip/zastavky_JcK_20260128_SHP/zastavky_JcK_20260128.shp` (the inner name is dated and changes with each release). For IDOL, paste `/vsizip/vsicurl/https://dopravnimapy.kraj-lbc.cz/opendata/zastavky_shp_wgs84.zip/zastavky_shp_wgs84.shp`.
+
 ## Notes
 - **How this was found:** following the Google Transit lead. Google credits only PID for CZ transit
   (legal notices). The Mobility Database lists only PID, IDS JMK, DPMO Olomouc, DPMLJ (dead link) and PMDP Plzeň

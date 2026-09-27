@@ -25,7 +25,7 @@ verified: yes
 
 **OSM gap.** Only about 650 parking areas in Prague carry a zone tag, against 16,876 ZPS
 sections. Street-side parking areas (`parking=street_side`) are only partly mapped, and
-`parking:*` lane tags are on about 3,700 street ways in Prague. Adding zone and capacity is
+`parking:both|left|right` appear about 3,400 times on street ways in the Prague bbox (Postpass). Adding zone and capacity is
 useful for routing and parking apps.
 
 **Caveats.**

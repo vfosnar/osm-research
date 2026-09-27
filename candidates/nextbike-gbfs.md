@@ -27,6 +27,11 @@ verified: yes
 - Rekola, Bolt and Lime publish no CZ GBFS in the MobilityData catalogue (systems.csv), so nextbike is the only one.
 - Contact: gbfs@nextbike.net (feed_contact_email); servis@nextbikeczech.com.
 
+- Prague detail (from the Prague research pass, 2026-09-27): 1,580 nextbike stations in Prague, all
+  `is_virtual_station=false` in the feed, versus only 11 `amenity=bicycle_rental` in OSM Prague (3 of them
+  nextbike). Prague stations are mostly ordinary bike racks marked in the app, so a field check is needed
+  before adding them.
+
 ## Wiki entry
 ```
 ===nextbike GBFS===

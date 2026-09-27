@@ -37,7 +37,7 @@ Sample rows checked (e.g. bench: typ_tid "Lavičky, sedátka", address, spravce 
 - Tree layer has no species for most records (`nazev` sparse) — only leaf_type/leaf_cycle derivable from druh_bio_kod (listnaté → broadleaved, jehličnaté → needleleaved; leaf_cycle NOT derivable). "Stromy ve stromořadí" could become natural=tree_row lines only via manual work; import as nodes.
 - Street lights: only poles, no lamp_mount etc.; wiki Key:lamp_ref shows 0 use in CZ; use `ref` on highway=street_lamp as wiki Tag:highway=street_lamp suggests.
 - Brno mobiliář is maintained by individual city districts (MČ) — completeness varies by district; check per-MČ coverage before import.
-- License: CC BY 4.0 ⇒ explicit waiver/consent needed per LWG. Brno already gave consent for "Brno účelová mapa" (listed in covered.md, Cs:Česko/freemap) — same city, so extending that consent to data.brno.cz layers is the realistic path. Contact: data.brno.cz team (contact form on the portal; no e-mail found in dataset metadata).
+- License: CC BY 4.0 ⇒ explicit waiver/consent needed per LWG. Precedent: data.Brno already granted explicit consent for OSM use of the IDS JMK GTFS dataset (from 2024-11-18, OSMCZ request template, see Cs:Česko/freemap "Jízdní řád IDS JMK GTFS") — the same portal team can likely extend it to these layers. Contact: data.brno.cz team; talk-cz thread "Souhlas s užitím dat z data.brno.cz" (2024-10/11, https://openstreetmap.cz/talkcz/c4107) names Jiří Komínek (MMB spatial-data administrator) as the contact, offered via Tomáš Kasparek. Earlier talk-cz 2016-10 "Brno – otevřená data (zápis z kontaktní schůzky)" records the city being open to OSM imports (memorial trees and bins were named as candidate POI imports; city was to pick 1–3 pilot projects) — no import followed.
 - Suggested ref key: `ref:brno:globalid` is not established; prefer no ref for trees/bins (volatile ogcfid); for street lamps use `ref=<pole number>`.
 - Wiki pages read: Tag:natural=tree, Tag:amenity=bench, Tag:highway=street_lamp, Key:lamp_ref, Tag:amenity=waste_basket, Tag:amenity=bicycle_parking, Tag:leisure=playground, Tag:amenity=drinking_water, Tag:leisure=pitch, Tag:highway=cycleway.
 
@@ -46,7 +46,7 @@ Sample rows checked (e.g. bench: typ_tid "Lavičky, sedátka", address, spravce 
 ===Brno – pasport zeleně, mobiliář, veřejné osvětlení===
 * dataset: Pasport zeleně – stromy, keře; Mobiliář městských částí (lavičky, hřiště, vodní prvky); Stožáry veřejného osvětlení; Odpadkové koše; Stojany na kola; Pítka
 * gestor: [https://data.brno.cz/ Statutární město Brno]
-* licence: CC BY 4.0 [https://creativecommons.org/licenses/by/4.0/] – nutný souhlas (možno rozšířit souhlas k účelové mapě)
+* licence: CC BY 4.0 [https://creativecommons.org/licenses/by/4.0/] – nutný souhlas (data.Brno již udělilo souhlas pro GTFS IDS JMK)
 * datové primitivy: body (stromy, lavičky, lampy, koše, stojany), linie (cykloopatření)
 * odkaz: https://services6.arcgis.com/fUWVlHWZNxUvTUh8/arcgis/rest/services/stromy_kere/FeatureServer/0
 * navržený tag {{tag|natural|tree}}, {{tag|amenity|bench}}, {{tag|highway|street_lamp}} + {{tag|ref|<číslo stožáru>}}, {{tag|amenity|waste_basket}}, {{tag|amenity|bicycle_parking}}

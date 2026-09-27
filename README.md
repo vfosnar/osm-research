@@ -6,10 +6,12 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** two research rounds done (27 September 2026). 49 candidate files, all
+> **Status:** three research rounds done (27 September 2026). 60 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
-> [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources.
+> [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
+> went after niche but useful data: community maps, institutional systems, hobby
+> associations, and ZABAGED layers outside the POI import.
 
 ## Shortlist
 
@@ -23,6 +25,8 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Prague lamps & hydrants](candidates/prague-dtm-lampy-hydranty.md) (IPR technical map) | 121k lamp posts, 1.6k above-ground hydrants | ~90 % missing |
 | [Waste facilities](candidates/mzp-isoh-zarizeni-odpady.md) (MŽP ISOH) | ~5,000 active collection yards, scrap yards, car dismantlers, composting | ~24 % of collection yards mapped |
 | [Power plants](candidates/eru-vyrobny-elektriny.md) (ERÚ) | 38k licensed plants incl. 1,600 hydro, 420 biogas | ~500 hydro; needs geocoding from parcels |
+| [Springs and wells](candidates/zabaged-prameny-studny.md) (ZABAGED 4.01, not in the POI import) | 11,060 springs (5,370 named), 21,652 wells, stable IDs | 4,844 springs; Brdy: 47 of 86 missing |
+| [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
 
@@ -37,6 +41,13 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Mine shafts & adits](candidates/cgs-dulni-dila.md) (ČGS) | ~15.7k shafts and adits | ~900 | ČGS |
 | [River gauges](candidates/chmu-vodomerne-stanice.md) (ČHMÚ) | 563 stations with flood-stage levels | ~93 % missing | ČHMÚ |
 | [Street lamps & sirens, Most](candidates/most-opendata.md) (CC BY-SA) | 7,039 lamps with pole codes, 26 sirens | 15 lamps, 0 sirens | město Most |
+| [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ |
+| [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com |
+| [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG |
+| [Street-workout parks](candidates/woclub-workout-hriste.md) (WOclub map) | 707 parks | 467 of 660 outdoor parks missing | WOclub |
+| [Community gardens and composters](candidates/kokoza-komunitni-zahrady.md) (Kokoza, Mapotic) | 224 gardens, 97 community composters | 195 of 213 gardens, 92 of 97 composters missing | Kokoza |
+| [Prague airport services](candidates/letiste-praha-sluzby.md) | 249 terminal POIs with terminal, floor, hours | 92 of 313 POIs have `level` | Letiště Praha |
+| [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
 
@@ -53,6 +64,8 @@ really exist, what licence it has, and how much of it is already in OSM.
 - [Protected areas](candidates/aopk-zvlaste-chranena-uzemi.md) (AOPK) — IDs and boundary updates.
 - [Prague cycle routes](candidates/prague-ipr-cyklotrasy.md) (IPR, 2018 consent) — ~16 missing routes, lane check (IPR ~335 km vs OSM 193 km).
 - [Weather stations](candidates/chmu-meteostanice.md) (ČHMÚ, CC BY 4.0) — 760 stations, `ref:wigos` IDs.
+- [Plzeň traffic signs](candidates/plzen-dopravni-znaceni.md) (CC0) — 28,396 signs for review tasks: stop signs
+  (OSM has 5 of 86), weight limits without `maxweight`, 30 zones without `maxspeed`.
 - [War graves](candidates/known-valecne-hroby-kraje.md) (Liberec, Hradec Králové regions, CC0) — register IDs.
 
 ### 4. Smaller or local
@@ -68,9 +81,28 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 [dams and weirs](candidates/mze-isvs-voda-hraze-jezy.md), [bathing waters](candidates/vuv-koupaci-vody.md),
 [vessel berths](candidates/sps-euris-stanoviste-plavidel.md), [ambulance stations](candidates/kraje-zzs-vyjezdove-zakladny.md),
 [geological sites](candidates/cgs-geologicke-lokality.md), [sports registry](candidates/nsa-rejstrik-sportu.md),
-[regional tourism layers](candidates/regional-tourism-hubs.md).
+[regional tourism layers](candidates/regional-tourism-hubs.md),
+[walls](candidates/zabaged-zdi.md) (ZABAGED 1.23; ZABAGED has no fence type).
 
 ### Open leads not yet researched
+
+From round 3 (checked, not written up):
+
+- ČSÚ tourist accommodation (CC0, 10,454 hotels, guest houses, campsites with stable IDs and RÚIAN codes):
+  only 563 of a 1,000 sample have OSM accommodation within 100 m. Government data, but nobody seems to use it.
+- MŠMT school register (CC0) for what ZABAGED lacks: 298 of 531 art schools (ZUŠ), 221 of 326 youth centres,
+  300 of 356 student dormitories missing.
+- AOPK karst register JESO (CC BY 4.0): 542 caves (214 in OSM), 2,332 sinkholes (ZABAGED has none).
+- ČHMÚ air-quality stations (CC BY 4.0): 208, only 33 in OSM.
+- Mapotic hosts many Czech NGO maps; `/api/v1/maps/<id>/pois.geojson/` works anonymously — worth scanning.
+- Pumptracks: 12 in OSM; mtbczech.cz lists 148 and builders publish reference lists.
+- Opava city map services (© only): 1,266 benches, 268 tactile crossings, 162 disabled parking spaces.
+- Děčín public lighting (CC0 DXF): 7,313 luminaires against 10 in OSM, no IDs.
+- cngplus.cz: 236 CNG stations; 80 matched OSM fuel stations lack `fuel:cng=yes`.
+- Not started: campervan dump stations, bike repair stands, car sharing, farmers' markets, KČT huts,
+  Westfield Chodov store API.
+
+Earlier rounds:
 
 - ŘSD bridges, kilometre posts and rest areas (the existing ŘSD permission is about road numbers).
 - ERÚ heat plants and electricity storage; ČHMÚ groundwater wells.

@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** three research rounds done (27 September 2026). 60 candidate files, all
+> **Status:** three research rounds done (27 September 2026). 61 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -66,6 +66,8 @@ really exist, what licence it has, and how much of it is already in OSM.
 - [Weather stations](candidates/chmu-meteostanice.md) (ČHMÚ, CC BY 4.0) — 760 stations, `ref:wigos` IDs.
 - [Plzeň traffic signs](candidates/plzen-dopravni-znaceni.md) (CC0) — 28,396 signs for review tasks: stop signs
   (OSM has 5 of 86), weight limits without `maxweight`, 30 zones without `maxspeed`.
+- [Wikidata QIDs for niche classes](candidates/wikidata-niche-qid.md) (CC0, QIDs only) — extends Sync's
+  Wikidata group: 1,332 unlinked stolpersteine, 1,712 fingerposts, 1,549 abandoned villages, 626 bunkers.
 - [War graves](candidates/known-valecne-hroby-kraje.md) (Liberec, Hradec Králové regions, CC0) — register IDs.
 
 ### 4. Smaller or local
@@ -99,6 +101,9 @@ From round 3 (checked, not written up):
 - Opava city map services (© only): 1,266 benches, 268 tactile crossings, 162 disabled parking spaces.
 - Děčín public lighting (CC0 DXF): 7,313 luminaires against 10 in OSM, no IDs.
 - cngplus.cz: 236 CNG stations; 80 matched OSM fuel stations lack `fuel:cng=yes`.
+- Overture Places (licence fine, CDLA Permissive 2.0): Kolín test found mostly Facebook-page businesses and
+  name mismatches — a hint layer only. Mapillary detections need a free token to measure.
+- zanikleobce.cz (abandoned villages, 1,733 Wikidata links) and vodopady.info (waterfalls): licences unchecked.
 - Not started: campervan dump stations, bike repair stands, car sharing, farmers' markets, KČT huts,
   Westfield Chodov store API.
 

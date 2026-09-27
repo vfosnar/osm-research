@@ -57,3 +57,4 @@ before the data can go into OSM — see the candidate file (same name in
 | [zabaged-zabrany.geojson](zabaged-zabrany.geojson) | ZABAGED 2.36 Zábrana (Křivoklátsko, 375 points) | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
 | [zabaged-zdi.geojson](zabaged-zdi.geojson) | ZABAGED 1.23 Zeď (Kutná Hora, 247 lines) | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
 | [plzen-dopravni-znaceni.geojson](plzen-dopravni-znaceni.geojson) | Svislé DZ (vertical traffic signs, central Plzeň, 1,726 points) | Statutární město Plzeň / SVSMP | CC0 |
+| [wikidata-niche-qid.geojson](wikidata-niche-qid.geojson) | Wikidata items in CZ (barrows, hillforts, synagogues, waterfalls, bunkers) not linked from OSM | Wikidata community | CC0 1.0 (QIDs only; coordinates not for import) |

@@ -28,7 +28,7 @@ This repo is only the working memory for new research.
 | `candidates/<slug>.md` | One file per candidate source (format below). Prague sources use `prague-` prefix. |
 | `research/` | Human-readable write-ups of broader investigations (e.g. what sources other maps use). |
 | `samples/` | Small GeoJSON extracts for previewing candidates on GitHub's map view (see `samples/README.md` for sources and licences). |
-| `tools/` | Reusable queries and scripts (e.g. `nkod-queries.md`, `header_to_table.py`, `readme_routes.py`). |
+| `tools/` | Reusable queries and scripts (e.g. `nkod-queries.md`, `header_to_table.py`, `readme_routes.py`, `postpass_match.py`). |
 
 ## Where known sources are tracked (upstream)
 
@@ -218,3 +218,16 @@ covers several datasets.
 - After a round: regenerate
   the ranked table in `README.md`, run `tools/readme_routes.py` (Route column and the "By route"
   section, from each file's `sync_fit`), commit, push.
+
+## State of the research (28 September 2026)
+
+- Nine rounds done, 109 candidate files; the round themes are listed in `README.md`
+  ("How it was researched"). Every candidate has `sync_fit`, a `## Try it` section and a
+  `## Wiki entry`; every sample is listed in `samples/README.md`.
+- Unfinished work and open leads are in `README.md` under "Open leads". The most useful one
+  for the community is the ZABAGED tag-mapping follow-up for the iD fork (lost in a container
+  restart before it reported).
+- Gap numbers from rounds 4–9 partly come from a local match against the 2026-09-27 Czechia
+  extract, because Postpass was down; each file says so where it applies.
+- Before a new round: re-read the upstream sources above, since the community may have
+  imported or listed some candidates in the meantime.

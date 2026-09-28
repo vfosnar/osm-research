@@ -34,8 +34,8 @@ imports or tracks (see [What's already covered](#whats-already-covered)).
 Each candidate says which route into OSM fits it: Sync, the geometry harness planned for
 the osmcz iD fork, or MapRoulette (see [By route](#by-route)).
 
-<sub>All nine rounds ran on the $250 of Claude credit Anthropic handed out, with about $10
-left over at the end — roughly $2.20 per candidate file.</sub>
+<sub>All nine rounds ran on the $250 of Claude credit Anthropic handed out; they used about $212
+of it, which comes to under $2 per candidate file.</sub>
 
 ## Shortlist
 
@@ -161,40 +161,40 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 [boulders and rocks](candidates/zabaged-osamele-balvany-skaly.md) (ZABAGED, 11,216 missing; stone vs rock is the mapper's call),
 [walls](candidates/zabaged-zdi.md) (ZABAGED 1.23; ZABAGED has no fence type).
 
-### Open leads not yet researched
+### Open leads
 
-From rounds 3–6 (checked, not written up):
+Checked but not written up, or blocked:
 
-- Regionální značky: 1,445 certified products/services with GPS in one JSON call; mostly products at producers'
-  addresses. Official hotel stars (Hotelstars Union, 275 CZ hotels): terms forbid reuse.
-
-- Platform sweeps (uMap, ArcGIS Online, Zenodo) found little original open Czech data from non-government
-  people — see [research/platform-sweeps.md](research/platform-sweeps.md).
-
-- zanikleobce.cz abandoned villages (OSM has 155): all rights reserved, ask the author.
-- mtbczech.cz trail centres and bike parks: same structure as the pump-track list.
-
-- MŠMT school register (CC0) for what ZABAGED lacks: 298 of 531 art schools (ZUŠ), 221 of 326 youth centres,
-  300 of 356 student dormitories missing.
+- **ZABAGED tag-mapping fixes for the iD fork.** Round 9 was going to propose subtype rules for
+  ruins, church towers and pipeline stations, mappings for the top five empty tables, and a
+  second check of the overstated gaps (rock formations, forest cutlines, town squares). The work
+  was lost in a container restart; the starting points are in
+  [research/zabaged-layer-audit.md](research/zabaged-layer-audit.md).
+- MŠMT school register (CC0) for what ZABAGED lacks: 298 of 531 art schools (ZUŠ), 221 of 326 youth
+  centres and 300 of 356 student dormitories are missing.
 - ČHMÚ air-quality stations (CC BY 4.0): 208, only 33 in OSM.
-- Opava city map services (© only): 1,266 benches, 268 tactile crossings, 162 disabled parking spaces.
 - Děčín public lighting (CC0 DXF): 7,313 luminaires against 10 in OSM, no IDs.
-- Overture Places (licence fine, CDLA Permissive 2.0): Kolín test found mostly Facebook-page businesses and
-  name mismatches — a hint layer only. Mapillary detections need a free token to measure.
-- zanikleobce.cz (abandoned villages, 1,733 Wikidata links) and vodopady.info (waterfalls): licences unchecked.
-
-Earlier rounds:
-
-- ŘSD bridges, kilometre posts and rest areas (the existing ŘSD permission is about road numbers).
-- ERÚ heat plants and electricity storage; ČHMÚ groundwater wells.
+- zanikleobce.cz (abandoned villages; OSM has 155) and vodopady.info (waterfalls): all rights
+  reserved, ask the authors.
+- mtbczech.cz trail centres and bike parks: same structure as the pump-track list.
+- DÚK full GTFS (`/cis/GetGtfs/gtfs_duk_all`) needs a login token; DPMLJ Liberec GTFS was unreachable.
 - Prague district (MČ) datasets in the Prague LKOD; Golemio (needs an API key, no licence found).
-- Děčín and Liberec city portals (unreachable during this round).
-- ŘSD/NDIC data portal `mobilitydata.rsd.cz` (rest areas, truck parking) and the Ústecký kraj stop API —
+- ŘSD bridges, kilometre posts and rest areas, and the ŘSD/NDIC portal `mobilitydata.rsd.cz`:
   unreachable from the research environment; retry from another network.
-- Worth asking, no open dataset: KČT trail network, Český horolezecký svaz rock database (climbing bans),
-  Asociace lanové dopravy (ropeways), Ministry of Health bathing places (koupacivody.cz).
-- Mapy.com's ODbL [missing-paths file](https://pro.mapy.com/osm-user-updates/2026.geojson.gz) has nothing
-  in Czechia (mostly Alps) — could be passed to AT/IT/SI communities.
+- Worth asking, no open dataset: KČT trail network, Euroklíč toilet list (NRZP), Lesy ČR shelters
+  and tent spots, voice beacons for the blind (SONS, APEK).
+- Sports venues (ice rinks, climbing walls, swimming pools) were not researched.
+
+Checked and rejected (details in the research write-ups):
+
+- Overture Places: licence fine (CDLA Permissive 2.0), but a Kolín test found mostly Facebook-page
+  businesses and name mismatches. Mapillary detections need an API token to measure.
+- uMap, ArcGIS Online and Zenodo hold little original open Czech data from outside government
+  ([research/platform-sweeps.md](research/platform-sweeps.md)).
+- Regionální značky: mostly products at producers' addresses. Official hotel stars (Hotelstars
+  Union): terms forbid reuse.
+- Mapy.com's ODbL [missing-paths file](https://pro.mapy.com/osm-user-updates/2026.geojson.gz) has
+  nothing in Czechia (mostly Alps); it could be passed to the AT/IT/SI communities.
 
 ### Corrections for Cs:Česko/freemap
 
@@ -370,6 +370,10 @@ Each file in [`candidates/`](candidates/) describes one source:
 - **Impact 1–5** — how much it would improve the map: how many features are missing in
   OSM and how useful they are.
 - **OSM count** — how many such features OSM in Czechia has today.
+- **Route** — how the data could get into OSM: **Sync** (points with a stable ID), the
+  **iD fork** (lines and areas, via the geometry harness planned for the osmcz iD fork) or
+  **MapRoulette** (pointers for a mapper). See [By route](#by-route).
+- **Wiki entry** — a Czech block ready to paste into Cs:Česko/freemap.
 - **Try it** — a map preview (a small extract in [`samples/`](samples/), shown as a map by
   GitHub) and what to paste into QGIS to load the full dataset.
 

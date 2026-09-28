@@ -2,7 +2,7 @@
 
 Small extracts of candidate datasets, so you can see the data on GitHub's map view
 without downloading anything. Each one covers one town or area picked to show the gap
-in OSM, has at most 2,000 features and uses WGS84. All were fetched on 27 September 2026.
+in OSM, has at most 2,000 features and uses WGS84. All were fetched on 27–28 September 2026.
 
 These are previews, not import files. Several licences here still need a waiver
 before the data can go into OSM — see the candidate file (same name in

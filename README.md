@@ -5,7 +5,7 @@ already being imported?
 
 This repository collects candidate data sources. For each one we fetched the data itself,
 looked up its licence, and measured how much of it is already in OSM. Everything was
-checked against live sources on 27–28 September 2026; there are 103 candidate files so far.
+checked against live sources on 27–28 September 2026; there are 109 candidate files.
 
 ### How it was researched
 
@@ -28,15 +28,14 @@ imports or tracks (see [What's already covered](#whats-already-covered)).
    plus more city accessibility maps.
 8. **Everyday services.** Health, clothes containers and zero-waste shops, and stop
    accessibility from transit GTFS feeds outside Prague.
-9. **Last round** (in progress). ZABAGED tag-mapping fixes for the iD fork, stop
-   accessibility in the remaining cities, culture and sports venues, charity shops, and
-   places for children and families.
+9. **Last round.** Stop accessibility from the national timetable export, culture venues,
+   clothes containers and charity shops, and places for children and families.
 
 Each candidate says which route into OSM fits it: Sync, the geometry harness planned for
 the osmcz iD fork, or MapRoulette (see [By route](#by-route)).
 
 <sub>All nine rounds ran on the $250 of Claude credit Anthropic handed out, with about $10
-left over at the end — roughly $2.40 per candidate file.</sub>
+left over at the end — roughly $2.20 per candidate file.</sub>
 
 ## Shortlist
 
@@ -60,7 +59,7 @@ left over at the end — roughly $2.40 per candidate file.</sub>
 | [Covered water reservoirs](candidates/zabaged-vodojemy-zemni.md) (ZABAGED areál – vodojem zemní) | 6,950 reservoirs | 5,776 missing; 613 `reservoir_covered` in CZ | Sync + iD fork |
 | [Industrial chimneys](candidates/zabaged-tovarni-kominy.md) (ZABAGED 1.10) | 6,117 chimneys, 1,997 with height | 3,650 missing | Sync + iD fork |
 | [Out-of-hours emergency services](candidates/kraje-lspp-pohotovosti.md) (4 regions, NKOD) | 37 LSPP places with hours and pavilion | 5 with a nearby "pohotovost" object; `healthcare:speciality=emergency` used 7× in CZ | MapRoulette + Sync |
-| [Children's groups](candidates/mpsv-detske-skupiny.md) (MPSV register, daily) | 2,423 childcare groups with capacity and stable code | 141 `amenity=childcare` in CZ; 1,430 of 1,773 placed have nothing nearby |
+| [Children's groups](candidates/mpsv-detske-skupiny.md) (MPSV register, daily) | 2,423 childcare groups with capacity and stable code | 141 `amenity=childcare` in CZ; 1,430 of 1,773 placed have nothing nearby | Sync |
 | [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing | MapRoulette |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
@@ -82,7 +81,7 @@ left over at the end — roughly $2.40 per candidate file.</sub>
 | [Warning sirens](candidates/czech-siren-tech-mapa-siren.md) (Czech Siren Tech hobby map) | 4,335 JSVV sirens with manufacturer and model | 422 sirens in OSM; Brno 51 vs 2, Ostrava 62 vs 0 | Czech Siren Tech | MapRoulette |
 | [VLS rescue points](candidates/vls-body-zachrany.md) (military training areas; OCR CSV from talk-cz 2024) | 484 rescue points with refs | 224 missing (Libavá, Březina, Hradiště) | VLS ČR | Sync |
 | [Vets](candidates/kvl-veterinarni-pracoviste.md) (Komora veterinárních lékařů; terms forbid redistribution) | 948 practices, 142 with 24h/emergency, hours | 199 in OSM (21 %) | KVL ČR (written consent) | Sync |
-| [Scout clubrooms](candidates/junak-skautske-klubovny.md) (Junák map) | 592 clubrooms, 1,192 troops | 78 `club=scout` in CZ; 485 missing | Junák |
+| [Scout clubrooms](candidates/junak-skautske-klubovny.md) (Junák map) | 592 clubrooms, 1,192 troops | 78 `club=scout` in CZ; 485 missing | Junák | Sync |
 | [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ | Sync |
 | [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com | MapRoulette |
 | [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG | MapRoulette |
@@ -104,10 +103,10 @@ left over at the end — roughly $2.40 per candidate file.</sub>
 | [Wine map](candidates/vinarsky-fond-vinarska-mapa.md) (Vinařský fond) | 1,731 wineries, wine shops, cellars | 632 of 765 wineries, 535 of 671 wine shops missing | Vinařský fond | MapRoulette |
 | [Tourist information centres](candidates/atic-certifikovana-tic.md) (A.T.I.C. ČR) | 546 certified centres with contacts | 226 of 510 missing; most matched lack contacts | A.T.I.C. ČR | MapRoulette |
 | [Clothes collection containers](candidates/textil-kontejnery-kloktex-potex.md) (KlokTex, Potex) | 1,463 containers with ids | 869 of 1,192 KlokTex missing; 214 of those only lack `recycling:clothes` | KlokTex, Potex | Sync |
-| [Diakonie Broumov containers](candidates/diakonie-broumov-kontejnery.md) (address table, placed via RÚIAN) | 889 textile containers, 752 placed | 585 of 742 without a clothes container within 100 m | Diakonie Broumov |
+| [Diakonie Broumov containers](candidates/diakonie-broumov-kontejnery.md) (address table, placed via RÚIAN) | 889 textile containers, 752 placed | 585 of 742 without a clothes container within 100 m | Diakonie Broumov | MapRoulette |
 | [Zero-waste map](candidates/reduca-bezodpadova-mapa.md) (Reduca) | 1,334 places: 479 bulk shops, milk machines, charity shops | 16 `bulk_purchase` in CZ; mostly 2017–2020 data | Reduca | MapRoulette |
-| [Socialist-era public art](candidates/vetrelci-volavky-socharstvi.md) (Vetřelci a volavky) | 2,970 sculptures, reliefs, mosaics with artist and year | 945 of 2,689 missing; 286 of 1,744 matched have `artist_name` | Pavel Karous |
-| [Member cinemas](candidates/kinari-clenska-kina.md) (Asociace provozovatelů kin) | 233 cinemas incl. summer cinemas, stable ids | 57 missing (small towns) | APK |
+| [Socialist-era public art](candidates/vetrelci-volavky-socharstvi.md) (Vetřelci a volavky) | 2,970 sculptures, reliefs, mosaics with artist and year | 945 of 2,689 missing; 286 of 1,744 matched have `artist_name` | Pavel Karous | Sync |
+| [Member cinemas](candidates/kinari-clenska-kina.md) (Asociace provozovatelů kin) | 233 cinemas incl. summer cinemas, stable ids | 57 missing (small towns) | APK | Sync |
 | [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI | Sync |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
@@ -210,7 +209,7 @@ Which of the community's routes into OSM fits each candidate (the `sync_fit` row
 [AGENTS.md](AGENTS.md#scoring-impact-15)). Sorted by impact; the icon is the licence status.
 A candidate with several layers can appear under more than one route.
 
-### Sync — points with a stable ID and a 1:1 tag mapping (42)
+### Sync — points with a stable ID and a 1:1 tag mapping (47)
 
 - ✅ [Centrální adresář knihoven a informačních institucí v ČR](candidates/nk-adresar-knihoven.md) — impact 5
 - ✅ [Sdílená data o zeleni](candidates/prague-stromy-sdz.md) — impact 5
@@ -219,6 +218,7 @@ A candidate with several layers can appear under more than one route.
 - ❓ [Bank ATM locators](candidates/bank-atm-locators-cz.md) — impact 4
 - ❓ [DPD CZ Pickup](candidates/dpd-pickup-cz.md) — impact 4
 - ❓ [GLS Czech Republic](candidates/gls-cz-parcel-box.md) — impact 4
+- ✅ [MPSV](candidates/mpsv-detske-skupiny.md) — impact 4
 - ✍️ [NRPZS](candidates/uzis-nrpzs-ambulantni.md) — impact 4
 - ✍️ [Památné stromy](candidates/known-aopk-pamatne-stromy.md) — impact 4
 - ❓ [Paragliding Mapa](candidates/paragliding-mapa-startovacky.md) — impact 4
@@ -228,6 +228,7 @@ A candidate with several layers can appear under more than one route.
 - ❓ [Česká pošta](candidates/ceska-posta-balikovna.md) — impact 4
 - ❓ [ERA RINF](candidates/era-rinf-stanice-nastupiste.md) — impact 3
 - ✅ [IDS JMK GTFS](candidates/known-idsjmk-gtfs-atributy-zastavek.md) — impact 3
+- ❓ [Junák](candidates/junak-skautske-klubovny.md) — impact 3
 - ❌ [KVL ČR](candidates/kvl-veterinarni-pracoviste.md) — impact 3
 - ✍️ [Ostrava](candidates/ostrava-gis-opendata.md) — impact 3
 - ✅ [PMDP Plzeň GTFS](candidates/pmdp-gtfs-pristupnost-zastavek.md) — impact 3
@@ -236,12 +237,15 @@ A candidate with several layers can appear under more than one route.
 - ✅ [SÚKL Seznam lékáren](candidates/sukl-lekarny.md) — impact 3
 - ❓ [Textile collection containers](candidates/textil-kontejnery-kloktex-potex.md) — impact 3
 - ❓ [VLS ČR](candidates/vls-body-zachrany.md) — impact 3
+- ❓ [Vetřelci a volavky](candidates/vetrelci-volavky-socharstvi.md) — impact 3
 - ❓ [WOclub / WOblog](candidates/woclub-workout-hriste.md) — impact 3
 - ✅ [ZABAGED 1.27 Areál účelové zástavby](candidates/zabaged-vodojemy-zemni.md) — impact 3
 - ✅ [ZABAGED 6.11 Významný nebo osamělý strom](candidates/zabaged-osamele-stromy.md) — impact 3
 - ✅ [nextbike Czech Republic](candidates/nextbike-gbfs.md) — impact 3
 - ✍️ [ČHMÚ](candidates/chmu-vodomerne-stanice.md) — impact 3
 - ✍️ [AOPK JESO](candidates/aopk-jeso-krasove-jevy.md) — impact 2
+- ❓ [Asociace provozovatelů kin](candidates/kinari-clenska-kina.md) — impact 2
+- ✅ [CIS JŘ](candidates/cisjr-jdf-bezbarierove-zastavky.md) — impact 2
 - ✍️ [Data Olomouc](candidates/olomouc-opendata.md) — impact 2
 - ✍️ [Horská služba ČR](candidates/horska-sluzba-mapa.md) — impact 2
 - ✅ [Kraje](candidates/kraje-lspp-pohotovosti.md) — impact 2
@@ -271,7 +275,7 @@ A candidate with several layers can appear under more than one route.
 - ✅ [ZABAGED 7.10 Osamělý balvan, skála, skalní suk](candidates/zabaged-osamele-balvany-skaly.md) — impact 2
 - ✍️ [Zvláště chráněná území + Natura 2000](candidates/aopk-zvlaste-chranena-uzemi.md) — impact 2
 
-### MapRoulette — pointers for a human: tag choices, no stable ID, or needs a look (68)
+### MapRoulette — pointers for a human: tag choices, no stable ID, or needs a look (70)
 
 - ✍️ [data.Brno](candidates/brno-data-portal.md) — impact 5
 - ✅ [opendata.plzen.eu](candidates/plzen-open-data.md) — impact 5
@@ -292,6 +296,7 @@ A candidate with several layers can appear under more than one route.
 - ✅ [Cyklisté vítáni](candidates/known-cyklisti-vitani.md) — impact 3
 - ✅ [Cyklopasport Pardubického kraje](candidates/pardubicky-kraj-cyklopasport.md) — impact 3
 - ❓ [Czech Siren Tech](candidates/czech-siren-tech-mapa-siren.md) — impact 3
+- ❓ [Diakonie Broumov](candidates/diakonie-broumov-kontejnery.md) — impact 3
 - ✅ [Digitální technická mapa krajů](candidates/known-dtm-zps-kraje.md) — impact 3
 - ✍️ [Důlní díla v České republice](candidates/cgs-dulni-dila.md) — impact 3
 - ❓ [Evangnet](candidates/cce-evangnet-sbory.md) — impact 3
@@ -314,6 +319,7 @@ A candidate with several layers can appear under more than one route.
 - ❓ [ČADG](candidates/cadg-discgolf-hriste.md) — impact 3
 - ✍️ [AOPK JESO](candidates/aopk-jeso-krasove-jevy.md) — impact 2
 - ❓ [Akce žába](candidates/csop-akce-zaba.md) — impact 2
+- ✅ [CIS JŘ](candidates/cisjr-jdf-bezbarierove-zastavky.md) — impact 2
 - ✍️ [Data Olomouc](candidates/olomouc-opendata.md) — impact 2
 - ❓ [Kokoza](candidates/kokoza-komunitni-zahrady.md) — impact 2
 - ✅ [Kraje](candidates/kraje-lspp-pohotovosti.md) — impact 2

@@ -6,12 +6,13 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** six research rounds done (27–28 September 2026). 92 candidate files, all
+> **Status:** seven research rounds done (27–28 September 2026). 96 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
 > went after niche but useful data: community maps, institutional systems, hobby
-> associations, and ZABAGED layers outside the POI import. Round 4 scanned Czech NGO maps on
+> associations, and ZABAGED layers outside the POI import. Round 7 audited all 149 ZABAGED layers:
+> [research/zabaged-layer-audit.md](research/zabaged-layer-audit.md). Round 4 scanned Czech NGO maps on
 > [Mapotic](research/mapotic-maps.md) and wrote up the best round-3 leads.
 
 ## Shortlist
@@ -32,6 +33,9 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Prague disabled parking](candidates/prague-ipr-stani-ztp.md) (IPR/TSK, 2018 IPR consent) | 2,192 reserved ZTP/P spots (3,264 spaces) | 954 missing; centre 265 of 293 |
 | [Tree rows and hedges](candidates/zabaged-liniova-vegetace.md) (ZABAGED 6.12 + Copernicus Small Woody Features) | 351,319 tree rows | 15,921 tree_row + 17,080 hedge ways |
 | [Power plant areas](candidates/zabaged-elektrarny-plochy.md) (ZABAGED, with ERÚ IDs) | 2,141 plant polygons incl. 1,679 solar parks with MW and `id_eru` | 1,212 solar parks and 310 of 325 gas/biogas plants without an OSM plant |
+| [Solitary landmark trees](candidates/zabaged-osamele-stromy.md) (ZABAGED 6.11) | 33,592 landmark trees | 31,918 missing (95 %) |
+| [Covered water reservoirs](candidates/zabaged-vodojemy-zemni.md) (ZABAGED areál – vodojem zemní) | 6,950 reservoirs | 5,776 missing; 613 `reservoir_covered` in CZ |
+| [Industrial chimneys](candidates/zabaged-tovarni-kominy.md) (ZABAGED 1.10) | 6,117 chimneys, 1,997 with height | 3,650 missing |
 | [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
@@ -115,6 +119,7 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 [AI road detections](candidates/ai-road-detections.md) (Microsoft 2025: only 2.5–5.5 % missing — OSM is already complete),
 [heliports and ultralight fields](candidates/rlp-vfr-prirucka-heliporty-slz.md) (ŘLP VFR příručka — terms forbid reuse; attributes only),
 [mountain rescue stations and webcams](candidates/horska-sluzba-mapa.md) (Horská služba, CC BY-SA),
+[boulders and rocks](candidates/zabaged-osamele-balvany-skaly.md) (ZABAGED, 11,216 missing; stone vs rock is the mapper's call),
 [walls](candidates/zabaged-zdi.md) (ZABAGED 1.23; ZABAGED has no fence type).
 
 ### Open leads not yet researched

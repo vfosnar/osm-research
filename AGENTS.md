@@ -201,7 +201,8 @@ covers several datasets.
 
 - ZABAGED is largely a compilation of data other agencies already publish, and it has far
   more object types than the POI import. For every government source, check the ZABAGED
-  object catalogue (`https://geoportal.cuzk.gov.cz/Dokumenty/ZABAGED_katalog/CS/`) and name
+  object catalogue (`https://geoportal.cuzk.gov.cz/Dokumenty/ZABAGED_katalog/CS/`; plain curl needs
+  the header `Referer: https://geoportal.cuzk.gov.cz/`) and `research/zabaged-layer-audit.md` and name
   the overlapping type. Propose a primary source only for what ZABAGED lacks: object types,
   stable publisher IDs for Sync, attributes, smaller objects, fresher updates.
 - Verify everything live. Never write a URL, licence or count you did not fetch.

@@ -69,3 +69,7 @@ before the data can go into OSM — see the candidate file (same name in
 | [paraglidingearth-cz.geojson](paraglidingearth-cz.geojson) | ParaglidingEarth free-flying sites, CZ (159 takeoffs, 106 landings) | paraglidingearth.com | CC BY-SA 3.0 (contributions since 2024-12-10 also ODbL 1.0) |
 | [known-cyklisti-vitani.geojson](known-cyklisti-vitani.geojson) | Cyklisté vítáni – certifikovaná zařízení | Partnerství, o.p.s. | consent for OSM (Nadace Partnerství, 2022, Cs:Zdroje_v_jednani) |
 | [horska-sluzba-mapa.geojson](horska-sluzba-mapa.geojson) | Interaktivní mapa Horské služby – stanice a webkamery (152 points) | Horská služba ČR, o.p.s. | CC BY-SA 4.0 |
+| [zabaged-osamele-stromy.geojson](zabaged-osamele-stromy.geojson) | ZABAGED 6.11 Významný nebo osamělý strom (osamělý strom), Žďár – Nové Město, 511 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
+| [zabaged-vodojemy-zemni.geojson](zabaged-vodojemy-zemni.geojson) | ZABAGED 1.27 Areál účelové zástavby – vodojem zemní, Vysočina, 470 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
+| [zabaged-tovarni-kominy.geojson](zabaged-tovarni-kominy.geojson) | ZABAGED 1.10 Tovární komín, Ostrava – Karviná, 194 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
+| [zabaged-osamele-balvany-skaly.geojson](zabaged-osamele-balvany-skaly.geojson) | ZABAGED 7.10 Osamělý balvan, skála, skalní suk, Český ráj, 305 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |

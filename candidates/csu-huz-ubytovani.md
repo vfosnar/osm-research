@@ -8,7 +8,7 @@
 | coords | yes (point on the RÚIAN address point; median 9 m from the RÚIAN address point, a few points several km off) |
 | records | 10,454: Penzion 4,297; Ostatní HUZ 1,575; Hotel \*\*\* 1,556; Hotel \*\*\*\* 890; Turistická ubytovna 712; Kemp 575; Chatová osada 280; Hotel \*\* 208; Hotel garni 167; Hotel \* 117; Hotel \*\*\*\*\* 77. Fields: pagina (ČSÚ establishment id, unique), nazev_uz, kat/kateg, address (obec, část obce, ulice, č.p./č.o., PSČ), idruian (RÚIAN address-point code, 10,085 filled), pocpok (rooms band), pocluz (beds band), pocmis (pitches band), sezona |
 | osm_tags | tourism=hotel (+ stars=1–5), tourism=guest_house, tourism=hostel, tourism=camp_site, tourism=chalet; proposed ref:csu:huz=&lt;pagina&gt; |
-| osm_count_cz | tourism=hotel 3,478; guest_house 3,654; hostel 476; camp_site 1,160; chalet 762; apartment 715; motel 115; stars 799; ref:csu\* 0 (taginfo 2026-09-27) |
+| osm_count_cz | tourism=hotel 3,478; guest_house 3,654; hostel 476; camp_site 1,160; chalet 762; apartment 715; motel 115; stars 799; ref:csu\* 0 (taginfo 2026-09-27). Local match against the 2026-09-27 Czechia extract (Postpass unavailable): 4,693 of 10,454 establishments (45 %) have no OSM accommodation within 100 m; no OSM accommodation object carries a ČSÚ-like key (csu/czso/huz) or a `ref*` value equal to a `pagina` |
 | license | CC0 (NKOD distribution terms); the NKOD terms also state "není autorskoprávně chráněnou databází" and "není chráněna zvláštním právem pořizovatele databáze" |
 | license_url | https://data.gov.cz/zdroj/datové-sady/00025593/33c18c263706082c2f47bc89119260d8 ; http://publications.europa.eu/resource/authority/licence/CC0 |
 | license_status | ok |
@@ -26,13 +26,32 @@
   základní statistické údaje"). It is a national list of hotels, pensions, hostels and campsites with a stable identifier and an official category.
   It is not listed on `Cs:Česko/freemap` (only ČSÚ RSO and UIR-ZSJ are), not in `Cs:Zdroje_v_jednani`,
   not in Sync `config.toml`, and not in ZABAGED (see below).
-- **Gap analysis (Postpass, 2026-09-27, earlier round agent; tourism in hotel/guest_house/hostel/motel/
+- **Gap, national (local match against the 2026-09-27 Czechia extract, Postpass unavailable; same rule:
+  tourism in hotel/guest_house/hostel/motel/camp_site/caravan_site/chalet/apartment/alpine_hut/wilderness_hut
+  within 100 m):** 4,693 of 10,454 (45 %) have nothing within 100 m. Per ČSÚ category (missing / total):
+
+  | ČSÚ kat | total | no OSM accommodation within 100 m | nearest-type check: expected OSM value within 100 m |
+  |---|---|---|---|
+  | Hotel \* … \*\*\*\*\* | 2,848 | 615 (22 %) | tourism=hotel 2,069 |
+  | Hotel garni | 167 | 51 (31 %) | tourism=hotel 97 |
+  | Penzion | 4,297 | 2,028 (47 %) | tourism=guest_house 1,672 |
+  | Turistická ubytovna | 712 | 449 (63 %) | tourism=hostel 102 |
+  | Kemp | 575 | 329 (57 %) | tourism=camp_site/caravan_site 191 |
+  | Chatová osada | 280 | 216 (77 %) | tourism=chalet 10 |
+  | Ostatní HUZ | 1,575 | 1,005 (64 %) | – |
+
+  Pensions are the largest absolute gap (2,028), hostels/ubytovny and chalet settlements the largest relative
+  one; hotels are mostly mapped. The OSM side contains 11,191 accommodation nodes and ways; relations are not
+  in the extract, so campsites mapped only as multipolygons count as missing and the Kemp figure is an upper
+  bound. Ways are reduced to the mean of their node coordinates. No OSM accommodation object has a key
+  containing csu/czso/huz or a `ref*` value equal to any ČSÚ `pagina`, so there is no existing linkage.
+- **Earlier sample (Postpass, 2026-09-27, earlier round agent; tourism in hotel/guest_house/hostel/motel/
   camp_site/caravan_site/chalet/apartment/alpine_hut/wilderness_hut within 100 m):**
   random national sample of 1,000 → only 563 have an OSM accommodation object within 100 m, so roughly
   4,500 establishments are missing. Town checks: Třeboň 42 of 74 missing, Pec pod Sněžkou 88 of 170 missing,
   Mikulov 21 of 64 missing. Even where OSM has "something" within 100 m, in dense resorts that is often a
   different establishment, so the real gap is larger.
-  (A per-category re-run was attempted on 2026-09-27 but Postpass returned 503 for the whole session.)
+  (The national figure above, 4,693 missing, confirms this estimate.)
 - **ID stability (checked):** the 2025-06-01 snapshot and the 2026 FeatureServer share 10,402 `pagina` values
   (250 closed, 52 new) and 10,309 of those keep the same name, so `pagina` is a stable key and suits Sync.
   Suggested key: `ref:csu:huz=<pagina>` (no `ref:csu*` key exists in CZ yet).
@@ -76,5 +95,5 @@
 * datové primitivy: body
 * odkaz: https://geodata.csu.gov.cz/server/rest/services/Hosted/HUZ/FeatureServer/0
 * navržený tag {{tag|tourism|hotel}} / {{tag|tourism|guest_house}} / {{tag|tourism|hostel}} / {{tag|tourism|camp_site}} / {{tag|tourism|chalet}}, {{tag|ref:csu:huz|<pagina>}}
-* poznámka: 10 454 hotelů, penzionů, ubytoven a kempů se stabilním ID; ve vzorku 1 000 jich jen 563 má v OSM ubytování do 100 m (Pec pod Sněžkou chybí 88 ze 170)
+* poznámka: 10 454 hotelů, penzionů, ubytoven a kempů se stabilním ID; 4 693 z nich (45 %, z toho 2 028 penzionů) nemá v OSM žádné ubytování do 100 m (Pec pod Sněžkou chybí 88 ze 170)
 ```

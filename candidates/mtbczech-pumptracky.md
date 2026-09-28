@@ -8,7 +8,7 @@
 | coords | yes (145 of 146; Pumptrack-Karlovy-Vary-Bohatice has none) |
 | records | 146 pump tracks, 145 with coordinates; surface: 83 dirt (hliněný), 51 asphalt, 8 modular, 2 mixed, 1 under construction |
 | osm_tags | site: leisure=pitch + sport=cycling (or bmx/skateboard) + cycling=pump_track + surface; the ridden line: leisure=track + cycling=pump_track (wiki Tag:cycling=pump_track) |
-| osm_count_cz | cycling=pump_track 151, cycling=pumptrack 3, sport=pumptrack 11, leisure=pumptrack 1 (taginfo Geofabrik CZ, 2026-09-27) |
+| osm_count_cz | cycling=pump_track 151, cycling=pumptrack 3, sport=pumptrack 11, leisure=pumptrack 1 (taginfo Geofabrik CZ, 2026-09-27). Local match against the 2026-09-27 Czechia extract (Postpass unavailable): 336 OSM nodes/ways with a pump-track tag or name; of the 145 listed tracks 60 matched, 24 only a bike/skate feature, 61 nothing (OSM API check: 64 / 24 / 57) |
 | license | none stated; footer "Copyright © 2019, Trailcentra a bikeparky České republiky" |
 | license_url | none |
 | license_status | unclear |
@@ -39,6 +39,14 @@
     795/7, asphalt), Pumptrack Brumov-Bylnice, Pumptrack Blatná, Pumptrack Boskovice (Sportpark), Pumpline Nad
     Voleškou in Kladno, Pumptrack Chrastava. 14 of the 57 are asphalt tracks, which are permanent public sports
     facilities (usually municipal).
+- **Cross-check against the national extract (local match against the 2026-09-27 Czechia extract, Postpass
+  unavailable; same rule and radii):** 60 in OSM (20 of them with cycling=pump_track within 300 m; median
+  distance 11 m), 24 with only a bike/skate feature, 61 with nothing (Jihomoravský 10, Středočeský 8,
+  Jihočeský 7, Zlínský 6, Liberecký 6, Královéhradecký 5, Praha 4 and 15 more; 17 of the 61 are asphalt).
+  140 of 145 tracks get the same status as in the OSM API check. The 5 that differ lose their match because the
+  matching OSM way (Pumptrack Drnovice, Hošťálkovice, Vysočina Arena among them) carries "pumptrack" only in its
+  name and none of the keys the extract was filtered on, so it is not in the extract; the OSM API figure
+  (57 missing) sees all objects and remains the headline.
 - The earlier note "OSM has only ~12 pump tracks" was wrong. It counted sport=pumptrack and leisure=pumptrack.
   The documented tag is cycling=pump_track (151 objects in CZ, often several ways per site).
 - The community could also use the list to fix tagging: 44 of the 64 matched tracks lack cycling=pump_track.

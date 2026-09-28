@@ -27,7 +27,7 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Waste facilities](candidates/mzp-isoh-zarizeni-odpady.md) (MŽP ISOH) | ~5,000 active collection yards, scrap yards, car dismantlers, composting | ~24 % of collection yards mapped |
 | [Power plants](candidates/eru-vyrobny-elektriny.md) (ERÚ) | 38k licensed plants incl. 1,600 hydro, 420 biogas | ~500 hydro; needs geocoding from parcels |
 | [Springs and wells](candidates/zabaged-prameny-studny.md) (ZABAGED 4.01, not in the POI import) | 11,060 springs (5,370 named), 21,652 wells, stable IDs | 4,844 springs; Brdy: 47 of 86 missing |
-| [Tourist accommodation](candidates/csu-huz-ubytovani.md) (ČSÚ, CC0) | 10,454 hotels, guest houses, hostels, campsites, stable IDs | ~4,500 missing; Pec pod Sněžkou 88 of 170 |
+| [Tourist accommodation](candidates/csu-huz-ubytovani.md) (ČSÚ, CC0) | 10,454 hotels, guest houses, hostels, campsites, stable IDs | 4,693 of 10,454 missing nationally (2,028 pensions); Pec pod Sněžkou 88 of 170 |
 | [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
@@ -43,19 +43,19 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Mine shafts & adits](candidates/cgs-dulni-dila.md) (ČGS) | ~15.7k shafts and adits | ~900 | ČGS |
 | [River gauges](candidates/chmu-vodomerne-stanice.md) (ČHMÚ) | 563 stations with flood-stage levels | ~93 % missing | ČHMÚ |
 | [Street lamps & sirens, Most](candidates/most-opendata.md) (CC BY-SA) | 7,039 lamps with pole codes, 26 sirens | 15 lamps, 0 sirens | město Most |
-| [VozejkMap](candidates/vozejkmap.md) (CZEPA, Mapotic) | 18,132 accessibility POIs incl. 8,178 disabled parking spaces, 577 accessible toilets | 4,940 disabled parking spaces in all CZ; Prague centre 342 of 388 missing | CZEPA |
+| [VozejkMap](candidates/vozejkmap.md) (CZEPA, Mapotic) | 18,132 accessibility POIs incl. 8,178 disabled parking spaces, 577 accessible toilets | 5,537 of 8,157 disabled spaces missing nationally (Prague centre 342 of 388); 481 of 567 toilets lack accessible OSM toilet | CZEPA |
 | [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ |
 | [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com |
 | [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG |
 | [Street-workout parks](candidates/woclub-workout-hriste.md) (WOclub map) | 707 parks | 467 of 660 outdoor parks missing | WOclub |
 | [Community gardens and composters](candidates/kokoza-komunitni-zahrady.md) (Kokoza, Mapotic) | 224 gardens, 97 community composters | 195 of 213 gardens, 92 of 97 composters missing | Kokoza |
 | [Prague airport services](candidates/letiste-praha-sluzby.md) | 249 terminal POIs with terminal, floor, hours | 92 of 313 POIs have `level` | Letiště Praha |
-| [Fruit trees](candidates/na-ovoce.md) (Na ovoce, Mapotic) | 20,816 fruit trees and shrubs with species | Prague 6: 219 of 309 missing | Na ovoce z.s. |
-| [Catholic mass times](candidates/cirkev-bohosluzby.md) (ČBK) | service times, language, wheelchair access per church (attributes only) | 228 `service_times` on 5,750 catholic churches | ČBK |
-| [Public toilets and Euroklíč](candidates/wc-kompas.md) (WC kompas, Mapotic) | 1,339 public and 415 Euroklíč toilets | 25 `centralkey=eurokey` | Pacienti IBD |
+| [Fruit trees](candidates/na-ovoce.md) (Na ovoce, Mapotic) | 20,816 fruit trees and shrubs with species | 19,257 of 19,571 have no OSM tree within 10 m; species on 13 of 314 matched | Na ovoce z.s. |
+| [Catholic mass times](candidates/cirkev-bohosluzby.md) (ČBK) | service times, language, wheelchair access per church (attributes only) | 133 `service_times` on 6,662 catholic places of worship (109 of 2,822 churches) | ČBK |
+| [Public toilets and Euroklíč](candidates/wc-kompas.md) (WC kompas, Mapotic) | 1,339 public and 415 Euroklíč toilets | 25 `centralkey=eurokey`; no OSM toilet within 50 m for 835 of 1,321 public and 304 of 381 Euroklíč | Pacienti IBD |
 | [Karst register JESO](candidates/aopk-jeso-krasove-jevy.md) (AOPK, CC BY 4.0) | 542 caves, 2,332 sinkholes, 452 ponors/karst springs | 214 caves, 264 sinkholes | AOPK |
-| [Pump tracks](candidates/mtbczech-pumptracky.md) (mtbczech.cz) | 145 tracks with surface | 57 missing, 44 lack `cycling=pump_track` | mtbczech.cz |
-| [Hearing loops](candidates/unb-indukcni-smycky.md) (Unie neslyšících Brno, Mapotic) | 161 loops | 1 (tag is a draft proposal) | UNB |
+| [Pump tracks](candidates/mtbczech-pumptracky.md) (mtbczech.cz) | 145 tracks with surface | 57 missing (national extract: 61), 44 lack `cycling=pump_track` | mtbczech.cz |
+| [Hearing loops](candidates/unb-indukcni-smycky.md) (Unie neslyšících Brno, Mapotic) | 161 loops | 1 (tag is a draft proposal); 85 of 137 CZ loops have an OSM object within 50 m | UNB |
 | [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
@@ -76,7 +76,8 @@ really exist, what licence it has, and how much of it is already in OSM.
 - [Plzeň traffic signs](candidates/plzen-dopravni-znaceni.md) (CC0) — 28,396 signs for review tasks: stop signs
   (OSM has 5 of 86), weight limits without `maxweight`, 30 zones without `maxspeed`.
 - [Wikidata QIDs for niche classes](candidates/wikidata-niche-qid.md) (CC0, QIDs only) — extends Sync's
-  Wikidata group: 1,332 unlinked stolpersteine, 1,712 fingerposts, 1,549 abandoned villages, 626 bunkers.
+  Wikidata group: 1,332 unlinked stolpersteine, 1,712 fingerposts, 1,549 abandoned villages, 626 bunkers;
+  1,239 of those stolpersteine and 1,592 fingerposts already have an OSM object nearby (linking only).
 - [War graves](candidates/known-valecne-hroby-kraje.md) (Liberec, Hradec Králové regions, CC0) — register IDs.
 
 ### 4. Smaller or local

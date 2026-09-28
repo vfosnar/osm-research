@@ -8,7 +8,7 @@
 | coords | yes (WGS84 `latitude`/`longitude`; some records 0,0) |
 | records | not measured: IDs are non-sequential per diocese (10009, 7000995485767, 50001914111036) and there is no list endpoint; `apiWeb/markers` (bbox) returns "SQL template 'markers' not found" and `apiWeb/allData` returns only 3 records without coordinates (2026-09-27) |
 | osm_tags | on the existing `amenity=place_of_worship` object: `service_times=*` (from `regular`), `wheelchair=yes` (from `barrier_free=1`), `website`, `phone`, `email`; suggested `ref:bohosluzby=<id>` (unused in CZ) |
-| osm_count_cz | taginfo 2026-09-27: amenity=place_of_worship 11,484; denomination=roman_catholic 5,750; service_times 228; ref:bohosluzby 0 |
+| osm_count_cz | taginfo 2026-09-27: amenity=place_of_worship 11,484; denomination=roman_catholic 5,750; service_times 228; ref:bohosluzby 0. Local count on the 2026-09-27 Czechia extract (Postpass unavailable; nodes and ways only): 6,662 amenity=place_of_worship with denomination=roman_catholic (4,147) or catholic (2,515), of which 133 (2.0 %) have service_times; of the 2,822 of them with building=church/cathedral, 109 (3.9 %) |
 | license | none stated on bohosluzby.cirkev.cz or cirkev.cz |
 | license_url | – |
 | license_status | unclear |
@@ -25,7 +25,14 @@
 
 ## Notes
 - **What it adds:** OSM has almost all Catholic churches already; what is missing is `service_times`
-  (228 objects in CZ against 5,750 roman_catholic places of worship). This is the only national
+  (228 objects in CZ against 5,750 roman_catholic places of worship).
+- **Coverage, national (local count on the 2026-09-27 Czechia extract, Postpass unavailable):** of 11,692
+  amenity=place_of_worship nodes and ways, 6,662 are tagged denomination=roman_catholic (4,147) or =catholic
+  (2,515); only **133 (2.0 %)** have service_times. Restricted to buildings tagged church or cathedral (2,822),
+  109 (3.9 %) have it, so about 2,700 Catholic churches lack mass times. A further 4,011 Christian places of
+  worship have no denomination at all. Relations (multipolygon churches) are not in the extract. A spatial match
+  against the portal was not run: without a list endpoint, harvesting all church ids would need a grid of
+  thousands of `getChurches` calls. This is the only national
   source of mass times, kept up to date by the dioceses themselves, with a stable numeric id per church.
 - **Gap, measured (Olomouc old town, bbox 17.248,49.592,17.264,49.600, OSM API 2026-09-27):** 16
   `amenity=place_of_worship` objects, only 1 with `service_times`. The 5 churches returned by the
@@ -59,5 +66,5 @@
 * datové primitivy: body
 * odkaz: https://bohosluzby.cirkev.cz/apiWeb/detail?id=7000995485767
 * navržený tag {{tag|service_times|<časy bohoslužeb>}}, {{tag|wheelchair|yes}}, {{tag|ref:bohosluzby|<id>}}
-* poznámka: v OSM má service_times jen 228 míst ze 5 750 katolických kostelů; data diecézí jsou aktuální, souřadnice nepřebírat (Mapy.com)
+* poznámka: v OSM má service_times jen 133 z 6 662 katolických míst bohoslužeb (z 2 822 kostelů jen 109); data diecézí jsou aktuální, souřadnice nepřebírat (Mapy.com)
 ```

@@ -58,7 +58,7 @@ the CZ bbox from the GeoJSON.
 | 13712 | Akce žába | Akce žába | 679 | Amphibian road-crossing sections and barriers; line/zone data for hazard=animal_crossing. Open lead |
 | 12366 | Železniční strážní domky, hradla, hlásky | private user | 382 | Railway heritage hobby map; low value |
 | 9415 | Možnosti sportování lidí s omezením pohybu | private user | 351 | Organisations (clubs, NGOs), not places |
-| 8162 | ZnakoMapa | Znakovárna, z.s. | 478 | Places with sign-language service; no established OSM tag. Open lead if a tag is agreed |
+| 8162 | ZnakoMapa | Znakovárna, z.s. | 478 | Places with sign-language service; written up as `candidates/znakomapa-znakovy-jazyk.md` (tag needs community agreement) |
 | 15847 | Mapa psychické pomoci | Safezóna | 1,467 | Mental-health services; addresses of practices, not a POI layer for OSM |
 | 42 | Tříděný odpad – kovy, biodpad | private user | 520 | Local recycling containers; municipal open data is better |
 | 4975 | Udržitelné Vrchlabí | private user | 272 | Local recycling containers in one town |
@@ -93,7 +93,7 @@ local 2026-09-27 Czechia extract (Postpass unavailable). No map states a data li
 | 9291 | Zapádluj | Mapotic team account (zapadluj.cz) | In `candidates/mapotic-outdoor-small-maps.md`: 70 of 79 CZ put-ins lack canoe=* within 150 m; static since 2021 |
 | 18659 | Re-use v ČR | private user, label "pef čzu" (student project) | Same file: 133 of 140 missing; only the 74 re-use centres and furniture banks fit shop=second_hand |
 | 20 | Bivaky a přístřešky | private user | Same file: 191 of 263 shelters already in OSM within 100 m; 72 missing |
-| 8162 | ZnakoMapa | Znakovárna, z.s. (contact given on the map for new entries) | Not written up: 251 of 478 points are "Video průvodce" (sign-language video guides), 140 services and organisations; no OSM tag for sign-language service exists, so there is nothing to import |
+| 8162 | ZnakoMapa | Znakovárna, z.s. (contact given on the map for new entries) | **Candidate** `candidates/znakomapa-znakovy-jazyk.md`: 201 CZ service points (251 video guides left out); in a sample of 40, 8 have an OSM object to attach a sign-language tag to and 18 are premises missing from OSM; tag (deaf=* or language:cse) needs community agreement |
 
 mtbczech.cz trail centres and bike parks (`/trailcentra` and `/bikeparky` list the same 57 detail pages under
 `/strediska/<slug>`; 49 have `var lat/lon`): not written up. They are well-known trail networks (Rychlebské

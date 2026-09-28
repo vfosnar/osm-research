@@ -74,6 +74,13 @@ Postpass).
     The CZ bbox `12.09,48.55,18.86,51.06` includes neighbouring countries, so use
     taginfo for national totals.
   - Non-count queries without `options[geojson]=false` must return a `geom` column.
+- **When Postpass is down** (it returned 503 for a whole day on 27–28 September 2026):
+  download the Czechia extract from the openstreetmap.fr mirror
+  (`https://download.openstreetmap.fr/extracts/europe/czech_republic-latest.osm.pbf`, ~1.1 GB;
+  Geofabrik's download server failed through this environment's proxy) and filter it with
+  pyosmium (`pip install osmium`) into an NDJSON of the tags you need; match locally.
+  Filtering the full extract takes about 25 minutes. The OSM API `map` call works for
+  small bboxes.
 - **NKOD (national open data catalogue) SPARQL** — `https://data.gov.cz/sparql`
   (DCAT-AP). Saved queries go in `tools/nkod-queries.md`.
 - **AllThePlaces** — `alltheplaces.xyz`; spiders already in Sync are the `[group.atp.dataset.*]` entries of Sync's `config.toml`.

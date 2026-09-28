@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | continuous (user-contributed) |
 | impact | 3 |
+| sync_fit | Sync (points, stable pge_site_id, category → sport=free_flying 1:1) |
 | verified | yes |
 
 ## Try it

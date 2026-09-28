@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | real-time (ttl 60 s); station list changes as the operator adds or removes stations |
 | impact | 3 |
+| sync_fit | Sync (points, stable ref/short_name, category → bicycle_rental 1:1) |
 | verified | yes |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | none, archival snapshot ("Stav k 30.6.2024, dále neaktualizované") |
 | impact | 4 |
+| sync_fit | MapRoulette (no stable id stated, though class code maps 1:1) |
 | verified | yes |
 
 ## Try it

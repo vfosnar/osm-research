@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | crowdsourced by volunteers; 21,383 records carry a 2021 last_update (migration to Mapotic), then 571–1,249 changes a year (2026: 999) |
 | impact | 3 |
+| sync_fit | MapRoulette (no stable id, orchard vs individual tree distinction) |
 | verified | yes |
 
 ## Try it

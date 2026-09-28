@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | irregular (user and manufacturer submissions; streetworkout.cz years end 2019, woblog.cz has 180 parks not on streetworkout.cz) |
 | impact | 3 |
+| sync_fit | Sync (points, shared id across sources, category → fitness_station 1:1) |
 | verified | yes |
 
 ## Try it

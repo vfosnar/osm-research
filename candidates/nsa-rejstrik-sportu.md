@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (registry maintained by sports organisations) |
 | impact | 2 |
+| sync_fit | MapRoulette (address-only, no coordinates; category 1:N judgement) |
 | verified | partial |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | live (the API feeds the app) |
 | impact | 2 |
+| sync_fit | Sync (points, stable id, brand=LOKNI → drinking_water 1:1) |
 | verified | yes |
 
 ## Try it

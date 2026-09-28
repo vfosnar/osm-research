@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | ZABAGED is updated continuously; GPKG snapshot 2026-08-18 |
 | impact | 3 |
+| sync_fit | MapRoulette (barrier subtype is 1:N; stable ref:zabaged fid_zbg but type needs field/imagery check) |
 | verified | yes |
 
 ## Try it

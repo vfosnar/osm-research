@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (courses are added by clubs and ČADG staff in the iDiscGolf system; it is also used for live scoring) |
 | impact | 3 |
+| sync_fit | MapRoulette (no confirmed stable course id despite 1:1 category) |
 | verified | yes |
 
 ## Try it

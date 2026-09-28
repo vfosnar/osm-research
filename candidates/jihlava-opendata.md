@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | koše CONT, others OTHER |
 | impact | 2 |
+| sync_fit | Sync for waste baskets (points); MapRoulette for playgrounds/pitches/parking |
 | verified | yes |
 
 ## Try it

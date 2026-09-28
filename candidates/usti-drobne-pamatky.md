@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | one-off survey for ÚAP (PASPORT_ID 2017/2018, war graves 2014); item republished 2026-08 |
 | impact | 1 |
+| sync_fit | MapRoulette (category 1:N: cross/shrine/memorial/chapel judgement) |
 | verified | yes |
 
 ## Try it

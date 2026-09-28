@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | NKOD accrualPeriodicity CONT; files in the ZIP dated 2026-08-04 |
 | impact | 3 |
+| sync_fit | MapRoulette (sign code → many different tag schemes, needs per-sign judgement) |
 | verified | yes |
 
 ## Try it

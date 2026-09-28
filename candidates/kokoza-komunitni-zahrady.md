@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (POI last_update dates range from 2017 to 2025) |
 | impact | 2 |
+| sync_fit | MapRoulette (12 categories, most without an established OSM tag) |
 | verified | yes |
 
 ## Try it

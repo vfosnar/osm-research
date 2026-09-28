@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | yearly (list set per bathing season; NKOD "OTHER") |
 | impact | 2 |
+| sync_fit | Sync (points, stable ref:CZ:koupaci proposed, category → bathing_place 1:1) |
 | verified | yes |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | ok (ZABAGED, ČÚZK consent). SWF: ok, covered by the "EU Copernicus (GMES) data" entry on https://wiki.openstreetmap.org/wiki/Contributors |
 | update_freq | ZABAGED continuous (GPKG snapshot 2026-08-18); SWF 2015 / 2018 / 2021 editions |
 | impact | 4 |
+| sync_fit | iD fork (tree-row/hedge lines, stable ref:zabaged fid_zbg, 1:1) |
 | verified | yes |
 
 ## Try it

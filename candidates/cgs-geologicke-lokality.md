@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | weekly per NKOD (actual file date 2025-12-11) |
 | impact | 2 |
+| sync_fit | MapRoulette (type-dependent 1:N mapping for points; polygons drawn from imagery) |
 | verified | yes |
 
 ## Try it

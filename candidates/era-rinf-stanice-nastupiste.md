@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous, as the infrastructure manager updates RINF; the knowledge graph is refreshed periodically (exact cadence not verified) |
 | impact | 3 |
+| sync_fit | Sync (points, stable uic_ref, category → railway=station\|halt 1:1) |
 | verified | yes |
 
 ## Try it

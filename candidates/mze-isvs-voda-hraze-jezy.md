@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | continuous (NKOD UPDATE_CONT) |
 | impact | 2 |
+| sync_fit | Sync for weirs (points, stable ref:CZ:isvs, waterway=weir 1:1); iD fork for dams (lines, stable ref:CZ:isvs); MapRoulette for stupně/skluzy (unclear tag) |
 | verified | yes |
 
 ## Try it

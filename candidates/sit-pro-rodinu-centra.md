@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | membership list, updated as members join or leave (no dates in the data) |
 | impact | 3 |
+| sync_fit | MapRoulette (no stable id, community_centre subtype is de facto only) |
 | verified | yes |
 
 ## Try it

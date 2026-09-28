@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | twice a year (NKOD accrualPeriodicity ANNUAL_2) |
 | impact | 4 |
+| sync_fit | Sync for hotels, garni, penzion, ubytovna, kemp, chatová osada (points, stable `pagina`, category → tourism=\* 1:1); MapRoulette for Ostatní HUZ (1,575, type needs review) |
 | verified | yes |
 
 ## Try it

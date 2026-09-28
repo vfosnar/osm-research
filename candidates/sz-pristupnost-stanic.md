@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | live (served from SŽ's station database; accessibility follows the SŽ SM122 categorisation) |
 | impact | 4 |
+| sync_fit | Sync (attribute enrichment via railway:ref match, wheelchair 1:1) |
 | verified | yes |
 
 ## Try it

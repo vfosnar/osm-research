@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (records `updated_at` 2026-06 and 2026-08 in Olomouc sample) |
 | impact | 3 |
+| sync_fit | MapRoulette (attribute enrichment, no reliable id, no list endpoint) |
 | verified | partial |
 
 ## Try it

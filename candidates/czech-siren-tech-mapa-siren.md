@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | "pravidelně aktualizována"; tileset re-uploaded 2026-02-09 (created 2024-12-12) |
 | impact | 3 |
+| sync_fit | MapRoulette (no stable id, model string needs mapping to siren:type) |
 | verified | yes |
 
 ## Try it

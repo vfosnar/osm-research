@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | irregular (dct:modified 2025-10-29) |
 | impact | 3 |
+| sync_fit | MapRoulette (dog-zone polygons; draw from imagery) |
 | verified | yes |
 
 ## Try it

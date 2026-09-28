@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (records edited by the fund and by wineries) |
 | impact | 3 |
+| sync_fit | MapRoulette (type labels swapped in source; needs verification before mapping) |
 | verified | yes |
 
 ## Try it

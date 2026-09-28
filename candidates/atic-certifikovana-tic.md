@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | several times a year (versions dated 2023-10, 2024-02, 2024-04, 2024-06, 2024-11, 2025-01, 2025-09, 2026-01, 2026-05, 2026-08) |
 | impact | 3 |
+| sync_fit | MapRoulette (address-only geocoding, attribute enrichment, no stable id) |
 | verified | yes |
 
 ## Try it

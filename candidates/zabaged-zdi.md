@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | ZABAGED is updated continuously; GPKG snapshot 2026-08-18 |
 | impact | 2 |
+| sync_fit | iD fork (wall lines, stable ref:zabaged fid_zbg; ZVD subtype needs review) |
 | verified | yes |
 
 ## Try it

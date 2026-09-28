@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | continuous (dct:modified 2026-09-25; per-record `aktualizace` dates from 2025-02 to 2026-08) |
 | impact | 5 |
+| sync_fit | Sync (points, ref:ipr=globalid, category → natural=tree 1:1) |
 | verified | yes |
 
 ## Try it

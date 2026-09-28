@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (user-edited site; API marked beta; pages show latest XContest launch date) |
 | impact | 4 |
+| sync_fit | Sync (points, stable id, category → sport=free_flying 1:1) |
 | verified | yes |
 
 ## Try it

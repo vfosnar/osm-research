@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous, entries added by the owner on request (map homepage text); last_update 2026: 444 POIs, 2025: 7, 2024: 24, 2023: 3 |
 | impact | 2 |
+| sync_fit | MapRoulette (no established tag; needs matching to existing OSM object) |
 | verified | yes |
 
 ## Try it

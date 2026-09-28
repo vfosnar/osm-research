@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | continuous (item modified 2026-08) |
 | impact | 2 |
+| sync_fit | MapRoulette (bicycle route lines and relations; draw from imagery) |
 | verified | yes |
 
 ## Try it

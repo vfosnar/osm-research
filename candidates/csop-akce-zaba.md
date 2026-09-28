@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | yearly (new sections added each spring; 89 points updated in 2026) |
 | impact | 2 |
+| sync_fit | MapRoulette (needs on-site sign verification; only 33 of 679 clearly qualify) |
 | verified | yes |
 
 ## Try it

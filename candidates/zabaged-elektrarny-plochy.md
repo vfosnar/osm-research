@@ -14,6 +14,7 @@
 | license_status | ok (ZABAGED). GRW: needs_waiver (MIT carries a notice requirement; the LWG has not ruled) |
 | update_freq | ZABAGED continuous; GRW one release (2024 Q2) |
 | impact | 4 |
+| sync_fit | iD fork (power-plant polygons, stable ref:zabaged fid_zbg, plant:source mapping) |
 | verified | yes |
 
 ## Try it

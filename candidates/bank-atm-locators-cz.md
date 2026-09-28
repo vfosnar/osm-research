@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | Sdílený bankomat: per import (Last-Modified 2026-09-14, import no. 171); ČS and KB: live, with per-ATM state (ČS: OPEN / OUT_OF_ORDER / CLOSED) |
 | impact | 4 |
+| sync_fit | Sync for KB ATMs (stable sourceItemId); MapRoulette for other banks (no stable id) |
 | verified | yes |
 
 ## Try it

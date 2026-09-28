@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | MZCHÚ quarterly (NKOD); others irregular |
 | impact | 2 |
+| sync_fit | iD fork (protected-area polygons, stable KOD/SITECODE, protect_class 1:1) |
 | verified | partial |
 
 ## Try it

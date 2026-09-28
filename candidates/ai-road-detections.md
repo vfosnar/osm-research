@@ -14,6 +14,7 @@
 | license_status | ok (Microsoft ODbL; Meta data is offered for OSM editing in Rapid, the practice documented on wiki page Rapid) |
 | update_freq | Meta CZ export: one-off 2020-01. Microsoft: drops, latest 2025-04-28 |
 | impact | 1 |
+| sync_fit | MapRoulette (predicted road lines, draw from imagery; highway subtype guess unreliable) |
 | verified | yes |
 
 ## Try it

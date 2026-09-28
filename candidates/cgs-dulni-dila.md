@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | weekly (NKOD); file regenerated daily-ish (timestamp 2026-09-27 04:34) |
 | impact | 3 |
+| sync_fit | MapRoulette (lifecycle judgement: abandoned/historic/active) despite stable id_dd |
 | verified | yes |
 
 ## Try it

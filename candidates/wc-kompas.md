@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | crowdsourced, anyone can add and rate toilets (map homepage). POI last_update: 2021 622, 2024 156, 2025 114, 2026 187 (most records are older) |
 | impact | 3 |
+| sync_fit | MapRoulette (no stable id; euroklíč vs public type judgement) |
 | verified | yes |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | ok (JČK, KV, KHK, OK); needs_waiver (MSK, IDOL) |
 | update_freq | JČK file dated 2026-01-28; others irregular (ArcGIS hubs, live) |
 | impact | 3 |
+| sync_fit | Sync (points, stable ref:CIS_JR, category → platform 1:1) |
 | verified | yes |
 
 ## Try it

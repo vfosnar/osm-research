@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous; every entry is checked by an administrator who is a wheelchair user (map homepage text). Parking POI last_update: 2018 3,827, 2024 1,471, 2025 1,770, 2026 1,035 |
 | impact | 4 |
+| sync_fit | MapRoulette (many POI categories → wheelchair enrichment, no stable id) |
 | verified | yes |
 
 ## Try it

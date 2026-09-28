@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (operational passport system of MU) |
 | impact | 4 |
+| sync_fit | MapRoulette (rooms/doors/buildings drawn from imagery; POI points are 1:N by type) |
 | verified | partial |
 
 ## Try it

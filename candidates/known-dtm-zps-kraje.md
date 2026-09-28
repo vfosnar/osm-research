@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | periodic full snapshots (Telč packages dated 2026-06-30, written 2026-07-01) |
 | impact | 3 |
+| sync_fit | iD fork (sidewalk and step polygons, handrail lines) if the DTM `ID` proves stable between snapshots; MapRoulette otherwise |
 | verified | yes (Telč packages downloaded and parsed; OSM compared); other kraje: partial |
 
 Known (listed on Cs:Česko/freemap under "Zdroje pro odvozování dat" → "Digitální technická mapa (DTM)", as a general tracing source) — adds: the ZPS vector data is downloadable per municipality as open data via NKOD with explicit "no copyright / no sui-generis right" terms (so usable for import, not only for tracing). The `_OPL` package has ready-made sidewalk and step polygons. ZABAGED does not contain either of these, and neither does anything else that has been imported.

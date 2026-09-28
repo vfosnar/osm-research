@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | seasonal (dct:modified 2026-07-31) |
 | impact | 3 |
+| sync_fit | MapRoulette (type → 1:N tags; mist-sprayer tag unverified on wiki) |
 | verified | yes |
 
 ## Try it

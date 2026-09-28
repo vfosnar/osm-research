@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | ZABAGED is updated continuously; GPKG snapshot 2026-08-18 |
 | impact | 4 |
+| sync_fit | Sync for PS/LZ/VR (points, stable ref:zabaged fid_zbg, 1:1); MapRoulette for KA (fountain vs spring needs review) |
 | verified | yes |
 
 ## Try it

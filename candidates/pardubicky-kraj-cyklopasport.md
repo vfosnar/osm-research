@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | survey 2021 (photo filenames IMG_20210902…); layer last edited 2024-02-08, item modified 2024-11 |
 | impact | 3 |
+| sync_fit | MapRoulette (rest-stop subtype is 1:N; route lines drawn from imagery) |
 | verified | yes |
 
 ## Try it

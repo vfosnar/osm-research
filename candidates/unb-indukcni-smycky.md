@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | irregular (POI last_update: 2023 226, 2024 33, 2025 59, 2026 1) |
 | impact | 2 |
+| sync_fit | MapRoulette (attribute enrichment, no stable id, fuzzy matching to host object) |
 | verified | yes |
 
 ## Try it

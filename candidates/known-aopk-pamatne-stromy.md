@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | irregular (NKOD "OTHER"); data dated 10.09.2026 |
 | impact | 4 |
+| sync_fit | Sync for point trees (stable ref:drusop, natural=tree 1:1); iD fork for alleys/groups (lines/polygons, stable KOD) |
 | verified | yes |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | incompatible (without consent from ŘLP ČR) |
 | update_freq | AIRAC cycle (28 days) |
 | impact | 2 |
+| sync_fit | MapRoulette (heliport vs SLZ vs drop-zone classification needs judgement) |
 | verified | yes |
 
 ## Try it

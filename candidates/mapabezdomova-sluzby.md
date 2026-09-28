@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | irregular, crowd-sourced (users and providers send corrections through the feedback form); no per-record update date |
 | impact | 3 |
+| sync_fit | MapRoulette (21 service categories → multiple social_facility/amenity tags) |
 | verified | yes |
 
 ## Try it

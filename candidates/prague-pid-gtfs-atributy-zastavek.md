@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | daily |
 | impact | 2 |
+| sync_fit | Sync (points, stable ref:PID, category → platform 1:1) |
 | verified | yes |
 
 ## Try it

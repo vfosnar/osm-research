@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | exports refreshed daily/weekly (datum_exportu 2026-09-25/26); NKOD says IRREG, street lights BIENNIAL |
 | impact | 5 |
+| sync_fit | Sync for point layers (trees, benches, lamps, bins, 1:1); MapRoulette for cycling lines |
 | verified | yes |
 
 ## Try it

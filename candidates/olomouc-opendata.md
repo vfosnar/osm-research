@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | unknown (hydrant revisions dated 2024) |
 | impact | 2 |
+| sync_fit | Sync for points (bike stands, hydrants, 1:1); MapRoulette for cycle-path lines |
 | verified | yes |
 
 ## Try it

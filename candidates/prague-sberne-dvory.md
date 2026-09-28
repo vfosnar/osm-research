@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | frequent (dct:modified 2026-09-14) |
 | impact | 2 |
+| sync_fit | MapRoulette (no stable id, small dataset; opening_hours converted by hand) |
 | verified | yes |
 
 ## Try it

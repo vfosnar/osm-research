@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | CSV monthly; GML "continuous" (feed updated 2025-11-21 at time of check) |
 | impact | 5 |
+| sync_fit | Sync for point objects (stable ref:npu, heritage 1:1); iD fork for areál polygons (stable ref:npu) |
 | verified | yes |
 
 ## Try it

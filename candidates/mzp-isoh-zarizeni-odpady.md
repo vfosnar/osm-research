@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | annual (NKOD). The export header shows datumExportu 2026-09-26, so the file is actually regenerated daily. |
 | impact | 4 |
+| sync_fit | MapRoulette (facility type → many different tag schemes, some undocumented) |
 | verified | partial |
 
 ## Try it

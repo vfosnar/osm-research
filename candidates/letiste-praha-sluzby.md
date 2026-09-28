@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (web CMS; the list also carries live open/closed status) |
 | impact | 2 |
+| sync_fit | MapRoulette (many categories → shop/amenity types, needs per-object mapping) |
 | verified | partial |
 
 ## Try it

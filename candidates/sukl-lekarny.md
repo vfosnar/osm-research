@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | monthly |
 | impact | 3 |
+| sync_fit | Sync (attribute enrichment via ref:SUKL, unambiguous id match); new pharmacies need address geocoding |
 | verified | yes |
 
 ## Try it

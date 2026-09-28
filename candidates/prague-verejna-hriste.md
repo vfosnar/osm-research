@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | irregular (dct:modified 2026-07-30) |
 | impact | 2 |
+| sync_fit | MapRoulette (verej_pristup access judgement; sport type unknown for pitches) |
 | verified | yes |
 
 ## Try it

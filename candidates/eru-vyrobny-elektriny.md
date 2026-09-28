@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | continuous (NKOD UPDATE_CONT); in practice a new dated XML each month |
 | impact | 4 |
+| sync_fit | MapRoulette (no coordinates, cadastral-only location; plant type needs judgement) |
 | verified | yes |
 
 ## Try it

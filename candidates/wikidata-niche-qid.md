@@ -14,6 +14,7 @@
 | license_status | ok for QIDs only; coordinates and other values are NOT importable (see Notes) |
 | update_freq | continuous |
 | impact | 2 |
+| sync_fit | MapRoulette (14 classes → many different OSM tag schemes, provenance mixed) |
 | verified | yes (counts, linkage, national spatial match on a local OSM extract) |
 
 ## Try it

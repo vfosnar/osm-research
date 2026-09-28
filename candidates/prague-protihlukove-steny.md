@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | irregular (dct:modified 2024-09-13) |
 | impact | 3 |
+| sync_fit | MapRoulette (noise-barrier wall lines; draw from imagery) |
 | verified | yes |
 
 ## Try it

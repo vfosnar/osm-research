@@ -14,6 +14,7 @@
 | license_status | ok (KHK, KV, LK); needs_waiver (MSK) |
 | update_freq | irregular |
 | impact | 2 |
+| sync_fit | MapRoulette (no stable id field, small dataset needs manual matching) |
 | verified | partial |
 
 ## Try it

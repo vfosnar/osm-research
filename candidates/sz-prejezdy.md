@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | about yearly (earlier editions: 27 Jan 2020, 31 Dec 2025) |
 | impact | 2 |
+| sync_fit | Sync (points, stable ref=P&lt;number&gt;, category → railway=level_crossing 1:1) |
 | verified | yes |
 
 ## Try it

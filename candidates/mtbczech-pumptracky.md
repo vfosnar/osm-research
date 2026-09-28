@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | irregular (entries added as tracks open) |
 | impact | 2 |
+| sync_fit | MapRoulette (no stable id for the site; track line drawn from imagery) |
 | verified | yes |
 
 ## Try it

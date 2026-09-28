@@ -14,6 +14,7 @@
 | license_status | ok (KHK, LK, PK, OLK); needs_waiver (KVK, MSK); unclear (JMK) |
 | update_freq | mostly one-off / annual |
 | impact | 1 |
+| sync_fit | MapRoulette (small mixed layers, wide category → tag 1:N across regions) |
 | verified | partial |
 
 ## Try it

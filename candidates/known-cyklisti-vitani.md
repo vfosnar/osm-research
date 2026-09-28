@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | continuous (certifications added and renewed through the year) |
 | impact | 3 |
+| sync_fit | MapRoulette (needs on-site certificate verification despite stable nid) |
 | verified | yes |
 
 ## Try it

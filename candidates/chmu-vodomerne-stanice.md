@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | metadata refreshed daily (file timestamps); network changes rarely |
 | impact | 3 |
+| sync_fit | Sync (points, stable ref DBC, category → monitoring_station 1:1) |
 | verified | yes |
 
 ## Try it

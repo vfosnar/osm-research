@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | daily (metadata file regenerated each day) |
 | impact | 2 |
+| sync_fit | Sync (points, stable ref:wigos, category → monitoring_station 1:1) |
 | verified | yes |
 
 ## Try it

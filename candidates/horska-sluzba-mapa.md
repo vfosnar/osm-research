@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | live (map JSON has a cache-busting version parameter) |
 | impact | 2 |
+| sync_fit | Sync (points, stable ids, category → tag 1:1) |
 | verified | yes |
 
 ## Try it

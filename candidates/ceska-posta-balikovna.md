@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | daily (Last-Modified 2026-09-27; &lt;generated&gt; timestamp in the file) |
 | impact | 4 |
+| sync_fit | Sync for boxes (points, brand 1:1); MapRoulette for partner points (host-shop matching) |
 | verified | yes |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | Zapádluj: static (845 of 846 CZ points last updated 2021); Re-use: 2024–2025; Bivaky: crowd-sourced 2017–2026, mostly 2018–2019 |
 | impact | 1 |
+| sync_fit | MapRoulette (category 1:N; reuse corners lack an established tag) |
 | verified | yes |
 
 ## Try it

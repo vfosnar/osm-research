@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | IRREG (sportoviště attributes mention 2019 → stale) |
 | impact | 3 |
+| sync_fit | Sync for point objects (categories 1:1); MapRoulette for cycle-path lines |
 | verified | yes |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | weekly or more often (dct:modified 2026-09-21) |
 | impact | 3 |
+| sync_fit | MapRoulette (parking-strip polygons; draw from imagery) |
 | verified | yes |
 
 ## Try it

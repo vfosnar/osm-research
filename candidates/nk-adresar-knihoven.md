@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | weekly |
 | impact | 5 |
+| sync_fit | Sync (points, stable ref:isil sigla, category → amenity=library 1:1) |
 | verified | yes |
 
 ## Try it

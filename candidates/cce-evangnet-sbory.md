@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous; all 230 pages show an update date in 2026 (fetched 2026-09-28) |
 | impact | 3 |
+| sync_fit | MapRoulette (attribute enrichment, fuzzy matching, ref:cce unused so far) |
 | verified | yes |
 
 ## Try it

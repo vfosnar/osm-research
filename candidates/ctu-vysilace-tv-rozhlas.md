@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | daily (NKOD) |
 | impact | 2 |
+| sync_fit | MapRoulette (attribute enrichment, fuzzy matching to masts, ANT_ID not an established ref) |
 | verified | yes |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | ok (per NKOD); confirm that the EuRIS General Terms do not add restrictions |
 | update_freq | as needed (NKOD: AS_NEEDED) |
 | impact | 2 |
+| sync_fit | iD fork (berth lines, stable ref:isrs; function → mooring subtype) |
 | verified | yes |
 
 ## Try it

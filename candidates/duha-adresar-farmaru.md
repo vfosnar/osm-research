@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (farmers and users propose entries; 59 points updated in 2026) |
 | impact | 3 |
+| sync_fit | MapRoulette (category 1:N: farm/shop/education/KPZ types) |
 | verified | yes |
 
 ## Try it

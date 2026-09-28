@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | irregular, planning-analysis layer (dct:modified 2026-06-06) |
 | impact | 3 |
+| sync_fit | MapRoulette (park polygons drawn from imagery; name matching to existing parks) |
 | verified | yes |
 
 ## Try it

@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | unknown / irregular (regional extracts) |
 | impact | 1 |
+| sync_fit | MapRoulette (category 1:N: memorial/plaque/war grave with remains) |
 | verified | yes |
 
 ## Try it

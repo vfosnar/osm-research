@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | trees and street lights CONT (files regenerated; WC file dated 2026-08-04); others IRREG |
 | impact | 5 |
+| sync_fit | MapRoulette (symbol centroids and monument-type judgement; parking/WiFi polygons drawn from imagery) |
 | verified | yes |
 
 ## Try it

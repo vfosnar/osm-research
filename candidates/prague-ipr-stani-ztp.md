@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | ZTP/P layer "other" (irregular); the two ZPS layers weekly (NKOD accrualPeriodicity) |
 | impact | 4 |
+| sync_fit | MapRoulette (no stable id; one point aggregates several spaces, ZPS polygons need imagery) |
 | verified | yes |
 
 ## Try it

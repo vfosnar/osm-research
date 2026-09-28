@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | continuous (crowd-reported, maintained by the project) |
 | impact | 3 |
+| sync_fit | MapRoulette (no stable id, fuzzy matching against nearby bookcases) |
 | verified | yes |
 
 ## Try it

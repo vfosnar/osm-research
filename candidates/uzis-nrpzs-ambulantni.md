@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | monthly |
 | impact | 4 |
+| sync_fit | Sync (points, stable ZZ_ID, category → healthcare specialty 1:1) |
 | verified | yes |
 
 ## Try it

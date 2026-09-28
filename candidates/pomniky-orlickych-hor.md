@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | one-off (survey 2023–2025, published 2026-01) |
 | impact | 1 |
+| sync_fit | MapRoulette (mixed/ambiguous categories, memorial subtype judgement) |
 | verified | partial |
 
 ## Try it

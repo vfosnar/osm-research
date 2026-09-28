@@ -14,6 +14,7 @@
 | license_status | needs_waiver (Brno); unclear (Ostrava, Hradec Králové, Opava, Olomouc) |
 | update_freq | Brno every 3 years plus corrections (dataset description); Ostrava, Hradec Králové, Opava irregular; Olomouc records edited 2023–2026 |
 | impact | 3 |
+| sync_fit | MapRoulette (rating → wheelchair level judgement, fuzzy matching, no stable id) |
 | verified | yes |
 
 ## Try it

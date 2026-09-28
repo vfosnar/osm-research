@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | irregular (last update 2025-06-19 per dataset page) |
 | impact | 2 |
+| sync_fit | Sync for caves/springs (points, cave:ref proposed, 1:1); MapRoulette for sinkholes (subtype 1:N) |
 | verified | yes |
 
 ## Try it

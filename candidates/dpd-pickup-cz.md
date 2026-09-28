@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | live API. The response carries a `hash` field that changes when the list changes. |
 | impact | 4 |
+| sync_fit | Sync for DPD's own boxes (stable ref); MapRoulette for other brands (no id) |
 | verified | yes |
 
 ## Try it

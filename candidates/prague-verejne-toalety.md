@@ -14,6 +14,7 @@
 | license_status | ok |
 | update_freq | irregular (dct:modified 2025-08-26) |
 | impact | 3 |
+| sync_fit | MapRoulette (no stable id; access/wheelchair judgement per site) |
 | verified | yes |
 
 ## Try it

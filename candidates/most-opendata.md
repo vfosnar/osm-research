@@ -14,6 +14,7 @@
 | license_status | needs_waiver |
 | update_freq | irregular (lamp item modified 2025-04) |
 | impact | 2 |
+| sync_fit | Sync for lamps (points, pole code); MapRoulette for cycle routes |
 | verified | yes |
 
 ## Try it

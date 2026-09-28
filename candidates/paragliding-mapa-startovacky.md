@@ -54,7 +54,18 @@
   as a basemap. Contact info@paragliding-mapa.cz (ifire.cz) and ask for ODbL/CC0 or an OSM consent. The
   LAA ČR Svaz paraglidingu (https://www.laacr.cz/svazy/svaz-pg/), which runs the Fond podpory
   startovišť, is a possible co-signatory for the "official" list.
-- Wiki pages read: Tag:sport=free_flying, Key:direction.
+- **LAA ČR Svaz PG list (checked 2026-09-28):** the page
+  https://www.laacr.cz/svazy/svaz-pg/podpora/fond-podpory-startovist/seznam-startovist/ is not a full
+  register. It names the 13 launch sites supported by the Fond podpory startovišť (Černá hora, Kozákov,
+  Javorový [sjezdovka], Krupka, Raná, Skalka, Svatobor, Doubrava, Zvičina, Javorový [západ], Velký
+  Javorník, Kamenec, Jeviněves) with the club contact for each, and 19 LAA wind stations ("sondy") with
+  their operator and live-data URL. It has no coordinates and no licence. A supported site must have a
+  windsock and an information board, so the 13 names can confirm `free_flying:official=yes` and
+  `operator=<club>` on the matching Paragliding Mapa points. The wind stations could become
+  `man_made=monitoring_station` + `monitoring:weather=yes` + `website`, positioned by survey or from the
+  station pages. Nothing here needs an import; facts like these (names, operators) can be used as a
+  cross-check.
+- Wiki pages read: Tag:sport=free_flying, Key:direction, Tag:man_made=monitoring_station.
 
 ## Wiki entry
 ```

@@ -46,10 +46,19 @@ Gap analysis is a local match against the 2026-09-27 Czechia extract (amenity=re
 - IDs: KlokTex detail slugs are unique for 1,189 of 1,192 entries (one slug repeated three times); Potex ids are
   unique. Suggested keys `ref:kloktex` (slug) and `ref:potex` (id). The KlokTex notes give access
   restrictions ("uvnitř areálu MŠ") that belong in `access=customers`/`description`.
-- Other operators checked: Diakonie Broumov publishes 882 containers only as an address table
-  (https://diakoniebroumov.org/sberne-kontejnery/, type, town, street, house number, postcode; no coordinates);
-  TextilEco (https://textil-eco.cz/vyhledat-kontejner) redirects to a page for municipalities with no map;
-  Dimatex (https://www.dimatex.cz/) has no public container map.
+- Other operators checked: Diakonie Broumov publishes 889 containers only as an address table; 752 of them
+  were placed on RÚIAN address points, see diakonie-broumov-kontejnery.md. TextilEco
+  (https://textil-eco.cz/vyhledat-kontejner) redirects to a page for municipalities with no map; TextilEco is the
+  former REVENGE, a.s. (per the Olomouc city news https://www.olomouc.eu/aktualni-informace/aktuality/13454), and
+  revenge.cz no longer resolves (2026-09-28), so Revenge is not a separate source. Klokánek (klokanek.cz) still returns
+  HTTP 502 (retried 2026-09-28), so whether it runs its own containers or shares the KlokTex network could not be
+  checked. Dimatex (https://www.dimatex.cz/) has no public container
+  map.
+- Arnika's "Udržitelná Šestka" (https://arnika.org/udrzitelna-sestka) is a Mapotic map
+  (https://www.mapotic.com/api/v1/maps/19589/pois.geojson/, map "Praha 6 textil", Mapotic terms as in
+  mapotic-outdoor-small-maps.md) with 44 textile containers and 9 second-hand shops in Prague 6, last edited
+  2024-09. 18 of the 44 containers have an OSM recycling:clothes=yes object within 50 m (Postpass, 2026-09-28), so
+  26 are missing; too small for its own candidate, but a ready survey list for Prague 6.
 - Contacts: KlokTex kloktex@kloktex.cz, tel. +420 608 958 030; Potex via https://potex.cz/Contact. Both are
   charity-linked operators that benefit from people finding their containers, so a consent for OSM is plausible.
 

@@ -37,6 +37,19 @@ a Reduca shop counts as matched when an OSM shop/craft/amenity within 80 m share
   a survey list only.
 - **Charity shops/bazaars:** Prague 7 matched / 16 not found, Brno 1 / 4.
 - The "Azylový dům" (199) and "Krabice" (88) layers are outside the circular-economy scope and were not analysed.
+- **Charity shop chains (checked 2026-09-28 as possible better sources for shop=charity):** none publishes
+  coordinates or a machine-readable list. ADRA (https://adra.cz/jak-pomahame/charitativni-obchody/) states 34
+  charity shops in 22 towns, one HTML page per town with the address in free text; Postpass (CZ bbox) finds 4 OSM
+  shops named or operated "ADRA"/"Adra". Sue Ryder's shop page
+  (https://www.sue-ryder.cz/dobrocinne-obchody-a-restaurace) has no address list or map data in its HTML; 4 OSM
+  shops carry the name Sue Ryder. Armáda spásy, Diakonie Rolnička and Charita Beroun each
+  appear once in OSM as shop=charity with an operator. Moje místo (mojemisto.cz) and Dobrý obchod (dobryobchod.cz)
+  do not resolve from this environment. Each chain has 2–34 shops, so the best use is a combined survey list; a
+  separate candidate is not worth it. National OSM totals: shop=charity 29, shop=second_hand 139 (taginfo, above).
+- **Repair cafés:** the repaircafe.org world map (3,781 cafés inline in https://www.repaircafe.org/en/visit/;
+  its JSON API at `/wp-json/v1/map` is behind a captcha) has no café in Czechia (2026-09-28: none of the
+  cafés in the CZ bbox is Czech; the nearest are Zittau, Dresden, Cham). repaircafe.cz does not resolve. Czech
+  repair cafés are one-off events (Kabinet CB in České Budějovice, HWLab in Prague), not permanent places.
 - Place `id` is a stable integer, `slug` a URL-friendly name; a `ref:reduca` key is not worth it for a dormant
   source. The practical use is a one-off MapRoulette challenge "add bulk_purchase to these shops".
 - Not listed on Cs:Česko/freemap, Cs:Zdroje_v_jednani or in Sync config.toml (checked 2026-09-28).

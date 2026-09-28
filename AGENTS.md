@@ -170,6 +170,8 @@ because the community prefers ongoing sync (via Sync) over one-shot imports.
 - Verify everything live. Never write a URL, licence or count you did not fetch.
 - No "e.g." / "např." in candidate files: either a concrete source was investigated
   (name it) or it wasn't (leave it out, or list it as an open lead in `README.md`).
+- Don't draft emails, letters or consent requests to data holders. Communication is
+  the community's job; candidate files only name who to contact.
 - Research can be fanned out to parallel subagents by theme; each writes its own
   candidate files, so they don't conflict.
 - Commit and push directly to `main`; no pull requests needed.

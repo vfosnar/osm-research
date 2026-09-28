@@ -35,8 +35,8 @@ imports or tracks (see [What's already covered](#whats-already-covered)).
 Each candidate says which route into OSM fits it: Sync, the geometry harness planned for
 the osmcz iD fork, or MapRoulette (see [By route](#by-route)).
 
-> **Fun fact:** all nine rounds ran on the $250 of Claude credit Anthropic gave out, with
-> about $10 left at the end. That works out to roughly $2.40 per candidate file.
+<sub>All nine rounds ran on the $250 of Claude credit Anthropic handed out, with about $10
+left over at the end — roughly $2.40 per candidate file.</sub>
 
 ## Shortlist
 

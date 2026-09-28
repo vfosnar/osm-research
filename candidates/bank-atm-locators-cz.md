@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | publisher | Komerční banka, a.s. (IČO 45317054; runs sdilenybankomat.cz for the shared network of KB, MONETA Bank, Air Bank and UniCredit Bank); Česká spořitelna, a.s. |
-| url | https://sdilenybankomat.cz/data/atm_import_log/data-171.js (static JS array behind https://sdilenybankomat.cz/; the file number changes with each import, so read the current `<script src>` from the home page); https://www.csas.cz/webapi/api/v3/places/?size=5000 (needs header `Web-Api-Key: 08aef2f7-8b72-4ae1-831e-2155d81f46dd`, the public key embedded in https://www.csas.cz/cs/pobocky-a-bankomaty); KB only: POST https://www.kb.cz/api/BranchAndAtmList/Atms (see notes) |
+| url | https://sdilenybankomat.cz/data/atm_import_log/data-171.js (static JS array behind https://sdilenybankomat.cz/; the file number changes with each import, so read the current `<script src>` from the home page); https://www.csas.cz/webapi/api/v3/places/?size=5000 (needs header `Web-Api-Key: &lt;key from the page source&gt;`, the public key embedded in https://www.csas.cz/cs/pobocky-a-bankomaty); KB only: POST https://www.kb.cz/api/BranchAndAtmList/Atms (see notes) |
 | format | JavaScript marker array (Sdílený bankomat); JSON (ČS, KB) |
 | coords | yes |
 | records | Sdílený bankomat 1,912 ATMs (2026-09-28): KB 739, MONETA 542, Air Bank 372, UniCredit 259; 983 deposit ("Vkladový"), 929 withdrawal-only. ČS Places API: 1,511 CZ ATMs (1,153 OPEN, 30 OUT_OF_ORDER, 328 CLOSED) + 377 CZ branches; the same API also returns 2,080 Erste ATMs in SK/AT/HU/HR. KB API: 744 ATMs with `sourceItemId` (S1AS…) |
@@ -26,7 +26,7 @@
   Then *Layer → Add Layer → Add Delimited Text Layer…*: `sdileny.csv`, CSV, UTF-8, X = `lon`, Y = `lat`, CRS EPSG:4326.
 - **QGIS (Česká spořitelna):** the API needs a request header, so fetch it with curl (tested 2026-09-28, 1,888 CZ rows):
   ```
-  curl -s -H 'Web-Api-Key: 08aef2f7-8b72-4ae1-831e-2155d81f46dd' 'https://www.csas.cz/webapi/api/v3/places/?size=5000' | python3 -c "import json,sys,csv;w=csv.writer(open('cs.csv','w'));w.writerow(['id','type','state','name','address','city','lat','lon','accessType','deposit']);[w.writerow([i['id'],i['type'],i.get('state'),i['name'],i['address'],i['city'],i['location']['lat'],i['location']['lng'],i.get('accessType'),i.get('serviceStatusDeposit')]) for i in json.load(sys.stdin)['items'] if i['country']=='CZ']"
+  curl -s -H "Web-Api-Key: $CS_KEY" 'https://www.csas.cz/webapi/api/v3/places/?size=5000' | python3 -c "import json,sys,csv;w=csv.writer(open('cs.csv','w'));w.writerow(['id','type','state','name','address','city','lat','lon','accessType','deposit']);[w.writerow([i['id'],i['type'],i.get('state'),i['name'],i['address'],i['city'],i['location']['lat'],i['location']['lng'],i.get('accessType'),i.get('serviceStatusDeposit')]) for i in json.load(sys.stdin)['items'] if i['country']=='CZ']"
   ```
   Add `cs.csv` as a delimited text layer: X = `lon`, Y = `lat`, EPSG:4326. Filter `"type" = 'ATM' AND "state" <> 'CLOSED'`.
 - **Web viewers:** https://sdilenybankomat.cz/ , https://www.csas.cz/cs/pobocky-a-bankomaty , https://www.kb.cz/cs/pobocky-a-bankomaty/bankomaty

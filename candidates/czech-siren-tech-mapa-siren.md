@@ -19,9 +19,10 @@
 ## Try it
 - **Map preview:** none (licence unclear). Use the web map instead.
 - **QGIS:** *Layer → Add Layer → Add Vector Tile Layer → New Generic Connection*, URL
-  `https://api.mapbox.com/v4/czech-siren-tech.9w21l9qy/{z}/{x}/{y}.vector.pbf?access_token=&lt;public Mapbox token embedded in the map page source&gt;`,
-  min zoom 0, max zoom 12. Layer `Siren_Map`, attributes `Name`, `Description`. (Tiles fetched and
-  decoded with that URL on 2026-09-28; the token is the public one on czechsirentech.cz.)
+  `https://api.mapbox.com/v4/czech-siren-tech.9w21l9qy/{z}/{x}/{y}.vector.pbf?access_token=TOKEN`,
+  min zoom 0, max zoom 12. Replace `TOKEN` with the public `pk.…` token that appears after
+  `access_token=` in the embedded Mapbox iframe URL in the source of https://www.czechsirentech.cz/mapa-siren.
+  Layer `Siren_Map`, attributes `Name`, `Description`. (Tiles fetched and decoded this way on 2026-09-28.)
 - **Web:** https://www.czechsirentech.cz/mapa-siren (simplified Mapbox map; the full Google Earth
   project is linked on the same page).
 

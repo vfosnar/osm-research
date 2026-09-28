@@ -113,6 +113,7 @@ lines collapse into one paragraph on GitHub). Escape `|` as `\|` and `<`/`>` as
 | license_status | ok / needs_waiver / incompatible / unclear |
 | update_freq | |
 | impact | 1–5 |
+| sync_fit | Sync-ready / review task / needs geometry harness (see below) |
 | verified | yes / partial |
 ```
 
@@ -163,6 +164,16 @@ The community hand-picks entries from these and appends them to the wiki page.
 Rough product of: number of features missing in OSM × usefulness to map users ×
 data quality (coordinates, stable IDs, update frequency). A stable ID is important,
 because the community prefers ongoing sync (via Sync) over one-shot imports.
+
+`sync_fit` says how the data could get into OSM:
+
+- **Sync-ready** — points with a stable ID and a 1:1 mapping to OSM tags.
+- **review task** — one source type maps to several possible OSM tags (1:N), or each object
+  needs human judgement. This is common with ZABAGED. It can't be synced; it can be offered
+  as a MapRoulette challenge, as previous ZABAGED layers were.
+- **needs geometry harness** — lines or areas. Sync handles points only; importing
+  geometry needs a new harness similar to Sync, or an extension of Sync, which doesn't
+  exist yet. Never assume source geometry can simply be imported.
 
 ## Working rules
 

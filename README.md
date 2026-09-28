@@ -103,6 +103,8 @@ left over at the end — roughly $2.40 per candidate file.</sub>
 | [Tourist information centres](candidates/atic-certifikovana-tic.md) (A.T.I.C. ČR) | 546 certified centres with contacts | 226 of 510 missing; most matched lack contacts | A.T.I.C. ČR | MapRoulette |
 | [Clothes collection containers](candidates/textil-kontejnery-kloktex-potex.md) (KlokTex, Potex) | 1,463 containers with ids | 869 of 1,192 KlokTex missing; 214 of those only lack `recycling:clothes` | KlokTex, Potex | Sync |
 | [Zero-waste map](candidates/reduca-bezodpadova-mapa.md) (Reduca) | 1,334 places: 479 bulk shops, milk machines, charity shops | 16 `bulk_purchase` in CZ; mostly 2017–2020 data | Reduca | MapRoulette |
+| [Socialist-era public art](candidates/vetrelci-volavky-socharstvi.md) (Vetřelci a volavky) | 2,970 sculptures, reliefs, mosaics with artist and year | 945 of 2,689 missing; 286 of 1,744 matched have `artist_name` | Pavel Karous |
+| [Member cinemas](candidates/kinari-clenska-kina.md) (Asociace provozovatelů kin) | 233 cinemas incl. summer cinemas, stable ids | 57 missing (small towns) | APK |
 | [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI | Sync |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes

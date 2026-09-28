@@ -1,0 +1,2789 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.2222269,
+     49.16529
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_2",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Špičák - areál",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Špičák - areál (860 m n.m.)",
+    "phone": "+420 376 397 273",
+    "ele": "860",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.2276142,
+     49.1588689
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_3",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Dům HS Špičák",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Dům HS Špičák (850 m n.m.)",
+    "phone": "+420 376 397 273",
+    "ele": "850",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.38132,
+     49.1062781
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_4",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Prášily",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Prášily (865 m n.m.)",
+    "phone": "+420 376 397 273",
+    "ele": "865",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.6299297,
+     49.066785
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_5",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Zadov",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Zadov (955 m n.m.)",
+    "phone": "+420 388 428 193",
+    "ele": "955",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.5796031,
+     49.015835
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_6",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Kvilda",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Kvilda (1043 m n.m.)",
+    "phone": "+420 388 310 785",
+    "ele": "1043",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.7699578,
+     48.980965
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_7",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Kubova Huť",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Kubova Huť (985 m n.m.)",
+    "phone": "+420 388 436 312",
+    "ele": "985",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.2313758,
+     48.6528792
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_8",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Kramolín",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Kramolín (896 m n.m.)",
+    "phone": "+420 380 736 081",
+    "ele": "896",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.9294919,
+     48.7782811
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_9",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Nová Pec",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Nová Pec (792 m n.m.)",
+    "phone": "+420 388 336 202",
+    "ele": "792",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.920065,
+     50.7347242
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_10",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Telnice",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Telnice (610 m n. m.)",
+    "phone": "+420 601 302 631",
+    "ele": "610",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.8571242,
+     50.7076481
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_11",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Komáří Vížka",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Komáří Vížka (800 m n. m.)",
+    "phone": "+420 601 302 609",
+    "ele": "800",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.0263342,
+     50.7872722
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_12",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Tisá",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Tisá (560 m n. m.)",
+    "phone": "+420 601 302 630",
+    "ele": "560",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.7039208,
+     50.6871769
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_13",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Bouřňák",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Bouřňák (850 m n. m.)",
+    "phone": "+420 601 302 632",
+    "ele": "850",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.5669569,
+     50.6279881
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_14",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Klíny",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Klíny (700 m n. m.)",
+    "phone": "+420 601 302 634",
+    "ele": "700",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.4391628,
+     50.5477219
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_15",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Pyšná",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Pyšná (605 m n. m.)",
+    "phone": "+420 601 302 635",
+    "ele": "605",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.133105,
+     50.4226039
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_16",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Měděnec",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Měděnec (780 m n. m.)",
+    "phone": "+420 601 302 636",
+    "ele": "780",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.9274208,
+     50.4089119
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_17",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Boží Dar",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Boží Dar (1040 m n. m.)",
+    "phone": "+420 353 815 140",
+    "ele": "1040",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.9678811,
+     50.3948931
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_18",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Klínovec",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Klínovec (1235 m n. m.)",
+    "phone": "+420 353 542 486",
+    "ele": "1235",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.8390022,
+     50.3557
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_19",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Plešivec",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Plešivec (1025 m n. m.)",
+    "phone": "+420 601 302 637",
+    "ele": "1025",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.7781308,
+     50.3643028
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_20",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Pernink",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Pernink (845 m n. m.)",
+    "phone": "+420 601 302 638",
+    "ele": "845",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.7160331,
+     50.3619842
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_21",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Nové Hamry",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Nové Hamry (700 m n. m.)",
+    "phone": "+420 601 302 639",
+    "ele": "700",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.5133608,
+     50.3701783
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_22",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Bublava",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Bublava (745 m n. m.)",
+    "phone": "+420 601 302 640",
+    "ele": "745",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.1426519,
+     50.79427
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_23",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Bedřichov",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Bedřichov (733 m n. m.)",
+    "phone": "+420 483 380 073",
+    "ele": "733",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.0008361,
+     50.735175
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_24",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Ještěd",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Ještěd (600 m n. m.)",
+    "phone": "+420 482 771 025",
+    "ele": "600",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.1885658,
+     50.7766861
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_25",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Severák",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Severák (755 m n. m.)",
+    "phone": "+420 483 380 218",
+    "ele": "755",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.2714531,
+     50.7596611
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_26",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Tanvaldský Špičák",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Tanvaldský Špičák (545 m n. m.)",
+    "phone": "+420 483 381 566",
+    "ele": "545",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.34624,
+     50.8188158
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_27",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Jizerka",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Jizerka (855 m n. m. )",
+    "phone": "+420 602 441 616",
+    "ele": "855",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.4289025,
+     50.7716589
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_28",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Harrachov",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Harrachov (684 m n.m. )",
+    "phone": "+420 602 448 334",
+    "ele": "684",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.4926369,
+     50.7439461
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_29",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Rokytnice nad Jizerou",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Rokytnice nad Jizerou (815 m n.m.)",
+    "phone": "+420 481 523 781",
+    "ele": "815",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.6135489,
+     50.6634822
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_30",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Strážné",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Strážné (787 m n.m.)",
+    "phone": "+420 601 302 641",
+    "ele": "787",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.6096169,
+     50.724795
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_31",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Špindlerův Mlýn",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Špindlerův Mlýn (725 m n.m.)",
+    "phone": "+420 602 448 338",
+    "ele": "725",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7063619,
+     50.6370989
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_32",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Černý Důl",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Černý Důl (625 m n.m.)",
+    "phone": "+420 721 488 470",
+    "ele": "625",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7780092,
+     50.6328269
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_33",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Janské Lázně",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Janské Lázně (688 m n.m.)",
+    "phone": "+420 606 157 936",
+    "ele": "688",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7297042,
+     50.6906739
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_34",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Pec pod Sněžkou",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Pec pod Sněžkou (800 m n.m.)",
+    "phone": "+420 602 448 444",
+    "ele": "800",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.8983131,
+     50.6495031
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_35",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Žacléř",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Žacléř (569 m n.m.)",
+    "phone": "+420 721 031 928",
+    "ele": "569",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.5549839,
+     50.6634028
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_36",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Benecko",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Benecko (850 m n. m.)",
+    "phone": "+420 725 838 762",
+    "ele": "850",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.8197608,
+     50.7439122
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_37",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Pomezní boudy",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Pomezní boudy (1033 m n.m.)",
+    "phone": "+420 606 157 935",
+    "ele": "1033",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7690428,
+     50.6903492
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_38",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Velká Úpa",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Velká Úpa (703 m n.m.)",
+    "phone": "+420 601 576 853",
+    "ele": "703",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.3641053,
+     50.300505
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_39",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Deštné",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Deštné (662 m n. m.)",
+    "phone": "+420 494 663 152",
+    "ele": "662",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.4605842,
+     50.2261108
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_40",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Říčky",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Říčky (758 m n. m.)",
+    "phone": "+420 601 302 605",
+    "ele": "758",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.6965431,
+     50.014735
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_41",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Čenkovice",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Čenkovice (751 m n. m.)",
+    "phone": "+420 601 302 606",
+    "ele": "751",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.9865011,
+     50.2054372
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_42",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Paprsek - Velké Vrbno",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Paprsek - Velké Vrbno (913 m n. m.)",
+    "phone": "+420 601 302 616",
+    "ele": "913",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.0680039,
+     50.192645
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_43",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Ramzová",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Ramzová (762 m n. m.)",
+    "phone": "+420 601 302 615",
+    "ele": "762",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.1521942,
+     50.1255422
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_44",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Červenohorské sedlo",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Červenohorské sedlo (1010 m n. m.)",
+    "phone": "+420 601 302 611",
+    "ele": "1010",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.2368039,
+     50.0712581
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_45",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Ovčárna",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Ovčárna (1313 m n. m.)",
+    "phone": "+420 601 302 612",
+    "ele": "1313",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.2906131,
+     50.0183525
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_46",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Karlov",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Karlov (760 m n. m.)",
+    "phone": "+420 601 302 613",
+    "ele": "760",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.1539889,
+     49.9980581
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_47",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Skřítek",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Skřítek (869 m n. m.)",
+    "phone": "+420 601 302 614",
+    "ele": "869",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.8155828,
+     50.15384
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_48",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Dolní Morava",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Dolní Morava (750 m n. m.)",
+    "phone": "+420 601 302 617",
+    "ele": "750",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.4479439,
+     49.5466822
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_49",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Lysá hora",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Lysá hora (1323 m.n.m)",
+    "phone": "+420 606769010",
+    "ele": "1323",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.70641,
+     49.51625
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_50",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Velký Polom",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Velký Polom (920 m.n.m)",
+    "phone": "+420 606769010",
+    "ele": "920",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.6271611,
+     49.62823
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_51",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Javorový",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Javorový (947 m.n.m)",
+    "phone": "+420 606769010",
+    "ele": "947",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.4778669,
+     49.4859531
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_52",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Gruň",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Gruň (825 m.n.m)",
+    "phone": "+420 606 769 010",
+    "ele": "825",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.2489547,
+     49.3907589
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_53",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Soláň",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Soláň (795 m.n.m)",
+    "phone": "+420 721 886 263",
+    "ele": "795",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.2638969,
+     49.488785
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_54",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Pustevny",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Pustevny (1015 m.n.m)",
+    "phone": "+420 606769010",
+    "ele": "1015",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.2335625,
+     49.2944089
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_55",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Kohútka",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Kohútka (895 m.n.m)",
+    "phone": "+420 606769010",
+    "ele": "895",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.5440678,
+     50.707495
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_56",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Český Jiřetín",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Český Jiřetín (610 m n. m.)",
+    "phone": "+420 601 302 633",
+    "ele": "610",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.5143954,
+     50.7479956
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_57",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Dvoračky",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Dvoračky (1137 m n.m.)",
+    "phone": "+420 481 523 781",
+    "ele": "1137",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.5216981,
+     50.68351
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_58",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Vítkovice",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Vítkovice (640 m n.m.)",
+    "phone": "+420 604 268 640",
+    "ele": "640",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.4429689,
+     50.7360692
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_60",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Studenov",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Studenov (628 m n.m.)",
+    "phone": "+420 481 523 781",
+    "ele": "628",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.3458056,
+     49.5892778
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_62",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Frýdlant nad Ostravicí",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Frýdlant nad Ostravicí (385 m.n.m)",
+    "phone": "+420 606769010",
+    "ele": "385",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.2189597,
+     50.8902756
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_63",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Libverda",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Libverda (450 m n. m. )",
+    "phone": "+420 483 380 073",
+    "ele": "450",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.371411,
+     50.73046
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_64",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Rejdice",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Rejdice ( 830 m n.m.)",
+    "phone": "+420 724 251 881",
+    "ele": "830",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.4578842,
+     49.4430139
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_67",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Bílá",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Bílá  (570 m.n.m)",
+    "phone": "+420 606 769 010",
+    "ele": "570",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.8565828,
+     50.2019414
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_68",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Franciska",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Franciska",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.8932219,
+     50.1659706
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_69",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Hynčice pod Sušinou",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Hynčice pod Sušinou",
+    "phone": "+420 601 302 607",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.1163511,
+     50.1002746
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_70",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Kouty nad Desnou",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Kouty nad Desnou",
+    "phone": "+420 720 023 094",
+    "in_osm_250m": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.6658103,
+     50.7000717
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_71",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Grohmanova bouda",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Grohmanova bouda (1255 m n.m.)",
+    "phone": "+420 499 434 130",
+    "ele": "1255",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7510767,
+     50.6481844
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_72",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Černá Hora",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Černá Hora (1255 m n.m.)",
+    "ele": "1255",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.5453881,
+     50.7700567
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_73",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Labská bouda",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Labská bouda (1315 m n.m.)",
+    "ele": "1315",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7290017,
+     50.7394978
+    ]
+   },
+   "properties": {
+    "ref:hscr": "station_74",
+    "emergency": "mountain_rescue",
+    "name": "Horská služba Slezský dům",
+    "operator": "Horská služba ČR",
+    "source_title": "Stanice HS Slezský dům (1400 m n.m.)",
+    "ele": "1400",
+    "in_osm_250m": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.289833,
+     49.354371
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Kyčerka",
+    "ref:hscr": "webcam_7",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/beskydy/7-kycerka"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.359385,
+     50.06225
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Annaberg Rudná",
+    "ref:hscr": "webcam_22",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/22-annaberg-rudna"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.003961,
+     50.155236
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Branná",
+    "ref:hscr": "webcam_24",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/24-branna"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.816421,
+     50.151606
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Dolní Morava, Skiresort",
+    "ref:hscr": "webcam_26",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/26-dolni-morava-skiresort"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.016814,
+     50.132189
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Františkov",
+    "ref:hscr": "webcam_31",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/31-frantiskov"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.405142,
+     49.627725
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Hlubočky",
+    "ref:hscr": "webcam_32",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/32-hlubocky"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.893476,
+     50.165611
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Hynčice pod Sušinou",
+    "ref:hscr": "webcam_33",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/33-hyncice-pod-susinou"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.12069,
+     50.099407
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Kouty nad Desnou",
+    "ref:hscr": "webcam_37",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/37-kouty-nad-desnou"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.93927,
+     50.18779
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Kunčice",
+    "ref:hscr": "webcam_38",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/38-kuncice"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.041780833333,
+     50.188831944444
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Ostružná",
+    "ref:hscr": "webcam_41",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/41-ostruzna"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.98785,
+     50.201767
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Paprsek",
+    "ref:hscr": "webcam_42",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/42-paprsek"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.1897319,
+     50.7774669
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Severák",
+    "ref:hscr": "webcam_57",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/57-severak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.0740694,
+     50.6942897
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Javorník",
+    "ref:hscr": "webcam_58",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/58-javornik"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.999816,
+     50.72325
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Ještěd, Pláně",
+    "ref:hscr": "webcam_60",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/60-jested-plane"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.335307,
+     50.823366
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Osada Jizerka od Pešákovny",
+    "ref:hscr": "webcam_62",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/62-osada-jizerka-od-pesakovny"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.367041,
+     50.736537
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Kořenov",
+    "ref:hscr": "webcam_64",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/64-korenov"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.3659833,
+     50.7474964
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Kořenov Štěpánka",
+    "ref:hscr": "webcam_65",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/65-korenov-stepanka"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.1899486,
+     50.8921244
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Hejnice",
+    "ref:hscr": "webcam_67",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/67-hejnice"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.3958244,
+     50.7227403
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Paseky nad Jizerou",
+    "ref:hscr": "webcam_68",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/68-paseky-nad-jizerou"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.2804617,
+     50.7628956
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Tanvaldský Špičák II",
+    "ref:hscr": "webcam_73",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/73-tanvaldsky-spicak-ii"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.2817389,
+     50.75126
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Tanvaldský Špičák, vrchol",
+    "ref:hscr": "webcam_74",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/74-tanvaldsky-spicak-vrchol"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.3942917,
+     50.6924533
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Vysoké nad Jizerou",
+    "ref:hscr": "webcam_76",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/76-vysoke-nad-jizerou"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.5554478,
+     50.6625011
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Benecko - horní stanice LD",
+    "ref:hscr": "webcam_77",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/77-benecko-horni-stanice-ld"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.6972303,
+     50.7343889
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Luční bouda - Sněžka",
+    "ref:hscr": "webcam_90",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/90-lucni-bouda-snezka"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7275856,
+     50.675755
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Pec pod Sněžkou - Bouda na Muldě",
+    "ref:hscr": "webcam_96",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/96-pec-pod-snezkou-bouda-na-mulde"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7396661,
+     50.7360236
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Sněžka - vrchol",
+    "ref:hscr": "webcam_100",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/100-snezka-vrchol"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.6164933,
+     50.7078792
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Svatý Petr - Pláň",
+    "ref:hscr": "webcam_106",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/106-svaty-petr-plan"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.5170122,
+     50.6792522
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Vítkovice v Krkonoších - sjezdovka",
+    "ref:hscr": "webcam_110",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/110-vitkovice-v-krkonosich-sjezdovka"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.8871928,
+     50.6429831
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Žacléř - Prkenný Důl",
+    "ref:hscr": "webcam_113",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/113-zacler-prkenny-dul"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.704243,
+     50.687119
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Bouřňák HS",
+    "ref:hscr": "webcam_115",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/115-bournak-hs"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.5477569,
+     50.1639828
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Bartošovice",
+    "ref:hscr": "webcam_147",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/147-bartosovice"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.6017025,
+     50.1161117
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "České Petrovice",
+    "ref:hscr": "webcam_150",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/150-ceske-petrovice"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.6187953,
+     50.1073839
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Petrovičky",
+    "ref:hscr": "webcam_154",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/154-petrovicky"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.4697981,
+     50.1673436
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Rokytnice v Orlických horách",
+    "ref:hscr": "webcam_156",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/156-rokytnice-v-orlickych-horach"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.45545,
+     50.2287842
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Říčky v Orlických horách",
+    "ref:hscr": "webcam_157",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/157-ricky-v-orlickych-horach"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.4493475,
+     50.2332947
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Říčky v Orlických horách",
+    "ref:hscr": "webcam_159",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/159-ricky-v-orlickych-horach"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.52745,
+     49.0319364
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Filipova Huť",
+    "ref:hscr": "webcam_163",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/163-filipova-hut"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.1333319,
+     49.1145525
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Grosser Arber, D",
+    "ref:hscr": "webcam_164",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/164-grosser-arber-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.5579728,
+     49.0576125
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Horská Kvilda",
+    "ref:hscr": "webcam_166",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/166-horska-kvilda"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.5603967,
+     49.1453
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Kašperské Hory",
+    "ref:hscr": "webcam_169",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/169-kasperske-hory"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.9365072,
+     48.7848236
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Nová Pec",
+    "ref:hscr": "webcam_173",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/173-nova-pec"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.6400814,
+     49.0359411
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Nové Hutě",
+    "ref:hscr": "webcam_174",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/174-nove-hute"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.6284194,
+     49.0602467
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Zadov Kobyla",
+    "ref:hscr": "webcam_177",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/177-zadov-kobyla"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.2287811,
+     49.1380703
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Železná Ruda",
+    "ref:hscr": "webcam_179",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/179-zelezna-ruda"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.2453408,
+     49.1454539
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Železná Ruda Belveder",
+    "ref:hscr": "webcam_180",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/180-zelezna-ruda-belveder"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.2258278,
+     49.1609211
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Špičák",
+    "ref:hscr": "webcam_182",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/182-spicak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.1419608,
+     50.7957633
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Bedřichov",
+    "ref:hscr": "webcam_183",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/183-bedrichov"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.755569,
+     50.763594
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Altenberg, D",
+    "ref:hscr": "webcam_186",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/186-altenberg-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.9554833,
+     50.4286031
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Fichtelberg lanovka, D",
+    "ref:hscr": "webcam_197",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/197-fichtelberg-lanovka-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.4906358,
+     50.4116222
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Mühlleithen, D",
+    "ref:hscr": "webcam_198",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/198-muhlleithen-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.7205122,
+     48.9086236
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Strážný",
+    "ref:hscr": "webcam_200",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/200-strazny"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.482594,
+     48.9712256
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Březník",
+    "ref:hscr": "webcam_207",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/207-breznik"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.5920944,
+     48.9676617
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Bučina",
+    "ref:hscr": "webcam_209",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/209-bucina"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.2537919,
+     49.1777906
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Pancíř",
+    "ref:hscr": "webcam_212",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/212-pancir"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.1903578,
+     50.7743544
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Severák",
+    "ref:hscr": "webcam_213",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/213-severak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.1893464,
+     50.7767931
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Severák",
+    "ref:hscr": "webcam_214",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/214-severak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.2720994,
+     50.7585986
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Tanvaldský Špičák I",
+    "ref:hscr": "webcam_216",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/216-tanvaldsky-spicak-i"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.0005669,
+     50.7356783
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Ještěd",
+    "ref:hscr": "webcam_218",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/218-jested"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.1033458,
+     48.6450244
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Vítkův kámen",
+    "ref:hscr": "webcam_221",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/221-vitkuv-kamen"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.7041433,
+     50.0117814
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Čenkovice",
+    "ref:hscr": "webcam_222",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/222-cenkovice"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.2086378,
+     49.1727358
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Špičák-rozhledna",
+    "ref:hscr": "webcam_224",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/224-spicak-rozhledna"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.0648483,
+     50.1971142
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Ramzová-Bonera",
+    "ref:hscr": "webcam_227",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/227-ramzova-bonera"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.4887019,
+     50.6396889
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Seiffen, D",
+    "ref:hscr": "webcam_240",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/240-seiffen-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.6950875,
+     50.7289881
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Rehefeld, D",
+    "ref:hscr": "webcam_242",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/242-rehefeld-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.0555964,
+     50.5323147
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Königswalde, D",
+    "ref:hscr": "webcam_243",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/243-konigswalde-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.5488231,
+     50.7514106
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Vrbatova Bouda",
+    "ref:hscr": "webcam_245",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/245-vrbatova-bouda"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.3903042,
+     50.7267336
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Paseky nad Jizerou ",
+    "ref:hscr": "webcam_255",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jizerske-hory/255-paseky-nad-jizerou"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.61086,
+     50.6656053
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Strážné - Kolonka",
+    "ref:hscr": "webcam_263",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/263-strazne-kolonka"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.2383183,
+     49.1434517
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Železná Ruda Nad nádražím-horní stanice",
+    "ref:hscr": "webcam_264",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/264-zelezna-ruda-nad-nadrazim-horni-stanice"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.7062589,
+     50.0092497
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Čenkovice",
+    "ref:hscr": "webcam_273",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/273-cenkovice"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.7319378,
+     50.0060808
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Červená Voda",
+    "ref:hscr": "webcam_275",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/orlicke-hory/275-cervena-voda"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.8380406,
+     50.1545561
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Dolní Morava, Skiresort 2",
+    "ref:hscr": "webcam_277",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/jeseniky/277-dolni-morava-skiresort-2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.6534308,
+     49.1382508
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Javorník",
+    "ref:hscr": "webcam_278",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/278-javornik"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.6625933,
+     48.9910844
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Borová Lada",
+    "ref:hscr": "webcam_280",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/280-borova-lada"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.5004269,
+     49.02407
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Modrava",
+    "ref:hscr": "webcam_281",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/281-modrava"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.3810364,
+     49.1057869
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Prášily",
+    "ref:hscr": "webcam_282",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/282-prasily"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.4819092,
+     49.0859636
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Srní",
+    "ref:hscr": "webcam_283",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/283-srni"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.1950547,
+     49.2139142
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Hojsova Stráž",
+    "ref:hscr": "webcam_296",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/sumava/296-hojsova-straz"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.9054117,
+     50.7355206
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Adolfov",
+    "ref:hscr": "webcam_305",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/305-adolfov"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.7070206,
+     50.6368069
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Černý Důl - Ski areál ",
+    "ref:hscr": "webcam_307",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krkonose/307-cerny-dul-ski-areal"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.0572467,
+     50.9205919
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Königstein pevnost, D",
+    "ref:hscr": "webcam_311",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/311-konigstein-pevnost-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.3965797,
+     50.3163733
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Erlbach, D",
+    "ref:hscr": "webcam_324",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/324-erlbach-d"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.7796919,
+     50.3633294
+    ]
+   },
+   "properties": {
+    "man_made": "surveillance",
+    "surveillance:type": "camera",
+    "name": "Pernink",
+    "ref:hscr": "webcam_337",
+    "contact:webcam": "https://www.horskasluzba.cz/cz/webkamery/krusne-hory/337-pernink"
+   }
+  }
+ ]
+}

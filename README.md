@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** five research rounds done (27–28 September 2026). 84 candidate files, all
+> **Status:** five research rounds done (27–28 September 2026). 87 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -48,6 +48,7 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Street lamps & sirens, Most](candidates/most-opendata.md) (CC BY-SA) | 7,039 lamps with pole codes, 26 sirens | 15 lamps, 0 sirens | město Most |
 | [VozejkMap](candidates/vozejkmap.md) (CZEPA, Mapotic) | 18,132 accessibility POIs incl. 8,178 disabled parking spaces, 577 accessible toilets | 5,537 of 8,157 disabled spaces missing nationally (Prague centre 342 of 388); 481 of 567 toilets lack accessible OSM toilet | CZEPA |
 | [Bank ATMs](candidates/bank-atm-locators-cz.md) (Sdílený bankomat network, Česká spořitelna API) | 3,095 ATMs of KB, MONETA, Air Bank, UniCredit, ČS; deposit flag, live state | 1,248 without a same-bank ATM within 50 m; 151 closed ČS ATMs still in OSM | KB, ČS |
+| [Paragliding launch sites](candidates/paragliding-mapa-startovacky.md) (paragliding-mapa.cz) + [ParaglidingEarth](candidates/paraglidingearth-cz.md) (CC BY-SA, now also ODbL) | 234 launch sites with status, wind directions, landings | 24 of 234 in OSM; 43 `sport=free_flying` in CZ | ifire; ParaglidingEarth |
 | [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ |
 | [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com |
 | [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG |
@@ -108,6 +109,7 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 [canoe put-ins, re-use centres, shelters](candidates/mapotic-outdoor-small-maps.md) (small Mapotic maps),
 [Ústí small monuments](candidates/usti-drobne-pamatky.md), [Orlické hory memorials](candidates/pomniky-orlickych-hor.md) (thesis field survey),
 [AI road detections](candidates/ai-road-detections.md) (Microsoft 2025: only 2.5–5.5 % missing — OSM is already complete),
+[heliports and ultralight fields](candidates/rlp-vfr-prirucka-heliporty-slz.md) (ŘLP VFR příručka — terms forbid reuse; attributes only),
 [walls](candidates/zabaged-zdi.md) (ZABAGED 1.23; ZABAGED has no fence type).
 
 ### Open leads not yet researched

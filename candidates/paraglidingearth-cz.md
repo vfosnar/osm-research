@@ -30,10 +30,9 @@
   extract, 143 of 159 takeoffs and 99 of 106 landing fields have nothing within 500 m.
 - **Licence:** this is the only CZ free-flying dataset with an explicit open licence. CC BY-SA 3.0 is not
   accepted into OSM without a waiver, but the maintainer already publishes an ODbL database of new
-  contributions. That suggests he would give consent for OSM, or put the older data under ODbL, if asked.
-  Contributors keep their rights, so the question goes to the maintainer (contact above). Some legacy
-  entries may have been copied from other databases. Treat sites whose descriptions cite another source
-  with care.
+  contributions. That suggests he would give consent for OSM, or put the older data under ODbL, if asked
+  (contact above). Check the provenance of legacy entries before any import: the sites are user-submitted,
+  and the licence does not say whether any were copied from other databases.
 - **Versus Paragliding Mapa:** [paragliding-mapa-startovacky](paragliding-mapa-startovacky.md) has
   234 CZ sites with official/tolerated/forbidden status, but no licence. 117 of its sites have a PGE site
   within 500 m. PGE is the licensable subset. Descriptions are in mixed languages, and some sites are

@@ -66,3 +66,4 @@ before the data can go into OSM — see the candidate file (same name in
 | [zabaged-liniova-vegetace.geojson](zabaged-liniova-vegetace.geojson) | ZABAGED 6.12 Liniová vegetace + Copernicus HRL Small Woody Features 2021 (Vysočina) | ČÚZK; EEA/CLMS | CC BY 4.0 + ČÚZK consent; Copernicus data policy |
 | [zabaged-elektrarny-plochy.geojson](zabaged-elektrarny-plochy.geojson) | ZABAGED Elektrárna (plocha) | ČÚZK | CC BY 4.0 + ČÚZK consent |
 | [ai-road-detections.geojson](ai-road-detections.geojson) | Meta MapWithAI CZ roads + Microsoft Road Detections | Meta; Microsoft | MIT; ODbL |
+| [paraglidingearth-cz.geojson](paraglidingearth-cz.geojson) | ParaglidingEarth free-flying sites, CZ (159 takeoffs, 106 landings) | paraglidingearth.com | CC BY-SA 3.0 (contributions since 2024-12-10 also ODbL 1.0) |

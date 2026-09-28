@@ -63,3 +63,6 @@ before the data can go into OSM — see the candidate file (same name in
 | [prague-ipr-stani-ztp.geojson](prague-ipr-stani-ztp.geojson) | Vyhrazená parkovací stání pro držitele průkazu ZTP/P (central Prague, 424 points) | IPR Praha (data TSK) | CC BY 4.0 + IPR consent for OSM (2018) |
 | [mesta-mapy-pristupnosti.geojson](mesta-mapy-pristupnosti.geojson) | Mapa přístupnosti – Budovy (Brno, 287 points) | Statutární město Brno, Odbor zdraví | CC BY 4.0 |
 | [usti-drobne-pamatky.geojson](usti-drobne-pamatky.geojson) | Válečné hroby a drobné neevidované památky v ORP Ústí nad Labem | Statutární město Ústí nad Labem | CC BY-SA 4.0 |
+| [zabaged-liniova-vegetace.geojson](zabaged-liniova-vegetace.geojson) | ZABAGED 6.12 Liniová vegetace + Copernicus HRL Small Woody Features 2021 (Vysočina) | ČÚZK; EEA/CLMS | CC BY 4.0 + ČÚZK consent; Copernicus data policy |
+| [zabaged-elektrarny-plochy.geojson](zabaged-elektrarny-plochy.geojson) | ZABAGED Elektrárna (plocha) | ČÚZK | CC BY 4.0 + ČÚZK consent |
+| [ai-road-detections.geojson](ai-road-detections.geojson) | Meta MapWithAI CZ roads + Microsoft Road Detections | Meta; Microsoft | MIT; ODbL |

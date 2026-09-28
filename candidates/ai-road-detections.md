@@ -17,7 +17,7 @@
 | verified | yes |
 
 ## Try it
-- **Map preview:** [samples/meta-mapwithai-roads.geojson](../samples/meta-mapwithai-roads.geojson), Brdy
+- **Map preview:** [samples/ai-road-detections.geojson](../samples/ai-road-detections.geojson), Brdy
   (bbox 13.75,49.70,13.85,49.75): 76 Meta lines (13.8 km) and 8 Microsoft lines (1.2 km) that have no OSM
   highway within 20 m. Each keeps `dataset`, `length_m`, and for Meta `ai_highway` and `fbid`.
 - **QGIS (Meta):** download and unpack the tar.gz, then *Layer → Add Layer → Add Vector Layer*, file

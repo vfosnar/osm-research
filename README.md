@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** five research rounds done (27–28 September 2026). 78 candidate files, all
+> **Status:** five research rounds done (27–28 September 2026). 81 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -29,6 +29,8 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Springs and wells](candidates/zabaged-prameny-studny.md) (ZABAGED 4.01, not in the POI import) | 11,060 springs (5,370 named), 21,652 wells, stable IDs | 4,844 springs; Brdy: 47 of 86 missing |
 | [Tourist accommodation](candidates/csu-huz-ubytovani.md) (ČSÚ, CC0) | 10,454 hotels, guest houses, hostels, campsites, stable IDs | 4,693 of 10,454 missing nationally (2,028 pensions); Pec pod Sněžkou 88 of 170 |
 | [Prague disabled parking](candidates/prague-ipr-stani-ztp.md) (IPR/TSK, 2018 IPR consent) | 2,192 reserved ZTP/P spots (3,264 spaces) | 954 missing; centre 265 of 293 |
+| [Tree rows and hedges](candidates/zabaged-liniova-vegetace.md) (ZABAGED 6.12 + Copernicus Small Woody Features) | 351,319 tree rows | 15,921 tree_row + 17,080 hedge ways |
+| [Power plant areas](candidates/zabaged-elektrarny-plochy.md) (ZABAGED, with ERÚ IDs) | 2,141 plant polygons incl. 1,679 solar parks with MW and `id_eru` | 1,212 solar parks and 310 of 325 gas/biogas plants without an OSM plant |
 | [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
@@ -102,6 +104,7 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 [amphibian road crossings](candidates/csop-akce-zaba.md) (ČSOP, 678 sections, 673 unmapped),
 [canoe put-ins, re-use centres, shelters](candidates/mapotic-outdoor-small-maps.md) (small Mapotic maps),
 [Ústí small monuments](candidates/usti-drobne-pamatky.md), [Orlické hory memorials](candidates/pomniky-orlickych-hor.md) (thesis field survey),
+[AI road detections](candidates/ai-road-detections.md) (Microsoft 2025: only 2.5–5.5 % missing — OSM is already complete),
 [walls](candidates/zabaged-zdi.md) (ZABAGED 1.23; ZABAGED has no fence type).
 
 ### Open leads not yet researched

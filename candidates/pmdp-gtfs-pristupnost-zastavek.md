@@ -29,6 +29,7 @@
 - **Why this adds to what exists:** jizdni-rady-osm (CIS JŘ) places stops but carries no accessibility. The PMDP feed is the only city feed outside PID and IDS JMK whose stops.txt is complete for wheelchair_boarding (no 0/blank), and its NKOD terms are CC0-equivalent, so no waiver is needed.
 - **IDs:** `stop_id` is a small integer ("27") with an `original_stop_id` column; stability between releases was not tested (only one release fetched, 2026-09-28). `stop_code` "54720/1" looks like a PMDP stop number plus platform. It is not ref:CIS_JR: Nová Ves has stop_code 53190 in the feed and ref:CIS_JR=23656 in OSM (1 of 3 checked codes matched). The `/n` platform suffix agrees with OSM local_ref only partly, so don't import it as local_ref without a check against the physical signs.
 - **Tags:** Key:wheelchair (no default; yes/limited/no) and Tag:public_transport=platform read on the wiki. Key:gtfs:stop_id (approved) wants a feed-code suffix from "List of GTFS feeds"; Czechia lists only CZ-IDSJMK there, so a CZ-PMDP code would need to be added first.
+- **Other city operators (checked 2026-09-28):** DPO, DPMHK, DPMP, DPMČB, DSZO, DPMJ, DPMÚL, DPMLJ, DPKV, DPMMB, MD Teplice and MDPO Opava publish no GTFS; the only uniform substitute is the JDF barrier-free stop flag "@", see `cisjr-jdf-bezbarierove-zastavky.md`.
 - **Contacts:** PMDP (agency_phone +420 378 037 485 in agency.txt, www.pmdp.cz) for the feed; for DPMO, ask Dopravní podnik města Olomouce, a.s. for a licence statement (the GTFS page has none).
 
 ## Wiki entry

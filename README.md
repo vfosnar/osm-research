@@ -3,17 +3,40 @@
 Which open datasets would help the Czech OpenStreetMap map the most — and aren't
 already being imported?
 
-This repository collects candidate data sources, each checked by hand: does the data
-really exist, what licence it has, and how much of it is already in OSM.
+This repository collects candidate data sources. For each one we fetched the data itself,
+looked up its licence, and measured how much of it is already in OSM. Everything was
+checked against live sources on 27–28 September 2026; there are 103 candidate files so far.
 
-> **Status:** eight research rounds done (27–28 September 2026). 103 candidate files, all
-> numbers measured against live OSM data on that date. Round 2 looked at what
-> [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
-> [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
-> went after niche but useful data: community maps, institutional systems, hobby
-> associations, and ZABAGED layers outside the POI import. Round 7 audited all 149 ZABAGED layers:
-> [research/zabaged-layer-audit.md](research/zabaged-layer-audit.md). Round 4 scanned Czech NGO maps on
-> [Mapotic](research/mapotic-maps.md) and wrote up the best round-3 leads.
+### How it was researched
+
+The research ran in rounds, each one a batch of AI agents working through a theme and
+writing up what held up. Every round started by ruling out what the community already
+imports or tracks (see [What's already covered](#whats-already-covered)).
+
+1. **Baseline.** National registries, city open-data portals and well-known POI sources.
+2. **What other maps use.** The data sources [Google, TomTom, Apple, HERE](research/google-and-others-sources.md)
+   and [Mapy.com](research/mapy-com-sources.md) credit for Czechia.
+3. **Niche but useful.** Community maps, institutional systems, hobby associations, and
+   ZABAGED layers outside the POI import.
+4. **Mapotic.** A scan of the Czech NGO maps hosted there ([research/mapotic-maps.md](research/mapotic-maps.md)),
+   plus write-ups of the best leads from round 3.
+5. **Follow-ups** on the Mapotic leads.
+6. **Wide sweep.** uMap, ArcGIS Online and Zenodo ([research/platform-sweeps.md](research/platform-sweeps.md)),
+   air sports, tourism associations, NGO social services, accessibility, bank ATMs,
+   machine-learning datasets and safety points.
+7. **ZABAGED audit.** All 149 layers ranked against OSM ([research/zabaged-layer-audit.md](research/zabaged-layer-audit.md)),
+   plus more city accessibility maps.
+8. **Everyday services.** Health, clothes containers and zero-waste shops, and stop
+   accessibility from transit GTFS feeds outside Prague.
+9. **Last round** (in progress). ZABAGED tag-mapping fixes for the iD fork, stop
+   accessibility in the remaining cities, culture and sports venues, charity shops, and
+   places for children and families.
+
+Each candidate says which route into OSM fits it: Sync, the geometry harness planned for
+the osmcz iD fork, or MapRoulette (see [By route](#by-route)).
+
+> **Fun fact:** all nine rounds ran on the $250 of Claude credit Anthropic gave out, with
+> about $10 left at the end. That works out to roughly $2.40 per candidate file.
 
 ## Shortlist
 

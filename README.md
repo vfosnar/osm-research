@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** five research rounds done (27–28 September 2026). 87 candidate files, all
+> **Status:** five research rounds done (27–28 September 2026). 90 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -27,6 +27,7 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Waste facilities](candidates/mzp-isoh-zarizeni-odpady.md) (MŽP ISOH) | ~5,000 active collection yards, scrap yards, car dismantlers, composting | ~24 % of collection yards mapped |
 | [Power plants](candidates/eru-vyrobny-elektriny.md) (ERÚ) | 38k licensed plants incl. 1,600 hydro, 420 biogas | ~500 hydro; needs geocoding from parcels |
 | [Springs and wells](candidates/zabaged-prameny-studny.md) (ZABAGED 4.01, not in the POI import) | 11,060 springs (5,370 named), 21,652 wells, stable IDs | 4,844 springs; Brdy: 47 of 86 missing |
+| [Cyklisté vítáni](candidates/known-cyklisti-vitani.md) (known: 2022 consent on Cs:Zdroje_v_jednani, never imported) | 853 certified bike-friendly places, stable IDs | 0 tagged; 125 of 437 accommodation places missing | reconfirm with Partnerství |
 | [Tourist accommodation](candidates/csu-huz-ubytovani.md) (ČSÚ, CC0) | 10,454 hotels, guest houses, hostels, campsites, stable IDs | 4,693 of 10,454 missing nationally (2,028 pensions); Pec pod Sněžkou 88 of 170 |
 | [Prague disabled parking](candidates/prague-ipr-stani-ztp.md) (IPR/TSK, 2018 IPR consent) | 2,192 reserved ZTP/P spots (3,264 spaces) | 954 missing; centre 265 of 293 |
 | [Tree rows and hedges](candidates/zabaged-liniova-vegetace.md) (ZABAGED 6.12 + Copernicus Small Woody Features) | 351,319 tree rows | 15,921 tree_row + 17,080 hedge ways |
@@ -67,6 +68,8 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [City accessibility maps](candidates/mesta-mapy-pristupnosti.md) (Brno CC BY; Ostrava, Hradec Králové unclear) | Brno 287 rated buildings; Ostrava 2,060 points; Hradec tactile/acoustic crossings, guide lines, voice beacons | Brno 116 of 287 lack wheelchair info | cities |
 | [Hearing loops](candidates/unb-indukcni-smycky.md) (Unie neslyšících Brno, Mapotic) | 161 loops | 1 (tag is a draft proposal); 85 of 137 CZ loops have an OSM object within 50 m | UNB |
 | [Farms and farm shops](candidates/duha-adresar-farmaru.md) (Hnutí DUHA, Mapotic) | 424 farms, farm shops, educational farms | 408 missing; 89 `shop=farm` in all CZ | Hnutí DUHA |
+| [Wine map](candidates/vinarsky-fond-vinarska-mapa.md) (Vinařský fond) | 1,731 wineries, wine shops, cellars | 632 of 765 wineries, 535 of 671 wine shops missing | Vinařský fond |
+| [Tourist information centres](candidates/atic-certifikovana-tic.md) (A.T.I.C. ČR) | 546 certified centres with contacts | 226 of 510 missing; most matched lack contacts | A.T.I.C. ČR |
 | [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
@@ -115,6 +118,9 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 ### Open leads not yet researched
 
 From rounds 3–6 (checked, not written up):
+
+- Regionální značky: 1,445 certified products/services with GPS in one JSON call; mostly products at producers'
+  addresses. Official hotel stars (Hotelstars Union, 275 CZ hotels): terms forbid reuse.
 
 - Platform sweeps (uMap, ArcGIS Online, Zenodo) found little original open Czech data from non-government
   people — see [research/platform-sweeps.md](research/platform-sweeps.md). Lead: ArcGIS account `mapy_projekty`

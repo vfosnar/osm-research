@@ -113,7 +113,7 @@ lines collapse into one paragraph on GitHub). Escape `|` as `\|` and `<`/`>` as
 | license_status | ok / needs_waiver / incompatible / unclear |
 | update_freq | |
 | impact | 1–5 |
-| sync_fit | Sync-ready / review task / needs geometry harness (see below) |
+| sync_fit | Sync / MapRoulette (see below) |
 | verified | yes / partial |
 ```
 
@@ -165,15 +165,25 @@ Rough product of: number of features missing in OSM × usefulness to map users �
 data quality (coordinates, stable IDs, update frequency). A stable ID is important,
 because the community prefers ongoing sync (via Sync) over one-shot imports.
 
-`sync_fit` says how the data could get into OSM:
+`sync_fit` says which of the community's two routes into OSM fits the data. Read
+Sync's `CONFIG.md` and `backend/README.md` (Codeberg `osmcz/sync`) before judging.
 
-- **Sync-ready** — points with a stable ID and a 1:1 mapping to OSM tags.
-- **review task** — one source type maps to several possible OSM tags (1:N), or each object
-  needs human judgement. This is common with ZABAGED. It can't be synced; it can be offered
-  as a MapRoulette challenge, as previous ZABAGED layers were.
-- **needs geometry harness** — lines or areas. Sync handles points only; importing
-  geometry needs a new harness similar to Sync, or an extension of Sync, which doesn't
-  exist yet. Never assume source geometry can simply be imported.
+- **Sync** — points only. A dataset is a builtin source or an HTTP adapter returning a
+  FeatureCollection; any source can be added that way. Auto-matching is by `ref_tag` only;
+  everything else is matched by hand with scoring rules (distance, name, `tag_class`,
+  `contains`). `create_keys` are the fixed tags written on new nodes, so the source
+  category must map 1:1 to OSM tags. `licensed = true` lets only the ref (such as a
+  Wikidata QID) flow and shows the rest for verification. Attribute enrichment of
+  existing objects works through the update keys and the field-sync worker. A stable
+  source ID is needed for ongoing sync.
+- **MapRoulette** — everything else: lines and areas, 1:N tag mappings, and data that
+  needs a human look. The ZABAGED challenges (pitches, dog-training grounds, cemeteries,
+  communication towers) are standard challenges: the source only points to the place,
+  the mapper draws the geometry from imagery and picks the tag. Source geometry is never
+  imported directly; no harness for that exists.
+
+Write the value as the route plus a short reason, and split it per layer when a file
+covers several datasets.
 
 ## Working rules
 

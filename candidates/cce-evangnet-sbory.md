@@ -43,6 +43,13 @@
   (Ústřední církevní kancelář, Jungmannova 9, Praha 1), who would have to give consent.
 - **Rejected in the same theme:** Církev československá husitská (https://www.ccsh.cz/adresar-subj.html) lists
   religious communities with a postal address only, no coordinates and no service times.
+  Federace židovských obcí (https://www.fzo.cz/zidovske-obce/, checked 2026-09-28) lists 10 Jewish
+  communities (Brno, Děčín, Karlovy Vary, Liberec, Olomouc, Ostrava, Plzeň, Praha, Teplice, Ústí nad
+  Labem) with office address, phone and web, plus a Shabbat-times calendar per city. No coordinates and no
+  synagogue service times, so it is too small for an import (OSM already has 444 `religion=jewish`
+  objects, taginfo 2026-09-28; most are cemeteries and former synagogues). The Orthodox church site
+  https://www.pravoslavnacirkev.cz/ answers 403 to scripted requests, so its parish list was not read; OSM
+  has 61 `denomination=orthodox`. Neither is worth a candidate file.
 - Wiki pages read: Key:service_times, Key:denomination, Template:Denominations.
 
 ## Wiki entry

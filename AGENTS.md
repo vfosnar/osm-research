@@ -180,11 +180,14 @@ Sync's `CONFIG.md` and `backend/README.md` (Codeberg `osmcz/sync`) before judgin
   Wikidata QID) flow and shows the rest for verification. Attribute enrichment of
   existing objects works through the update keys and the field-sync worker. A stable
   source ID is needed for ongoing sync.
-- **iD fork** (`osmcz/iD` `cz-develop`) — ZABAGED only, any geometry. The mapper sees ZABAGED
-  as a background layer and right-click imports a feature as a node, way or multipolygon,
-  tagged from `data/zabaged_osm_tags.json` plus `ref:zabaged`. v1 conflates waterways onto
-  existing OSM ways; land use is imported standalone. Layers whose tables are still `todo`
-  in the tag file need a mapping first.
+- **iD fork** (`osmcz/iD` `cz-develop`) — geometry (lines, areas), ZABAGED first. Today the fork
+  shows ZABAGED as a background layer and imports one right-clicked feature at a time (tags from
+  `data/zabaged_osm_tags.json` plus `ref:zabaged`; waterways conflated onto existing ways), which
+  nobody will do for a whole layer. The plan is a Sync-like geometry harness built into the fork:
+  a dataset of lines/areas with stable IDs, matched against OSM and worked through as a queue.
+  Candidates may assume that harness. What it needs from a source: stable feature IDs, a clear
+  tag mapping (tables marked `todo` in the tag file need one first), and geometry good enough
+  to conflate onto OSM.
 - **MapRoulette** — pointers for a human: 1:N tag choices and lines/areas from sources other
   than ZABAGED. The ZABAGED challenges (pitches, dog-training grounds, cemeteries,
   communication towers) are standard challenges: the source only points to the place, the

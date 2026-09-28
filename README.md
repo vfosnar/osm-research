@@ -6,12 +6,13 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** three research rounds done (27 September 2026). 61 candidate files, all
+> **Status:** four research rounds done (27–28 September 2026). 69 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
 > went after niche but useful data: community maps, institutional systems, hobby
-> associations, and ZABAGED layers outside the POI import.
+> associations, and ZABAGED layers outside the POI import. Round 4 scanned Czech NGO maps on
+> [Mapotic](research/mapotic-maps.md) and wrote up the best round-3 leads.
 
 ## Shortlist
 
@@ -26,6 +27,7 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Waste facilities](candidates/mzp-isoh-zarizeni-odpady.md) (MŽP ISOH) | ~5,000 active collection yards, scrap yards, car dismantlers, composting | ~24 % of collection yards mapped |
 | [Power plants](candidates/eru-vyrobny-elektriny.md) (ERÚ) | 38k licensed plants incl. 1,600 hydro, 420 biogas | ~500 hydro; needs geocoding from parcels |
 | [Springs and wells](candidates/zabaged-prameny-studny.md) (ZABAGED 4.01, not in the POI import) | 11,060 springs (5,370 named), 21,652 wells, stable IDs | 4,844 springs; Brdy: 47 of 86 missing |
+| [Tourist accommodation](candidates/csu-huz-ubytovani.md) (ČSÚ, CC0) | 10,454 hotels, guest houses, hostels, campsites, stable IDs | ~4,500 missing; Pec pod Sněžkou 88 of 170 |
 | [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
@@ -41,12 +43,19 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Mine shafts & adits](candidates/cgs-dulni-dila.md) (ČGS) | ~15.7k shafts and adits | ~900 | ČGS |
 | [River gauges](candidates/chmu-vodomerne-stanice.md) (ČHMÚ) | 563 stations with flood-stage levels | ~93 % missing | ČHMÚ |
 | [Street lamps & sirens, Most](candidates/most-opendata.md) (CC BY-SA) | 7,039 lamps with pole codes, 26 sirens | 15 lamps, 0 sirens | město Most |
+| [VozejkMap](candidates/vozejkmap.md) (CZEPA, Mapotic) | 18,132 accessibility POIs incl. 8,178 disabled parking spaces, 577 accessible toilets | 4,940 disabled parking spaces in all CZ; Prague centre 342 of 388 missing | CZEPA |
 | [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ |
 | [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com |
 | [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG |
 | [Street-workout parks](candidates/woclub-workout-hriste.md) (WOclub map) | 707 parks | 467 of 660 outdoor parks missing | WOclub |
 | [Community gardens and composters](candidates/kokoza-komunitni-zahrady.md) (Kokoza, Mapotic) | 224 gardens, 97 community composters | 195 of 213 gardens, 92 of 97 composters missing | Kokoza |
 | [Prague airport services](candidates/letiste-praha-sluzby.md) | 249 terminal POIs with terminal, floor, hours | 92 of 313 POIs have `level` | Letiště Praha |
+| [Fruit trees](candidates/na-ovoce.md) (Na ovoce, Mapotic) | 20,816 fruit trees and shrubs with species | Prague 6: 219 of 309 missing | Na ovoce z.s. |
+| [Catholic mass times](candidates/cirkev-bohosluzby.md) (ČBK) | service times, language, wheelchair access per church (attributes only) | 228 `service_times` on 5,750 catholic churches | ČBK |
+| [Public toilets and Euroklíč](candidates/wc-kompas.md) (WC kompas, Mapotic) | 1,339 public and 415 Euroklíč toilets | 25 `centralkey=eurokey` | Pacienti IBD |
+| [Karst register JESO](candidates/aopk-jeso-krasove-jevy.md) (AOPK, CC BY 4.0) | 542 caves, 2,332 sinkholes, 452 ponors/karst springs | 214 caves, 264 sinkholes | AOPK |
+| [Pump tracks](candidates/mtbczech-pumptracky.md) (mtbczech.cz) | 145 tracks with surface | 57 missing, 44 lack `cycling=pump_track` | mtbczech.cz |
+| [Hearing loops](candidates/unb-indukcni-smycky.md) (Unie neslyšících Brno, Mapotic) | 161 loops | 1 (tag is a draft proposal) | UNB |
 | [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
@@ -88,24 +97,22 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 
 ### Open leads not yet researched
 
-From round 3 (checked, not written up):
+From rounds 3–4 (checked, not written up):
 
-- ČSÚ tourist accommodation (CC0, 10,454 hotels, guest houses, campsites with stable IDs and RÚIAN codes):
-  only 563 of a 1,000 sample have OSM accommodation within 100 m. Government data, but nobody seems to use it.
+- More Mapotic maps (see [research/mapotic-maps.md](research/mapotic-maps.md)): Zapádluj canoe put-ins (138),
+  Akce žába amphibian crossings (679), re-use centres (140), Bivaky a přístřešky shelters (347),
+  ZnakoMapa sign-language services (478), Adresář farmářů (632).
+- zanikleobce.cz abandoned villages (OSM has 155): all rights reserved, ask the author.
+- mtbczech.cz trail centres and bike parks: same structure as the pump-track list.
+
 - MŠMT school register (CC0) for what ZABAGED lacks: 298 of 531 art schools (ZUŠ), 221 of 326 youth centres,
   300 of 356 student dormitories missing.
-- AOPK karst register JESO (CC BY 4.0): 542 caves (214 in OSM), 2,332 sinkholes (ZABAGED has none).
 - ČHMÚ air-quality stations (CC BY 4.0): 208, only 33 in OSM.
-- Mapotic hosts many Czech NGO maps; `/api/v1/maps/<id>/pois.geojson/` works anonymously — worth scanning.
-- Pumptracks: 12 in OSM; mtbczech.cz lists 148 and builders publish reference lists.
 - Opava city map services (© only): 1,266 benches, 268 tactile crossings, 162 disabled parking spaces.
 - Děčín public lighting (CC0 DXF): 7,313 luminaires against 10 in OSM, no IDs.
-- cngplus.cz: 236 CNG stations; 80 matched OSM fuel stations lack `fuel:cng=yes`.
 - Overture Places (licence fine, CDLA Permissive 2.0): Kolín test found mostly Facebook-page businesses and
   name mismatches — a hint layer only. Mapillary detections need a free token to measure.
 - zanikleobce.cz (abandoned villages, 1,733 Wikidata links) and vodopady.info (waterfalls): licences unchecked.
-- Not started: campervan dump stations, bike repair stands, car sharing, farmers' markets, KČT huts,
-  Westfield Chodov store API.
 
 Earlier rounds:
 

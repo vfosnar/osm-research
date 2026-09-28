@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** four research rounds done (27–28 September 2026). 69 candidate files, all
+> **Status:** five research rounds done (27–28 September 2026). 72 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -56,6 +56,7 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Karst register JESO](candidates/aopk-jeso-krasove-jevy.md) (AOPK, CC BY 4.0) | 542 caves, 2,332 sinkholes, 452 ponors/karst springs | 214 caves, 264 sinkholes | AOPK |
 | [Pump tracks](candidates/mtbczech-pumptracky.md) (mtbczech.cz) | 145 tracks with surface | 57 missing (national extract: 61), 44 lack `cycling=pump_track` | mtbczech.cz |
 | [Hearing loops](candidates/unb-indukcni-smycky.md) (Unie neslyšících Brno, Mapotic) | 161 loops | 1 (tag is a draft proposal); 85 of 137 CZ loops have an OSM object within 50 m | UNB |
+| [Farms and farm shops](candidates/duha-adresar-farmaru.md) (Hnutí DUHA, Mapotic) | 424 farms, farm shops, educational farms | 408 missing; 89 `shop=farm` in all CZ | Hnutí DUHA |
 | [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
@@ -94,15 +95,14 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 [vessel berths](candidates/sps-euris-stanoviste-plavidel.md), [ambulance stations](candidates/kraje-zzs-vyjezdove-zakladny.md),
 [geological sites](candidates/cgs-geologicke-lokality.md), [sports registry](candidates/nsa-rejstrik-sportu.md),
 [regional tourism layers](candidates/regional-tourism-hubs.md),
+[amphibian road crossings](candidates/csop-akce-zaba.md) (ČSOP, 678 sections, 673 unmapped),
+[canoe put-ins, re-use centres, shelters](candidates/mapotic-outdoor-small-maps.md) (small Mapotic maps),
 [walls](candidates/zabaged-zdi.md) (ZABAGED 1.23; ZABAGED has no fence type).
 
 ### Open leads not yet researched
 
 From rounds 3–4 (checked, not written up):
 
-- More Mapotic maps (see [research/mapotic-maps.md](research/mapotic-maps.md)): Zapádluj canoe put-ins (138),
-  Akce žába amphibian crossings (679), re-use centres (140), Bivaky a přístřešky shelters (347),
-  ZnakoMapa sign-language services (478), Adresář farmářů (632).
 - zanikleobce.cz abandoned villages (OSM has 155): all rights reserved, ask the author.
 - mtbczech.cz trail centres and bike parks: same structure as the pump-track list.
 

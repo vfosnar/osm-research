@@ -80,3 +80,24 @@ Lidl) or tourist tips. Business locators belong to AllThePlaces, not Mapotic.
 
 The Mlékomaty map found in round 3 and every id that returned 401 in the scan are
 private or unpublished; their POIs cannot be read anonymously.
+
+## Round 5 follow-up (2026-09-28)
+
+The open leads above were re-fetched (`/api/v1/maps/<id>/` and `pois.geojson/`) and matched against the
+local 2026-09-27 Czechia extract (Postpass unavailable). No map states a data licence.
+
+| id | Map | Owner found | Result |
+|---|---|---|---|
+| 2399 | Adresář Farmářů | Hnutí DUHA; KPZ and educational farms maintained by AMPI (map about page) | **Candidate** `candidates/duha-adresar-farmaru.md`: 408 of 424 farms/farm shops have no shop=farm within 150 m; OSM CZ has about 100 shop=farm |
+| 13712 | Akce žába | Český svaz ochránců přírody (campaign linked from biodiverzita.csop.cz) | **Candidate** `candidates/csop-akce-zaba.md`: 678 road sections (33 signed); 673 have no hazard=* within 500 m, OSM CZ has 0 hazard:animal=amphibian |
+| 9291 | Zapádluj | Mapotic team account (zapadluj.cz) | In `candidates/mapotic-outdoor-small-maps.md`: 70 of 79 CZ put-ins lack canoe=* within 150 m; static since 2021 |
+| 18659 | Re-use v ČR | private user, label "pef čzu" (student project) | Same file: 133 of 140 missing; only the 74 re-use centres and furniture banks fit shop=second_hand |
+| 20 | Bivaky a přístřešky | private user | Same file: 191 of 263 shelters already in OSM within 100 m; 72 missing |
+| 8162 | ZnakoMapa | Znakovárna, z.s. (contact given on the map for new entries) | Not written up: 251 of 478 points are "Video průvodce" (sign-language video guides), 140 services and organisations; no OSM tag for sign-language service exists, so there is nothing to import |
+
+mtbczech.cz trail centres and bike parks (`/trailcentra` and `/bikeparky` list the same 57 detail pages under
+`/strediska/<slug>`; 49 have `var lat/lon`): not written up. They are well-known trail networks (Rychlebské
+stezky, Singltrek pod Smrkem, Kouty Bike Park) whose value for OSM is the trail geometry, which must be traced,
+not a point per centre. In the filtered extract 30 of 49 have a site-level cycling object (sport=mtb/cycling,
+cycling=*, or a trail/bike name) within 1.5 km; the extract has no highway=path or route relations, so the
+19 others are not necessarily missing.

@@ -124,6 +124,9 @@ left over at the end — roughly $2.40 per candidate file.</sub>
   Plzeň platforms have no wheelchair tag.
 - [IDS JMK stop attributes](candidates/known-idsjmk-gtfs-atributy-zastavek.md) (known, consent 2024) — 1,368 of 1,488 matched
   Brno platforms have no wheelchair tag; regional values are a default, use Brno only.
+- [Step-free flag in national timetables + ÚK stop register](candidates/cisjr-jdf-bezbarierove-zastavky.md) (CIS JŘ JDF,
+  DÚK API, CC0-like) — 429 of 499 flagged platforms lack a wheelchair tag; 1,065 of 5,529 DÚK stop posts
+  have no OSM stop within 100 m.
 - [Protected areas](candidates/aopk-zvlaste-chranena-uzemi.md) (AOPK) — IDs and boundary updates.
 - [Prague cycle routes](candidates/prague-ipr-cyklotrasy.md) (IPR, 2018 consent) — ~16 missing routes, lane check (IPR ~335 km vs OSM 193 km).
 - [Weather stations](candidates/chmu-meteostanice.md) (ČHMÚ, CC BY 4.0) — 760 stations, `ref:wigos` IDs.

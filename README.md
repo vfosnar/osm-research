@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** five research rounds done (27–28 September 2026). 81 candidate files, all
+> **Status:** five research rounds done (27–28 September 2026). 84 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -56,6 +56,9 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Prague airport services](candidates/letiste-praha-sluzby.md) | 249 terminal POIs with terminal, floor, hours | 92 of 313 POIs have `level` | Letiště Praha |
 | [Fruit trees](candidates/na-ovoce.md) (Na ovoce, Mapotic) | 20,816 fruit trees and shrubs with species | 19,257 of 19,571 have no OSM tree within 10 m; species on 13 of 314 matched | Na ovoce z.s. |
 | [Catholic mass times](candidates/cirkev-bohosluzby.md) (ČBK) | service times, language, wheelchair access per church (attributes only) | 133 `service_times` on 6,662 catholic places of worship (109 of 2,822 churches) | ČBK |
+| [Homeless services](candidates/mapabezdomova-sluzby.md) (Mapa bez domova) | food, showers, day centres, night shelters in Prague, Ostrava, Liberecký kraj | Prague: 3 of 96 in OSM | Mapa bez domova |
+| [Family centres](candidates/sit-pro-rodinu-centra.md) (Síť pro rodinu) | 266 mother/family/community centres | 232 missing; 7 `community_centre=family_centre` in CZ | Síť pro rodinu |
+| [Protestant service times](candidates/cce-evangnet-sbory.md) (ČCE, evangnet.cz) | 230 congregations with Sunday service time and a stable code | 20 of 150 matched churches have `service_times` | Evangnet z. s. |
 | [Public toilets and Euroklíč](candidates/wc-kompas.md) (WC kompas, Mapotic) | 1,339 public and 415 Euroklíč toilets | 25 `centralkey=eurokey`; no OSM toilet within 50 m for 835 of 1,321 public and 304 of 381 Euroklíč | Pacienti IBD |
 | [Karst register JESO](candidates/aopk-jeso-krasove-jevy.md) (AOPK, CC BY 4.0) | 542 caves, 2,332 sinkholes, 452 ponors/karst springs | 214 caves, 264 sinkholes | AOPK |
 | [Pump tracks](candidates/mtbczech-pumptracky.md) (mtbczech.cz) | 145 tracks with surface | 57 missing (national extract: 61), 44 lack `cycling=pump_track` | mtbczech.cz |

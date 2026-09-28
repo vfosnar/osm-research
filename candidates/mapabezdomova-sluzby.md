@@ -7,7 +7,7 @@
 | format | JSON (undocumented API behind the web app); send `Accept: application/json` |
 | coords | yes (WGS84 `latitude`/`longitude` per place) |
 | records | 2026-09-28: Praha 549 places / 685 services (268 of the places are public toilets copied from IPR Praha), Ostrava 67, Liberecký kraj 195. Each place has `id`, `url` slug, title, address, contacts; each service has category (21 categories: jídlo, hygiena, denní centra, noclehárny, zdraví, závislosti, materiální pomoc, poradenství…), `time` (free text), `price`, description, tags (muži, ženy, cizinci, mladí, senioři…) |
-| osm_tags | `amenity=social_facility` + `social_facility=soup_kitchen` (hot meals) or `=food_bank` (food parcels) or `=outreach` (day centre) or `=shelter` (night shelter) + `social_facility:for=homeless`; `amenity=shower` + `fee=no` for hygiene; `amenity=give_box`/fridge for "Veřejná lednice"; `opening_hours` or `service_times` from `time`; suggested `ref:mapabezdomova=&lt;id&gt;` |
+| osm_tags | `amenity=social_facility` + `social_facility=soup_kitchen` (hot meals) or `=food_bank` (food parcels) or `=outreach` (day centre) or `=shelter` (night shelter) + `social_facility:for=homeless`; `amenity=shower` + `fee=no` for hygiene; `amenity=food_sharing` for "Veřejná lednice" (community fridges); `opening_hours` or `service_times` from `time`; suggested `ref:mapabezdomova=&lt;id&gt;` |
 | osm_count_cz | taginfo 2026-09-28: amenity=social_facility 765, social_facility=shelter 24, =outreach 28, =food_bank 3, =soup_kitchen 0, social_facility:for=homeless 8, amenity=shower 352. Local match against the 2026-09-27 Czechia extract: Prague has 110 social_facility/shower/social_centre objects, 1 with social_facility:for=homeless |
 | license | none stated (the site credits only the IPR Praha toilets layer, CC BY-SA 4.0) |
 | license_url | – |
@@ -47,7 +47,7 @@
   articles, no data); mamikam.cz and baby-friendly.cz (commercial listings of family-friendly cafés and
   play corners, no licence, not NGO data).
 - Wiki pages read: Tag:amenity=social_facility, Key:social_facility, Tag:social_facility=soup_kitchen,
-  Tag:amenity=shower.
+  Tag:amenity=shower, Tag:amenity=food_sharing.
 
 ## Wiki entry
 ```

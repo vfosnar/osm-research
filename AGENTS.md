@@ -39,6 +39,10 @@ Read these at the start of each round; don't copy them into this repo:
   — per-layer ZABAGED table with proposed OSM tags and status: 🟢 compared and missing objects
   added (MapRoulette link), 🟡 in progress, ⭐ suited for Sync. Treat 🟢/🟡/⭐ layers as known.
   Also Codeberg `osmcz/planovani` wiki.
+- Codeberg `osmcz/iD`, branch `cz-develop` — the community iD fork for ČÚZK data. Read `ZABAGED.md`
+  and `CONFLATION.md` there. `data/zabaged_osm_tags.json` is the community's ZABAGED→OSM tag
+  mapping (173 tables, `todo` where the OSM idiom is unclear); use it rather than inventing tags.
+  `osmcz/zabaged-map` is the supporting server for it (tiles + full-precision features).
 - OSM wiki `Cs:Česko/freemap` — permissions granted, potential sources, finished imports.
 - OSM wiki `Cs:Česko/freemap#Potencionální_zdroje` — ideas already listed; not new.
 - OSM wiki `Cs:Zdroje_v_jednani` — sources being negotiated.
@@ -113,7 +117,7 @@ lines collapse into one paragraph on GitHub). Escape `|` as `\|` and `<`/`>` as
 | license_status | ok / needs_waiver / incompatible / unclear |
 | update_freq | |
 | impact | 1–5 |
-| sync_fit | Sync / MapRoulette (see below) |
+| sync_fit | Sync / iD fork / MapRoulette (see below) |
 | verified | yes / partial |
 ```
 
@@ -165,7 +169,7 @@ Rough product of: number of features missing in OSM × usefulness to map users �
 data quality (coordinates, stable IDs, update frequency). A stable ID is important,
 because the community prefers ongoing sync (via Sync) over one-shot imports.
 
-`sync_fit` says which of the community's two routes into OSM fits the data. Read
+`sync_fit` says which of the community's three routes into OSM fits the data. Read
 Sync's `CONFIG.md` and `backend/README.md` (Codeberg `osmcz/sync`) before judging.
 
 - **Sync** — points only. A dataset is a builtin source or an HTTP adapter returning a
@@ -176,11 +180,16 @@ Sync's `CONFIG.md` and `backend/README.md` (Codeberg `osmcz/sync`) before judgin
   Wikidata QID) flow and shows the rest for verification. Attribute enrichment of
   existing objects works through the update keys and the field-sync worker. A stable
   source ID is needed for ongoing sync.
-- **MapRoulette** — everything else: lines and areas, 1:N tag mappings, and data that
-  needs a human look. The ZABAGED challenges (pitches, dog-training grounds, cemeteries,
-  communication towers) are standard challenges: the source only points to the place,
-  the mapper draws the geometry from imagery and picks the tag. Source geometry is never
-  imported directly; no harness for that exists.
+- **iD fork** (`osmcz/iD` `cz-develop`) — ZABAGED only, any geometry. The mapper sees ZABAGED
+  as a background layer and right-click imports a feature as a node, way or multipolygon,
+  tagged from `data/zabaged_osm_tags.json` plus `ref:zabaged`. v1 conflates waterways onto
+  existing OSM ways; land use is imported standalone. Layers whose tables are still `todo`
+  in the tag file need a mapping first.
+- **MapRoulette** — pointers for a human: 1:N tag choices and lines/areas from sources other
+  than ZABAGED. The ZABAGED challenges (pitches, dog-training grounds, cemeteries,
+  communication towers) are standard challenges: the source only points to the place, the
+  mapper draws the geometry from imagery and picks the tag. Non-ZABAGED geometry is never
+  imported directly.
 
 Write the value as the route plus a short reason, and split it per layer when a file
 covers several datasets.

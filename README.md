@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** eight research rounds done (27–28 September 2026). 101 candidate files, all
+> **Status:** eight research rounds done (27–28 September 2026). 103 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -94,6 +94,10 @@ really exist, what licence it has, and how much of it is already in OSM.
   Královéhradecký, Olomoucký no rights claimed) — coordinates for stops `jizdni-rady-osm` can't place;
   `ref:CIS_JR` for ~3,400 stops (needs a wiki page first).
 - [PID stop attributes](candidates/prague-pid-gtfs-atributy-zastavek.md) — wheelchair access, platform codes, ~1,400 stale `ref:PID`.
+- [Plzeň and Olomouc stop accessibility](candidates/pmdp-gtfs-pristupnost-zastavek.md) (PMDP GTFS, CC0-like) — 597 of 680 matched
+  Plzeň platforms have no wheelchair tag.
+- [IDS JMK stop attributes](candidates/known-idsjmk-gtfs-atributy-zastavek.md) (known, consent 2024) — 1,368 of 1,488 matched
+  Brno platforms have no wheelchair tag; regional values are a default, use Brno only.
 - [Protected areas](candidates/aopk-zvlaste-chranena-uzemi.md) (AOPK) — IDs and boundary updates.
 - [Prague cycle routes](candidates/prague-ipr-cyklotrasy.md) (IPR, 2018 consent) — ~16 missing routes, lane check (IPR ~335 km vs OSM 193 km).
 - [Weather stations](candidates/chmu-meteostanice.md) (ČHMÚ, CC BY 4.0) — 760 stations, `ref:wigos` IDs.
@@ -175,7 +179,7 @@ Which of the community's routes into OSM fits each candidate (the `sync_fit` row
 [AGENTS.md](AGENTS.md#scoring-impact-15)). Sorted by impact; the icon is the licence status.
 A candidate with several layers can appear under more than one route.
 
-### Sync — points with a stable ID and a 1:1 tag mapping (40)
+### Sync — points with a stable ID and a 1:1 tag mapping (42)
 
 - ✅ [Centrální adresář knihoven a informačních institucí v ČR](candidates/nk-adresar-knihoven.md) — impact 5
 - ✅ [Sdílená data o zeleni](candidates/prague-stromy-sdz.md) — impact 5
@@ -192,8 +196,10 @@ A candidate with several layers can appear under more than one route.
 - ✅ [ČSÚ](candidates/csu-huz-ubytovani.md) — impact 4
 - ❓ [Česká pošta](candidates/ceska-posta-balikovna.md) — impact 4
 - ❓ [ERA RINF](candidates/era-rinf-stanice-nastupiste.md) — impact 3
+- ✅ [IDS JMK GTFS](candidates/known-idsjmk-gtfs-atributy-zastavek.md) — impact 3
 - ❌ [KVL ČR](candidates/kvl-veterinarni-pracoviste.md) — impact 3
 - ✍️ [Ostrava](candidates/ostrava-gis-opendata.md) — impact 3
+- ✅ [PMDP Plzeň GTFS](candidates/pmdp-gtfs-pristupnost-zastavek.md) — impact 3
 - ✍️ [ParaglidingEarth](candidates/paraglidingearth-cz.md) — impact 3
 - ✅ [Regional public transport stop registers](candidates/kraje-zastavky-verejne-dopravy.md) — impact 3
 - ✅ [SÚKL Seznam lékáren](candidates/sukl-lekarny.md) — impact 3

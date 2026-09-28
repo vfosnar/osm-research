@@ -74,3 +74,5 @@ before the data can go into OSM — see the candidate file (same name in
 | [zabaged-tovarni-kominy.geojson](zabaged-tovarni-kominy.geojson) | ZABAGED 1.10 Tovární komín, Ostrava – Karviná, 194 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
 | [zabaged-osamele-balvany-skaly.geojson](zabaged-osamele-balvany-skaly.geojson) | ZABAGED 7.10 Osamělý balvan, skála, skalní suk, Český ráj, 305 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
 | [kraje-lspp-pohotovosti.geojson](kraje-lspp-pohotovosti.geojson) | Lékařská (a lékárenská) pohotovostní služba, 50 points | Královéhradecký, Karlovarský, Liberecký, Olomoucký kraj | NKOD: no copyright work, no protected database |
+| [pmdp-gtfs-pristupnost-zastavek.geojson](pmdp-gtfs-pristupnost-zastavek.geojson) | Jízdní řády PMDP (GTFS stops.txt), 713 platforms in Plzeň | Plzeňské městské dopravní podniky / Statutární město Plzeň | NKOD: no copyright work, no protected database |
+| [known-idsjmk-gtfs-atributy-zastavek.geojson](known-idsjmk-gtfs-atributy-zastavek.geojson) | Jízdní řád IDS JMK GTFS (stops.txt), 1,567 platforms in Brno | KORDIS JMK / data.Brno | CC BY 4.0 + OSM consent (2024-11-18) |

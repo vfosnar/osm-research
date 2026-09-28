@@ -22,6 +22,7 @@
 - **Web:** ČÚZK Geoprohlížeč https://ags.cuzk.gov.cz/geoprohlizec/
 
 ## Notes
+- **Upstream status:** listed in the ZABAGED table on the Codeberg wiki `vfosnar/osm` page [Synchronizace](https://codeberg.org/vfosnar/osm/wiki/Synchronizace) with no status mark (not compared or imported yet, as of 2026-09-28).
 - **Not known:** the ZABAGED POI import (Cs:POI_ZABAGED_Import) covers 13 building/service layers only; Sync has only the ZABAGED fuel, fire station, police, post office, embassy, charging, weather station, hospital, social facility, public office and healthcare datasets. The known "Studánky" entry on Cs:Česko/freemap is a different source (estudanky.eu, CC BY-NC-ND, incompatible). ZABAGED is licence-clean.
 - **Gap (Postpass 2026-09-27, 50 m match against natural=spring, man_made=water_well/spring_box, amenity=drinking_water/fountain):**
   - Brdy (13.75,49.60,14.05,49.80): 86 springs in ZABAGED, 47 missing in OSM (55 %); 168 of 177 wells missing.

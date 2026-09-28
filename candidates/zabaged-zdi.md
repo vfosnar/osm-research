@@ -21,6 +21,7 @@
 - **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer → New*, URL `https://ags.cuzk.gov.cz/arcgis/rest/services/ZABAGED_POLOHOPIS/MapServer`, add *Zeď* (id 39). Or *Add WFS Layer*, URL `https://ags.cuzk.gov.cz/arcgis/services/ZABAGED_POLOHOPIS/MapServer/WFSServer`, layer `Zeď`. Native CRS EPSG:5514.
 
 ## Notes
+- **Upstream status:** listed in the ZABAGED table on the Codeberg wiki `vfosnar/osm` page [Synchronizace](https://codeberg.org/vfosnar/osm/wiki/Synchronizace) with no status mark (not compared or imported yet, as of 2026-09-28).
 - **Does ZABAGED have fences? No.** Checked 2026-09-27 against every object page of the current web catalogue ("Katalog objektů ZABAGED®", version 4.7, "Rozšířená webová verze aktuální k: 01.07.2026", https://geoportal.cuzk.gov.cz/Dokumenty/ZABAGED_katalog/CS/index.html, 145 object types; plain curl needs a cookie jar or it redirects to Podminky.pdf) and against the 149 layers of the ArcGIS service ZABAGED_POLOHOPIS. No type or attribute value is a fence (plot, oplocení, ohrazení). The only fence-related items are:
   - 1.23 ZEĎ (`1_Sidla/ft_al260.html`): "Samostatný stavební objekt z pevného materiálu … Zahrnuje hřbitovní zdi, opěrné zdi, mohutnější zdi, které mají funkci plotu, a protihlukové stěny". Solid walls only.
   - 2.36 ZÁBRANA (`2_Komunikace/ft_ap041.html`): barrier points on roads (see [zabaged-zabrany](zabaged-zabrany.md)).

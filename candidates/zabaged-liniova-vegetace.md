@@ -31,6 +31,7 @@
   in EPSG:3035 returns a PNG in which woody pixels are coloured and the rest is transparent.
 
 ## Notes
+- **Upstream status:** listed in the ZABAGED table on the Codeberg wiki `vfosnar/osm` page [Synchronizace](https://codeberg.org/vfosnar/osm/wiki/Synchronizace) with no status mark (not compared or imported yet, as of 2026-09-28).
 - **Gap, national:** ZABAGED has 351,319 tree-row lines. OSM has 15,921 tree_row and 17,080 hedge ways.
   Even allowing for ZABAGED splitting rows into short segments, OSM holds a small fraction.
 - **Gap, sample area** (bbox 15.62,49.46,15.68,49.50, OSM API map call 2026-09-28): OSM has 0 tree_row and

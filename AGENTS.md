@@ -35,6 +35,10 @@ This repo is only the working memory for new research.
 Read these at the start of each round; don't copy them into this repo:
 
 - OSM wiki `Cs:POI_ZABAGED_Import` — ZABAGED POI layers (✅ = imported).
+- Codeberg wiki `vfosnar/osm`, page `Synchronizace` (https://codeberg.org/vfosnar/osm/wiki/Synchronizace)
+  — per-layer ZABAGED table with proposed OSM tags and status: 🟢 compared and missing objects
+  added (MapRoulette link), 🟡 in progress, ⭐ suited for Sync. Treat 🟢/🟡/⭐ layers as known.
+  Also Codeberg `osmcz/planovani` wiki and `osmcz/zabaged-map` (ZABAGED in PostGIS + conflation API).
 - OSM wiki `Cs:Česko/freemap` — permissions granted, potential sources, finished imports.
 - OSM wiki `Cs:Česko/freemap#Potencionální_zdroje` — ideas already listed; not new.
 - OSM wiki `Cs:Zdroje_v_jednani` — sources being negotiated.

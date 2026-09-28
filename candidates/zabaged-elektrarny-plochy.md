@@ -27,6 +27,7 @@
   (id 126). Native CRS EPSG:5514. GRW: *Add Vector Layer* on the downloaded `.gpkg`, filter `"COUNTRY" = 'Czechia'`.
 
 ## Notes
+- **Upstream status:** listed in the ZABAGED table on the Codeberg wiki `vfosnar/osm` page [Synchronizace](https://codeberg.org/vfosnar/osm/wiki/Synchronizace) with no status mark (not compared or imported yet, as of 2026-09-28).
 - **Gap, national** (local match against the 2026-09-27 Czechia extract; OSM nodes and way centroids of
   power=plant/generator; 38 plant relations not included, so the gap is slightly overstated):
   - Of the 1,679 ZABAGED solar polygons, 1,212 have no OSM power=plant within 300 m of the polygon centroid.

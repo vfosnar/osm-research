@@ -21,6 +21,7 @@
 - **QGIS:** *Layer → Add Layer → Add ArcGIS REST Server Layer → New*, URL `https://ags.cuzk.gov.cz/arcgis/rest/services/ZABAGED_POLOHOPIS/MapServer`, add *Zábrana* (id 54). Or *Add WFS Layer*, URL `https://ags.cuzk.gov.cz/arcgis/services/ZABAGED_POLOHOPIS/MapServer/WFSServer`, layer `Zábrana`. Native CRS EPSG:5514.
 
 ## Notes
+- **Upstream status:** listed in the ZABAGED table on the Codeberg wiki `vfosnar/osm` page [Synchronizace](https://codeberg.org/vfosnar/osm/wiki/Synchronizace) with no status mark (not compared or imported yet, as of 2026-09-28).
 - **Why it matters:** a barrier across a forest track decides whether car and bike routing sends people down it. Catalogue definition (2.36, `2_Komunikace/ft_ap041.html`): "Překážka na pozemní komunikaci, určená k zabránění nebo ovládání průjezdu motorových vozidel". Geometry comes from NLI (Národní lesnický institut), IPR Praha, orthophoto and field survey, so it is concentrated on forest roads.
 - **Not known:** not in Cs:POI_ZABAGED_Import, not in Sync, not on Cs:Česko/freemap. The known "WMS UHUL – odvozní cesty" entry covers the forest roads, not the barriers on them.
 - **Gap (Postpass 2026-09-27, match = any OSM point barrier except linear types):**

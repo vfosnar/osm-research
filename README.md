@@ -19,64 +19,64 @@ really exist, what licence it has, and how much of it is already in OSM.
 
 ### 1. Ready to go — licence already fine, big gap
 
-| Source | What you get | In OSM today |
-|---|---|---|
-| [Library directory](candidates/nk-adresar-knihoven.md) (Národní knihovna) | ~5,160 public libraries with coordinates and opening hours, weekly updates | 1,556 libraries |
-| [Plzeň open data](candidates/plzen-open-data.md) | 48k trees, 24k street lights, toilets, bike racks, artworks, shelters | 8.9k trees / 1.7k lamps in Plzeň |
-| [Prague trees](candidates/prague-stromy-sdz.md) (IPR, 2018 consent) | 171k trees | 18.6k in Prague; ~97 % missing |
-| [Prague lamps & hydrants](candidates/prague-dtm-lampy-hydranty.md) (IPR technical map) | 121k lamp posts, 1.6k above-ground hydrants | ~90 % missing |
-| [Waste facilities](candidates/mzp-isoh-zarizeni-odpady.md) (MŽP ISOH) | ~5,000 active collection yards, scrap yards, car dismantlers, composting | ~24 % of collection yards mapped |
-| [Power plants](candidates/eru-vyrobny-elektriny.md) (ERÚ) | 38k licensed plants incl. 1,600 hydro, 420 biogas | ~500 hydro; needs geocoding from parcels |
-| [Springs and wells](candidates/zabaged-prameny-studny.md) (ZABAGED 4.01, not in the POI import) | 11,060 springs (5,370 named), 21,652 wells, stable IDs | 4,844 springs; Brdy: 47 of 86 missing |
-| [Cyklisté vítáni](candidates/known-cyklisti-vitani.md) (known: 2022 consent on Cs:Zdroje_v_jednani, never imported) | 853 certified bike-friendly places, stable IDs | 0 tagged; 125 of 437 accommodation places missing | reconfirm with Partnerství |
-| [Tourist accommodation](candidates/csu-huz-ubytovani.md) (ČSÚ, CC0) | 10,454 hotels, guest houses, hostels, campsites, stable IDs | 4,693 of 10,454 missing nationally (2,028 pensions); Pec pod Sněžkou 88 of 170 |
-| [Prague disabled parking](candidates/prague-ipr-stani-ztp.md) (IPR/TSK, 2018 IPR consent) | 2,192 reserved ZTP/P spots (3,264 spaces) | 954 missing; centre 265 of 293 |
-| [Tree rows and hedges](candidates/zabaged-liniova-vegetace.md) (ZABAGED 6.12 + Copernicus Small Woody Features) | 351,319 tree rows | 15,921 tree_row + 17,080 hedge ways |
-| [Power plant areas](candidates/zabaged-elektrarny-plochy.md) (ZABAGED, with ERÚ IDs) | 2,141 plant polygons incl. 1,679 solar parks with MW and `id_eru` | 1,212 solar parks and 310 of 325 gas/biogas plants without an OSM plant |
-| [Solitary landmark trees](candidates/zabaged-osamele-stromy.md) (ZABAGED 6.11) | 33,592 landmark trees | 31,918 missing (95 %) |
-| [Covered water reservoirs](candidates/zabaged-vodojemy-zemni.md) (ZABAGED areál – vodojem zemní) | 6,950 reservoirs | 5,776 missing; 613 `reservoir_covered` in CZ |
-| [Industrial chimneys](candidates/zabaged-tovarni-kominy.md) (ZABAGED 1.10) | 6,117 chimneys, 1,997 with height | 3,650 missing |
-| [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing |
+| Source | What you get | In OSM today | Route |
+|---|---|---|---|
+| [Library directory](candidates/nk-adresar-knihoven.md) (Národní knihovna) | ~5,160 public libraries with coordinates and opening hours, weekly updates | 1,556 libraries | Sync |
+| [Plzeň open data](candidates/plzen-open-data.md) | 48k trees, 24k street lights, toilets, bike racks, artworks, shelters | 8.9k trees / 1.7k lamps in Plzeň | MapRoulette |
+| [Prague trees](candidates/prague-stromy-sdz.md) (IPR, 2018 consent) | 171k trees | 18.6k in Prague; ~97 % missing | Sync |
+| [Prague lamps & hydrants](candidates/prague-dtm-lampy-hydranty.md) (IPR technical map) | 121k lamp posts, 1.6k above-ground hydrants | ~90 % missing | MapRoulette |
+| [Waste facilities](candidates/mzp-isoh-zarizeni-odpady.md) (MŽP ISOH) | ~5,000 active collection yards, scrap yards, car dismantlers, composting | ~24 % of collection yards mapped | MapRoulette |
+| [Power plants](candidates/eru-vyrobny-elektriny.md) (ERÚ) | 38k licensed plants incl. 1,600 hydro, 420 biogas | ~500 hydro; needs geocoding from parcels | MapRoulette |
+| [Springs and wells](candidates/zabaged-prameny-studny.md) (ZABAGED 4.01, not in the POI import) | 11,060 springs (5,370 named), 21,652 wells, stable IDs | 4,844 springs; Brdy: 47 of 86 missing | Sync + MapRoulette |
+| [Cyklisté vítáni](candidates/known-cyklisti-vitani.md) (known: 2022 consent on Cs:Zdroje_v_jednani, never imported) | 853 certified bike-friendly places, stable IDs | 0 tagged; 125 of 437 accommodation places missing | MapRoulette |
+| [Tourist accommodation](candidates/csu-huz-ubytovani.md) (ČSÚ, CC0) | 10,454 hotels, guest houses, hostels, campsites, stable IDs | 4,693 of 10,454 missing nationally (2,028 pensions); Pec pod Sněžkou 88 of 170 | Sync + MapRoulette |
+| [Prague disabled parking](candidates/prague-ipr-stani-ztp.md) (IPR/TSK, 2018 IPR consent) | 2,192 reserved ZTP/P spots (3,264 spaces) | 954 missing; centre 265 of 293 | MapRoulette |
+| [Tree rows and hedges](candidates/zabaged-liniova-vegetace.md) (ZABAGED 6.12 + Copernicus Small Woody Features) | 351,319 tree rows | 15,921 tree_row + 17,080 hedge ways | iD fork |
+| [Power plant areas](candidates/zabaged-elektrarny-plochy.md) (ZABAGED, with ERÚ IDs) | 2,141 plant polygons incl. 1,679 solar parks with MW and `id_eru` | 1,212 solar parks and 310 of 325 gas/biogas plants without an OSM plant | iD fork |
+| [Solitary landmark trees](candidates/zabaged-osamele-stromy.md) (ZABAGED 6.11) | 33,592 landmark trees | 31,918 missing (95 %) | Sync + iD fork |
+| [Covered water reservoirs](candidates/zabaged-vodojemy-zemni.md) (ZABAGED areál – vodojem zemní) | 6,950 reservoirs | 5,776 missing; 613 `reservoir_covered` in CZ | Sync + iD fork |
+| [Industrial chimneys](candidates/zabaged-tovarni-kominy.md) (ZABAGED 1.10) | 6,117 chimneys, 1,997 with height | 3,650 missing | Sync + iD fork |
+| [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing | MapRoulette |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
 
-| Source | What you get | In OSM today | Who to ask |
-|---|---|---|---|
-| [Listed monuments](candidates/npu-uskp-pamatky.md) (NPÚ ÚSKP) | 39k monuments, each with a RÚIAN building code → can tag existing buildings | ~5 % tagged | NPÚ |
-| [Brno open data](candidates/brno-data-portal.md) | 120k trees, 42k light poles, 12k benches, bins, playgrounds | 9.4k trees in Brno | data.Brno (Jiří Komínek) |
-| [Doctors & dentists](candidates/uzis-nrpzs-ambulantni.md) (ÚZIS NRPZS) | 40k practices: 5.6k dentists, 7.3k GPs, specialists, opticians | 585 dentists | ÚZIS |
-| [MUNI indoor maps](candidates/muni-indoor-munimap.md) | 26.5k rooms, 24k doors, toilets, lifts | Bohunice campus: 57 of 7,003 rooms | MUNI |
-| [Parcel lockers](candidates/atp-and-brands.md): [DPD](candidates/dpd-pickup-cz.md), [GLS](candidates/gls-cz-parcel-box.md), [Balíkovna](candidates/ceska-posta-balikovna.md) | AlzaBox ~2,000, GLS ~1,590, DPD ~550 missing lockers; 3,800 Balíkovna counters | Zásilkovna consent is the precedent | each operator |
-| [Memorial trees](candidates/known-aopk-pamatne-stromy.md) (AOPK) | 5,359 protected trees/groups | ~half missing in samples | AOPK |
-| [Mine shafts & adits](candidates/cgs-dulni-dila.md) (ČGS) | ~15.7k shafts and adits | ~900 | ČGS |
-| [River gauges](candidates/chmu-vodomerne-stanice.md) (ČHMÚ) | 563 stations with flood-stage levels | ~93 % missing | ČHMÚ |
-| [Street lamps & sirens, Most](candidates/most-opendata.md) (CC BY-SA) | 7,039 lamps with pole codes, 26 sirens | 15 lamps, 0 sirens | město Most |
-| [VozejkMap](candidates/vozejkmap.md) (CZEPA, Mapotic) | 18,132 accessibility POIs incl. 8,178 disabled parking spaces, 577 accessible toilets | 5,537 of 8,157 disabled spaces missing nationally (Prague centre 342 of 388); 481 of 567 toilets lack accessible OSM toilet | CZEPA |
-| [Bank ATMs](candidates/bank-atm-locators-cz.md) (Sdílený bankomat network, Česká spořitelna API) | 3,095 ATMs of KB, MONETA, Air Bank, UniCredit, ČS; deposit flag, live state | 1,248 without a same-bank ATM within 50 m; 151 closed ČS ATMs still in OSM | KB, ČS |
-| [Paragliding launch sites](candidates/paragliding-mapa-startovacky.md) (paragliding-mapa.cz) + [ParaglidingEarth](candidates/paraglidingearth-cz.md) (CC BY-SA, now also ODbL) | 234 launch sites with status, wind directions, landings | 24 of 234 in OSM; 43 `sport=free_flying` in CZ | ifire; ParaglidingEarth |
-| [Warning sirens](candidates/czech-siren-tech-mapa-siren.md) (Czech Siren Tech hobby map) | 4,335 JSVV sirens with manufacturer and model | 422 sirens in OSM; Brno 51 vs 2, Ostrava 62 vs 0 | Czech Siren Tech |
-| [VLS rescue points](candidates/vls-body-zachrany.md) (military training areas; OCR CSV from talk-cz 2024) | 484 rescue points with refs | 224 missing (Libavá, Březina, Hradiště) | VLS ČR |
-| [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ |
-| [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com |
-| [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG |
-| [Street-workout parks](candidates/woclub-workout-hriste.md) (WOclub map) | 707 parks | 467 of 660 outdoor parks missing | WOclub |
-| [Community gardens and composters](candidates/kokoza-komunitni-zahrady.md) (Kokoza, Mapotic) | 224 gardens, 97 community composters | 195 of 213 gardens, 92 of 97 composters missing | Kokoza |
-| [Prague airport services](candidates/letiste-praha-sluzby.md) | 249 terminal POIs with terminal, floor, hours | 92 of 313 POIs have `level` | Letiště Praha |
-| [Fruit trees](candidates/na-ovoce.md) (Na ovoce, Mapotic) | 20,816 fruit trees and shrubs with species | 19,257 of 19,571 have no OSM tree within 10 m; species on 13 of 314 matched | Na ovoce z.s. |
-| [Catholic mass times](candidates/cirkev-bohosluzby.md) (ČBK) | service times, language, wheelchair access per church (attributes only) | 133 `service_times` on 6,662 catholic places of worship (109 of 2,822 churches) | ČBK |
-| [Homeless services](candidates/mapabezdomova-sluzby.md) (Mapa bez domova) | food, showers, day centres, night shelters in Prague, Ostrava, Liberecký kraj | Prague: 3 of 96 in OSM | Mapa bez domova |
-| [Family centres](candidates/sit-pro-rodinu-centra.md) (Síť pro rodinu) | 266 mother/family/community centres | 232 missing; 7 `community_centre=family_centre` in CZ | Síť pro rodinu |
-| [Protestant service times](candidates/cce-evangnet-sbory.md) (ČCE, evangnet.cz) | 230 congregations with Sunday service time and a stable code | 20 of 150 matched churches have `service_times` | Evangnet z. s. |
-| [Public toilets and Euroklíč](candidates/wc-kompas.md) (WC kompas, Mapotic) | 1,339 public and 415 Euroklíč toilets | 25 `centralkey=eurokey`; no OSM toilet within 50 m for 835 of 1,321 public and 304 of 381 Euroklíč | Pacienti IBD |
-| [Karst register JESO](candidates/aopk-jeso-krasove-jevy.md) (AOPK, CC BY 4.0) | 542 caves, 2,332 sinkholes, 452 ponors/karst springs | 214 caves, 264 sinkholes | AOPK |
-| [Pump tracks](candidates/mtbczech-pumptracky.md) (mtbczech.cz) | 145 tracks with surface | 57 missing (national extract: 61), 44 lack `cycling=pump_track` | mtbczech.cz |
-| [Sign-language services](candidates/znakomapa-znakovy-jazyk.md) (ZnakoMapa, Znakovárna) | 201 places with Czech sign-language service: deaf associations, interpreters, museums with sign-language tours | `deaf` used once in CZ; tagging (`language:cse=yes`?) needs agreement | Znakovárna |
-| [City accessibility maps](candidates/mesta-mapy-pristupnosti.md) (Brno CC BY; Ostrava, Hradec Králové, Opava, Olomouc unclear) | Brno 287 rated buildings; Ostrava 2,060 points; Hradec voice beacons; Opava 162 ZTP bays, 528 crossings with tactile flags | Brno 116 of 287 lack wheelchair info; Opava 154 of 157 ZTP bays missing | cities |
-| [Hearing loops](candidates/unb-indukcni-smycky.md) (Unie neslyšících Brno, Mapotic) | 161 loops | 1 (tag is a draft proposal); 85 of 137 CZ loops have an OSM object within 50 m | UNB |
-| [Farms and farm shops](candidates/duha-adresar-farmaru.md) (Hnutí DUHA, Mapotic) | 424 farms, farm shops, educational farms | 408 missing; 89 `shop=farm` in all CZ | Hnutí DUHA |
-| [Wine map](candidates/vinarsky-fond-vinarska-mapa.md) (Vinařský fond) | 1,731 wineries, wine shops, cellars | 632 of 765 wineries, 535 of 671 wine shops missing | Vinařský fond |
-| [Tourist information centres](candidates/atic-certifikovana-tic.md) (A.T.I.C. ČR) | 546 certified centres with contacts | 226 of 510 missing; most matched lack contacts | A.T.I.C. ČR |
-| [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI |
+| Source | What you get | In OSM today | Who to ask | Route |
+|---|---|---|---|---|
+| [Listed monuments](candidates/npu-uskp-pamatky.md) (NPÚ ÚSKP) | 39k monuments, each with a RÚIAN building code → can tag existing buildings | ~5 % tagged | NPÚ | Sync + iD fork |
+| [Brno open data](candidates/brno-data-portal.md) | 120k trees, 42k light poles, 12k benches, bins, playgrounds | 9.4k trees in Brno | data.Brno (Jiří Komínek) | Sync + MapRoulette |
+| [Doctors & dentists](candidates/uzis-nrpzs-ambulantni.md) (ÚZIS NRPZS) | 40k practices: 5.6k dentists, 7.3k GPs, specialists, opticians | 585 dentists | ÚZIS | Sync |
+| [MUNI indoor maps](candidates/muni-indoor-munimap.md) | 26.5k rooms, 24k doors, toilets, lifts | Bohunice campus: 57 of 7,003 rooms | MUNI | MapRoulette |
+| [Parcel lockers](candidates/atp-and-brands.md): [DPD](candidates/dpd-pickup-cz.md), [GLS](candidates/gls-cz-parcel-box.md), [Balíkovna](candidates/ceska-posta-balikovna.md) | AlzaBox ~2,000, GLS ~1,590, DPD ~550 missing lockers; 3,800 Balíkovna counters | Zásilkovna consent is the precedent | each operator | – |
+| [Memorial trees](candidates/known-aopk-pamatne-stromy.md) (AOPK) | 5,359 protected trees/groups | ~half missing in samples | AOPK | Sync + iD fork |
+| [Mine shafts & adits](candidates/cgs-dulni-dila.md) (ČGS) | ~15.7k shafts and adits | ~900 | ČGS | MapRoulette |
+| [River gauges](candidates/chmu-vodomerne-stanice.md) (ČHMÚ) | 563 stations with flood-stage levels | ~93 % missing | ČHMÚ | Sync |
+| [Street lamps & sirens, Most](candidates/most-opendata.md) (CC BY-SA) | 7,039 lamps with pole codes, 26 sirens | 15 lamps, 0 sirens | město Most | Sync + MapRoulette |
+| [VozejkMap](candidates/vozejkmap.md) (CZEPA, Mapotic) | 18,132 accessibility POIs incl. 8,178 disabled parking spaces, 577 accessible toilets | 5,537 of 8,157 disabled spaces missing nationally (Prague centre 342 of 388); 481 of 567 toilets lack accessible OSM toilet | CZEPA | MapRoulette |
+| [Bank ATMs](candidates/bank-atm-locators-cz.md) (Sdílený bankomat network, Česká spořitelna API) | 3,095 ATMs of KB, MONETA, Air Bank, UniCredit, ČS; deposit flag, live state | 1,248 without a same-bank ATM within 50 m; 151 closed ČS ATMs still in OSM | KB, ČS | Sync + MapRoulette |
+| [Paragliding launch sites](candidates/paragliding-mapa-startovacky.md) (paragliding-mapa.cz) + [ParaglidingEarth](candidates/paraglidingearth-cz.md) (CC BY-SA, now also ODbL) | 234 launch sites with status, wind directions, landings | 24 of 234 in OSM; 43 `sport=free_flying` in CZ | ifire; ParaglidingEarth | Sync |
+| [Warning sirens](candidates/czech-siren-tech-mapa-siren.md) (Czech Siren Tech hobby map) | 4,335 JSVV sirens with manufacturer and model | 422 sirens in OSM; Brno 51 vs 2, Ostrava 62 vs 0 | Czech Siren Tech | MapRoulette |
+| [VLS rescue points](candidates/vls-body-zachrany.md) (military training areas; OCR CSV from talk-cz 2024) | 484 rescue points with refs | 224 missing (Libavá, Březina, Hradiště) | VLS ČR | Sync |
+| [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ | Sync |
+| [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com | MapRoulette |
+| [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG | MapRoulette |
+| [Street-workout parks](candidates/woclub-workout-hriste.md) (WOclub map) | 707 parks | 467 of 660 outdoor parks missing | WOclub | Sync |
+| [Community gardens and composters](candidates/kokoza-komunitni-zahrady.md) (Kokoza, Mapotic) | 224 gardens, 97 community composters | 195 of 213 gardens, 92 of 97 composters missing | Kokoza | MapRoulette |
+| [Prague airport services](candidates/letiste-praha-sluzby.md) | 249 terminal POIs with terminal, floor, hours | 92 of 313 POIs have `level` | Letiště Praha | MapRoulette |
+| [Fruit trees](candidates/na-ovoce.md) (Na ovoce, Mapotic) | 20,816 fruit trees and shrubs with species | 19,257 of 19,571 have no OSM tree within 10 m; species on 13 of 314 matched | Na ovoce z.s. | MapRoulette |
+| [Catholic mass times](candidates/cirkev-bohosluzby.md) (ČBK) | service times, language, wheelchair access per church (attributes only) | 133 `service_times` on 6,662 catholic places of worship (109 of 2,822 churches) | ČBK | MapRoulette |
+| [Homeless services](candidates/mapabezdomova-sluzby.md) (Mapa bez domova) | food, showers, day centres, night shelters in Prague, Ostrava, Liberecký kraj | Prague: 3 of 96 in OSM | Mapa bez domova | MapRoulette |
+| [Family centres](candidates/sit-pro-rodinu-centra.md) (Síť pro rodinu) | 266 mother/family/community centres | 232 missing; 7 `community_centre=family_centre` in CZ | Síť pro rodinu | MapRoulette |
+| [Protestant service times](candidates/cce-evangnet-sbory.md) (ČCE, evangnet.cz) | 230 congregations with Sunday service time and a stable code | 20 of 150 matched churches have `service_times` | Evangnet z. s. | MapRoulette |
+| [Public toilets and Euroklíč](candidates/wc-kompas.md) (WC kompas, Mapotic) | 1,339 public and 415 Euroklíč toilets | 25 `centralkey=eurokey`; no OSM toilet within 50 m for 835 of 1,321 public and 304 of 381 Euroklíč | Pacienti IBD | MapRoulette |
+| [Karst register JESO](candidates/aopk-jeso-krasove-jevy.md) (AOPK, CC BY 4.0) | 542 caves, 2,332 sinkholes, 452 ponors/karst springs | 214 caves, 264 sinkholes | AOPK | Sync + MapRoulette |
+| [Pump tracks](candidates/mtbczech-pumptracky.md) (mtbczech.cz) | 145 tracks with surface | 57 missing (national extract: 61), 44 lack `cycling=pump_track` | mtbczech.cz | MapRoulette |
+| [Sign-language services](candidates/znakomapa-znakovy-jazyk.md) (ZnakoMapa, Znakovárna) | 201 places with Czech sign-language service: deaf associations, interpreters, museums with sign-language tours | `deaf` used once in CZ; tagging (`language:cse=yes`?) needs agreement | Znakovárna | MapRoulette |
+| [City accessibility maps](candidates/mesta-mapy-pristupnosti.md) (Brno CC BY; Ostrava, Hradec Králové, Opava, Olomouc unclear) | Brno 287 rated buildings; Ostrava 2,060 points; Hradec voice beacons; Opava 162 ZTP bays, 528 crossings with tactile flags | Brno 116 of 287 lack wheelchair info; Opava 154 of 157 ZTP bays missing | cities | MapRoulette |
+| [Hearing loops](candidates/unb-indukcni-smycky.md) (Unie neslyšících Brno, Mapotic) | 161 loops | 1 (tag is a draft proposal); 85 of 137 CZ loops have an OSM object within 50 m | UNB | MapRoulette |
+| [Farms and farm shops](candidates/duha-adresar-farmaru.md) (Hnutí DUHA, Mapotic) | 424 farms, farm shops, educational farms | 408 missing; 89 `shop=farm` in all CZ | Hnutí DUHA | MapRoulette |
+| [Wine map](candidates/vinarsky-fond-vinarska-mapa.md) (Vinařský fond) | 1,731 wineries, wine shops, cellars | 632 of 765 wineries, 535 of 671 wine shops missing | Vinařský fond | MapRoulette |
+| [Tourist information centres](candidates/atic-certifikovana-tic.md) (A.T.I.C. ČR) | 546 certified centres with contacts | 226 of 510 missing; most matched lack contacts | A.T.I.C. ČR | MapRoulette |
+| [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI | Sync |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
 
@@ -164,6 +164,137 @@ Earlier rounds:
 - Memorial trees (AOPK): licence is CC BY 4.0 (the page says unknown).
 - IPR Praha: besides the orthophoto consent, a 2018 consent covers all IPR open data
   ([talk-cz](https://lists.openstreetmap.org/pipermail/talk-cz/2018-February/018526.html)).
+
+## By route
+
+Which of the community's routes into OSM fits each candidate (the `sync_fit` row; see
+[AGENTS.md](AGENTS.md#scoring-impact-15)). Sorted by impact; the icon is the licence status.
+A candidate with several layers can appear under more than one route.
+
+### Sync — points with a stable ID and a 1:1 tag mapping (37)
+
+- ✅ [Centrální adresář knihoven a informačních institucí v ČR](candidates/nk-adresar-knihoven.md) — impact 5
+- ✅ [Sdílená data o zeleni](candidates/prague-stromy-sdz.md) — impact 5
+- ✍️ [data.Brno](candidates/brno-data-portal.md) — impact 5
+- ✍️ [Ústřední seznam kulturních památek](candidates/npu-uskp-pamatky.md) — impact 5
+- ❓ [Bank ATM locators](candidates/bank-atm-locators-cz.md) — impact 4
+- ❓ [DPD CZ Pickup](candidates/dpd-pickup-cz.md) — impact 4
+- ❓ [GLS Czech Republic](candidates/gls-cz-parcel-box.md) — impact 4
+- ✍️ [NRPZS](candidates/uzis-nrpzs-ambulantni.md) — impact 4
+- ✍️ [Památné stromy](candidates/known-aopk-pamatne-stromy.md) — impact 4
+- ❓ [Paragliding Mapa](candidates/paragliding-mapa-startovacky.md) — impact 4
+- ❓ [Správa železnic](candidates/sz-pristupnost-stanic.md) — impact 4
+- ✅ [ZABAGED 4.01 Zdroj podzemních vod](candidates/zabaged-prameny-studny.md) — impact 4
+- ✅ [ČSÚ](candidates/csu-huz-ubytovani.md) — impact 4
+- ❓ [Česká pošta](candidates/ceska-posta-balikovna.md) — impact 4
+- ❓ [ERA RINF](candidates/era-rinf-stanice-nastupiste.md) — impact 3
+- ✍️ [Ostrava](candidates/ostrava-gis-opendata.md) — impact 3
+- ✍️ [ParaglidingEarth](candidates/paraglidingearth-cz.md) — impact 3
+- ✅ [Regional public transport stop registers](candidates/kraje-zastavky-verejne-dopravy.md) — impact 3
+- ✅ [SÚKL Seznam lékáren](candidates/sukl-lekarny.md) — impact 3
+- ❓ [VLS ČR](candidates/vls-body-zachrany.md) — impact 3
+- ❓ [WOclub / WOblog](candidates/woclub-workout-hriste.md) — impact 3
+- ✅ [ZABAGED 1.27 Areál účelové zástavby](candidates/zabaged-vodojemy-zemni.md) — impact 3
+- ✅ [ZABAGED 6.11 Významný nebo osamělý strom](candidates/zabaged-osamele-stromy.md) — impact 3
+- ✅ [nextbike Czech Republic](candidates/nextbike-gbfs.md) — impact 3
+- ✍️ [ČHMÚ](candidates/chmu-vodomerne-stanice.md) — impact 3
+- ✍️ [AOPK JESO](candidates/aopk-jeso-krasove-jevy.md) — impact 2
+- ✍️ [Data Olomouc](candidates/olomouc-opendata.md) — impact 2
+- ✍️ [Horská služba ČR](candidates/horska-sluzba-mapa.md) — impact 2
+- ❓ [LOKNI](candidates/lokni-vydejniky-vody.md) — impact 2
+- ✅ [MZe ISVS-VODA](candidates/mze-isvs-voda-hraze-jezy.md) — impact 2
+- ✍️ [Most city open data](candidates/most-opendata.md) — impact 2
+- ✍️ [PID GTFS](candidates/prague-pid-gtfs-atributy-zastavek.md) — impact 2
+- ❓ [Seznam železničních přejezdů na síti Správy železnic](candidates/sz-prejezdy.md) — impact 2
+- ✍️ [VÚV TGM / MŽP](candidates/vuv-koupaci-vody.md) — impact 2
+- ✅ [ZABAGED 1.10 Tovární komín](candidates/zabaged-tovarni-kominy.md) — impact 2
+- ❓ [opendata.jihlava.cz](candidates/jihlava-opendata.md) — impact 2
+- ✍️ [ČHMÚ](candidates/chmu-meteostanice.md) — impact 2
+
+### iD fork — lines and areas for the planned geometry harness in the osmcz iD fork (13)
+
+- ✍️ [Ústřední seznam kulturních památek](candidates/npu-uskp-pamatky.md) — impact 5
+- ✍️ [Památné stromy](candidates/known-aopk-pamatne-stromy.md) — impact 4
+- ✅ [ZABAGED 6.12 Liniová vegetace](candidates/zabaged-liniova-vegetace.md) — impact 4
+- ✅ [ZABAGED Elektrárna](candidates/zabaged-elektrarny-plochy.md) — impact 4
+- ✅ [Digitální technická mapa krajů](candidates/known-dtm-zps-kraje.md) — impact 3
+- ✅ [ZABAGED 1.27 Areál účelové zástavby](candidates/zabaged-vodojemy-zemni.md) — impact 3
+- ✅ [ZABAGED 6.11 Významný nebo osamělý strom](candidates/zabaged-osamele-stromy.md) — impact 3
+- ✅ [MZe ISVS-VODA](candidates/mze-isvs-voda-hraze-jezy.md) — impact 2
+- ✅ [Umístění a vlastnosti stanovišť pro plavidla](candidates/sps-euris-stanoviste-plavidel.md) — impact 2
+- ✅ [ZABAGED 1.10 Tovární komín](candidates/zabaged-tovarni-kominy.md) — impact 2
+- ✅ [ZABAGED 1.23 Zeď](candidates/zabaged-zdi.md) — impact 2
+- ✅ [ZABAGED 7.10 Osamělý balvan, skála, skalní suk](candidates/zabaged-osamele-balvany-skaly.md) — impact 2
+- ✍️ [Zvláště chráněná území + Natura 2000](candidates/aopk-zvlaste-chranena-uzemi.md) — impact 2
+
+### MapRoulette — pointers for a human: tag choices, no stable ID, or needs a look (66)
+
+- ✍️ [data.Brno](candidates/brno-data-portal.md) — impact 5
+- ✅ [opendata.plzen.eu](candidates/plzen-open-data.md) — impact 5
+- ✅ [Archivní DTM Prahy](candidates/prague-dtm-lampy-hydranty.md) — impact 4
+- ❓ [Bank ATM locators](candidates/bank-atm-locators-cz.md) — impact 4
+- ❓ [DPD CZ Pickup](candidates/dpd-pickup-cz.md) — impact 4
+- ✅ [ERÚ](candidates/eru-vyrobny-elektriny.md) — impact 4
+- ❓ [Masarykova univerzita](candidates/muni-indoor-munimap.md) — impact 4
+- ✅ [MŽP ISOH](candidates/mzp-isoh-zarizeni-odpady.md) — impact 4
+- ✅ [Praha](candidates/prague-ipr-stani-ztp.md) — impact 4
+- ❓ [VozejkMap](candidates/vozejkmap.md) — impact 4
+- ✅ [ZABAGED 4.01 Zdroj podzemních vod](candidates/zabaged-prameny-studny.md) — impact 4
+- ✅ [ČSÚ](candidates/csu-huz-ubytovani.md) — impact 4
+- ❓ [Česká pošta](candidates/ceska-posta-balikovna.md) — impact 4
+- ❓ [A.T.I.C. ČR](candidates/atic-certifikovana-tic.md) — impact 3
+- ❓ [Adresář farmářů](candidates/duha-adresar-farmaru.md) — impact 3
+- ✍️ [City accessibility maps](candidates/mesta-mapy-pristupnosti.md) — impact 3
+- ✅ [Cyklisté vítáni](candidates/known-cyklisti-vitani.md) — impact 3
+- ✅ [Cyklopasport Pardubického kraje](candidates/pardubicky-kraj-cyklopasport.md) — impact 3
+- ❓ [Czech Siren Tech](candidates/czech-siren-tech-mapa-siren.md) — impact 3
+- ✅ [Digitální technická mapa krajů](candidates/known-dtm-zps-kraje.md) — impact 3
+- ✍️ [Důlní díla v České republice](candidates/cgs-dulni-dila.md) — impact 3
+- ❓ [Evangnet](candidates/cce-evangnet-sbory.md) — impact 3
+- ❓ [Katolické bohoslužby v ČR](candidates/cirkev-bohosluzby.md) — impact 3
+- ❓ [KnihoBudka](candidates/knihobudka-verejne-knihovnicky.md) — impact 3
+- ❓ [Mapa bez domova](candidates/mapabezdomova-sluzby.md) — impact 3
+- ❓ [Na ovoce](candidates/na-ovoce.md) — impact 3
+- ✍️ [Ostrava](candidates/ostrava-gis-opendata.md) — impact 3
+- ✅ [Oázy chladu](candidates/known-prague-oazy-chladu.md) — impact 3
+- ✅ [Parky](candidates/prague-parky-nazvy.md) — impact 3
+- ✅ [Plzeň](candidates/plzen-dopravni-znaceni.md) — impact 3
+- ✅ [Protihlukové bariéry](candidates/prague-protihlukove-steny.md) — impact 3
+- ❓ [Síť pro rodinu](candidates/sit-pro-rodinu-centra.md) — impact 3
+- ✅ [Veřejné toalety](candidates/prague-verejne-toalety.md) — impact 3
+- ❓ [Vinařský fond](candidates/vinarsky-fond-vinarska-mapa.md) — impact 3
+- ✅ [Volný pohyb psů](candidates/prague-psi-zony.md) — impact 3
+- ❓ [WC kompas](candidates/wc-kompas.md) — impact 3
+- ✅ [ZABAGED 2.36 Zábrana](candidates/zabaged-zabrany.md) — impact 3
+- ✅ [Úseky parkování v zónách placeného stání](candidates/prague-zps-useky.md) — impact 3
+- ❓ [ČADG](candidates/cadg-discgolf-hriste.md) — impact 3
+- ✍️ [AOPK JESO](candidates/aopk-jeso-krasove-jevy.md) — impact 2
+- ❓ [Akce žába](candidates/csop-akce-zaba.md) — impact 2
+- ✍️ [Data Olomouc](candidates/olomouc-opendata.md) — impact 2
+- ❓ [Kokoza](candidates/kokoza-komunitni-zahrady.md) — impact 2
+- ❓ [Letiště Praha](candidates/letiste-praha-sluzby.md) — impact 2
+- ❓ [MTBczech.cz](candidates/mtbczech-pumptracky.md) — impact 2
+- ✅ [MZe ISVS-VODA](candidates/mze-isvs-voda-hraze-jezy.md) — impact 2
+- ✍️ [Most city open data](candidates/most-opendata.md) — impact 2
+- ✅ [Odpadní zařízení pro občany](candidates/prague-sberne-dvory.md) — impact 2
+- ✅ [Prague cycle routes and cycling infrastructure](candidates/prague-ipr-cyklotrasy.md) — impact 2
+- ❓ [Rejstřík sportu](candidates/nsa-rejstrik-sportu.md) — impact 2
+- ❓ [Unie neslyšících Brno](candidates/unb-indukcni-smycky.md) — impact 2
+- ✅ [Veřejná hřiště](candidates/prague-verejna-hriste.md) — impact 2
+- ✅ [Výjezdové základny zdravotnické záchranné služby](candidates/kraje-zzs-vyjezdove-zakladny.md) — impact 2
+- ✍️ [Významné geologické lokality v ČR](candidates/cgs-geologicke-lokality.md) — impact 2
+- ✅ [Wikidata](candidates/wikidata-niche-qid.md) — impact 2
+- ✅ [ZABAGED 7.10 Osamělý balvan, skála, skalní suk](candidates/zabaged-osamele-balvany-skaly.md) — impact 2
+- ❓ [ZnakoMapa](candidates/znakomapa-znakovy-jazyk.md) — impact 2
+- ❓ [opendata.jihlava.cz](candidates/jihlava-opendata.md) — impact 2
+- ✅ [ČTÚ](candidates/ctu-vysilace-tv-rozhlas.md) — impact 2
+- ❌ [ŘLP ČR VFR příručka](candidates/rlp-vfr-prirucka-heliporty-slz.md) — impact 2
+- ✅ [AI road detections: Meta MapWithAI Czechia export and Microsoft Road Detections](candidates/ai-road-detections.md) — impact 1
+- ✅ [Krajské datové portály](candidates/regional-tourism-hubs.md) — impact 1
+- ❓ [Pomníky Orlických hor](candidates/pomniky-orlickych-hor.md) — impact 1
+- ❓ [Small Mapotic maps: canoe put-ins](candidates/mapotic-outdoor-small-maps.md) — impact 1
+- ✅ [Válečné hroby](candidates/known-valecne-hroby-kraje.md) — impact 1
+- ✍️ [Ústí nad Labem](candidates/usti-drobne-pamatky.md) — impact 1
 
 ## What's already covered
 

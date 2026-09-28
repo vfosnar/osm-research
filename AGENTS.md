@@ -28,7 +28,7 @@ This repo is only the working memory for new research.
 | `candidates/<slug>.md` | One file per candidate source (format below). Prague sources use `prague-` prefix. |
 | `research/` | Human-readable write-ups of broader investigations (e.g. what sources other maps use). |
 | `samples/` | Small GeoJSON extracts for previewing candidates on GitHub's map view (see `samples/README.md` for sources and licences). |
-| `tools/` | Reusable queries and scripts (e.g. `nkod-queries.md`, `header_to_table.py`). |
+| `tools/` | Reusable queries and scripts (e.g. `nkod-queries.md`, `header_to_table.py`, `readme_routes.py`). |
 
 ## Where known sources are tracked (upstream)
 
@@ -216,4 +216,5 @@ covers several datasets.
   candidate files, so they don't conflict.
 - Commit and push directly to `main`; no pull requests needed.
 - After a round: regenerate
-  the ranked table in `README.md`, commit, push.
+  the ranked table in `README.md`, run `tools/readme_routes.py` (Route column and the "By route"
+  section, from each file's `sync_fit`), commit, push.

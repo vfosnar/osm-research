@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** five research rounds done (27–28 September 2026). 75 candidate files, all
+> **Status:** five research rounds done (27–28 September 2026). 77 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -100,11 +100,16 @@ Elsewhere: [Pardubice region cycle survey](candidates/pardubicky-kraj-cyklopaspo
 [regional tourism layers](candidates/regional-tourism-hubs.md),
 [amphibian road crossings](candidates/csop-akce-zaba.md) (ČSOP, 678 sections, 673 unmapped),
 [canoe put-ins, re-use centres, shelters](candidates/mapotic-outdoor-small-maps.md) (small Mapotic maps),
+[Ústí small monuments](candidates/usti-drobne-pamatky.md), [Orlické hory memorials](candidates/pomniky-orlickych-hor.md) (thesis field survey),
 [walls](candidates/zabaged-zdi.md) (ZABAGED 1.23; ZABAGED has no fence type).
 
 ### Open leads not yet researched
 
-From rounds 3–4 (checked, not written up):
+From rounds 3–6 (checked, not written up):
+
+- Platform sweeps (uMap, ArcGIS Online, Zenodo) found little original open Czech data from non-government
+  people — see [research/platform-sweeps.md](research/platform-sweeps.md). Lead: ArcGIS account `mapy_projekty`
+  has street-tree inventories of five towns (publisher and licence unknown).
 
 - zanikleobce.cz abandoned villages (OSM has 155): all rights reserved, ask the author.
 - mtbczech.cz trail centres and bike parks: same structure as the pump-track list.

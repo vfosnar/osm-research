@@ -62,3 +62,4 @@ before the data can go into OSM — see the candidate file (same name in
 | [aopk-jeso-krasove-jevy.geojson](aopk-jeso-krasove-jevy.geojson) | JESO – Jednotná evidence speleologických objektů, northern Moravian Karst, 831 points | AOPK ČR | CC BY 4.0 |
 | [prague-ipr-stani-ztp.geojson](prague-ipr-stani-ztp.geojson) | Vyhrazená parkovací stání pro držitele průkazu ZTP/P (central Prague, 424 points) | IPR Praha (data TSK) | CC BY 4.0 + IPR consent for OSM (2018) |
 | [mesta-mapy-pristupnosti.geojson](mesta-mapy-pristupnosti.geojson) | Mapa přístupnosti – Budovy (Brno, 287 points) | Statutární město Brno, Odbor zdraví | CC BY 4.0 |
+| [usti-drobne-pamatky.geojson](usti-drobne-pamatky.geojson) | Válečné hroby a drobné neevidované památky v ORP Ústí nad Labem | Statutární město Ústí nad Labem | CC BY-SA 4.0 |

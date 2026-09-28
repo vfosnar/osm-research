@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** five research rounds done (27–28 September 2026). 77 candidate files, all
+> **Status:** five research rounds done (27–28 September 2026). 78 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -45,6 +45,7 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [River gauges](candidates/chmu-vodomerne-stanice.md) (ČHMÚ) | 563 stations with flood-stage levels | ~93 % missing | ČHMÚ |
 | [Street lamps & sirens, Most](candidates/most-opendata.md) (CC BY-SA) | 7,039 lamps with pole codes, 26 sirens | 15 lamps, 0 sirens | město Most |
 | [VozejkMap](candidates/vozejkmap.md) (CZEPA, Mapotic) | 18,132 accessibility POIs incl. 8,178 disabled parking spaces, 577 accessible toilets | 5,537 of 8,157 disabled spaces missing nationally (Prague centre 342 of 388); 481 of 567 toilets lack accessible OSM toilet | CZEPA |
+| [Bank ATMs](candidates/bank-atm-locators-cz.md) (Sdílený bankomat network, Česká spořitelna API) | 3,095 ATMs of KB, MONETA, Air Bank, UniCredit, ČS; deposit flag, live state | 1,248 without a same-bank ATM within 50 m; 151 closed ČS ATMs still in OSM | KB, ČS |
 | [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ |
 | [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com |
 | [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG |

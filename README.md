@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** six research rounds done (27–28 September 2026). 93 candidate files, all
+> **Status:** six research rounds done (27–28 September 2026). 92 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3

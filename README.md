@@ -60,6 +60,7 @@ left over at the end — roughly $2.40 per candidate file.</sub>
 | [Covered water reservoirs](candidates/zabaged-vodojemy-zemni.md) (ZABAGED areál – vodojem zemní) | 6,950 reservoirs | 5,776 missing; 613 `reservoir_covered` in CZ | Sync + iD fork |
 | [Industrial chimneys](candidates/zabaged-tovarni-kominy.md) (ZABAGED 1.10) | 6,117 chimneys, 1,997 with height | 3,650 missing | Sync + iD fork |
 | [Out-of-hours emergency services](candidates/kraje-lspp-pohotovosti.md) (4 regions, NKOD) | 37 LSPP places with hours and pavilion | 5 with a nearby "pohotovost" object; `healthcare:speciality=emergency` used 7× in CZ | MapRoulette + Sync |
+| [Children's groups](candidates/mpsv-detske-skupiny.md) (MPSV register, daily) | 2,423 childcare groups with capacity and stable code | 141 `amenity=childcare` in CZ; 1,430 of 1,773 placed have nothing nearby |
 | [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing | MapRoulette |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
@@ -81,6 +82,7 @@ left over at the end — roughly $2.40 per candidate file.</sub>
 | [Warning sirens](candidates/czech-siren-tech-mapa-siren.md) (Czech Siren Tech hobby map) | 4,335 JSVV sirens with manufacturer and model | 422 sirens in OSM; Brno 51 vs 2, Ostrava 62 vs 0 | Czech Siren Tech | MapRoulette |
 | [VLS rescue points](candidates/vls-body-zachrany.md) (military training areas; OCR CSV from talk-cz 2024) | 484 rescue points with refs | 224 missing (Libavá, Březina, Hradiště) | VLS ČR | Sync |
 | [Vets](candidates/kvl-veterinarni-pracoviste.md) (Komora veterinárních lékařů; terms forbid redistribution) | 948 practices, 142 with 24h/emergency, hours | 199 in OSM (21 %) | KVL ČR (written consent) | Sync |
+| [Scout clubrooms](candidates/junak-skautske-klubovny.md) (Junák map) | 592 clubrooms, 1,192 troops | 78 `club=scout` in CZ; 485 missing | Junák |
 | [Railway station accessibility](candidates/sz-pristupnost-stanic.md) (Správa železnic map API) | 2,700 stations: step-free building/platforms, assistance, SR70 IDs | 465 stations with any wheelchair tag; 512 of 680 fully step-free untagged | SŽ | Sync |
 | [Public bookcases](candidates/knihobudka-verejne-knihovnicky.md) (KnihoBudka) | 1,538 bookcases with coordinates | ~850 missing | knihobudka@gmail.com | MapRoulette |
 | [Disc golf courses](candidates/cadg-discgolf-hriste.md) (Česká asociace discgolfu API) | 212 permanent courses, par, hole layouts, stable IDs | 120 of 200 missing | ČADG | MapRoulette |

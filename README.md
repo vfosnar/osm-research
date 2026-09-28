@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** seven research rounds done (27–28 September 2026). 97 candidate files, all
+> **Status:** eight research rounds done (27–28 September 2026). 99 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -76,6 +76,8 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Farms and farm shops](candidates/duha-adresar-farmaru.md) (Hnutí DUHA, Mapotic) | 424 farms, farm shops, educational farms | 408 missing; 89 `shop=farm` in all CZ | Hnutí DUHA | MapRoulette |
 | [Wine map](candidates/vinarsky-fond-vinarska-mapa.md) (Vinařský fond) | 1,731 wineries, wine shops, cellars | 632 of 765 wineries, 535 of 671 wine shops missing | Vinařský fond | MapRoulette |
 | [Tourist information centres](candidates/atic-certifikovana-tic.md) (A.T.I.C. ČR) | 546 certified centres with contacts | 226 of 510 missing; most matched lack contacts | A.T.I.C. ČR | MapRoulette |
+| [Clothes collection containers](candidates/textil-kontejnery-kloktex-potex.md) (KlokTex, Potex) | 1,463 containers with ids | 869 of 1,192 KlokTex missing; 214 of those only lack `recycling:clothes` | KlokTex, Potex | Sync |
+| [Zero-waste map](candidates/reduca-bezodpadova-mapa.md) (Reduca) | 1,334 places: 479 bulk shops, milk machines, charity shops | 16 `bulk_purchase` in CZ; mostly 2017–2020 data | Reduca | MapRoulette |
 | [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI | Sync |
 
 ### 3. Maintenance and enrichment — mostly mapped, adds IDs and fixes
@@ -171,7 +173,7 @@ Which of the community's routes into OSM fits each candidate (the `sync_fit` row
 [AGENTS.md](AGENTS.md#scoring-impact-15)). Sorted by impact; the icon is the licence status.
 A candidate with several layers can appear under more than one route.
 
-### Sync — points with a stable ID and a 1:1 tag mapping (37)
+### Sync — points with a stable ID and a 1:1 tag mapping (40)
 
 - ✅ [Centrální adresář knihoven a informačních institucí v ČR](candidates/nk-adresar-knihoven.md) — impact 5
 - ✅ [Sdílená data o zeleni](candidates/prague-stromy-sdz.md) — impact 5
@@ -188,10 +190,12 @@ A candidate with several layers can appear under more than one route.
 - ✅ [ČSÚ](candidates/csu-huz-ubytovani.md) — impact 4
 - ❓ [Česká pošta](candidates/ceska-posta-balikovna.md) — impact 4
 - ❓ [ERA RINF](candidates/era-rinf-stanice-nastupiste.md) — impact 3
+- ❌ [KVL ČR](candidates/kvl-veterinarni-pracoviste.md) — impact 3
 - ✍️ [Ostrava](candidates/ostrava-gis-opendata.md) — impact 3
 - ✍️ [ParaglidingEarth](candidates/paraglidingearth-cz.md) — impact 3
 - ✅ [Regional public transport stop registers](candidates/kraje-zastavky-verejne-dopravy.md) — impact 3
 - ✅ [SÚKL Seznam lékáren](candidates/sukl-lekarny.md) — impact 3
+- ❓ [Textile collection containers](candidates/textil-kontejnery-kloktex-potex.md) — impact 3
 - ❓ [VLS ČR](candidates/vls-body-zachrany.md) — impact 3
 - ❓ [WOclub / WOblog](candidates/woclub-workout-hriste.md) — impact 3
 - ✅ [ZABAGED 1.27 Areál účelové zástavby](candidates/zabaged-vodojemy-zemni.md) — impact 3
@@ -201,6 +205,7 @@ A candidate with several layers can appear under more than one route.
 - ✍️ [AOPK JESO](candidates/aopk-jeso-krasove-jevy.md) — impact 2
 - ✍️ [Data Olomouc](candidates/olomouc-opendata.md) — impact 2
 - ✍️ [Horská služba ČR](candidates/horska-sluzba-mapa.md) — impact 2
+- ✅ [Kraje](candidates/kraje-lspp-pohotovosti.md) — impact 2
 - ❓ [LOKNI](candidates/lokni-vydejniky-vody.md) — impact 2
 - ✅ [MZe ISVS-VODA](candidates/mze-isvs-voda-hraze-jezy.md) — impact 2
 - ✍️ [Most city open data](candidates/most-opendata.md) — impact 2
@@ -227,7 +232,7 @@ A candidate with several layers can appear under more than one route.
 - ✅ [ZABAGED 7.10 Osamělý balvan, skála, skalní suk](candidates/zabaged-osamele-balvany-skaly.md) — impact 2
 - ✍️ [Zvláště chráněná území + Natura 2000](candidates/aopk-zvlaste-chranena-uzemi.md) — impact 2
 
-### MapRoulette — pointers for a human: tag choices, no stable ID, or needs a look (66)
+### MapRoulette — pointers for a human: tag choices, no stable ID, or needs a look (68)
 
 - ✍️ [data.Brno](candidates/brno-data-portal.md) — impact 5
 - ✅ [opendata.plzen.eu](candidates/plzen-open-data.md) — impact 5
@@ -272,12 +277,14 @@ A candidate with several layers can appear under more than one route.
 - ❓ [Akce žába](candidates/csop-akce-zaba.md) — impact 2
 - ✍️ [Data Olomouc](candidates/olomouc-opendata.md) — impact 2
 - ❓ [Kokoza](candidates/kokoza-komunitni-zahrady.md) — impact 2
+- ✅ [Kraje](candidates/kraje-lspp-pohotovosti.md) — impact 2
 - ❓ [Letiště Praha](candidates/letiste-praha-sluzby.md) — impact 2
 - ❓ [MTBczech.cz](candidates/mtbczech-pumptracky.md) — impact 2
 - ✅ [MZe ISVS-VODA](candidates/mze-isvs-voda-hraze-jezy.md) — impact 2
 - ✍️ [Most city open data](candidates/most-opendata.md) — impact 2
 - ✅ [Odpadní zařízení pro občany](candidates/prague-sberne-dvory.md) — impact 2
 - ✅ [Prague cycle routes and cycling infrastructure](candidates/prague-ipr-cyklotrasy.md) — impact 2
+- ❓ [Reduca](candidates/reduca-bezodpadova-mapa.md) — impact 2
 - ❓ [Rejstřík sportu](candidates/nsa-rejstrik-sportu.md) — impact 2
 - ❓ [Unie neslyšících Brno](candidates/unb-indukcni-smycky.md) — impact 2
 - ✅ [Veřejná hřiště](candidates/prague-verejna-hriste.md) — impact 2

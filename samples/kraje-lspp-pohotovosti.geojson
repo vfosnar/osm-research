@@ -1,0 +1,1079 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.8285,
+50.1983
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Královéhradecký",
+"name_src": "Fakultní nemocnice Hradec Králové, Pavilon č. 50 Emergency, Oddělení urgentní medicíny",
+"target": "dospělí",
+"hours_src": "všední den: 16:00 – 22:00, SO,NE, svátek: 08:00 – 22:00",
+"website": "https://www.fnhk.cz/pacient-a-jeho-blizci/lekarska-pohotovost/pohotovost-pro-dospele",
+"dataset_id": "LPS1"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.4823,
+50.2428
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Jičín a.s., Areál nemocnice Nový Bydžov",
+"target": "dospělí",
+"hours_src": "všední den: 15:30 – 07:00, SO, NE, svátek: nepřetržitě",
+"website": "https://www.nemjc.cz/pohotovost#utm_source=firmy.cz&utm_medium=ppd&utm_campaign=firmy.cz-12897512",
+"dataset_id": "LPS2"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+16.1675,
+50.4108
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Náchod a.s.,  Nemocnice Náchod",
+"target": "dospělí",
+"hours_src": "všední den: 16:00 – 20:00, SO,NE, svátek: 08:00 – 20:00",
+"website": "https://www.nemocnicenachod.cz/lokality-oddeleni/nemocnice-nachod/pohotovost/lekarska-pohotovostni-sluzba-pro-dospele",
+"dataset_id": "LPS3"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+16.2704,
+50.1701
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Náchod a.s., Nemocnice Rychnov nad Kněžnou",
+"target": "dospělí",
+"hours_src": "SO,NE, svátek: 08:00 – 20:00",
+"website": "https://www.nemocnicenachod.cz/lokality-oddeleni/nemocnice-rychnov-nad-kneznou/pohotovost/lekarska-pohotovostni-sluzba-pro-dospele#utm_source=firmy.cz&utm_medium=ppd&utm_campaign=firmy.cz-12897501",
+"dataset_id": "LPS4"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.3574,
+50.4401
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Jičín a.s.",
+"target": "dospělí",
+"hours_src": "všední den: 15:30 – 20:00, SO,NE, svátek: 08:00 – 20:00",
+"website": "https://www.nemjc.cz/pohotovost#utm_source=firmy.cz&utm_medium=ppd&utm_campaign=firmy.cz-12897512",
+"dataset_id": "LPS5"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.9193,
+50.5604
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Trutnov a.s.",
+"target": "dospělí",
+"hours_src": "SO,NE, svátek: 08:00 – 18:00",
+"website": "https://www.nemtru.cz/oddeleni-ambulance/lekarska-pohotovostni-sluzba",
+"dataset_id": "LPS6"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.8281,
+50.1998
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Královéhradecký",
+"name_src": "Fakultní nemocnice Hradec Králové, Pavilon č. 18 Dětská klinika",
+"target": "děti",
+"hours_src": "všední den: 16:00 - 20:00, SO, NE, svátek: 08:00 – 20:00 ",
+"website": "https://www.fnhk.cz/pacient-a-jeho-blizci/lekarska-pohotovost/pohotovost-pro-deti",
+"dataset_id": "LPS7"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+16.1646,
+50.4064
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Náchod a.s.",
+"target": "děti",
+"hours_src": "všední den: 16:00 - 22:00, SO, NE, svátek: 08:00 – 22:00 ",
+"website": "https://www.nemocnicenachod.cz/lokality-oddeleni/nemocnice-nachod/pohotovost/lekarska-pohotovostni-sluzba-pro-deti",
+"dataset_id": "LPS8"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+16.2704,
+50.1701
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Náchod a.s., Nemocnice Rychnov nad Kněžnou",
+"target": "děti",
+"hours_src": "SO, NE, svátek: 08:00 – 20:00 ",
+"website": "https://www.nemocnicenachod.cz/lokality-oddeleni/nemocnice-rychnov-nad-kneznou/detske-novorozenecke-lekarstvi/lekarska-pohotovostni",
+"dataset_id": "LPS9"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.3574,
+50.4401
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Jičín a.s.",
+"target": "děti",
+"hours_src": "pátek: 14:00 - 20:00, SO, NE, svátek: 08:00 – 18:00 ",
+"website": "https://www.nemjc.cz/pohotovost#utm_source=firmy.cz&utm_medium=ppd&utm_campaign=firmy.cz-12897512",
+"dataset_id": "LPS10"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.9193,
+50.5604
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Královéhradecký",
+"name_src": "Oblastní nemocnice Trutnov a.s.",
+"target": "děti",
+"hours_src": "SO, NE, svátek: 08:00 – 20:00 ",
+"website": "https://www.nemtru.cz/oddeleni-ambulance/detske/vseobecna-pediatricka-ambulance-detska-pohotovost",
+"dataset_id": "LPS11"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.876577,
+50.232642
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice v Karlových Varech",
+"type_src": "lékařská pohotovostní služba",
+"target": "dospělí",
+"location": "budova A - Pavilon akutní medicíny (přízemí)",
+"website": "https://nemkv.cz/index.php/pohotovost",
+"phone": "+420354225601",
+"suggested:opening_hours": "Mo-Fr 16:00-21:00; Sa-Su 09:00-19:00; PH 09:00-19:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.876577,
+50.232642
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice v Karlových Varech",
+"type_src": "lékařská pohotovostní služba",
+"target": "děti",
+"location": "budova A - Pavilon akutní medicíny (přízemí)",
+"website": "https://nemkv.cz/index.php/pohotovost",
+"phone": "+420354225603",
+"suggested:opening_hours": "Mo-Fr 16:00-21:00; Sa-Su 09:00-19:00; PH 09:00-19:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.367019,
+50.069863
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice v Chebu",
+"type_src": "lékařská pohotovostní služba",
+"target": "dospělí",
+"location": "budova B - pravá část, nově zrekonstruovaná budova",
+"website": "https://nemcheb.cz/pohotovost",
+"phone": "+420354226259",
+"suggested:opening_hours": "Mo-Fr 16:00-21:00; Sa-Su 09:00-19:00; PH 09:00-19:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.36747,
+50.069883
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice v Chebu",
+"type_src": "lékařská pohotovostní služba",
+"target": "děti",
+"location": "budova A, 1. NP - samostatný vchod",
+"website": "https://nemcheb.cz/pohotovost",
+"phone": "+420354226179",
+"suggested:opening_hours": "Mo-Fr 16:00-21:00; Sa-Su 09:00-19:00; PH 09:00-19:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.70408,
+49.96086
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice Mariánské Lázně s.r.o.",
+"type_src": "lékařská pohotovostní služba",
+"target": "dospělí",
+"location": "Mariánské Lázně, U Nemocnice 91/3",
+"website": "https://neml.eu/cs/oddeleni/lekarska-pohotovostni-sluzba-pro-dospele-0abglE",
+"phone": "+420354474257",
+"suggested:opening_hours": "Mo-Fr 15:30-21:00; Sa-Su 07:00-21:00; PH 07:00-21:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.70408,
+49.96086
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice Mariánské Lázně s.r.o.",
+"type_src": "lékařská pohotovostní služba v oboru chirurgie",
+"target": "děti, dospělí",
+"location": "Mariánské Lázně, U Nemocnice 91/3",
+"website": "https://neml.eu/cs/oddeleni/chirurgicka-ambulance-7IQnRj",
+"phone": "+420354474255",
+"suggested:opening_hours": "Mo-Fr 15:30-21:00; Sa-Su 07:00-21:00; PH 07:00-21:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.19981,
+50.21668
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Lékařská pohotovost Aš",
+"type_src": "lékařská pohotovostní služba",
+"target": "dospělí",
+"location": "ulice Skřivánčí 2525/37",
+"website": null,
+"phone": "+420354535061",
+"suggested:opening_hours": "Sa-Su 09:00-16:00; PH 09:00-16:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.650821,
+50.177692
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice v Sokolově",
+"type_src": "lékařská pohotovostní služba",
+"target": "dospělí",
+"location": "pavilon C, přízemí",
+"website": "https://www.pentahospitals.cz/nemocnice-sokolov/oddeleni/pohotovost-pro-dospele/",
+"phone": "+420352520347",
+"suggested:opening_hours": "Mo-Fr 16:00-21:00; Sa-Su 09:00-19:00; PH 09:00-19:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.650821,
+50.177692
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice v Sokolově",
+"type_src": "lékařská pohotovostní služba",
+"target": "děti",
+"location": "pavilon C, přízemí",
+"website": "https://www.pentahospitals.cz/nemocnice-sokolov/oddeleni/detska-pohotovost/",
+"phone": "+420352520430",
+"suggested:opening_hours": "Mo-Fr 16:00-21:00; Sa-Su 09:00-19:00; PH 09:00-19:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.878162,
+50.233613
+]
+},
+"properties": {
+"suggested:amenity": "dentist",
+"suggested:healthcare": "dentist",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Pohotovostní služba zubních lékařů Karlovy Vary",
+"type_src": "zubní pohotovost",
+"target": "děti, dospělí",
+"location": "budova vedle areálu Nemocnice Karlovy Vary vpravo - pavilon H",
+"website": "https://nemkv.cz/index.php/pohotovost",
+"phone": "+420354225630",
+"suggested:opening_hours": "Sa-Su 09:00-14:00; PH 09:00-14:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.941263,
+50.302223
+]
+},
+"properties": {
+"suggested:amenity": "dentist",
+"suggested:healthcare": "dentist",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Soukromá ordinace Gallerydent",
+"type_src": "zubní pohotovost",
+"target": "děti, dospělí",
+"location": "Jáchymovská 225, Ostrov",
+"website": null,
+"phone": "+420377311349",
+"suggested:opening_hours": "Tu-Fr 16:00-19:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.373774,
+50.080134
+]
+},
+"properties": {
+"suggested:amenity": "dentist",
+"suggested:healthcare": "dentist",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Soukromá ordinace Fitdent s.r.o.",
+"type_src": "zubní pohotovost",
+"target": "děti, dospělí",
+"location": "Komenského 2473/40, Cheb",
+"website": null,
+"phone": "+420605095559",
+"suggested:opening_hours": "Mo-We 16:00-19:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+12.650821,
+50.177692
+]
+},
+"properties": {
+"suggested:amenity": "dentist",
+"suggested:healthcare": "dentist",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Karlovarský",
+"name_src": "Nemocnice v Sokolově",
+"type_src": "zubní pohotovost",
+"target": "děti, dospělí",
+"location": "pavilon C, 3. patro",
+"website": "https://www.pentahospitals.cz/nemocnice-sokolov/oddeleni/zubni-pohotovost/",
+"phone": "+420352520195",
+"suggested:opening_hours": "Sa-Su 09:00-14:00; PH 09:00-14:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.065257,
+50.769801
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Liberecký",
+"name_src": "Krajská nemocnice Liberec, a.s., Nemocnice Liberec",
+"target": "dospělí",
+"location": "Pavilon interních oborů, budova B (PIO-Interna), 1. patro",
+"website": "https://www.nemlib.cz/pohotovost/",
+"phone": "485312184",
+"suggested:opening_hours": "Mo-Fr 17:00-21:00; Sa-Su 08:00-18:00; PH 08:00-18:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.065359,
+50.7708
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Liberecký",
+"name_src": "Krajská nemocnice Liberec, a.s., Nemocnice Liberec",
+"target": "děti",
+"location": "Pavilon péče o matku a dítě – na dětském oddělení, budova G, podlaží P",
+"website": "https://www.nemlib.cz/pohotovost/",
+"phone": "485312821",
+"suggested:opening_hours": "Mo-Fr 17:00-21:00; Sa-Su 09:00-20:00; PH 09:00-20:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.062955,
+50.769286
+]
+},
+"properties": {
+"suggested:amenity": "dentist",
+"suggested:healthcare": "dentist",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Liberecký",
+"name_src": "Krajská nemocnice Liberec, a.s., Nemocnice Liberec",
+"target": "zubní",
+"location": "V přízemí pavilonu ONP, budova D, podlaží P",
+"website": "https://www.nemlib.cz/pohotovost/",
+"phone": "485312187",
+"hours_src": "pondeli neordinuje se | utery neordinuje se | streda neordinuje se | ctvrtek neordinuje se | patek neordinuje se | sobota 8:00 - 12:00, 13:00 - 17:00 | nedele 8:00 - 13:00 | svatek 8:00 - 13:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.168417,
+50.58921
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Liberecký",
+"name_src": "Krajská nemocnice Liberec, a.s., Nemocnice Turnov",
+"target": "dospělí",
+"location": "Nemocnice Turnov v hlavní budově TA, podlaží P",
+"website": "https://www.nemlib.cz/pohotovost/",
+"phone": "481446341",
+"suggested:opening_hours": "Mo-Fr 17:00-22:00; Sa-Su 08:00-20:00; PH 08:00-20:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+14.548834,
+50.685854
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Liberecký",
+"name_src": "Krajská nemocnice Liberec, a.s., Nemocnice Česká Lípa",
+"target": "dospělí",
+"location": "Přízemí budovy A (oddělení Centrálního příjmu, u vstupu vpravo)",
+"website": "https://www.nemcl.cz/pro-pacienty/pohotovost",
+"phone": "487954184",
+"suggested:opening_hours": "Mo-Th 17:00-20:00; Fr 17:00-21:00; Sa-Su 09:00-18:00; PH 09:00-18:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+14.549919,
+50.685
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Liberecký",
+"name_src": "Krajská nemocnice Liberec, a.s., Nemocnice Česká Lípa",
+"target": "děti",
+"location": "Přízemí budovy C (u vstupu vlevo)",
+"website": "https://www.nemcl.cz/pro-pacienty/pohotovost",
+"phone": "487954520",
+"suggested:opening_hours": "Mo-Fr 17:00-20:00; Sa-Su 09:00-20:00; PH 09:00-20:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.159547,
+50.729312
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Liberecký",
+"name_src": "Nemocnice Jablonec nad Nisou, p.o.",
+"target": "dospělí",
+"location": "Nemocnice Jablonec n. N., pavilon B, přízemí (vedle chirurgické ambulance), jděte po červené",
+"website": "https://www.nemjbc.cz/cs/oddeleni/pohotovost-akutni-ambulantni-pece.html",
+"phone": "483345108",
+"suggested:opening_hours": "Mo-Fr 17:00-20:00; Sa-Su 08:00-20:00; PH 08:00-20:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.158367,
+50.729947
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Liberecký",
+"name_src": "Nemocnice Jablonec nad Nisou, p.o.",
+"target": "děti",
+"location": "Nemocnice Jablonec n. N., pavilon C2, přízemí jděte po žluté",
+"website": "https://www.nemjbc.cz/cs/oddeleni/pohotovost-akutni-ambulantni-pece.html",
+"phone": "483345619",
+"hours_src": "pondeli 16:00 - 20:00 | utery 16:00 - 20:00 | streda 16:00 - 20:00 | ctvrtek 16:00 - 20:00 | patek 16:00 - 20:00 | sobota 8:00 - 20:00 | nedele 8:00 - 20:00 | svatek 8:00 - 20:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.500543,
+50.611737
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Liberecký",
+"name_src": "MMN, a.s., Nemocnice Jilemnice",
+"target": "dospělí",
+"location": "V jilemnické nemocnici, chirurgická ambulance a protetika, budova 3, vstup přes recepci. ",
+"website": "https://www.nemjil.cz/jilemnice/pohotovost/",
+"phone": "481551111",
+"suggested:opening_hours": "Mo-Fr 17:00-22:00; Sa-Su 08:00-20:00; PH 08:00-20:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.49954,
+50.612236
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Liberecký",
+"name_src": "MMN, a.s., Nemocnice Jilemnice",
+"target": "děti",
+"location": "V jilemnické nemocnici. Budava 4 v přízemí, v nutných případech také dětská ambulance s nepřetržitým provozem.",
+"website": "https://www.nemjil.cz/jilemnice/pohotovost/",
+"phone": "481551111",
+"suggested:opening_hours": "Mo-Fr 16:00-22:00; Sa-Su 08:00-22:00; PH 08:00-22:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.088115,
+50.926021
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Liberecký",
+"name_src": "Krajská nemocnice Liberec, a.s., Nemocnice Frýdlant",
+"target": "dospělí",
+"location": "Budova FG v přízemí",
+"website": "https://www.nemlib.cz/pohotovost/",
+"phone": "770164424",
+"suggested:opening_hours": "Mo-Th 18:00-21:00; Fr 17:00-21:00; Sa-Su 09:00-18:00; PH 09:00-18:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+15.056333,
+50.766686
+]
+},
+"properties": {
+"suggested:amenity": "dentist",
+"suggested:healthcare": "dentist",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Liberecký",
+"name_src": "Liberecká dentální s.r.o.",
+"target": "zubní",
+"location": "Palác Dunaj",
+"website": "https://www.libdent.cz/",
+"phone": "777738625",
+"hours_src": "pondeli neordinuje se | utery neordinuje se | streda neordinuje se | ctvrtek neordinuje se | patek neordinuje se | sobota 18:00 - 22:00 | nedele 18:00 - 22:00 | svatek 18:00 - 22:00"
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.088304,
+49.475678
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Olomoucký",
+"name_src": "AGEL Středomoravská nemocniční a.s., Nemocnice Prostějov",
+"target": "pro dospělé",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 140919
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.088304,
+49.475678
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Olomoucký",
+"name_src": "AGEL Středomoravská nemocniční a.s., Nemocnice Prostějov",
+"target": "pro děti a dorost",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 140919
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.298143,
+49.722467
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Olomoucký",
+"name_src": "AGEL Středomoravská nemocniční a.s., Nemocnice Šternberk",
+"target": "pro dospělé",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 140921
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.298143,
+49.722467
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Olomoucký",
+"name_src": "AGEL Středomoravská nemocniční a.s., Nemocnice Šternberk",
+"target": "pro děti a dorost",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 140921
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.473666,
+49.45687
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Olomoucký",
+"name_src": "AGEL Středomoravská nemocniční a.s., Nemocnice Přerov",
+"target": "pro dospělé",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 140920
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.473666,
+49.45687
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Olomoucký",
+"name_src": "AGEL Středomoravská nemocniční a.s., Nemocnice Přerov",
+"target": "pro děti a dorost",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 140920
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.19834,
+50.227773
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Olomoucký",
+"name_src": "Nemocnice AGEL Jeseník a.s.",
+"target": "pro dospělé",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 139643
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.19834,
+50.227773
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Olomoucký",
+"name_src": "Nemocnice AGEL Jeseník a.s.",
+"target": "pro děti a dorost",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 139643
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+16.967534,
+49.959539
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Olomoucký",
+"name_src": "Nemocnice Šumperk a.s.",
+"target": "pro dospělé",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 138716
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+16.967534,
+49.959539
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Olomoucký",
+"name_src": "Nemocnice Šumperk a.s.",
+"target": "pro děti a dorost",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 138716
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.744857,
+49.555279
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Olomoucký",
+"name_src": "Nemocnice Hranice a.s.",
+"target": "pro dospělé",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 138485
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.744857,
+49.555279
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Olomoucký",
+"name_src": "Nemocnice Hranice a.s.",
+"target": "pro děti a dorost",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 138485
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.239606,
+49.585952
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency",
+"kraj": "Olomoucký",
+"name_src": "Fakultní nemocnice Olomouc",
+"target": "pro dospělé",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 141632
+}
+},
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [
+17.239606,
+49.585952
+]
+},
+"properties": {
+"suggested:amenity": "doctors",
+"suggested:healthcare": "doctor",
+"suggested:healthcare:speciality": "emergency;paediatrics",
+"kraj": "Olomoucký",
+"name_src": "Fakultní nemocnice Olomouc",
+"target": "pro děti a dorost",
+"hours_src": "všední dny: 15.00 - 7.00; víkendy a svátky: nepřetržitě",
+"ref:CZ:nrpzs_misto": 141632
+}
+}
+]
+}

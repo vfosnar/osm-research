@@ -6,7 +6,7 @@ already being imported?
 This repository collects candidate data sources, each checked by hand: does the data
 really exist, what licence it has, and how much of it is already in OSM.
 
-> **Status:** five research rounds done (27–28 September 2026). 73 candidate files, all
+> **Status:** five research rounds done (27–28 September 2026). 75 candidate files, all
 > numbers measured against live OSM data on that date. Round 2 looked at what
 > [Google, TomTom, Apple, HERE](research/google-and-others-sources.md) and
 > [Mapy.com](research/mapy-com-sources.md) credit as their Czech data sources. Round 3
@@ -28,6 +28,7 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Power plants](candidates/eru-vyrobny-elektriny.md) (ERÚ) | 38k licensed plants incl. 1,600 hydro, 420 biogas | ~500 hydro; needs geocoding from parcels |
 | [Springs and wells](candidates/zabaged-prameny-studny.md) (ZABAGED 4.01, not in the POI import) | 11,060 springs (5,370 named), 21,652 wells, stable IDs | 4,844 springs; Brdy: 47 of 86 missing |
 | [Tourist accommodation](candidates/csu-huz-ubytovani.md) (ČSÚ, CC0) | 10,454 hotels, guest houses, hostels, campsites, stable IDs | 4,693 of 10,454 missing nationally (2,028 pensions); Pec pod Sněžkou 88 of 170 |
+| [Prague disabled parking](candidates/prague-ipr-stani-ztp.md) (IPR/TSK, 2018 IPR consent) | 2,192 reserved ZTP/P spots (3,264 spaces) | 954 missing; centre 265 of 293 |
 | [Gates and barriers](candidates/zabaged-zabrany.md) (ZABAGED 2.36, not in the POI import) | 36,809 barriers, mostly on forest tracks | Křivoklátsko: 321 of 375 missing |
 
 ### 2. Worth asking for consent — high impact, CC BY or no licence
@@ -56,6 +57,7 @@ really exist, what licence it has, and how much of it is already in OSM.
 | [Karst register JESO](candidates/aopk-jeso-krasove-jevy.md) (AOPK, CC BY 4.0) | 542 caves, 2,332 sinkholes, 452 ponors/karst springs | 214 caves, 264 sinkholes | AOPK |
 | [Pump tracks](candidates/mtbczech-pumptracky.md) (mtbczech.cz) | 145 tracks with surface | 57 missing (national extract: 61), 44 lack `cycling=pump_track` | mtbczech.cz |
 | [Sign-language services](candidates/znakomapa-znakovy-jazyk.md) (ZnakoMapa, Znakovárna) | 201 places with Czech sign-language service: deaf associations, interpreters, museums with sign-language tours | `deaf` used once in CZ; tagging (`language:cse=yes`?) needs agreement | Znakovárna |
+| [City accessibility maps](candidates/mesta-mapy-pristupnosti.md) (Brno CC BY; Ostrava, Hradec Králové unclear) | Brno 287 rated buildings; Ostrava 2,060 points; Hradec tactile/acoustic crossings, guide lines, voice beacons | Brno 116 of 287 lack wheelchair info | cities |
 | [Hearing loops](candidates/unb-indukcni-smycky.md) (Unie neslyšících Brno, Mapotic) | 161 loops | 1 (tag is a draft proposal); 85 of 137 CZ loops have an OSM object within 50 m | UNB |
 | [Farms and farm shops](candidates/duha-adresar-farmaru.md) (Hnutí DUHA, Mapotic) | 424 farms, farm shops, educational farms | 408 missing; 89 `shop=farm` in all CZ | Hnutí DUHA |
 | [Water dispensers](candidates/lokni-vydejniky-vody.md) (LOKNI) | 102 indoor refill points at stations and universities | 95 missing | LOKNI |

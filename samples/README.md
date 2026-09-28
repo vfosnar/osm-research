@@ -60,3 +60,5 @@ before the data can go into OSM — see the candidate file (same name in
 | [wikidata-niche-qid.geojson](wikidata-niche-qid.geojson) | Wikidata items in CZ (barrows, hillforts, synagogues, waterfalls, bunkers) not linked from OSM | Wikidata community | CC0 1.0 (QIDs only; coordinates not for import) |
 | [csu-huz-ubytovani.geojson](csu-huz-ubytovani.geojson) | Hromadná ubytovací zařízení (adresní body), Pec pod Sněžkou, 171 points | Český statistický úřad | CC0 |
 | [aopk-jeso-krasove-jevy.geojson](aopk-jeso-krasove-jevy.geojson) | JESO – Jednotná evidence speleologických objektů, northern Moravian Karst, 831 points | AOPK ČR | CC BY 4.0 |
+| [prague-ipr-stani-ztp.geojson](prague-ipr-stani-ztp.geojson) | Vyhrazená parkovací stání pro držitele průkazu ZTP/P (central Prague, 424 points) | IPR Praha (data TSK) | CC BY 4.0 + IPR consent for OSM (2018) |
+| [mesta-mapy-pristupnosti.geojson](mesta-mapy-pristupnosti.geojson) | Mapa přístupnosti – Budovy (Brno, 287 points) | Statutární město Brno, Odbor zdraví | CC BY 4.0 |

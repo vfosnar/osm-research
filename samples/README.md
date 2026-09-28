@@ -73,3 +73,4 @@ before the data can go into OSM — see the candidate file (same name in
 | [zabaged-vodojemy-zemni.geojson](zabaged-vodojemy-zemni.geojson) | ZABAGED 1.27 Areál účelové zástavby – vodojem zemní, Vysočina, 470 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
 | [zabaged-tovarni-kominy.geojson](zabaged-tovarni-kominy.geojson) | ZABAGED 1.10 Tovární komín, Ostrava – Karviná, 194 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
 | [zabaged-osamele-balvany-skaly.geojson](zabaged-osamele-balvany-skaly.geojson) | ZABAGED 7.10 Osamělý balvan, skála, skalní suk, Český ráj, 305 features | ČÚZK | CC BY 4.0 + ČÚZK consent for OSM |
+| [kraje-lspp-pohotovosti.geojson](kraje-lspp-pohotovosti.geojson) | Lékařská (a lékárenská) pohotovostní služba, 50 points | Královéhradecký, Karlovarský, Liberecký, Olomoucký kraj | NKOD: no copyright work, no protected database |

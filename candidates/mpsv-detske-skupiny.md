@@ -30,8 +30,8 @@
   often returns nothing; "street number town" works best.
 
 ## Notes
-- **What it adds:** children's groups (dětské skupiny, Act 247/2014) are the main childcare for children
-  under three in Czechia and a large share of the places for 3–6 year-olds. They are registered at MPSV, not in
+- **What it adds:** children's groups (dětské skupiny, Act 247/2014) are small childcare groups, mostly
+  for children from one year up to school age (34,335 licensed places in active groups). They are registered at MPSV, not in
   the MŠMT school register (rejstřík škol), so they are not in ZABAGED Škola/Školské zařízení nor in the MŠMT
   school data. Nothing from this register is on Cs:Česko/freemap, Cs:Zdroje_v_jednani or in Sync's config.toml.
 - **Gap, measured (Postpass 2026-09-28, 100 m radius around the geocoded address):** 1,773 of 2,423 active

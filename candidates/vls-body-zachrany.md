@@ -14,6 +14,7 @@
 | license_status | unclear |
 | update_freq | none visible (maps from 2014; the signs carry the same number, coordinates and name) |
 | impact | 3 |
+| sync_fit | Sync (points, stable rescue-point ref, emergency=access_point 1:1) |
 | verified | yes |
 
 ## Try it

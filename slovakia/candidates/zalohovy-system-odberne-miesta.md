@@ -4,7 +4,7 @@
 |---|---|
 | publisher | Správca zálohového systému, n. o. (the national deposit-return operator), site slovenskozalohuje.sk |
 | url | POST https://slovenskozalohuje.sk/wp-admin/admin-ajax.php with form fields `action=mmp_map_markers`, `type=map`, `id=1,2,3,4,5,10` (Maps Marker Pro backend of https://slovenskozalohuje.sk/mapa-odbernych-miest/) |
-| format | JSON wrapper `{"success":true,"data":<GeoJSON FeatureCollection>}` |
+| format | JSON: a wrapper object whose `data` member is a GeoJSON FeatureCollection |
 | coords | yes (WGS84 points) |
 | records | 3,448 return points (2026-09-30). Layer ids: 4 = automated return (reverse vending machine) 2,603; 5 = manual return at the till 820; 10 = alternative collection (festival and mountain bins, Štrbské Pleso and similar) 25. Also 2 = mandatory return point 1,248 and 3 = voluntary return point 2,175. |
 | osm_tags | automated: amenity=vending_machine + vending=bottle_return, recycling:plastic_bottles=yes, recycling:cans=yes, operator=&lt;shop operator&gt;; manual: no established tag (see notes) |
@@ -33,6 +33,7 @@
 - **Gap:**
   - OSM has 60 `vending=bottle_return` objects in the whole of Slovakia, against 2,603 automated return points.
   - Postpass spatial check on 2026-09-30: of 400 random automated points, 15 have a `vending=bottle_return` (or `recycling_type=reverse_vending_machine`) object within 75 m. That is 3.75 %, so **about 2,500 machines are missing**.
+  - 340 of the same 400 points (85 %) have an OSM `shop=*` within 75 m, so in most cases the host shop is already mapped and only the machine node is missing.
   - This is the largest single POI gap found in this theme.
 - **Fields:** `id` (Maps Marker Pro marker id, 24031–27478), `name` (shop name as registered, for example "CBA VEREX PJ 026", "BILLA", "LIDL", "SM …", "MIX …" for COOP Jednota shops), `address` (street, postcode, town), `maps` (layer ids). `popup` is empty. No opening hours and no machine type.
 - **Names are chain-heavy:** "SM" (546), "MIX" (379) and "J" (325) are COOP Jednota formats, then Lidl 186, Billa 186, Milk-Agro 173 and Kaufland 88. The machine usually sits inside or at the entrance of an existing OSM shop, so a mapper confirms the shop and adds a machine node.

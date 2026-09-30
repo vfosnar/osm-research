@@ -33,7 +33,7 @@
 - **ZBGIS overlap.** The ZBGIS catalogue has `AP040 Brána, závora` (point snapped to the road, "Rieši podľa zistení z terénu alebo od správcu") and the building use "Poľovnícka chata" (344). It has no fire pits or hunting stands. ZBGIS gives no LESY SR ID and it is not an open vector download, so the primary source adds value, above all with a clear licence.
 - **Licence caveat.** The catalogue declares CC0 on all three rights for these distributions; the service copyright line "© LESY SR" does not contradict CC0 (CC0 waives the rights), but confirm with LESY SR that CC0 also covers the REST query output, not only the WMS listed as the distribution.
 - **Stable ID.** Only `OBJECTID` exists. Ask LESY SR whether it survives edits before relying on it as `ref:lesysr`; until then, match by position.
-- Contact: LESY Slovenskej republiky, š. p., generálne riaditeľstvo, Námestie SNP 8, Banská Bystrica (GIS department that runs `app.lesy.sk`), https://www.lesy.sk/
+- Contact: LESY Slovenskej republiky, š. p., Banská Bystrica (the unit that runs the `app.lesy.sk` GIS services), https://www.lesy.sk/
 
 ## Wiki entry
 

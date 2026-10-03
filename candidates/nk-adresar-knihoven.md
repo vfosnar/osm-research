@@ -23,6 +23,7 @@
 - **Web:** Aleph search of the directory: https://aleph.nkp.cz/F/?func=file&file_name=find-b&local_base=ADR
 
 ## Notes
+- In Sync since 2026-10-04 as `nkp.knihovny` (nightly first): 5,346 active public libraries, 4,754 with `opening_hours`; phones, e-mails and staff names left out.
 - Downloaded and parsed the current dump. Type breakdown (TYP $b): obecní knihovna 5,062 (4,842 active); ostatní specializovaná 1,045; městská 521; research institute 375; university 290; medical 228; museum 180; state administration 165; school 141; others. Import the public types (obecní, městská, krajská, národní). Specialised, corporate and ministry libraries are often not publicly accessible and need `access=` or should be skipped.
 - Opening hours (OTD) are structured, with subfields 1 to 7 per weekday (record STG505: `1: 8:00-11:00; 13:00-17:30`), which converts well to `opening_hours`. Some records only give a URL in $p ("aktuální otevírací doba: https://..."). Those map to `opening_hours:url`.
 - Stable IDs: SGL (sigla; STG505 and STG001 appear in the dump), plus the Aleph doc number in DRL and EMK (the Ministry of Culture registration number under the libraries act 257/2001). The ref is `ref:isil=CZ-<sigla>` (owner decision 2026-10-04), the form `CZ-NJG512` already uses in OSM; whether NK registers exactly this as the Czech ISIL is unconfirmed. On import, `CZ-000002256` (node 2106024220) and the unprefixed `FMG515` (way 1430217235) need fixing to that form.
